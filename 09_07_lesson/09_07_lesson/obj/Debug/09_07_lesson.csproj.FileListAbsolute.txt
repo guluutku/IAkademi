@@ -1,0 +1,12 @@
+D:\Projeler\VisulaStudio\IAkademi\09_07_lesson\09_07_lesson\bin\Debug\09_07_lesson.exe.config
+D:\Projeler\VisulaStudio\IAkademi\09_07_lesson\09_07_lesson\bin\Debug\09_07_lesson.exe
+D:\Projeler\VisulaStudio\IAkademi\09_07_lesson\09_07_lesson\bin\Debug\09_07_lesson.pdb
+D:\Projeler\VisulaStudio\IAkademi\09_07_lesson\09_07_lesson\obj\Debug\09_07_lesson.csproj.AssemblyReference.cache
+D:\Projeler\VisulaStudio\IAkademi\09_07_lesson\09_07_lesson\obj\Debug\09_07_lesson.csproj.SuggestedBindingRedirects.cache
+D:\Projeler\VisulaStudio\IAkademi\09_07_lesson\09_07_lesson\obj\Debug\_09_07_lesson.forms.DetayFormu.resources
+D:\Projeler\VisulaStudio\IAkademi\09_07_lesson\09_07_lesson\obj\Debug\_09_07_lesson.Form1.resources
+D:\Projeler\VisulaStudio\IAkademi\09_07_lesson\09_07_lesson\obj\Debug\_09_07_lesson.Properties.Resources.resources
+D:\Projeler\VisulaStudio\IAkademi\09_07_lesson\09_07_lesson\obj\Debug\09_07_lesson.csproj.GenerateResource.cache
+D:\Projeler\VisulaStudio\IAkademi\09_07_lesson\09_07_lesson\obj\Debug\09_07_lesson.csproj.CoreCompileInputs.cache
+D:\Projeler\VisulaStudio\IAkademi\09_07_lesson\09_07_lesson\obj\Debug\09_07_lesson.exe
+D:\Projeler\VisulaStudio\IAkademi\09_07_lesson\09_07_lesson\obj\Debug\09_07_lesson.pdb
