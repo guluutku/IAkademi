@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _09_07_lesson.classes;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,11 @@ namespace _09_07_lesson
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Cls_Ogrenci cls = new Cls_Ogrenci();
         }
     }
 }
