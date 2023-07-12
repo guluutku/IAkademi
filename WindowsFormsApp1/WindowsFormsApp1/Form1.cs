@@ -20,11 +20,25 @@ namespace WindowsFormsApp1
         private void Form1_Load(object sender, EventArgs e)
         {
 
+
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            label1.Text = "Button Clicked";
+            try
+            {
+                Cls_Ogrenci cls_Ogrenci = new Cls_Ogrenci();
+                string ogrenci = cls_Ogrenci.kaydet(txtBIsim.Text, txtBxSoyisim.Text, Convert.ToInt32(txtBYas.Text), txtBAdres.Text);
+                if (ogrenci == "kaydedildi")
+                {
+                    MessageBox.Show("Başarıyla Kaydedildi");
+                }
+                else
+                {
+                    MessageBox.Show("Kaydetme Başarışız");
+                }
+            }
+            catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
     }
 }
