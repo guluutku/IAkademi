@@ -46,7 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cls_Ogrenci.cs" />
+    <Compile Include="classes\Cls_Ogrenci.cs" />
+    <Compile Include="classes\Cls_Ogretmen.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

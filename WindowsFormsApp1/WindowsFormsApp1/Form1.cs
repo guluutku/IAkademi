@@ -12,6 +12,8 @@ namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
+        Cls_Ogrenci cls_Ogrenci = new Cls_Ogrenci();
+
         public Form1()
         {
             InitializeComponent();
@@ -27,7 +29,6 @@ namespace WindowsFormsApp1
         {
             try
             {
-                Cls_Ogrenci cls_Ogrenci = new Cls_Ogrenci();
                 string ogrenci = cls_Ogrenci.kaydet(txtBIsim.Text, txtBxSoyisim.Text, Convert.ToInt32(txtBYas.Text), txtBAdres.Text);
                 if (ogrenci == "kaydedildi")
                 {
@@ -45,7 +46,6 @@ namespace WindowsFormsApp1
         {
             try
             {
-                Cls_Ogrenci cls_Ogrenci = new Cls_Ogrenci();
                 bool ogrenci = cls_Ogrenci.guncelle(txtBIsim.Text, txtBxSoyisim.Text, Convert.ToInt32(txtBYas.Text), txtBAdres.Text, Convert.ToInt32(txt_ogrenci_id.Text));
                 if (ogrenci)
                 {
