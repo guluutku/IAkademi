@@ -31,5 +31,10 @@ namespace WindowsFormsApp1
             return "kaydedildi";
         }
 
+        public bool guncelle(string ad, string soyAd, int yas, string adres, int id)
+        {
+            return false;
+        }
+
     }
 }

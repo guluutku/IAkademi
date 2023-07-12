@@ -40,5 +40,23 @@ namespace WindowsFormsApp1
             }
             catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
+
+        private void btn_guncelle_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Cls_Ogrenci cls_Ogrenci = new Cls_Ogrenci();
+                bool ogrenci = cls_Ogrenci.guncelle(txtBIsim.Text, txtBxSoyisim.Text, Convert.ToInt32(txtBYas.Text), txtBAdres.Text, Convert.ToInt32(txt_ogrenci_id.Text));
+                if (ogrenci)
+                {
+                    MessageBox.Show("Başarıyla Güncellendi");
+                }
+                else
+                {
+                    MessageBox.Show("Güncelleme Başarışız");
+                }
+            }
+            catch (Exception ex) { MessageBox.Show(ex.Message); }
+        }
     }
 }
