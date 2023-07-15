@@ -1,0 +1,11 @@
+D:\Projeler\VisulaStudio\IAkademi\Ders5_omboboc_ile_4islem\Ders5_omboboc_ile_4islem\bin\Debug\Ders5_omboboc_ile_4islem.exe.config
+D:\Projeler\VisulaStudio\IAkademi\Ders5_omboboc_ile_4islem\Ders5_omboboc_ile_4islem\bin\Debug\Ders5_omboboc_ile_4islem.exe
+D:\Projeler\VisulaStudio\IAkademi\Ders5_omboboc_ile_4islem\Ders5_omboboc_ile_4islem\bin\Debug\Ders5_omboboc_ile_4islem.pdb
+D:\Projeler\VisulaStudio\IAkademi\Ders5_omboboc_ile_4islem\Ders5_omboboc_ile_4islem\obj\Debug\Ders5_omboboc_ile_4islem.csproj.AssemblyReference.cache
+D:\Projeler\VisulaStudio\IAkademi\Ders5_omboboc_ile_4islem\Ders5_omboboc_ile_4islem\obj\Debug\Ders5_omboboc_ile_4islem.csproj.SuggestedBindingRedirects.cache
+D:\Projeler\VisulaStudio\IAkademi\Ders5_omboboc_ile_4islem\Ders5_omboboc_ile_4islem\obj\Debug\Ders5_omboboc_ile_4islem.Form1.resources
+D:\Projeler\VisulaStudio\IAkademi\Ders5_omboboc_ile_4islem\Ders5_omboboc_ile_4islem\obj\Debug\Ders5_omboboc_ile_4islem.Properties.Resources.resources
+D:\Projeler\VisulaStudio\IAkademi\Ders5_omboboc_ile_4islem\Ders5_omboboc_ile_4islem\obj\Debug\Ders5_omboboc_ile_4islem.csproj.GenerateResource.cache
+D:\Projeler\VisulaStudio\IAkademi\Ders5_omboboc_ile_4islem\Ders5_omboboc_ile_4islem\obj\Debug\Ders5_omboboc_ile_4islem.csproj.CoreCompileInputs.cache
+D:\Projeler\VisulaStudio\IAkademi\Ders5_omboboc_ile_4islem\Ders5_omboboc_ile_4islem\obj\Debug\Ders5_omboboc_ile_4islem.exe
+D:\Projeler\VisulaStudio\IAkademi\Ders5_omboboc_ile_4islem\Ders5_omboboc_ile_4islem\obj\Debug\Ders5_omboboc_ile_4islem.pdb
