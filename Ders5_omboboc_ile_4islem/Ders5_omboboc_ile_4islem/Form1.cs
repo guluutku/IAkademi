@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Ders5_omboboc_ile_4islem.Formlar;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -27,6 +28,12 @@ namespace Ders5_omboboc_ile_4islem
         {
             frmUrunGiris frmUrunGiris = new frmUrunGiris();
             frmUrunGiris.ShowDialog();
+        }
+
+        private void sABİTBİLGİLERGİRİŞİToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frm_SabitBigiler frm_Sabit = new frm_SabitBigiler();
+            frm_Sabit.ShowDialog();
         }
     }
 }

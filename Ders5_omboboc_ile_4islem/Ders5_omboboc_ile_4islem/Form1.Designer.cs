@@ -31,12 +31,14 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.üRÜNLERToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.üRÜNGİRİŞFORMUToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.mUHASEBEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cARİToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cOMBOBOXİLE4İŞLEMToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gÜNCELLEMEFORMUToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sİLMEFORMUToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lİSTEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mUHASEBEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cARİToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cOMBOBOXİLE4İŞLEMToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aYARLARToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sABİTBİLGİLERGİRİŞİToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -45,7 +47,8 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.üRÜNLERToolStripMenuItem,
             this.mUHASEBEToolStripMenuItem,
-            this.cARİToolStripMenuItem});
+            this.cARİToolStripMenuItem,
+            this.aYARLARToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1083, 45);
@@ -67,9 +70,27 @@
             // üRÜNGİRİŞFORMUToolStripMenuItem
             // 
             this.üRÜNGİRİŞFORMUToolStripMenuItem.Name = "üRÜNGİRİŞFORMUToolStripMenuItem";
-            this.üRÜNGİRİŞFORMUToolStripMenuItem.Size = new System.Drawing.Size(337, 42);
+            this.üRÜNGİRİŞFORMUToolStripMenuItem.Size = new System.Drawing.Size(360, 42);
             this.üRÜNGİRİŞFORMUToolStripMenuItem.Text = "ÜRÜN GİRİŞ FORMU";
             this.üRÜNGİRİŞFORMUToolStripMenuItem.Click += new System.EventHandler(this.üRÜNGİRİŞFORMUToolStripMenuItem_Click);
+            // 
+            // gÜNCELLEMEFORMUToolStripMenuItem
+            // 
+            this.gÜNCELLEMEFORMUToolStripMenuItem.Name = "gÜNCELLEMEFORMUToolStripMenuItem";
+            this.gÜNCELLEMEFORMUToolStripMenuItem.Size = new System.Drawing.Size(360, 42);
+            this.gÜNCELLEMEFORMUToolStripMenuItem.Text = "GÜNCELLEME FORMU";
+            // 
+            // sİLMEFORMUToolStripMenuItem
+            // 
+            this.sİLMEFORMUToolStripMenuItem.Name = "sİLMEFORMUToolStripMenuItem";
+            this.sİLMEFORMUToolStripMenuItem.Size = new System.Drawing.Size(360, 42);
+            this.sİLMEFORMUToolStripMenuItem.Text = "SİLME FORMU";
+            // 
+            // lİSTEToolStripMenuItem
+            // 
+            this.lİSTEToolStripMenuItem.Name = "lİSTEToolStripMenuItem";
+            this.lİSTEToolStripMenuItem.Size = new System.Drawing.Size(360, 42);
+            this.lİSTEToolStripMenuItem.Text = "LİSTE";
             // 
             // mUHASEBEToolStripMenuItem
             // 
@@ -95,23 +116,21 @@
             this.cOMBOBOXİLE4İŞLEMToolStripMenuItem.Text = "COMBOBOX İLE 4 İŞLEM";
             this.cOMBOBOXİLE4İŞLEMToolStripMenuItem.Click += new System.EventHandler(this.cOMBOBOXİLE4İŞLEMToolStripMenuItem_Click);
             // 
-            // gÜNCELLEMEFORMUToolStripMenuItem
+            // aYARLARToolStripMenuItem
             // 
-            this.gÜNCELLEMEFORMUToolStripMenuItem.Name = "gÜNCELLEMEFORMUToolStripMenuItem";
-            this.gÜNCELLEMEFORMUToolStripMenuItem.Size = new System.Drawing.Size(360, 42);
-            this.gÜNCELLEMEFORMUToolStripMenuItem.Text = "GÜNCELLEME FORMU";
+            this.aYARLARToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.sABİTBİLGİLERGİRİŞİToolStripMenuItem});
+            this.aYARLARToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 20F);
+            this.aYARLARToolStripMenuItem.Name = "aYARLARToolStripMenuItem";
+            this.aYARLARToolStripMenuItem.Size = new System.Drawing.Size(137, 41);
+            this.aYARLARToolStripMenuItem.Text = "AYARLAR";
             // 
-            // sİLMEFORMUToolStripMenuItem
+            // sABİTBİLGİLERGİRİŞİToolStripMenuItem
             // 
-            this.sİLMEFORMUToolStripMenuItem.Name = "sİLMEFORMUToolStripMenuItem";
-            this.sİLMEFORMUToolStripMenuItem.Size = new System.Drawing.Size(360, 42);
-            this.sİLMEFORMUToolStripMenuItem.Text = "SİLME FORMU";
-            // 
-            // lİSTEToolStripMenuItem
-            // 
-            this.lİSTEToolStripMenuItem.Name = "lİSTEToolStripMenuItem";
-            this.lİSTEToolStripMenuItem.Size = new System.Drawing.Size(360, 42);
-            this.lİSTEToolStripMenuItem.Text = "LİSTE";
+            this.sABİTBİLGİLERGİRİŞİToolStripMenuItem.Name = "sABİTBİLGİLERGİRİŞİToolStripMenuItem";
+            this.sABİTBİLGİLERGİRİŞİToolStripMenuItem.Size = new System.Drawing.Size(348, 42);
+            this.sABİTBİLGİLERGİRİŞİToolStripMenuItem.Text = "SABİT BİLGİLER GİRİŞİ";
+            this.sABİTBİLGİLERGİRİŞİToolStripMenuItem.Click += new System.EventHandler(this.sABİTBİLGİLERGİRİŞİToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -140,6 +159,8 @@
         private System.Windows.Forms.ToolStripMenuItem gÜNCELLEMEFORMUToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sİLMEFORMUToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem lİSTEToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aYARLARToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sABİTBİLGİLERGİRİŞİToolStripMenuItem;
     }
 }
 
