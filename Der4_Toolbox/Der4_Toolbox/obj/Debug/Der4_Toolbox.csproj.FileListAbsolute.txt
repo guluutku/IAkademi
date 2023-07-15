@@ -1,0 +1,11 @@
+D:\Projeler\VisulaStudio\IAkademi\Der4_Toolbox\Der4_Toolbox\bin\Debug\Der4_Toolbox.exe.config
+D:\Projeler\VisulaStudio\IAkademi\Der4_Toolbox\Der4_Toolbox\bin\Debug\Der4_Toolbox.exe
+D:\Projeler\VisulaStudio\IAkademi\Der4_Toolbox\Der4_Toolbox\bin\Debug\Der4_Toolbox.pdb
+D:\Projeler\VisulaStudio\IAkademi\Der4_Toolbox\Der4_Toolbox\obj\Debug\Der4_Toolbox.csproj.AssemblyReference.cache
+D:\Projeler\VisulaStudio\IAkademi\Der4_Toolbox\Der4_Toolbox\obj\Debug\Der4_Toolbox.csproj.SuggestedBindingRedirects.cache
+D:\Projeler\VisulaStudio\IAkademi\Der4_Toolbox\Der4_Toolbox\obj\Debug\Der4_Toolbox.Form1.resources
+D:\Projeler\VisulaStudio\IAkademi\Der4_Toolbox\Der4_Toolbox\obj\Debug\Der4_Toolbox.Properties.Resources.resources
+D:\Projeler\VisulaStudio\IAkademi\Der4_Toolbox\Der4_Toolbox\obj\Debug\Der4_Toolbox.csproj.GenerateResource.cache
+D:\Projeler\VisulaStudio\IAkademi\Der4_Toolbox\Der4_Toolbox\obj\Debug\Der4_Toolbox.csproj.CoreCompileInputs.cache
+D:\Projeler\VisulaStudio\IAkademi\Der4_Toolbox\Der4_Toolbox\obj\Debug\Der4_Toolbox.exe
+D:\Projeler\VisulaStudio\IAkademi\Der4_Toolbox\Der4_Toolbox\obj\Debug\Der4_Toolbox.pdb
