@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Ders5_omboboc_ile_4islem.classes;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,12 @@ namespace Ders5_omboboc_ile_4islem.Formlar
         public frm_SabitBigiler()
         {
             InitializeComponent();
+        }
+
+        private void btn_kaydet_Click(object sender, EventArgs e)
+        {
+            cls_Ortak ortak = new cls_Ortak();
+            ortak.telefon_no_kaydet(txt_telefonNo.Text);
         }
     }
 }

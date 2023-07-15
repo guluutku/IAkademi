@@ -34,23 +34,59 @@ namespace Ders5_omboboc_ile_4islem
 
         private void btn_hesapla_Click(object sender, EventArgs e)
         {
-            int birinci_sayi = Convert.ToInt32(txt_firstNumber.Text);
-            int ikinci_sayi = Convert.ToInt32(txt_secondNumber.Text);
-            switch (cmb_process.SelectedItem)
+            try
             {
-                case "TOPLAMA":
-                    lbl_sonuc.Text = Convert.ToString(birinci_sayi + ikinci_sayi);
-                    break;
+                int birinci_sayi = Convert.ToInt32(txt_firstNumber.Text);
+                int ikinci_sayi = Convert.ToInt32(txt_secondNumber.Text);
 
-                case "ÇIKARMA":
-                    break;
+                switch (cmb_process.SelectedItem)
+                {
+                    default:
+                        MessageBox.Show("İşlem seçiniz");
+                        break;
 
-                case "ÇARPMA":
-                    lbl_sonuc.Text = Convert.ToString(birinci_sayi * ikinci_sayi);
-                    break;
+                    case "TOPLAMA":
+                        lbl_sonuc.Text = Convert.ToString(birinci_sayi + ikinci_sayi);
+                        break;
 
-                case "BÖLME":
-                    break;
+                    case "ÇIKARMA":
+                        if (birinci_sayi >= ikinci_sayi)
+                        {
+                            lbl_sonuc.Text = Convert.ToString(birinci_sayi - ikinci_sayi);
+                        }
+                        else
+                        {
+                            lbl_sonuc.Text = Convert.ToString(ikinci_sayi - birinci_sayi);
+                        }
+                        break;
+
+                    case "ÇARPMA":
+                        lbl_sonuc.Text = Convert.ToString(birinci_sayi * ikinci_sayi);
+                        break;
+
+                    case "BÖLME":
+                        if (birinci_sayi >= ikinci_sayi)
+                        {
+                            lbl_sonuc.Text = Convert.ToString(birinci_sayi / ikinci_sayi);
+                        }
+                        else
+                        {
+                            lbl_sonuc.Text = Convert.ToString(ikinci_sayi / birinci_sayi);
+                        }
+                        break;
+                }
+            }
+            catch (NullReferenceException)
+            {
+                MessageBox.Show("Seçim yapılmadı");
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("Sayı girilmedi");
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Bir şeyler yanlış gitti");
             }
         }
     }

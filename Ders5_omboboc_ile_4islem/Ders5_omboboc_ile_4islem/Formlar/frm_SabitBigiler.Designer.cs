@@ -30,6 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.txt_telefonNo = new System.Windows.Forms.TextBox();
+            this.btn_kaydet = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -50,11 +51,24 @@
             this.txt_telefonNo.Size = new System.Drawing.Size(345, 50);
             this.txt_telefonNo.TabIndex = 1;
             // 
+            // btn_kaydet
+            // 
+            this.btn_kaydet.BackColor = System.Drawing.Color.Crimson;
+            this.btn_kaydet.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.25F);
+            this.btn_kaydet.Location = new System.Drawing.Point(409, 371);
+            this.btn_kaydet.Name = "btn_kaydet";
+            this.btn_kaydet.Size = new System.Drawing.Size(252, 106);
+            this.btn_kaydet.TabIndex = 2;
+            this.btn_kaydet.Text = "KAYDET";
+            this.btn_kaydet.UseVisualStyleBackColor = false;
+            this.btn_kaydet.Click += new System.EventHandler(this.btn_kaydet_Click);
+            // 
             // frm_SabitBigiler
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1053, 611);
+            this.Controls.Add(this.btn_kaydet);
             this.Controls.Add(this.txt_telefonNo);
             this.Controls.Add(this.label1);
             this.Name = "frm_SabitBigiler";
@@ -68,5 +82,6 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txt_telefonNo;
+        private System.Windows.Forms.Button btn_kaydet;
     }
 }
