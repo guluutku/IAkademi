@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace Ders5_omboboc_ile_4islem
 {
-    public partial class Form1 : Form
+    public partial class frm_combobox_4_ıslem : Form
     {
-        public Form1()
+        public frm_combobox_4_ıslem()
         {
             InitializeComponent();
-        }
-
-        private void cOMBOBOXİLE4İŞLEMToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            frm_combobox_4_ıslem frm4 = new frm_combobox_4_ıslem();
-            frm4.ShowDialog();
         }
     }
 }

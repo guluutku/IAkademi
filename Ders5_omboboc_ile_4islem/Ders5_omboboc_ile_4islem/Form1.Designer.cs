@@ -30,9 +30,10 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.üRÜNLERToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.üRÜNGİRİŞFORMUToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mUHASEBEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cARİToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.üRÜNGİRİŞFORMUToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cOMBOBOXİLE4İŞLEMToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -57,6 +58,12 @@
             this.üRÜNLERToolStripMenuItem.Size = new System.Drawing.Size(146, 41);
             this.üRÜNLERToolStripMenuItem.Text = "ÜRÜNLER";
             // 
+            // üRÜNGİRİŞFORMUToolStripMenuItem
+            // 
+            this.üRÜNGİRİŞFORMUToolStripMenuItem.Name = "üRÜNGİRİŞFORMUToolStripMenuItem";
+            this.üRÜNGİRİŞFORMUToolStripMenuItem.Size = new System.Drawing.Size(337, 42);
+            this.üRÜNGİRİŞFORMUToolStripMenuItem.Text = "ÜRÜN GİRİŞ FORMU";
+            // 
             // mUHASEBEToolStripMenuItem
             // 
             this.mUHASEBEToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 20F);
@@ -67,16 +74,19 @@
             // cARİToolStripMenuItem
             // 
             this.cARİToolStripMenuItem.AutoToolTip = true;
+            this.cARİToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.cOMBOBOXİLE4İŞLEMToolStripMenuItem});
             this.cARİToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 20F);
             this.cARİToolStripMenuItem.Name = "cARİToolStripMenuItem";
             this.cARİToolStripMenuItem.Size = new System.Drawing.Size(86, 41);
             this.cARİToolStripMenuItem.Text = "CARİ";
             // 
-            // üRÜNGİRİŞFORMUToolStripMenuItem
+            // cOMBOBOXİLE4İŞLEMToolStripMenuItem
             // 
-            this.üRÜNGİRİŞFORMUToolStripMenuItem.Name = "üRÜNGİRİŞFORMUToolStripMenuItem";
-            this.üRÜNGİRİŞFORMUToolStripMenuItem.Size = new System.Drawing.Size(337, 42);
-            this.üRÜNGİRİŞFORMUToolStripMenuItem.Text = "ÜRÜN GİRİŞ FORMU";
+            this.cOMBOBOXİLE4İŞLEMToolStripMenuItem.Name = "cOMBOBOXİLE4İŞLEMToolStripMenuItem";
+            this.cOMBOBOXİLE4İŞLEMToolStripMenuItem.Size = new System.Drawing.Size(381, 42);
+            this.cOMBOBOXİLE4İŞLEMToolStripMenuItem.Text = "COMBOBOX İLE 4 İŞLEM";
+            this.cOMBOBOXİLE4İŞLEMToolStripMenuItem.Click += new System.EventHandler(this.cOMBOBOXİLE4İŞLEMToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -101,6 +111,7 @@
         private System.Windows.Forms.ToolStripMenuItem üRÜNGİRİŞFORMUToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem mUHASEBEToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cARİToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cOMBOBOXİLE4İŞLEMToolStripMenuItem;
     }
 }
 
