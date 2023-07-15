@@ -38,7 +38,7 @@
             this.btn_hesapla = new System.Windows.Forms.Button();
             this.lbl_sonuc = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.lbl_telefonNo = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -139,22 +139,22 @@
             this.label5.TabIndex = 9;
             this.label5.Text = "TELEFON";
             // 
-            // label6
+            // lbl_telefonNo
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F);
-            this.label6.Location = new System.Drawing.Point(158, 512);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(193, 31);
-            this.label6.TabIndex = 10;
-            this.label6.Text = "0506 502 5467";
+            this.lbl_telefonNo.AutoSize = true;
+            this.lbl_telefonNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F);
+            this.lbl_telefonNo.Location = new System.Drawing.Point(158, 512);
+            this.lbl_telefonNo.Name = "lbl_telefonNo";
+            this.lbl_telefonNo.Size = new System.Drawing.Size(193, 31);
+            this.lbl_telefonNo.TabIndex = 10;
+            this.lbl_telefonNo.Text = "0506 502 5467";
             // 
             // frm_combobox_4_ıslem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1046, 579);
-            this.Controls.Add(this.label6);
+            this.Controls.Add(this.lbl_telefonNo);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.lbl_sonuc);
             this.Controls.Add(this.btn_hesapla);
@@ -185,6 +185,6 @@
         private System.Windows.Forms.Button btn_hesapla;
         private System.Windows.Forms.Label lbl_sonuc;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label lbl_telefonNo;
     }
 }

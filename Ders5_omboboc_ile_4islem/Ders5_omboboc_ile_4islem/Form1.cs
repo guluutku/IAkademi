@@ -22,5 +22,11 @@ namespace Ders5_omboboc_ile_4islem
             frm_combobox_4_ıslem frm4 = new frm_combobox_4_ıslem();
             frm4.ShowDialog();
         }
+
+        private void üRÜNGİRİŞFORMUToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmUrunGiris frmUrunGiris = new frmUrunGiris();
+            frmUrunGiris.ShowDialog();
+        }
     }
 }

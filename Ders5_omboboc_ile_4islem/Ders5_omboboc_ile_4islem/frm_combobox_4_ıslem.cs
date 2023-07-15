@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Ders5_omboboc_ile_4islem.classes;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -26,6 +27,9 @@ namespace Ders5_omboboc_ile_4islem
             cmb_process.Items.Add("ÇIKARMA");
             cmb_process.Items.Add("ÇARPMA");
             cmb_process.Items.Add("BÖLME");
+
+            cls_Ortak ortak = new cls_Ortak();
+            lbl_telefonNo.Text = ortak.telefon_no_getir();
         }
 
         private void btn_hesapla_Click(object sender, EventArgs e)
@@ -35,11 +39,16 @@ namespace Ders5_omboboc_ile_4islem
             switch (cmb_process.SelectedItem)
             {
                 case "TOPLAMA":
+                    lbl_sonuc.Text = Convert.ToString(birinci_sayi + ikinci_sayi);
                     break;
+
                 case "ÇIKARMA":
                     break;
+
                 case "ÇARPMA":
+                    lbl_sonuc.Text = Convert.ToString(birinci_sayi * ikinci_sayi);
                     break;
+
                 case "BÖLME":
                     break;
             }

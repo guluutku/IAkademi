@@ -10,3 +10,4 @@ D:\Projeler\VisulaStudio\IAkademi\Ders5_omboboc_ile_4islem\Ders5_omboboc_ile_4is
 D:\Projeler\VisulaStudio\IAkademi\Ders5_omboboc_ile_4islem\Ders5_omboboc_ile_4islem\obj\Debug\Ders5_omboboc_ile_4islem.exe
 D:\Projeler\VisulaStudio\IAkademi\Ders5_omboboc_ile_4islem\Ders5_omboboc_ile_4islem\obj\Debug\Ders5_omboboc_ile_4islem.pdb
 D:\Projeler\VisulaStudio\IAkademi\Ders5_omboboc_ile_4islem\Ders5_omboboc_ile_4islem\obj\Debug\Ders5_omboboc_ile_4islem.frm_combobox_4_ıslem.resources
+D:\Projeler\VisulaStudio\IAkademi\Ders5_omboboc_ile_4islem\Ders5_omboboc_ile_4islem\obj\Debug\Ders5_omboboc_ile_4islem.frmUrunGiris.resources

@@ -46,11 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="classes\cls_Ortak.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUrunGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUrunGiris.Designer.cs">
+      <DependentUpon>frmUrunGiris.cs</DependentUpon>
     </Compile>
     <Compile Include="frm_combobox_4_ıslem.cs">
       <SubType>Form</SubType>
@@ -62,6 +69,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUrunGiris.resx">
+      <DependentUpon>frmUrunGiris.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_combobox_4_ıslem.resx">
       <DependentUpon>frm_combobox_4_ıslem.cs</DependentUpon>
