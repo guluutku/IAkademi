@@ -37,7 +37,14 @@
             this.txt_tc_kimlik = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.btn_kaydet = new System.Windows.Forms.Button();
-            this.listView1 = new System.Windows.Forms.ListView();
+            this.lst_ogrenci = new System.Windows.Forms.ListView();
+            this.clm_isim = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.clm_ogretmen_ismi = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.clm_bolum = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.clm_tc_kimlik = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.clm_yas = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.txt_yas = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -116,28 +123,83 @@
             // 
             this.btn_kaydet.BackColor = System.Drawing.Color.Coral;
             this.btn_kaydet.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.25F);
-            this.btn_kaydet.Location = new System.Drawing.Point(83, 336);
+            this.btn_kaydet.Location = new System.Drawing.Point(104, 479);
             this.btn_kaydet.Name = "btn_kaydet";
             this.btn_kaydet.Size = new System.Drawing.Size(219, 81);
             this.btn_kaydet.TabIndex = 8;
             this.btn_kaydet.Text = "KAYDET";
             this.btn_kaydet.UseVisualStyleBackColor = false;
+            this.btn_kaydet.Click += new System.EventHandler(this.btn_kaydet_Click);
             // 
-            // listView1
+            // lst_ogrenci
             // 
-            this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(654, 39);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(577, 399);
-            this.listView1.TabIndex = 9;
-            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.lst_ogrenci.BackColor = System.Drawing.Color.YellowGreen;
+            this.lst_ogrenci.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.clm_isim,
+            this.clm_ogretmen_ismi,
+            this.clm_bolum,
+            this.clm_tc_kimlik,
+            this.clm_yas});
+            this.lst_ogrenci.FullRowSelect = true;
+            this.lst_ogrenci.GridLines = true;
+            this.lst_ogrenci.HideSelection = false;
+            this.lst_ogrenci.Location = new System.Drawing.Point(642, 18);
+            this.lst_ogrenci.Name = "lst_ogrenci";
+            this.lst_ogrenci.Size = new System.Drawing.Size(561, 399);
+            this.lst_ogrenci.TabIndex = 9;
+            this.lst_ogrenci.UseCompatibleStateImageBehavior = false;
+            this.lst_ogrenci.View = System.Windows.Forms.View.Details;
+            // 
+            // clm_isim
+            // 
+            this.clm_isim.Text = "İSİM";
+            this.clm_isim.Width = 116;
+            // 
+            // clm_ogretmen_ismi
+            // 
+            this.clm_ogretmen_ismi.Text = "ÖĞRETMEN İSMİ";
+            this.clm_ogretmen_ismi.Width = 131;
+            // 
+            // clm_bolum
+            // 
+            this.clm_bolum.Text = "BÖLÜM";
+            this.clm_bolum.Width = 128;
+            // 
+            // clm_tc_kimlik
+            // 
+            this.clm_tc_kimlik.Text = "TC KİMLİK";
+            this.clm_tc_kimlik.Width = 122;
+            // 
+            // clm_yas
+            // 
+            this.clm_yas.Text = "YAŞ";
+            // 
+            // txt_yas
+            // 
+            this.txt_yas.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
+            this.txt_yas.Location = new System.Drawing.Point(314, 309);
+            this.txt_yas.Name = "txt_yas";
+            this.txt_yas.Size = new System.Drawing.Size(220, 31);
+            this.txt_yas.TabIndex = 11;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
+            this.label5.Location = new System.Drawing.Point(34, 309);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(55, 25);
+            this.label5.TabIndex = 10;
+            this.label5.Text = "YAŞ";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1243, 450);
-            this.Controls.Add(this.listView1);
+            this.ClientSize = new System.Drawing.Size(1243, 613);
+            this.Controls.Add(this.txt_yas);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.lst_ogrenci);
             this.Controls.Add(this.btn_kaydet);
             this.Controls.Add(this.txt_tc_kimlik);
             this.Controls.Add(this.label4);
@@ -165,7 +227,14 @@
         private System.Windows.Forms.TextBox txt_tc_kimlik;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btn_kaydet;
-        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.ListView lst_ogrenci;
+        private System.Windows.Forms.ColumnHeader clm_isim;
+        private System.Windows.Forms.ColumnHeader clm_ogretmen_ismi;
+        private System.Windows.Forms.ColumnHeader clm_bolum;
+        private System.Windows.Forms.ColumnHeader clm_tc_kimlik;
+        private System.Windows.Forms.ColumnHeader clm_yas;
+        private System.Windows.Forms.TextBox txt_yas;
+        private System.Windows.Forms.Label label5;
     }
 }
 
