@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace NTierDesign_KatmanliMimari
+namespace NTierDesign_KatmanliMimari.Forms.Product
 {
-    public partial class Form1 : Form
+    public partial class frmProdutImsert : Form
     {
-        public Form1()
+        public frmProdutImsert()
         {
             InitializeComponent();
         }
