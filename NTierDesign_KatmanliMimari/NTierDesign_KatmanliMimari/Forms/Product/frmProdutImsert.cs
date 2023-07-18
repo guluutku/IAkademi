@@ -16,5 +16,11 @@ namespace NTierDesign_KatmanliMimari.Forms.Product
         {
             InitializeComponent();
         }
+
+        private void btn_kaydet_Click(object sender, EventArgs e)
+        {
+            try { }
+            catch { }
+        }
     }
 }

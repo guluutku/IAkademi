@@ -72,6 +72,7 @@
             this.btn_kaydet.TabIndex = 4;
             this.btn_kaydet.Text = "KAYDET";
             this.btn_kaydet.UseVisualStyleBackColor = false;
+            this.btn_kaydet.Click += new System.EventHandler(this.btn_kaydet_Click);
             // 
             // frmProdutImsert
             // 
