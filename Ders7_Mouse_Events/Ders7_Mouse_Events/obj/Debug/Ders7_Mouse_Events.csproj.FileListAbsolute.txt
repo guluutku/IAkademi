@@ -1,0 +1,13 @@
+D:\Projeler\VisulaStudio\IAkademi\Ders7_Mouse_Events\Ders7_Mouse_Events\bin\Debug\Ders7_Mouse_Events.exe.config
+D:\Projeler\VisulaStudio\IAkademi\Ders7_Mouse_Events\Ders7_Mouse_Events\bin\Debug\Ders7_Mouse_Events.exe
+D:\Projeler\VisulaStudio\IAkademi\Ders7_Mouse_Events\Ders7_Mouse_Events\bin\Debug\Ders7_Mouse_Events.pdb
+D:\Projeler\VisulaStudio\IAkademi\Ders7_Mouse_Events\Ders7_Mouse_Events\obj\Debug\Ders7_Mouse_Events.csproj.AssemblyReference.cache
+D:\Projeler\VisulaStudio\IAkademi\Ders7_Mouse_Events\Ders7_Mouse_Events\obj\Debug\Ders7_Mouse_Events.csproj.SuggestedBindingRedirects.cache
+D:\Projeler\VisulaStudio\IAkademi\Ders7_Mouse_Events\Ders7_Mouse_Events\obj\Debug\Ders7_Mouse_Events.Form1.resources
+D:\Projeler\VisulaStudio\IAkademi\Ders7_Mouse_Events\Ders7_Mouse_Events\obj\Debug\Ders7_Mouse_Events.Properties.Resources.resources
+D:\Projeler\VisulaStudio\IAkademi\Ders7_Mouse_Events\Ders7_Mouse_Events\obj\Debug\Ders7_Mouse_Events.csproj.GenerateResource.cache
+D:\Projeler\VisulaStudio\IAkademi\Ders7_Mouse_Events\Ders7_Mouse_Events\obj\Debug\Ders7_Mouse_Events.csproj.CoreCompileInputs.cache
+D:\Projeler\VisulaStudio\IAkademi\Ders7_Mouse_Events\Ders7_Mouse_Events\obj\Debug\Ders7_Mouse_Events.exe
+D:\Projeler\VisulaStudio\IAkademi\Ders7_Mouse_Events\Ders7_Mouse_Events\obj\Debug\Ders7_Mouse_Events.pdb
+D:\Projeler\VisulaStudio\IAkademi\Ders7_Mouse_Events\Ders7_Mouse_Events\obj\Debug\Ders7_Mouse_Events.Form2.resources
+D:\Projeler\VisulaStudio\IAkademi\Ders7_Mouse_Events\Ders7_Mouse_Events\obj\Debug\Ders7_Mouse_Events.Form3.resources
