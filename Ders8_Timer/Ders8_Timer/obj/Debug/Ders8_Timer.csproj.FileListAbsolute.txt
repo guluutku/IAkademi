@@ -1,0 +1,11 @@
+D:\Projeler\VisulaStudio\IAkademi\Ders8_Timer\Ders8_Timer\bin\Debug\Ders8_Timer.exe.config
+D:\Projeler\VisulaStudio\IAkademi\Ders8_Timer\Ders8_Timer\bin\Debug\Ders8_Timer.exe
+D:\Projeler\VisulaStudio\IAkademi\Ders8_Timer\Ders8_Timer\bin\Debug\Ders8_Timer.pdb
+D:\Projeler\VisulaStudio\IAkademi\Ders8_Timer\Ders8_Timer\obj\Debug\Ders8_Timer.csproj.AssemblyReference.cache
+D:\Projeler\VisulaStudio\IAkademi\Ders8_Timer\Ders8_Timer\obj\Debug\Ders8_Timer.csproj.SuggestedBindingRedirects.cache
+D:\Projeler\VisulaStudio\IAkademi\Ders8_Timer\Ders8_Timer\obj\Debug\Ders8_Timer.Form1.resources
+D:\Projeler\VisulaStudio\IAkademi\Ders8_Timer\Ders8_Timer\obj\Debug\Ders8_Timer.Properties.Resources.resources
+D:\Projeler\VisulaStudio\IAkademi\Ders8_Timer\Ders8_Timer\obj\Debug\Ders8_Timer.csproj.GenerateResource.cache
+D:\Projeler\VisulaStudio\IAkademi\Ders8_Timer\Ders8_Timer\obj\Debug\Ders8_Timer.csproj.CoreCompileInputs.cache
+D:\Projeler\VisulaStudio\IAkademi\Ders8_Timer\Ders8_Timer\obj\Debug\Ders8_Timer.exe
+D:\Projeler\VisulaStudio\IAkademi\Ders8_Timer\Ders8_Timer\obj\Debug\Ders8_Timer.pdb

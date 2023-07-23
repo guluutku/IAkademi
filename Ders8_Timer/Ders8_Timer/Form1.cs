@@ -16,5 +16,25 @@ namespace Ders8_Timer
         {
             InitializeComponent();
         }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            lbl_zaman.Text = DateTime.Now.ToString();
+        }
+
+        private void btn_start_Click(object sender, EventArgs e)
+        {
+            timer1.Start();
+        }
+
+        private void btn_stop_Click(object sender, EventArgs e)
+        {
+            timer1.Stop();
+        }
+
+        private void btn_sure_guncelle_Click(object sender, EventArgs e)
+        {
+            timer1.Interval = Convert.ToInt32(txt_guncelle.Text);
+        }
     }
 }
