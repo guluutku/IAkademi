@@ -1,0 +1,11 @@
+D:\Projeler\VisulaStudio\IAkademi\Ders9_Hazir_Fonksiyonlar\Ders9_Hazir_Fonksiyonlar\bin\Debug\Ders9_Hazir_Fonksiyonlar.exe.config
+D:\Projeler\VisulaStudio\IAkademi\Ders9_Hazir_Fonksiyonlar\Ders9_Hazir_Fonksiyonlar\bin\Debug\Ders9_Hazir_Fonksiyonlar.exe
+D:\Projeler\VisulaStudio\IAkademi\Ders9_Hazir_Fonksiyonlar\Ders9_Hazir_Fonksiyonlar\bin\Debug\Ders9_Hazir_Fonksiyonlar.pdb
+D:\Projeler\VisulaStudio\IAkademi\Ders9_Hazir_Fonksiyonlar\Ders9_Hazir_Fonksiyonlar\obj\Debug\Ders9_Hazir_Fonksiyonlar.csproj.AssemblyReference.cache
+D:\Projeler\VisulaStudio\IAkademi\Ders9_Hazir_Fonksiyonlar\Ders9_Hazir_Fonksiyonlar\obj\Debug\Ders9_Hazir_Fonksiyonlar.csproj.SuggestedBindingRedirects.cache
+D:\Projeler\VisulaStudio\IAkademi\Ders9_Hazir_Fonksiyonlar\Ders9_Hazir_Fonksiyonlar\obj\Debug\Ders9_Hazir_Fonksiyonlar.Form1.resources
+D:\Projeler\VisulaStudio\IAkademi\Ders9_Hazir_Fonksiyonlar\Ders9_Hazir_Fonksiyonlar\obj\Debug\Ders9_Hazir_Fonksiyonlar.Properties.Resources.resources
+D:\Projeler\VisulaStudio\IAkademi\Ders9_Hazir_Fonksiyonlar\Ders9_Hazir_Fonksiyonlar\obj\Debug\Ders9_Hazir_Fonksiyonlar.csproj.GenerateResource.cache
+D:\Projeler\VisulaStudio\IAkademi\Ders9_Hazir_Fonksiyonlar\Ders9_Hazir_Fonksiyonlar\obj\Debug\Ders9_Hazir_Fonksiyonlar.csproj.CoreCompileInputs.cache
+D:\Projeler\VisulaStudio\IAkademi\Ders9_Hazir_Fonksiyonlar\Ders9_Hazir_Fonksiyonlar\obj\Debug\Ders9_Hazir_Fonksiyonlar.exe
+D:\Projeler\VisulaStudio\IAkademi\Ders9_Hazir_Fonksiyonlar\Ders9_Hazir_Fonksiyonlar\obj\Debug\Ders9_Hazir_Fonksiyonlar.pdb
