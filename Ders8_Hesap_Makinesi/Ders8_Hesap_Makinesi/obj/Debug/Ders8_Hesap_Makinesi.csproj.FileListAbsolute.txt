@@ -9,3 +9,4 @@ D:\Projeler\VisulaStudio\IAkademi\Ders8_Hesap_Makinesi\Ders8_Hesap_Makinesi\obj\
 D:\Projeler\VisulaStudio\IAkademi\Ders8_Hesap_Makinesi\Ders8_Hesap_Makinesi\obj\Debug\Ders8_Hesap_Makinesi.csproj.CoreCompileInputs.cache
 D:\Projeler\VisulaStudio\IAkademi\Ders8_Hesap_Makinesi\Ders8_Hesap_Makinesi\obj\Debug\Ders8_Hesap_Makinesi.exe
 D:\Projeler\VisulaStudio\IAkademi\Ders8_Hesap_Makinesi\Ders8_Hesap_Makinesi\obj\Debug\Ders8_Hesap_Makinesi.pdb
+D:\Projeler\VisulaStudio\IAkademi\Ders8_Hesap_Makinesi\Ders8_Hesap_Makinesi\obj\Debug\Ders8_Hesap_Makinesi.frmProcess.resources
