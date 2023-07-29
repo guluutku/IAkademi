@@ -16,7 +16,7 @@ namespace Ders8_Hesap_Makinesi
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new frmProcess());   // (new Form1());
         }
     }
 }
