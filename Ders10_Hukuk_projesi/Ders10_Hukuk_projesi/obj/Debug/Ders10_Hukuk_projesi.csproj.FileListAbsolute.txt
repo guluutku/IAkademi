@@ -1,0 +1,13 @@
+D:\Projeler\VisulaStudio\IAkademi\Ders10_Hukuk_projesi\Ders10_Hukuk_projesi\bin\Debug\Ders10_Hukuk_projesi.exe.config
+D:\Projeler\VisulaStudio\IAkademi\Ders10_Hukuk_projesi\Ders10_Hukuk_projesi\bin\Debug\Ders10_Hukuk_projesi.exe
+D:\Projeler\VisulaStudio\IAkademi\Ders10_Hukuk_projesi\Ders10_Hukuk_projesi\bin\Debug\Ders10_Hukuk_projesi.pdb
+D:\Projeler\VisulaStudio\IAkademi\Ders10_Hukuk_projesi\Ders10_Hukuk_projesi\bin\Debug\Ders10_Ortak_API_Projem_DLL.dll
+D:\Projeler\VisulaStudio\IAkademi\Ders10_Hukuk_projesi\Ders10_Hukuk_projesi\obj\Debug\Ders10_Hukuk_projesi.csproj.AssemblyReference.cache
+D:\Projeler\VisulaStudio\IAkademi\Ders10_Hukuk_projesi\Ders10_Hukuk_projesi\obj\Debug\Ders10_Hukuk_projesi.csproj.SuggestedBindingRedirects.cache
+D:\Projeler\VisulaStudio\IAkademi\Ders10_Hukuk_projesi\Ders10_Hukuk_projesi\obj\Debug\Ders10_Hukuk_projesi.Form1.resources
+D:\Projeler\VisulaStudio\IAkademi\Ders10_Hukuk_projesi\Ders10_Hukuk_projesi\obj\Debug\Ders10_Hukuk_projesi.Properties.Resources.resources
+D:\Projeler\VisulaStudio\IAkademi\Ders10_Hukuk_projesi\Ders10_Hukuk_projesi\obj\Debug\Ders10_Hukuk_projesi.csproj.GenerateResource.cache
+D:\Projeler\VisulaStudio\IAkademi\Ders10_Hukuk_projesi\Ders10_Hukuk_projesi\obj\Debug\Ders10_Hukuk_projesi.csproj.CoreCompileInputs.cache
+D:\Projeler\VisulaStudio\IAkademi\Ders10_Hukuk_projesi\Ders10_Hukuk_projesi\obj\Debug\Ders10_Hukuk_projesi.csproj.CopyComplete
+D:\Projeler\VisulaStudio\IAkademi\Ders10_Hukuk_projesi\Ders10_Hukuk_projesi\obj\Debug\Ders10_Hukuk_projesi.exe
+D:\Projeler\VisulaStudio\IAkademi\Ders10_Hukuk_projesi\Ders10_Hukuk_projesi\obj\Debug\Ders10_Hukuk_projesi.pdb
