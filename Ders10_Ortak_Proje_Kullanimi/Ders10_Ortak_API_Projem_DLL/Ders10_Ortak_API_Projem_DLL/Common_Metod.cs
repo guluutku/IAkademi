@@ -18,7 +18,7 @@ namespace Ders10_Ortak_API_Projem_DLL
         public static string bankapos_kontrolu(string krediKartNo, string isim)
         {
             // 150 satır kod
-            return "İşlem onaylandı;"
+            return "İşlem onaylandı";
         }
 
     }

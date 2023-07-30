@@ -20,7 +20,7 @@ namespace Ders10_hukukProjesi
 
         private void button1_Click(object sender, EventArgs e)
         {
-          bool result =  Common_Metod.email_gonderim("mustafaselimgil@hotmail.com", "sedattefci1972@hotmail.com", "ders10 notları");
+            bool result = Common_Metod.email_gonderim("mustafaselimgil@hotmail.com", "sedattefci1972@hotmail.com", "ders10 notları");
 
             if (result)
             {
@@ -32,6 +32,17 @@ namespace Ders10_hukukProjesi
             }
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
 
+        }
+
+        private void btn_Banka_Click(object sender, EventArgs e)
+        {
+            string result = Common_Metod.bankapos_kontrolu("152634869624", "Gün U");
+
+            MessageBox.Show(result);
+
+        }
     }
 }
