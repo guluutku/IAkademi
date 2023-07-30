@@ -26,3 +26,4 @@ D:\Projeler\VisulaStudio\IAkademi\Ders10_Ortak_Proje_Kullanimi\Ders10_hukukProje
 D:\Projeler\VisulaStudio\IAkademi\Ders10_Ortak_Proje_Kullanimi\Ders10_hukukProjesi\Ders10_hukukProjesi\obj\Debug\Ders10_hukukProjesi.csproj.CopyComplete
 D:\Projeler\VisulaStudio\IAkademi\Ders10_Ortak_Proje_Kullanimi\Ders10_hukukProjesi\Ders10_hukukProjesi\obj\Debug\Ders10_hukukProjesi.exe
 D:\Projeler\VisulaStudio\IAkademi\Ders10_Ortak_Proje_Kullanimi\Ders10_hukukProjesi\Ders10_hukukProjesi\obj\Debug\Ders10_hukukProjesi.pdb
+D:\Projeler\VisulaStudio\IAkademi\Ders10_Ortak_Proje_Kullanimi\Ders10_hukukProjesi\Ders10_hukukProjesi\obj\Debug\Ders10_hukukProjesi.frmMuvekkilInsert.resources
