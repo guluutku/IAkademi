@@ -9,3 +9,4 @@ D:\Projeler\VisulaStudio\IAkademi\Ders9_Hazir_Fonksiyonlar\Ders9_Hazir_Fonksiyon
 D:\Projeler\VisulaStudio\IAkademi\Ders9_Hazir_Fonksiyonlar\Ders9_Hazir_Fonksiyonlar\obj\Debug\Ders9_Hazir_Fonksiyonlar.csproj.CoreCompileInputs.cache
 D:\Projeler\VisulaStudio\IAkademi\Ders9_Hazir_Fonksiyonlar\Ders9_Hazir_Fonksiyonlar\obj\Debug\Ders9_Hazir_Fonksiyonlar.exe
 D:\Projeler\VisulaStudio\IAkademi\Ders9_Hazir_Fonksiyonlar\Ders9_Hazir_Fonksiyonlar\obj\Debug\Ders9_Hazir_Fonksiyonlar.pdb
+D:\Projeler\VisulaStudio\IAkademi\Ders9_Hazir_Fonksiyonlar\Ders9_Hazir_Fonksiyonlar\obj\Debug\Ders9_Hazir_Fonksiyonlar.Form2.resources
