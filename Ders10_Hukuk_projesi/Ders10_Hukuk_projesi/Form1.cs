@@ -16,5 +16,10 @@ namespace Ders10_Hukuk_projesi
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
