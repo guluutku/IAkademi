@@ -1,0 +1,12 @@
+D:\Projeler\VisulaStudio\IAkademi\Ders10_Ortak_API_Projem_DLL\Ders10_Ortak_API_Projem_DLL\bin\Debug\net6.0\Ders10_Ortak_API_Projem_DLL.deps.json
+D:\Projeler\VisulaStudio\IAkademi\Ders10_Ortak_API_Projem_DLL\Ders10_Ortak_API_Projem_DLL\bin\Debug\net6.0\Ders10_Ortak_API_Projem_DLL.dll
+D:\Projeler\VisulaStudio\IAkademi\Ders10_Ortak_API_Projem_DLL\Ders10_Ortak_API_Projem_DLL\bin\Debug\net6.0\Ders10_Ortak_API_Projem_DLL.pdb
+D:\Projeler\VisulaStudio\IAkademi\Ders10_Ortak_API_Projem_DLL\Ders10_Ortak_API_Projem_DLL\obj\Debug\net6.0\Ders10_Ortak_API_Projem_DLL.csproj.AssemblyReference.cache
+D:\Projeler\VisulaStudio\IAkademi\Ders10_Ortak_API_Projem_DLL\Ders10_Ortak_API_Projem_DLL\obj\Debug\net6.0\Ders10_Ortak_API_Projem_DLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projeler\VisulaStudio\IAkademi\Ders10_Ortak_API_Projem_DLL\Ders10_Ortak_API_Projem_DLL\obj\Debug\net6.0\Ders10_Ortak_API_Projem_DLL.AssemblyInfoInputs.cache
+D:\Projeler\VisulaStudio\IAkademi\Ders10_Ortak_API_Projem_DLL\Ders10_Ortak_API_Projem_DLL\obj\Debug\net6.0\Ders10_Ortak_API_Projem_DLL.AssemblyInfo.cs
+D:\Projeler\VisulaStudio\IAkademi\Ders10_Ortak_API_Projem_DLL\Ders10_Ortak_API_Projem_DLL\obj\Debug\net6.0\Ders10_Ortak_API_Projem_DLL.csproj.CoreCompileInputs.cache
+D:\Projeler\VisulaStudio\IAkademi\Ders10_Ortak_API_Projem_DLL\Ders10_Ortak_API_Projem_DLL\obj\Debug\net6.0\Ders10_Ortak_API_Projem_DLL.dll
+D:\Projeler\VisulaStudio\IAkademi\Ders10_Ortak_API_Projem_DLL\Ders10_Ortak_API_Projem_DLL\obj\Debug\net6.0\refint\Ders10_Ortak_API_Projem_DLL.dll
+D:\Projeler\VisulaStudio\IAkademi\Ders10_Ortak_API_Projem_DLL\Ders10_Ortak_API_Projem_DLL\obj\Debug\net6.0\Ders10_Ortak_API_Projem_DLL.pdb
+D:\Projeler\VisulaStudio\IAkademi\Ders10_Ortak_API_Projem_DLL\Ders10_Ortak_API_Projem_DLL\obj\Debug\net6.0\ref\Ders10_Ortak_API_Projem_DLL.dll
