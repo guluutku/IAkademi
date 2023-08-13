@@ -5,7 +5,7 @@
 -- SELECT * FROM [NORTHWND].[dbo].[Categories]
 --------------------------
 
-CREATE VIEW vw_urunleri_listele -- Query'yi kaydeder
+CREATE VIEW vw_urunleri_listele -- Query'yi kaydeder. Bir aynı isimde view olduğu için hata veriyor
 as
 SELECT p.ProductID, p.ProductName, 
 c.CategoryID, c.CategoryName, 
