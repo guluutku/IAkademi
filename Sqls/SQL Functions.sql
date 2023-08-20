@@ -62,3 +62,18 @@ end
 --- test
 select dbo.fn_yas_hesapla('1997-08-17')
 select GETDATE()
+----------
+-- 1. parametrenin 2. parametreye tam bölünüp bölünmediği bulunsun
+create function fn_tam_bolunur_mu(@sayi1 int, @sayi2 int)
+returns nvarchar(19)
+as
+begin
+	declare @mesaj nvarchar(10)
+	if (@sayi1 % @sayi2 = 0)
+		set @mesaj = 'Tam bölünüyor'
+	else
+		set @mesaj = 'Bölünmez'
+	return @mesaj
+end
+-- test
+select dbo.fn_tam_bolunur_mu(103,2)
