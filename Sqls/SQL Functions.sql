@@ -10,3 +10,5 @@ begin
 end
 ---- test
 select dbo.fn_toplama(3,8)
+--------- Hazır Fonksiyon
+select SUBSTRING('www.website.com',10,4)
