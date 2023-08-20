@@ -77,3 +77,20 @@ begin
 end
 -- test
 select dbo.fn_tam_bolunur_mu(103,2)
+--- faktöriel
+create function fn_faktoriyel(@sayi1 int)
+returns int
+as
+begin
+	declare @sonuc int = 1
+	declare @i int = 1
+
+	while(@i <= @sayi1)
+	begin
+		select @sonuc *= @i
+		select @i += 1
+	end
+	return @sonuc
+end
+--- test
+select dbo.fn_faktoriyel(6)
