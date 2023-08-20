@@ -50,3 +50,15 @@ select SupplierID, CompanyName, dbo.fn_urun_adet(SupplierID) as [ÜRÜN SAYISI]
 from [NORTHWND].[dbo].[Suppliers] where CompanyName like '%'+@search+'%'  order by SupplierID
 -- test
 exec sp_marka_listesi 't'
+--------- Yaş Hesaplama
+create function fn_yas_hesapla(@tarih datetime)
+returns int
+as 
+begin
+	declare @sonuc int
+	set @sonuc = DATEDIFF(YEAR, @tarih, GETDATE())
+	return @sonuc
+end
+--- test
+select dbo.fn_yas_hesapla('1997-08-17')
+select GETDATE()
