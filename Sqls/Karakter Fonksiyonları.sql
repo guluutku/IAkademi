@@ -56,4 +56,15 @@ select MAX(UnitPrice) from Products
 select MIN(UnitPrice) from Products
 
 select SUM(Quantity) as ADEST from [Order Details] where tarih = GETDATE()
-select SUM(UnitsInStock) from Products
+select SUM(UnitsInStock) from Products -- toplam veri sayısı
+
+select top 5 * from Products order by NEWID() -- rastgele 5 ürün
+
+-- tarihsel hazır fonksiyonlar
+select GETDATE()
+select GETUTCDATE() -- merkezi saat
+select YEAR(GETDATE()) -- Belirli bir tarih şeklini seç
+select MONTH(GETDATE())
+select DAY(GETDATE())
+
+select FirstName, LastName, BirthDate, YEAR(GETDATE()) - YEAR(BirthDate) as YAŞ from Employees
