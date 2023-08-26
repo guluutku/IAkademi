@@ -15,4 +15,8 @@ select * from [NORTHWND].[dbo].[Products] order by ProductID desc
 select LTRIM('            gu n     q') -- sol taraftaki boşluğu siler
 select RTRIM('            gu n     ') -- sağ taraftaki boşluğu siler
 select TRIM('            gu n     ') -- sağ ve sol taraftaki boşluğu aynı anda siler
+--------------
+select REVERSE('wwww.gunluul.com') -- tersine çevirir
 
+select SUBSTRING('wwww.gunuluaswdf.com', 5, 10) -- belli bir aralıktaki string'i alır
+												-- site ismini almak için kullanılabilir
