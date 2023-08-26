@@ -31,3 +31,7 @@ select PATINDEX('%a%', ProductName), ProductName from Products
 -- Matematiksel Fonksiyonlar
 select ABS(3) as sonuc -- mutlak değer
 select ABS(-3) as sonuc
+
+insert into [NORTHWND].[dbo].[Products](ProductName, UnitPrice, CategoryID, SupplierID)
+values (LOWER('TelEVizYon'), ABS(-1000), 4, 5)
+
