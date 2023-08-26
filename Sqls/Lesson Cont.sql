@@ -5,4 +5,4 @@ on E.EmployeeID = O.EmployeeID
 -------
 select ISDATE('2009-02-29') -- tarih geçerliğini kontrol etme
 
-select COALESCE(Address, phone, 'iletişim bilgisi yok')
+select COALESCE(Address, phone, 'iletişim bilgisi yok') from Customers
