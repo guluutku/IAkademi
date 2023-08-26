@@ -20,3 +20,14 @@ select REVERSE('wwww.gunluul.com') -- tersine çevirir
 
 select SUBSTRING('wwww.gunuluaswdf.com', 5, 10) -- belli bir aralıktaki string'i alır
 												-- site ismini almak için kullanılabilir
+select REPLACE('wwww.gunuluaswdf.com', 'aswdf', 'replace')
+---
+select STUFF('wwww.gunuluaswdf.com', 5, 10, 'STUFF')
+
+select CONCAT('Gün', 'uluutku') as [isim Soyisim]
+
+select PATINDEX('%a%', ProductName), ProductName from Products
+
+-- Matematiksel Fonksiyonlar
+select ABS(3) as sonuc -- mutlak değer
+select ABS(-3) as sonuc
