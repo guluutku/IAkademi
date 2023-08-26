@@ -11,3 +11,6 @@ select UPPER('www.GUNulu.Com') -- hepsini büyük karaktere dönüştürür
 insert into [NORTHWND].[dbo].[Products](ProductName, UnitPrice, CategoryID, SupplierID)
 values(LOWER('TeLeVizYOn'),1000, 4, 5)
 select * from [NORTHWND].[dbo].[Products] order by ProductID desc
+-----------------
+select LTRIM('            gu n     q') -- sol taraftaki boşluğu siler
+select RTRIM('            gu n     ') -- sağ taraftaki boşluğu siler
