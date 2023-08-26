@@ -81,3 +81,5 @@ select REPLACE(GETDATE(), ':', '')
 
 select DATENAME(DW, GETDATE()) -- günün ismi
 select DATENAME(D, GETDATE()) -- günün ay içindeki sayısı
+
+select DATEADD(DAY, 2, GETDATE()) -- 2 gün sonrasını verir
