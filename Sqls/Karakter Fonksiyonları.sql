@@ -68,3 +68,16 @@ select MONTH(GETDATE())
 select DAY(GETDATE())
 
 select FirstName, LastName, BirthDate, YEAR(GETDATE()) - YEAR(BirthDate) as YAŞ from Employees
+----- DATEPART
+select DATEPART(YEAR, GETDATE())
+select DATEPART(MONTH, GETDATE())
+select DATEPART(DAY, GETDATE())
+select DATEPART(HOUR, GETDATE())
+select DATEPART(MINUTE, GETDATE())
+select DATEPART(SECOND, GETDATE())
+select DATEPART(MILLISECOND, GETDATE())
+
+select REPLACE(GETDATE(), ':', '')
+
+select DATENAME(DW, GETDATE()) -- günün ismi
+select DATENAME(D, GETDATE()) -- günün ay içindeki sayısı
