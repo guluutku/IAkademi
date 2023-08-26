@@ -35,3 +35,25 @@ select ABS(-3) as sonuc
 insert into [NORTHWND].[dbo].[Products](ProductName, UnitPrice, CategoryID, SupplierID)
 values (LOWER('TelEVizYon'), ABS(-1000), 4, 5)
 
+select POWER(3, 2) -- üs alma
+select SQUARE(5) -- karesini alma
+select SQRT(9) -- karekök alma
+
+select ROUND(2345.2146, 2) -- Virgül sonrasında 2 karakter göster, sonraki karakterleri yuvarla
+select CEILING(2345.2146) -- yukarı yuvarla
+select FLOOR(2345.21445) -- aşağı yuvarla
+
+-- Positif mi negatif mi göster
+select SIGN(225.5)
+select SIGN(0)
+select SIGN(-225.5)
+
+select AVG(UnitPrice) as [ORTALAMA FİYAT] from Products -- verilen sayıların ortalaması alınır
+														-- ver tabanı içinde kullanım şekli
+select COUNT(*) as [ÜRÜN SAYISI] from Products where CategoryID = 4 -- veri tabanından veri sayısını al
+
+select MAX(UnitPrice) from Products
+select MIN(UnitPrice) from Products
+
+select SUM(Quantity) as ADEST from [Order Details] where tarih = GETDATE()
+select SUM(UnitsInStock) from Products
