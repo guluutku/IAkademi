@@ -12,3 +12,4 @@ FROM [Order Details] AS od
 INNER JOIN Products AS p
 ON od.ProductID = p.ProductID
 
+SELECT * FROM [Order Details]  WHERE OrderID = 10248 and ProductID = 2
