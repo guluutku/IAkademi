@@ -6,3 +6,9 @@ INSERT INTO [Order Details] VALUES
 SELECT * FROM [Order Details] AS od
 INNER JOIN Products AS p
 ON od.ProductID = p.ProductID
+
+SELECT od.OrderID, od.ProductID, p.UnitPrice, od.Quantity, od.Discount, p.UnitsInStock, p.ProductName
+FROM [Order Details] AS od
+INNER JOIN Products AS p
+ON od.ProductID = p.ProductID
+
