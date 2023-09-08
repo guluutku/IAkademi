@@ -59,3 +59,4 @@ END
 -- Delete example
 SELECT * FROM Tbl_Ogrenci
 DELETE FROM Tbl_Ogrenci WHERE OgrenciID = 1008 -- Girl student
+DELETE FROM Tbl_Ogrenci WHERE OgrenciID = 1 -- Boy student
