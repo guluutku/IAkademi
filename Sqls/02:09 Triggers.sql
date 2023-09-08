@@ -13,6 +13,7 @@ END
 INSERT INTO Tbl_Ogrenci 
 VALUES('Tuğberk', 'Koçoğlu', 'E', '1996-12-14', 1, 1)
 SELECT * FROM Tbl_Ogrenci
+UPDATE Tbl_Ogrenci SET Sinif = '10A'
 
 -- Disables trigger
 DISABLE TRIGGER trg_listele ON Tbl_Ogrenci
