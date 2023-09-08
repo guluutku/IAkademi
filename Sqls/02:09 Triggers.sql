@@ -43,3 +43,19 @@ BEGIN
             ROLLBACK TRANSACTION -- Reject action
         END
 END
+
+-- Don't delete girls from 10A classroom
+CREATE TRIGGER trg_10a_kiz_ogrenciler_silinemez ON Tbl_Ogrenci
+AFTER DELETE
+AS
+BEGIN
+    IF (exists(SELECT * FROM deleted WHERE Sinif = '10A' AND Cinsiyet = 'K'))
+        BEGIN
+            RAISERROR('10A Sınıfına Kız Öğrenci Kaydı Silinemez', 2, 1)
+            ROLLBACK TRANSACTION -- Reject action
+        END
+END
+
+-- Delete example
+SELECT * FROM Tbl_Ogrenci
+DELETE FROM Tbl_Ogrenci WHERE OgrenciID = 1008 -- Girl student
