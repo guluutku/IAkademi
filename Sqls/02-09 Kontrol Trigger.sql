@@ -19,3 +19,5 @@ BEGIN
         RAISERROR('Yeni sayfa sayyisi eskisinden az olamaz', 1, 1)
         ROLLBACK TRANSACTION
 END
+
+UPDATE Tbl_Kitap SET SayfaSayisi = 400 WHERE KitapID = 3
