@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace Ders35_Okul38Proje
 {
-    public partial class frmMenu : Form
+    public partial class frmOgrenciGiris : Form
     {
-        public frmMenu()
+        public frmOgrenciGiris()
         {
             InitializeComponent();
-        }
-
-        private void öĞRENCİGİRİŞFORMUToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            frmOgrenciGiris frmOgrenciGiris = new frmOgrenciGiris();
-            frmOgrenciGiris.Show();
         }
     }
 }
