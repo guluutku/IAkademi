@@ -63,6 +63,7 @@
             // txtAd
             // 
             this.txtAd.Location = new System.Drawing.Point(429, 97);
+            this.txtAd.MaxLength = 50;
             this.txtAd.Name = "txtAd";
             this.txtAd.Size = new System.Drawing.Size(183, 20);
             this.txtAd.TabIndex = 2;
