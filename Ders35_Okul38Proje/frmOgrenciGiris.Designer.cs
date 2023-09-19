@@ -129,6 +129,7 @@
             this.btnKayder.TabIndex = 9;
             this.btnKayder.Text = "KAYDET";
             this.btnKayder.UseVisualStyleBackColor = false;
+            this.btnKayder.Click += new System.EventHandler(this.btnKayder_Click);
             // 
             // frmOgrenciGiris
             // 
