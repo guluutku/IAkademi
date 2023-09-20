@@ -7,6 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using NTierDesign_KatmanliMimari.UI;
+using NTierDesign_KatmanliMimari.UI.Forms.Category;
+using NTierDesign_KatmanliMimari.UI.Forms.Product;
+using NTierDesign_KatmanliMimari.UI.Forms.Supplier;
 
 namespace NTierDesign_KatmanliMimari.UI
 {
@@ -15,6 +19,24 @@ namespace NTierDesign_KatmanliMimari.UI
         public FrmMenu()
         {
             InitializeComponent();
+        }
+
+        private void kATEGORİGİRİŞToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmKategoriInsert frmKategoriInsert = new FrmKategoriInsert();
+            frmKategoriInsert.ShowDialog();
+        }
+
+        private void mARKAGİRİŞToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmSupplierInsert frmSupplierInsert = new FrmSupplierInsert();
+            frmSupplierInsert.ShowDialog();
+        }
+
+        private void üRÜNGİRİŞToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmUrunInsert frmUrunInsert = new FrmUrunInsert();
+            frmUrunInsert.Show();
         }
     }
 }

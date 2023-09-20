@@ -1,0 +1,6 @@
+D:\Projeler\IAkademi\NTierDesign_KatmanliMimari\NTierDesign_KatmanliMimari.DataLayer\bin\Debug\NTierDesign_KatmanliMimari.DataLayer.dll
+D:\Projeler\IAkademi\NTierDesign_KatmanliMimari\NTierDesign_KatmanliMimari.DataLayer\bin\Debug\NTierDesign_KatmanliMimari.DataLayer.pdb
+D:\Projeler\IAkademi\NTierDesign_KatmanliMimari\NTierDesign_KatmanliMimari.DataLayer\obj\Debug\NTierDesign_KatmanliMimari.DataLayer.csproj.AssemblyReference.cache
+D:\Projeler\IAkademi\NTierDesign_KatmanliMimari\NTierDesign_KatmanliMimari.DataLayer\obj\Debug\NTierDesign_KatmanliMimari.DataLayer.csproj.CoreCompileInputs.cache
+D:\Projeler\IAkademi\NTierDesign_KatmanliMimari\NTierDesign_KatmanliMimari.DataLayer\obj\Debug\NTierDesign_KatmanliMimari.DataLayer.dll
+D:\Projeler\IAkademi\NTierDesign_KatmanliMimari\NTierDesign_KatmanliMimari.DataLayer\obj\Debug\NTierDesign_KatmanliMimari.DataLayer.pdb
