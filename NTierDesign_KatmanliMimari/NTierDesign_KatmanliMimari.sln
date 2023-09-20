@@ -5,6 +5,12 @@ VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTierDesign_KatmanliMimari.UI", "NTierDesign_KatmanliMimari.UI\NTierDesign_KatmanliMimari.UI.csproj", "{68E0B66B-C243-47A1-9757-029399F7381A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTierDesign_KatmanliMimari.BusinessLayer", "NTierDesign_KatmanliMimari.BusinessLayer\NTierDesign_KatmanliMimari.BusinessLayer.csproj", "{70DE42B7-1EB3-495E-BCA8-B7ACC5EB472B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTierDesign_KatmanliMimari.DataLayer", "NTierDesign_KatmanliMimari.DataLayer\NTierDesign_KatmanliMimari.DataLayer.csproj", "{8ACB0EAA-2FCB-4726-A2B5-BCE112EA4AAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTierDesign_KatmanliMimari.TypeLayer", "NTierDesign_KatmanliMimari.TypeLayer\NTierDesign_KatmanliMimari.TypeLayer.csproj", "{06FD159E-9A78-456C-9DE2-FE48FF3D59EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{68E0B66B-C243-47A1-9757-029399F7381A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68E0B66B-C243-47A1-9757-029399F7381A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68E0B66B-C243-47A1-9757-029399F7381A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70DE42B7-1EB3-495E-BCA8-B7ACC5EB472B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70DE42B7-1EB3-495E-BCA8-B7ACC5EB472B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70DE42B7-1EB3-495E-BCA8-B7ACC5EB472B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70DE42B7-1EB3-495E-BCA8-B7ACC5EB472B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ACB0EAA-2FCB-4726-A2B5-BCE112EA4AAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ACB0EAA-2FCB-4726-A2B5-BCE112EA4AAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ACB0EAA-2FCB-4726-A2B5-BCE112EA4AAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ACB0EAA-2FCB-4726-A2B5-BCE112EA4AAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06FD159E-9A78-456C-9DE2-FE48FF3D59EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06FD159E-9A78-456C-9DE2-FE48FF3D59EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06FD159E-9A78-456C-9DE2-FE48FF3D59EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06FD159E-9A78-456C-9DE2-FE48FF3D59EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

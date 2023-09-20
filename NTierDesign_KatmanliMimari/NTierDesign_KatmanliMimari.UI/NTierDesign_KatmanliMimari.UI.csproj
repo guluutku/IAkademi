@@ -46,11 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Forms\Product\FrmUrunInsert.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Forms\Product\FrmUrunInsert.Designer.cs">
+      <DependentUpon>FrmUrunInsert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMenu.Designer.cs">
+      <DependentUpon>FrmMenu.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -75,6 +81,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NTierDesign_KatmanliMimari.BusinessLayer\NTierDesign_KatmanliMimari.BusinessLayer.csproj">
+      <Project>{70de42b7-1eb3-495e-bca8-b7acc5eb472b}</Project>
+      <Name>NTierDesign_KatmanliMimari.BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NTierDesign_KatmanliMimari.DataLayer\NTierDesign_KatmanliMimari.DataLayer.csproj">
+      <Project>{8acb0eaa-2fcb-4726-a2b5-bce112ea4aad}</Project>
+      <Name>NTierDesign_KatmanliMimari.DataLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NTierDesign_KatmanliMimari.TypeLayer\NTierDesign_KatmanliMimari.TypeLayer.csproj">
+      <Project>{06fd159e-9a78-456c-9de2-fe48ff3d59ea}</Project>
+      <Name>NTierDesign_KatmanliMimari.TypeLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Forms\Category\" />
+    <Folder Include="Forms\Supplier\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
