@@ -18,3 +18,4 @@ D:\Projeler\IAkademi\NTierDesign_KatmanliMimari\NTierDesign_KatmanliMimari.UI\ob
 D:\Projeler\IAkademi\NTierDesign_KatmanliMimari\NTierDesign_KatmanliMimari.UI\obj\Debug\NTierDesign_KatmanliMimari.UI.Forms.Category.FrmKategoriInsert.resources
 D:\Projeler\IAkademi\NTierDesign_KatmanliMimari\NTierDesign_KatmanliMimari.UI\obj\Debug\NTierDesign_KatmanliMimari.UI.Forms.Supplier.FrmSupplierInsert.resources
 D:\Projeler\IAkademi\NTierDesign_KatmanliMimari\NTierDesign_KatmanliMimari.UI\obj\Debug\NTierDesign_KatmanliMimari.UI.Forms.Product.FrmUrunInsert.resources
+D:\Projeler\IAkademi\NTierDesign_KatmanliMimari\NTierDesign_KatmanliMimari.UI\obj\Debug\NTierDesign_KatmanliMimari.UI.Forms.Category.FrmKategoriSelect.resources
