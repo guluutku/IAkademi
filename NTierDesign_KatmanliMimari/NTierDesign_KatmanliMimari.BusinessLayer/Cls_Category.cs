@@ -37,7 +37,7 @@ namespace NTierDesign_KatmanliMimari.BusinessLayer
             {
                 SqlConnection sqlCon = Connection.baglanti;
                 SqlCommand command = new SqlCommand
-                    ("SELECT CategoryID, CategoryName, Description FROM Categories", sqlCon);
+                    ("SELECT * FROM vw_kategori_kismi_listesi", sqlCon);
                
                 sqlCon.Open();
 

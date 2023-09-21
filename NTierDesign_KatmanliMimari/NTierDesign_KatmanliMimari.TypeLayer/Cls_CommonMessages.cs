@@ -16,15 +16,15 @@ namespace NTierDesign_KatmanliMimari.TypeLayer
             {
                 if (CRUD == "insert")
                 {
-                    result = tabbleName + " tablo başarıyla eklendi";
+                    result = tabbleName + " tablosuna başarıyla eklendi";
                 }
                 else if (CRUD == "delete")
                 {
-                    result = tabbleName + " tablo başarıyla silinidi";
+                    result = tabbleName + " tablosundan başarıyla silinidi";
                 }
                 else if (CRUD == "update")
                 {
-                    result = tabbleName + " tablo başarıyla güncellendi";
+                    result = tabbleName + " tablosu başarıyla güncellendi";
                 }
                 else
                 {
@@ -35,15 +35,15 @@ namespace NTierDesign_KatmanliMimari.TypeLayer
             {
                 if (CRUD == "insert")
                 {
-                    result = tabbleName + " tabloya ekleme başarısız";
+                    result = tabbleName + " tablosuna ekleme başarısız";
                 }
                 else if (CRUD == "delete")
                 {
-                    result = tabbleName + " tabloyu silme başarısız";
+                    result = tabbleName + " tablosundan silme başarısız";
                 }
                 else if (CRUD == "update")
                 {
-                    result = tabbleName + " tabloyu güncelleme başarısız";
+                    result = tabbleName + " tablosunu güncelleme başarısız";
                 }
                 else
                 {

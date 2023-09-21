@@ -52,6 +52,7 @@
             this.btnSave.TabIndex = 17;
             this.btnSave.Text = "KAYDET";
             this.btnSave.UseVisualStyleBackColor = false;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // txt_UnitPrice
             // 

@@ -35,6 +35,7 @@
             this.mARKAGİRİŞToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.üRÜNToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.üRÜNGİRİŞToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.kATEGORİLİSTELEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -53,7 +54,8 @@
             // kATEGORİToolStripMenuItem
             // 
             this.kATEGORİToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.kATEGORİGİRİŞToolStripMenuItem});
+            this.kATEGORİGİRİŞToolStripMenuItem,
+            this.kATEGORİLİSTELEToolStripMenuItem});
             this.kATEGORİToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 20F);
             this.kATEGORİToolStripMenuItem.Name = "kATEGORİToolStripMenuItem";
             this.kATEGORİToolStripMenuItem.Size = new System.Drawing.Size(150, 41);
@@ -62,8 +64,8 @@
             // kATEGORİGİRİŞToolStripMenuItem
             // 
             this.kATEGORİGİRİŞToolStripMenuItem.Name = "kATEGORİGİRİŞToolStripMenuItem";
-            this.kATEGORİGİRİŞToolStripMenuItem.Size = new System.Drawing.Size(285, 42);
-            this.kATEGORİGİRİŞToolStripMenuItem.Text = "KATEGORİ GİRİŞ";
+            this.kATEGORİGİRİŞToolStripMenuItem.Size = new System.Drawing.Size(183, 42);
+            this.kATEGORİGİRİŞToolStripMenuItem.Text = "GİRİŞ";
             this.kATEGORİGİRİŞToolStripMenuItem.Click += new System.EventHandler(this.kATEGORİGİRİŞToolStripMenuItem_Click);
             // 
             // mARKAToolStripMenuItem
@@ -94,9 +96,18 @@
             // üRÜNGİRİŞToolStripMenuItem
             // 
             this.üRÜNGİRİŞToolStripMenuItem.Name = "üRÜNGİRİŞToolStripMenuItem";
-            this.üRÜNGİRİŞToolStripMenuItem.Size = new System.Drawing.Size(238, 42);
+            this.üRÜNGİRİŞToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
+            | System.Windows.Forms.Keys.U)));
+            this.üRÜNGİRİŞToolStripMenuItem.Size = new System.Drawing.Size(405, 42);
             this.üRÜNGİRİŞToolStripMenuItem.Text = "ÜRÜN GİRİŞ";
             this.üRÜNGİRİŞToolStripMenuItem.Click += new System.EventHandler(this.üRÜNGİRİŞToolStripMenuItem_Click);
+            // 
+            // kATEGORİLİSTELEToolStripMenuItem
+            // 
+            this.kATEGORİLİSTELEToolStripMenuItem.Name = "kATEGORİLİSTELEToolStripMenuItem";
+            this.kATEGORİLİSTELEToolStripMenuItem.Size = new System.Drawing.Size(183, 42);
+            this.kATEGORİLİSTELEToolStripMenuItem.Text = "LİSTELE";
+            this.kATEGORİLİSTELEToolStripMenuItem.Click += new System.EventHandler(this.kATEGORİLİSTELEToolStripMenuItem_Click);
             // 
             // FrmMenu
             // 
@@ -123,5 +134,6 @@
         private System.Windows.Forms.ToolStripMenuItem mARKAGİRİŞToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem üRÜNToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem üRÜNGİRİŞToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem kATEGORİLİSTELEToolStripMenuItem;
     }
 }

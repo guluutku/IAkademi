@@ -38,5 +38,11 @@ namespace NTierDesign_KatmanliMimari.UI
             FrmUrunInsert frmUrunInsert = new FrmUrunInsert();
             frmUrunInsert.Show();
         }
+
+        private void kATEGORİLİSTELEToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmKategoriSelect frmKategoriSelect = new FrmKategoriSelect();
+            frmKategoriSelect.ShowDialog();
+        }
     }
 }
