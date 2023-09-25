@@ -104,7 +104,7 @@ namespace NTierDesign_KatmanliMimari.BusinessLayer
             }
             else if (chosenSort == "MARKA")
             {
-                query = "SupplierName";
+                query = "CompanyName";
             }
 
             try
