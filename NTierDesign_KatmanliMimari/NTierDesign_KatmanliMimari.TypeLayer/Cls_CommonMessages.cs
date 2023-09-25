@@ -53,5 +53,6 @@ namespace NTierDesign_KatmanliMimari.TypeLayer
             return result;
         }
 
+        public static string liste_secim_yapilmadi = "Listeden seçim yapılmadı";
     }
 }

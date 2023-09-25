@@ -40,5 +40,22 @@ namespace NTierDesign_KatmanliMimari.BusinessLayer
                 return false;
             }
         }
+
+        public SqlDataReader SelectByProductName() 
+        {
+            try
+            {
+                SqlConnection sqlCon = Connection.baglanti;
+                SqlCommand sqlCmd = new SqlCommand("SELECT * FROM vw_urun_listele", sqlCon);
+                sqlCon.Open();
+                SqlDataReader sdr = sqlCmd.ExecuteReader();
+                return sdr;
+
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+        }
     }
 }

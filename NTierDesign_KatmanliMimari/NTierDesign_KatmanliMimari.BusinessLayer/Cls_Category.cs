@@ -10,6 +10,11 @@ namespace NTierDesign_KatmanliMimari.BusinessLayer
 {
     public class Cls_Category
     {
+
+        public int CategoryID { get; set; }
+        public string CategoryName { get; set; }
+        public string CategoryDescription { get; set; }
+
         public static bool Save(string CategoryName, string Description)
         {
             try
@@ -48,6 +53,70 @@ namespace NTierDesign_KatmanliMimari.BusinessLayer
             catch (Exception ex)
             {
                 return null;
+            }
+        }
+
+        public SqlDataReader SearchByCategoryName(string CategoryName)
+        {
+            try
+            {
+                SqlConnection sqlCon = Connection.baglanti;
+                SqlCommand command = new SqlCommand
+                    ("select * from Categories where CategoryName like '%"+ CategoryName +"%'", sqlCon);
+
+                sqlCon.Open();
+
+                SqlDataReader sdr = command.ExecuteReader();
+
+                return sdr;
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+        }
+
+        public bool Update()
+        {
+            try
+            {
+                SqlConnection sqlCon = Connection.baglanti;
+                SqlCommand sqlCmd = new SqlCommand("sp_category_update", sqlCon);
+                sqlCmd.CommandType = System.Data.CommandType.StoredProcedure;
+
+                sqlCmd.Parameters.AddWithValue("@CategoryName", CategoryName);
+                sqlCmd.Parameters.AddWithValue("@Description", CategoryDescription );
+                sqlCmd.Parameters.AddWithValue("@CategoryID", CategoryID);
+                
+                sqlCon.Open();
+                sqlCmd.ExecuteNonQuery();
+                sqlCon.Close();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
+
+        public bool Delete()
+        {
+            try
+            {
+                SqlConnection sqlCon = Connection.baglanti;
+                SqlCommand sqlCmd = new SqlCommand("sp_category_delete", sqlCon);
+                sqlCmd.CommandType = System.Data.CommandType.StoredProcedure;
+
+                sqlCmd.Parameters.AddWithValue("@CategoryID", CategoryID);
+
+                sqlCon.Open();
+                sqlCmd.ExecuteNonQuery();
+                sqlCon.Close();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
             }
         }
     }

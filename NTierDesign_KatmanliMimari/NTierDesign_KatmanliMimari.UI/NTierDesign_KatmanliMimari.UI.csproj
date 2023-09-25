@@ -64,6 +64,12 @@
     <Compile Include="Forms\Product\FrmUrunInsert.Designer.cs">
       <DependentUpon>FrmUrunInsert.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Product\FrmUrunListele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Product\FrmUrunListele.Designer.cs">
+      <DependentUpon>FrmUrunListele.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Supplier\FrmSupplierInsert.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +92,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Product\FrmUrunInsert.resx">
       <DependentUpon>FrmUrunInsert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Product\FrmUrunListele.resx">
+      <DependentUpon>FrmUrunListele.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Supplier\FrmSupplierInsert.resx">
       <DependentUpon>FrmSupplierInsert.cs</DependentUpon>
