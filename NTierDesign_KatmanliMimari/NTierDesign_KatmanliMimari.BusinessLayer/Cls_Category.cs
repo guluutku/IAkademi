@@ -20,11 +20,12 @@ namespace NTierDesign_KatmanliMimari.BusinessLayer
             try
             {
                 SqlConnection sqlCon = Connection.baglanti;
-                SqlCommand command = new SqlCommand
-                    ("insert into Categories(CategoryName, Description)" +
-                    "\r\nvalues(@CategoryName, @Description)", sqlCon);
+                SqlCommand command = new SqlCommand("sp_category_insert", sqlCon);
+                command.CommandType = System.Data.CommandType.StoredProcedure;
+
                 command.Parameters.AddWithValue("@CategoryName", CategoryName);
                 command.Parameters.AddWithValue("@Description", Description);
+
                 sqlCon.Open();
                 command.ExecuteNonQuery();
                 sqlCon.Close();

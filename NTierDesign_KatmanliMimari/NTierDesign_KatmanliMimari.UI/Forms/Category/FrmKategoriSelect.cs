@@ -47,7 +47,12 @@ namespace NTierDesign_KatmanliMimari.UI.Forms.Category
 
         private void txt_search_KeyUp(object sender, KeyEventArgs e)
         {
-            SqlDataReader sqlDataReader = cls_Category.SearchByCategoryName(txt_search.Text);
+            SearchByCategoryName(txt_search.Text);
+        }
+
+        void SearchByCategoryName(String categoryName)
+        {
+            SqlDataReader sqlDataReader = cls_Category.SearchByCategoryName(categoryName);
 
             lst_categoryList.Items.Clear();
 
