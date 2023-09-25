@@ -29,23 +29,28 @@ namespace NTierDesign_KatmanliMimari.UI.Forms.Product
             FillSortCombobox();
         }
 
-        void FillProductList()
+        void ReCreateList(SqlDataReader reader) 
         {
-            SqlDataReader sdr = cls_Product.SelectByProductName();
             lst_productList.Items.Clear();
 
-            while (sdr.Read())
+            while (reader.Read())
             {
                 ListViewItem listViewItem = new ListViewItem();
-                listViewItem.Text = sdr[0].ToString();
-                listViewItem.SubItems.Add(sdr[1].ToString());
-                listViewItem.SubItems.Add(sdr[2].ToString());
-                listViewItem.SubItems.Add(sdr[3].ToString());
-                listViewItem.SubItems.Add(sdr[4].ToString());
-                listViewItem.SubItems.Add(sdr[5].ToString());
+                listViewItem.Text = reader[0].ToString();
+                listViewItem.SubItems.Add(reader[1].ToString());
+                listViewItem.SubItems.Add(reader[2].ToString());
+                listViewItem.SubItems.Add(reader[3].ToString());
+                listViewItem.SubItems.Add(reader[4].ToString());
+                listViewItem.SubItems.Add(reader[5].ToString());
 
                 lst_productList.Items.Add(listViewItem);
             }
+        }
+
+        void FillProductList()
+        {
+            SqlDataReader sdr = cls_Product.SelectByProductName();
+            ReCreateList(sdr);
         }
 
         void FillSortCombobox()
@@ -61,21 +66,7 @@ namespace NTierDesign_KatmanliMimari.UI.Forms.Product
         void SearchByProductName(string productName)
         {
             SqlDataReader sdr = cls_Product.SearchByProductName(productName);
-            lst_productList.Items.Clear();
-
-            while (sdr.Read())
-            {
-                ListViewItem listViewItem = new ListViewItem();
-
-                listViewItem.Text = sdr[0].ToString();
-                listViewItem.SubItems.Add(sdr[1].ToString());
-                listViewItem.SubItems.Add(sdr[2].ToString());
-                listViewItem.SubItems.Add(sdr[3].ToString());
-                listViewItem.SubItems.Add(sdr[4].ToString());
-                listViewItem.SubItems.Add(sdr[5].ToString());
-
-                lst_productList.Items.Add(listViewItem);
-            }
+            ReCreateList(sdr);
         }
 
         private void txt_search_KeyUp(object sender, KeyEventArgs e)
@@ -86,22 +77,8 @@ namespace NTierDesign_KatmanliMimari.UI.Forms.Product
         private void cmb_Sort_SelectedIndexChanged(object sender, EventArgs e)
         {
             string SearchName = cmb_Sort.SelectedItem.ToString();
-            SqlDataReader sdr = cls_Product.SortBy(SearchName);
-            lst_productList.Items.Clear();
-
-            while (sdr.Read())
-            {
-                ListViewItem listViewItem = new ListViewItem();
-
-                listViewItem.Text = sdr[0].ToString();
-                listViewItem.SubItems.Add(sdr[1].ToString());
-                listViewItem.SubItems.Add(sdr[2].ToString());
-                listViewItem.SubItems.Add(sdr[3].ToString());
-                listViewItem.SubItems.Add(sdr[4].ToString());
-                listViewItem.SubItems.Add(sdr[5].ToString());
-
-                lst_productList.Items.Add(listViewItem);
-            }
+            SqlDataReader sdr = cls_Product.SortBy(SearchName, txt_search.Text);
+            ReCreateList(sdr);
         }
     }
 }
