@@ -39,7 +39,7 @@
             this.clmHCategoryName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columclmHSuppliername = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.label3 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cmb_Sort = new System.Windows.Forms.ComboBox();
             this.txt_urunAdi = new System.Windows.Forms.TextBox();
             this.txt_fiyat = new System.Windows.Forms.TextBox();
             this.txt_stok = new System.Windows.Forms.TextBox();
@@ -98,7 +98,6 @@
             this.lst_productList.TabIndex = 4;
             this.lst_productList.UseCompatibleStateImageBehavior = false;
             this.lst_productList.View = System.Windows.Forms.View.Details;
-            this.lst_productList.Click += new System.EventHandler(this.lst_productList_Click);
             // 
             // clmHProductID
             // 
@@ -139,13 +138,14 @@
             this.label3.TabIndex = 8;
             this.label3.Text = "SIRALAMA";
             // 
-            // comboBox1
+            // cmb_Sort
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(765, 100);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(196, 21);
-            this.comboBox1.TabIndex = 9;
+            this.cmb_Sort.FormattingEnabled = true;
+            this.cmb_Sort.Location = new System.Drawing.Point(765, 100);
+            this.cmb_Sort.Name = "cmb_Sort";
+            this.cmb_Sort.Size = new System.Drawing.Size(196, 21);
+            this.cmb_Sort.TabIndex = 9;
+            this.cmb_Sort.SelectedIndexChanged += new System.EventHandler(this.cmb_Sort_SelectedIndexChanged);
             // 
             // txt_urunAdi
             // 
@@ -220,7 +220,7 @@
             this.Controls.Add(this.txt_stok);
             this.Controls.Add(this.txt_fiyat);
             this.Controls.Add(this.txt_urunAdi);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cmb_Sort);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txt_search);
             this.Controls.Add(this.label2);
@@ -247,7 +247,7 @@
         private System.Windows.Forms.ColumnHeader clmHCategoryName;
         private System.Windows.Forms.ColumnHeader columclmHSuppliername;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cmb_Sort;
         private System.Windows.Forms.TextBox txt_urunAdi;
         private System.Windows.Forms.TextBox txt_fiyat;
         private System.Windows.Forms.TextBox txt_stok;

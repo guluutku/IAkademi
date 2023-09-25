@@ -77,5 +77,52 @@ namespace NTierDesign_KatmanliMimari.BusinessLayer
                 return null;
             }
         }
+
+        public SqlDataReader SortBy(string chosenSort)
+        {
+            string query = "";
+
+            if(chosenSort == "ID")
+            {
+                query = "ProductID";
+            }
+            else if (chosenSort == "AD")
+            {
+                query = "ProductName";
+            }
+            else if (chosenSort == "FİYAT")
+            {
+                query = "UnitPrice";
+            }
+            else if (chosenSort == "STOK")
+            {
+                query = "UnitsInStock";
+            }
+            else if (chosenSort == "KATEGORİ")
+            {
+                query = "CategoryName";
+            }
+            else if (chosenSort == "MARKA")
+            {
+                query = "SupplierName";
+            }
+
+            try
+            {
+                SqlConnection sqlCon = Connection.baglanti;
+                SqlCommand command = new SqlCommand
+                    ("SELECT p.ProductID, p.ProductName, p.UnitPrice, p.UnitsInStock, c.CategoryName, s.CompanyName from Products as p INNER JOIN Categories as c on p.CategoryID = c.CategoryID INNER JOIN Suppliers as s on s.SupplierID = p.SupplierID order by " + query, sqlCon);
+
+                sqlCon.Open();
+
+                SqlDataReader sdr = command.ExecuteReader();
+
+                return sdr;
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+        }
     }
 }
