@@ -64,7 +64,7 @@ namespace NTierDesign_KatmanliMimari.BusinessLayer
             {
                 SqlConnection sqlCon = Connection.baglanti;
                 SqlCommand command = new SqlCommand
-                    ("select * from Products where ProductName like '%" + ProductName + "%'", sqlCon);
+                    ("SELECT\r\np.ProductID, p.ProductName, p.UnitPrice, p.UnitsInStock,\r\nc.CategoryName, s.CompanyName\r\nfrom\r\nProducts as p\r\nINNER JOIN Categories as c\r\non p.CategoryID = c.CategoryID\r\nINNER JOIN Suppliers as s\r\non s.SupplierID = p.SupplierID\r\nwhere p.ProductName like '%" + ProductName + "%'", sqlCon);
 
                 sqlCon.Open();
 
