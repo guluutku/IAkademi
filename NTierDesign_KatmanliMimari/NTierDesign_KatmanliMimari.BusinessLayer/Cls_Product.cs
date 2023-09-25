@@ -78,7 +78,7 @@ namespace NTierDesign_KatmanliMimari.BusinessLayer
             }
         }
 
-        public SqlDataReader SortBy(string chosenSort)
+        public SqlDataReader SortBy(string chosenSort, string productName)
         {
             string query = "";
 
@@ -110,9 +110,19 @@ namespace NTierDesign_KatmanliMimari.BusinessLayer
             try
             {
                 SqlConnection sqlCon = Connection.baglanti;
-                SqlCommand command = new SqlCommand
-                    ("SELECT p.ProductID, p.ProductName, p.UnitPrice, p.UnitsInStock, c.CategoryName, s.CompanyName from Products as p INNER JOIN Categories as c on p.CategoryID = c.CategoryID INNER JOIN Suppliers as s on s.SupplierID = p.SupplierID order by " + query, sqlCon);
+                SqlCommand command;
 
+                if (productName == "")
+                {
+                    command = new SqlCommand
+                    ("SELECT p.ProductID, p.ProductName, p.UnitPrice, p.UnitsInStock, c.CategoryName, s.CompanyName from Products as p INNER JOIN Categories as c on p.CategoryID = c.CategoryID INNER JOIN Suppliers as s on s.SupplierID = p.SupplierID order by " + query, sqlCon);
+                }
+                else
+                {
+                    command = new SqlCommand
+                    ("SELECT p.ProductID, p.ProductName, p.UnitPrice, p.UnitsInStock, c.CategoryName, s.CompanyName from Products as p INNER JOIN Categories as c on p.CategoryID = c.CategoryID INNER JOIN Suppliers as s on s.SupplierID = p.SupplierID WHERE ProductName LIKE '%" + productName + "%' order by " + query, sqlCon);
+                }
+                
                 sqlCon.Open();
 
                 SqlDataReader sdr = command.ExecuteReader();
