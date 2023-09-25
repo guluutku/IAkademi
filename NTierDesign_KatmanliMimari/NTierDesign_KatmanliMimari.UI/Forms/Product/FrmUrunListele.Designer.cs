@@ -98,6 +98,7 @@
             this.lst_productList.TabIndex = 4;
             this.lst_productList.UseCompatibleStateImageBehavior = false;
             this.lst_productList.View = System.Windows.Forms.View.Details;
+            this.lst_productList.Click += new System.EventHandler(this.lst_productList_Click);
             // 
             // clmHProductID
             // 
@@ -196,6 +197,7 @@
             this.btn_delete.TabIndex = 16;
             this.btn_delete.Text = "SİL";
             this.btn_delete.UseVisualStyleBackColor = true;
+            this.btn_delete.Click += new System.EventHandler(this.btn_delete_Click);
             // 
             // btn_update
             // 
@@ -206,6 +208,7 @@
             this.btn_update.TabIndex = 15;
             this.btn_update.Text = "GÜNCELLE";
             this.btn_update.UseVisualStyleBackColor = true;
+            this.btn_update.Click += new System.EventHandler(this.btn_update_Click);
             // 
             // FrmUrunListele
             // 

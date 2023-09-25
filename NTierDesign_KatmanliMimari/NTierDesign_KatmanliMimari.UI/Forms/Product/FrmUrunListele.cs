@@ -1,4 +1,5 @@
 ﻿using NTierDesign_KatmanliMimari.BusinessLayer;
+using NTierDesign_KatmanliMimari.TypeLayer;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -27,6 +28,13 @@ namespace NTierDesign_KatmanliMimari.UI.Forms.Product
         {
             FillProductList();
             FillSortCombobox();
+            FillCategoryCombobox();
+            FillSupplierCombobox();
+        }
+
+        void clear()
+        {
+            txt_urunAdi.Text = txt_fiyat.Text = txt_stok.Text = "";
         }
 
         void ReCreateList(SqlDataReader reader) 
@@ -79,6 +87,86 @@ namespace NTierDesign_KatmanliMimari.UI.Forms.Product
             string SearchName = cmb_Sort.SelectedItem.ToString();
             SqlDataReader sdr = cls_Product.SortBy(SearchName, txt_search.Text);
             ReCreateList(sdr);
+        }
+
+        private void lst_productList_Click(object sender, EventArgs e)
+        {
+            listViewID = Convert.ToInt32(lst_productList.FocusedItem.SubItems[0].Text);
+            txt_urunAdi.Text = lst_productList.FocusedItem.SubItems[1].Text;
+            txt_fiyat.Text = lst_productList.FocusedItem.SubItems[2].Text;
+            txt_stok.Text = lst_productList.FocusedItem.SubItems[3].Text;
+            cmb_kategoriAdi.Text = lst_productList.FocusedItem.SubItems[4].Text;
+            cmb_markaAdi.Text = lst_productList.FocusedItem.SubItems[5].Text;
+        }
+
+        private void btn_update_Click(object sender, EventArgs e)
+        {
+            string message;
+            if (listViewID == 0)
+            {
+                message = Cls_CommonMessages.liste_secim_yapilmadi;
+                MessageBox.Show(message);
+                return;
+            }
+
+            cls_Product.ProductID = listViewID;
+            cls_Product.ProductName = txt_urunAdi.Text;
+            cls_Product.UnitPrice = Convert.ToDecimal(txt_fiyat.Text);
+            cls_Product.UnitsInStock = Convert.ToInt32(txt_stok.Text);
+            cls_Product.CategoryID = cmb_kategoriAdi.SelectedIndex + 1;
+            cls_Product.SupplierID = cmb_markaAdi.SelectedIndex + 1;
+
+            bool result = cls_Product.Update();
+            if (result)
+            {
+                FillProductList();
+            }
+            message = Cls_CommonMessages.Common_Message_Method("Products", result, "update");
+            MessageBox.Show(message);
+            clear();
+        }
+
+        void FillCategoryCombobox()
+        {
+            Cls_Category cls_Category = new Cls_Category();
+            SqlDataReader sdr = cls_Category.SelectByCategoryName();
+
+            while (sdr.Read())
+            {
+                cmb_kategoriAdi.Items.Add(sdr["CategoryName"]);
+            }
+        }
+
+        void FillSupplierCombobox()
+        {
+            Cls_Supplier cls_Supplier = new Cls_Supplier();
+            SqlDataReader sdr = cls_Supplier.SelectBySupplierName();
+
+            while (sdr.Read())
+            {
+                cmb_markaAdi.Items.Add(sdr["CompanyName"]);
+            }
+        }
+
+        private void btn_delete_Click(object sender, EventArgs e)
+        {
+            string message;
+            if (listViewID == 0)
+            {
+                message = Cls_CommonMessages.liste_secim_yapilmadi;
+                MessageBox.Show(message);
+                return;
+            }
+            cls_Product.ProductID = listViewID;
+
+            bool result = cls_Product.Delete();
+            if (result)
+            {
+                FillProductList();
+            }
+            message = Cls_CommonMessages.Common_Message_Method("Categories", result, "delete");
+            MessageBox.Show(message);
+            clear();
         }
     }
 }

@@ -13,6 +13,7 @@ namespace NTierDesign_KatmanliMimari.BusinessLayer
         public string ProductName { get; set; }
         public int UnitsInStock { get; set; }
         public decimal UnitPrice { get; set; }
+        public int ProductID { get; set; }
         public int CategoryID { get; set; }
         public int SupplierID { get; set; }
 
@@ -132,6 +133,53 @@ namespace NTierDesign_KatmanliMimari.BusinessLayer
             catch (Exception ex)
             {
                 return null;
+            }
+        }
+
+        public bool Update()
+        {
+            try
+            {
+                SqlConnection sqlCon = Connection.baglanti;
+                SqlCommand sqlCmd = new SqlCommand("sp_urun_update", sqlCon);
+                sqlCmd.CommandType = System.Data.CommandType.StoredProcedure;
+
+                sqlCmd.Parameters.AddWithValue("@ProductName", ProductName);
+                sqlCmd.Parameters.AddWithValue("@UnitPrice", UnitPrice);
+                sqlCmd.Parameters.AddWithValue("@UnitsInStock", UnitsInStock);
+                sqlCmd.Parameters.AddWithValue("@CategoryID", CategoryID);
+                sqlCmd.Parameters.AddWithValue("@SupplierID", SupplierID);
+                sqlCmd.Parameters.AddWithValue("@ProductID", ProductID);
+
+                sqlCon.Open();
+                sqlCmd.ExecuteNonQuery();
+                sqlCon.Close();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
+
+        public bool Delete()
+        {
+            try
+            {
+                SqlConnection sqlCon = Connection.baglanti;
+                SqlCommand sqlCmd = new SqlCommand("sp_product_delete", sqlCon);
+                sqlCmd.CommandType = System.Data.CommandType.StoredProcedure;
+
+                sqlCmd.Parameters.AddWithValue("@ProductID", ProductID);
+
+                sqlCon.Open();
+                sqlCmd.ExecuteNonQuery();
+                sqlCon.Close();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
             }
         }
     }
