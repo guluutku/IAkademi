@@ -46,11 +46,31 @@ namespace NTierDesign_KatmanliMimari.BusinessLayer
             try
             {
                 SqlConnection sqlCon = Connection.baglanti;
-                SqlCommand sqlCmd = new SqlCommand("SELECT * FROM vw_urun_listele", sqlCon);
+                SqlCommand sqlCmd = new SqlCommand("SELECT * FROM vw_urunleri_listele", sqlCon);
                 sqlCon.Open();
                 SqlDataReader sdr = sqlCmd.ExecuteReader();
                 return sdr;
 
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+        }
+
+        public SqlDataReader SearchByProductName(string ProductName)
+        {
+            try
+            {
+                SqlConnection sqlCon = Connection.baglanti;
+                SqlCommand command = new SqlCommand
+                    ("select * from Products where ProductName like '%" + ProductName + "%'", sqlCon);
+
+                sqlCon.Open();
+
+                SqlDataReader sdr = command.ExecuteReader();
+
+                return sdr;
             }
             catch (Exception ex)
             {

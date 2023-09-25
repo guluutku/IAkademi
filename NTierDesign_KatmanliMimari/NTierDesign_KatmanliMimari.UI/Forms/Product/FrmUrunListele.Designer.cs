@@ -56,6 +56,7 @@
             this.txt_search.Name = "txt_search";
             this.txt_search.Size = new System.Drawing.Size(196, 23);
             this.txt_search.TabIndex = 7;
+            this.txt_search.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txt_search_KeyUp);
             // 
             // label2
             // 
@@ -227,6 +228,7 @@
             this.Controls.Add(this.lst_productList);
             this.Name = "FrmUrunListele";
             this.Text = "FrmUrunListele";
+            this.Load += new System.EventHandler(this.FrmUrunListele_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
