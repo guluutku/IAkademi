@@ -16,5 +16,24 @@ namespace Ders37_EntityFrameWork
         {
             InitializeComponent();
         }
+
+        NORTHWNDEntities context = new NORTHWNDEntities();
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            FillCategoryCombobox();
+        }
+
+        void FillCategoryCombobox() 
+        {
+            // SELECT * FROM Categories
+            // ado.net is faster
+            List<Categories> sdr = context.Categories.ToList(); // entityframework
+
+            foreach(var i in sdr)
+            {
+                cmb_category.Items.Add(i.CategoryName);
+            }
+        }
     }
 }

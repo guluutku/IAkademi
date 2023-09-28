@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
+using System.Data.SqlTypes;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -64,9 +65,15 @@ namespace NTierDesign_KatmanliMimari.BusinessLayer
             try
             {
                 SqlConnection sqlCon = Connection.baglanti;
+                /*
                 SqlCommand command = new SqlCommand
                     ("SELECT\r\np.ProductID, p.ProductName, p.UnitPrice, p.UnitsInStock,\r\nc.CategoryName, s.CompanyName\r\nfrom\r\nProducts as p\r\nINNER JOIN Categories as c\r\non p.CategoryID = c.CategoryID\r\nINNER JOIN Suppliers as s\r\non s.SupplierID = p.SupplierID\r\nwhere p.ProductName like '%" + ProductName + "%'", sqlCon);
+                */
 
+                SqlCommand command = new SqlCommand("sp_search_by_product_name", sqlCon);
+                command.CommandType = System.Data.CommandType.StoredProcedure;
+
+                command.Parameters.AddWithValue("@ProductName", ProductName);
                 sqlCon.Open();
 
                 SqlDataReader sdr = command.ExecuteReader();
@@ -115,15 +122,26 @@ namespace NTierDesign_KatmanliMimari.BusinessLayer
 
                 if (productName == "")
                 {
+                    /*
                     command = new SqlCommand
                     ("SELECT p.ProductID, p.ProductName, p.UnitPrice, p.UnitsInStock, c.CategoryName, s.CompanyName from Products as p INNER JOIN Categories as c on p.CategoryID = c.CategoryID INNER JOIN Suppliers as s on s.SupplierID = p.SupplierID order by " + query, sqlCon);
+                    */
+                    command = new SqlCommand("sp_sort_product", sqlCon);
+                    command.CommandType = System.Data.CommandType.StoredProcedure;
+                    command.Parameters.AddWithValue("@SortBy", query);
                 }
                 else
                 {
+                    /*
                     command = new SqlCommand
                     ("SELECT p.ProductID, p.ProductName, p.UnitPrice, p.UnitsInStock, c.CategoryName, s.CompanyName from Products as p INNER JOIN Categories as c on p.CategoryID = c.CategoryID INNER JOIN Suppliers as s on s.SupplierID = p.SupplierID WHERE ProductName LIKE '%" + productName + "%' order by " + query, sqlCon);
+                    */
+                    command = new SqlCommand("sp_sort_product_name", sqlCon);
+                    command.CommandType = System.Data.CommandType.StoredProcedure;
+                    command.Parameters.AddWithValue("@SortBy", query);
+                    command.Parameters.AddWithValue("@ProductName", productName);
                 }
-                
+
                 sqlCon.Open();
 
                 SqlDataReader sdr = command.ExecuteReader();

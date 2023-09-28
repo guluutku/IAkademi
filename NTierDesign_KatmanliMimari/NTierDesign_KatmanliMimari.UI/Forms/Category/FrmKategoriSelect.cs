@@ -32,6 +32,11 @@ namespace NTierDesign_KatmanliMimari.UI.Forms.Category
         void FillCategoryList()
         {
             SqlDataReader sdr = cls_Category.SelectByCategoryName();
+            ReCreateList(sdr);
+        }
+
+        void ReCreateList(SqlDataReader sdr)
+        {
             lst_categoryList.Items.Clear();
 
             while (sdr.Read())
@@ -53,18 +58,7 @@ namespace NTierDesign_KatmanliMimari.UI.Forms.Category
         void SearchByCategoryName(String categoryName)
         {
             SqlDataReader sqlDataReader = cls_Category.SearchByCategoryName(categoryName);
-
-            lst_categoryList.Items.Clear();
-
-            while (sqlDataReader.Read())
-            {
-                ListViewItem listViewItem = new ListViewItem();
-                listViewItem.Text = sqlDataReader[0].ToString();
-                listViewItem.SubItems.Add(sqlDataReader[1].ToString());
-                listViewItem.SubItems.Add(sqlDataReader[2].ToString());
-
-                lst_categoryList.Items.Add(listViewItem);
-            }
+            ReCreateList(sqlDataReader);
         }
 
         private void lst_categoryList_Click(object sender, EventArgs e)

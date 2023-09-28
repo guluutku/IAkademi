@@ -37,6 +37,7 @@
             this.üRÜNToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.üRÜNGİRİŞToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lİSTELEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lİSTELEToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -79,7 +80,8 @@
             // mARKAToolStripMenuItem
             // 
             this.mARKAToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mARKAGİRİŞToolStripMenuItem});
+            this.mARKAGİRİŞToolStripMenuItem,
+            this.lİSTELEToolStripMenuItem1});
             this.mARKAToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 20F);
             this.mARKAToolStripMenuItem.Name = "mARKAToolStripMenuItem";
             this.mARKAToolStripMenuItem.Size = new System.Drawing.Size(119, 41);
@@ -88,8 +90,8 @@
             // mARKAGİRİŞToolStripMenuItem
             // 
             this.mARKAGİRİŞToolStripMenuItem.Name = "mARKAGİRİŞToolStripMenuItem";
-            this.mARKAGİRİŞToolStripMenuItem.Size = new System.Drawing.Size(254, 42);
-            this.mARKAGİRİŞToolStripMenuItem.Text = "MARKA GİRİŞ";
+            this.mARKAGİRİŞToolStripMenuItem.Size = new System.Drawing.Size(183, 42);
+            this.mARKAGİRİŞToolStripMenuItem.Text = "GİRİŞ";
             this.mARKAGİRİŞToolStripMenuItem.Click += new System.EventHandler(this.mARKAGİRİŞToolStripMenuItem_Click);
             // 
             // üRÜNToolStripMenuItem
@@ -118,6 +120,13 @@
             this.lİSTELEToolStripMenuItem.Text = "LİSTELE";
             this.lİSTELEToolStripMenuItem.Click += new System.EventHandler(this.lİSTELEToolStripMenuItem_Click);
             // 
+            // lİSTELEToolStripMenuItem1
+            // 
+            this.lİSTELEToolStripMenuItem1.Name = "lİSTELEToolStripMenuItem1";
+            this.lİSTELEToolStripMenuItem1.Size = new System.Drawing.Size(183, 42);
+            this.lİSTELEToolStripMenuItem1.Text = "LİSTELE";
+            this.lİSTELEToolStripMenuItem1.Click += new System.EventHandler(this.lİSTELEToolStripMenuItem1_Click);
+            // 
             // FrmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -145,5 +154,6 @@
         private System.Windows.Forms.ToolStripMenuItem üRÜNGİRİŞToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem kATEGORİLİSTELEToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem lİSTELEToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem lİSTELEToolStripMenuItem1;
     }
 }

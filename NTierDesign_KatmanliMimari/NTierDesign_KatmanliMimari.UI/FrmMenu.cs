@@ -50,5 +50,11 @@ namespace NTierDesign_KatmanliMimari.UI
             FrmUrunListele frm = new FrmUrunListele();
             frm.ShowDialog();
         }
+
+        private void lİSTELEToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            FrmSupplierSelect frmSupplierSelect = new FrmSupplierSelect();
+            frmSupplierSelect.ShowDialog();
+        }
     }
 }

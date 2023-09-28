@@ -73,7 +73,20 @@ namespace NTierDesign_KatmanliMimari.UI.Forms.Product
 
         void SearchByProductName(string productName)
         {
-            SqlDataReader sdr = cls_Product.SearchByProductName(productName);
+            SqlDataReader sdr;
+            if (cmb_Sort.SelectedItem == null)
+            {
+                sdr = cls_Product.SearchByProductName(productName);
+                ReCreateList(sdr);
+                return;
+            }
+            SortProductsBy();
+        }
+
+        void SortProductsBy()
+        {
+            string SearchName = cmb_Sort.SelectedItem.ToString();
+            SqlDataReader sdr = cls_Product.SortBy(SearchName, txt_search.Text);
             ReCreateList(sdr);
         }
 
@@ -84,9 +97,7 @@ namespace NTierDesign_KatmanliMimari.UI.Forms.Product
 
         private void cmb_Sort_SelectedIndexChanged(object sender, EventArgs e)
         {
-            string SearchName = cmb_Sort.SelectedItem.ToString();
-            SqlDataReader sdr = cls_Product.SortBy(SearchName, txt_search.Text);
-            ReCreateList(sdr);
+            SortProductsBy();
         }
 
         private void lst_productList_Click(object sender, EventArgs e)
