@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.txt_contactName = new System.Windows.Forms.TextBox();
-            this.txt_name = new System.Windows.Forms.TextBox();
+            this.txt_companyName = new System.Windows.Forms.TextBox();
             this.btn_delete = new System.Windows.Forms.Button();
             this.btn_update = new System.Windows.Forms.Button();
             this.txt_search = new System.Windows.Forms.TextBox();
@@ -49,12 +49,12 @@
             this.txt_contactName.Size = new System.Drawing.Size(199, 20);
             this.txt_contactName.TabIndex = 15;
             // 
-            // txt_name
+            // txt_companyName
             // 
-            this.txt_name.Location = new System.Drawing.Point(139, 539);
-            this.txt_name.Name = "txt_name";
-            this.txt_name.Size = new System.Drawing.Size(227, 20);
-            this.txt_name.TabIndex = 14;
+            this.txt_companyName.Location = new System.Drawing.Point(139, 539);
+            this.txt_companyName.Name = "txt_companyName";
+            this.txt_companyName.Size = new System.Drawing.Size(227, 20);
+            this.txt_companyName.TabIndex = 14;
             // 
             // btn_delete
             // 
@@ -65,6 +65,7 @@
             this.btn_delete.TabIndex = 13;
             this.btn_delete.Text = "SİL";
             this.btn_delete.UseVisualStyleBackColor = true;
+            this.btn_delete.Click += new System.EventHandler(this.btn_delete_Click);
             // 
             // btn_update
             // 
@@ -75,6 +76,7 @@
             this.btn_update.TabIndex = 12;
             this.btn_update.Text = "GÜNCELLE";
             this.btn_update.UseVisualStyleBackColor = true;
+            this.btn_update.Click += new System.EventHandler(this.btn_update_Click);
             // 
             // txt_search
             // 
@@ -83,6 +85,7 @@
             this.txt_search.Name = "txt_search";
             this.txt_search.Size = new System.Drawing.Size(196, 23);
             this.txt_search.TabIndex = 11;
+            this.txt_search.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txt_search_KeyUp);
             // 
             // label2
             // 
@@ -118,6 +121,7 @@
             this.lst_supplierList.TabIndex = 8;
             this.lst_supplierList.UseCompatibleStateImageBehavior = false;
             this.lst_supplierList.View = System.Windows.Forms.View.Details;
+            this.lst_supplierList.Click += new System.EventHandler(this.lst_supplierList_Click);
             // 
             // clmHSupplierID
             // 
@@ -151,7 +155,7 @@
             this.ClientSize = new System.Drawing.Size(800, 713);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txt_contactName);
-            this.Controls.Add(this.txt_name);
+            this.Controls.Add(this.txt_companyName);
             this.Controls.Add(this.btn_delete);
             this.Controls.Add(this.btn_update);
             this.Controls.Add(this.txt_search);
@@ -169,7 +173,7 @@
         #endregion
 
         private System.Windows.Forms.TextBox txt_contactName;
-        private System.Windows.Forms.TextBox txt_name;
+        private System.Windows.Forms.TextBox txt_companyName;
         private System.Windows.Forms.Button btn_delete;
         private System.Windows.Forms.Button btn_update;
         private System.Windows.Forms.TextBox txt_search;

@@ -151,7 +151,7 @@ namespace NTierDesign_KatmanliMimari.UI.Forms.Product
         void FillSupplierCombobox()
         {
             Cls_Supplier cls_Supplier = new Cls_Supplier();
-            SqlDataReader sdr = cls_Supplier.SelectBySupplierName();
+            SqlDataReader sdr = cls_Supplier.PartialSuppliersList();
 
             while (sdr.Read())
             {

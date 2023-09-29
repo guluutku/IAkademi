@@ -22,6 +22,7 @@ namespace NTierDesign_KatmanliMimari.BusinessLayer
             }
         }
         public string ContactName { get; set; }
+        public int SupplierID { get; set; }
 
         private string _CompanyNameUpper
         {
@@ -33,6 +34,7 @@ namespace NTierDesign_KatmanliMimari.BusinessLayer
             try
             {
                 SqlConnection sqlCon = Connection.baglanti;
+
                 SqlCommand command = new SqlCommand
                     ("insert into Suppliers(CompanyName, ContactName)" +
                     "\r\nvalues(@CompanyName, @ContactName)", sqlCon);
@@ -51,11 +53,12 @@ namespace NTierDesign_KatmanliMimari.BusinessLayer
             }
         }
 
-        public SqlDataReader SelectBySupplierName()
+        public SqlDataReader PartialSuppliersList()
         {
             try
             {
                 SqlConnection sqlCon = Connection.baglanti;
+
                 SqlCommand command = new SqlCommand
                     ("SELECT * FROM vw_supplier_kismi_listele", sqlCon);
 
@@ -70,5 +73,70 @@ namespace NTierDesign_KatmanliMimari.BusinessLayer
                 return null;
             }
         }
+
+        public SqlDataReader SearchByCompanyName(string searchName)
+        {
+            try
+            {
+                SqlConnection sqlCon = Connection.baglanti;
+                SqlCommand command = new SqlCommand("select SupplierID, CompanyName, ContactName from Suppliers " +
+                    "where CompanyName like '%" + searchName + "%'", sqlCon);
+
+                sqlCon.Open();
+
+                SqlDataReader sdr = command.ExecuteReader();
+
+                return sdr;
+            } 
+            catch (Exception ex)
+            {
+                return null;
+            }
+        }
+
+        public bool Update()
+        {
+            try
+            {
+                SqlConnection sqlCon = Connection.baglanti;
+                SqlCommand sqlCmd = new SqlCommand("sp_update_supplier", sqlCon);
+                sqlCmd.CommandType = System.Data.CommandType.StoredProcedure;
+
+                sqlCmd.Parameters.AddWithValue("@SupplierID", SupplierID);
+                sqlCmd.Parameters.AddWithValue("@CompanyName", CompanyName);
+                sqlCmd.Parameters.AddWithValue("@ContactName", ContactName);
+
+                sqlCon.Open();
+                sqlCmd.ExecuteNonQuery();
+                sqlCon.Close();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
+
+        public bool Delete()
+        {
+            try
+            {
+                SqlConnection sqlCon = Connection.baglanti;
+                SqlCommand sqlCmd = new SqlCommand("sp_delete_supplier", sqlCon);
+                sqlCmd.CommandType = System.Data.CommandType.StoredProcedure;
+
+                sqlCmd.Parameters.AddWithValue("@SupplierID", SupplierID);
+
+                sqlCon.Open();
+                sqlCmd.ExecuteNonQuery();
+                sqlCon.Close();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
+
     }
 }
