@@ -96,7 +96,20 @@ namespace NTierDesign_KatmanliMimari.BusinessLayer
             catch (Exception ex)
             {
                 return false;
+            }/*
+              * Without using stored procedure
+            try
+            {
+                Categories categories = entities.Categories.FirstOrDefault(c => c.CategoryID == CategoryID);
+                entities.Categories.Remove(categories);
+                entities.SaveChanges();
+                return true;
             }
+            catch (Exception ex)
+            {
+                return false;
+            }
+            */
         }
     }
 }
