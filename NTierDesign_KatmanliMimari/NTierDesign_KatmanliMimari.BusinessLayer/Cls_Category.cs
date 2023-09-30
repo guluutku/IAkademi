@@ -96,7 +96,8 @@ namespace NTierDesign_KatmanliMimari.BusinessLayer
             catch (Exception ex)
             {
                 return false;
-            }/*
+            }
+            /*
               * Without using stored procedure
             try
             {
