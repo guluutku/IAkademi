@@ -192,6 +192,9 @@
       <Parameter Name="SupplierID" Mode="In" Type="Int32" />
       <Parameter Name="ProductID" Mode="In" Type="Int32" />
     </FunctionImport>
+    <FunctionImport Name="sp_kategori_ara" ReturnType="Collection(NORTHWNDModel.sp_kategori_ara_Result)">
+      <Parameter Name="CategoryName" Mode="In" Type="String" />
+    </FunctionImport>
   </EntityContainer>
   <ComplexType Name="sp_helpdiagramdefinition_Result">
     <Property Type="Int32" Name="version" Nullable="true" />
@@ -227,5 +230,11 @@
     <Property Type="Int16" Name="UnitsInStock" Nullable="true" />
     <Property Type="String" Name="CategoryName" Nullable="false" MaxLength="15" />
     <Property Type="String" Name="CompanyName" Nullable="false" MaxLength="40" />
+  </ComplexType>
+  <ComplexType Name="sp_kategori_ara_Result">
+    <Property Type="Int32" Name="CategoryID" Nullable="false" />
+    <Property Type="String" Name="CategoryName" Nullable="false" MaxLength="15" />
+    <Property Type="String" Name="Description" Nullable="true" MaxLength="Max" />
+    <Property Type="Binary" Name="Picture" Nullable="true" MaxLength="Max" />
   </ComplexType>
 </Schema>

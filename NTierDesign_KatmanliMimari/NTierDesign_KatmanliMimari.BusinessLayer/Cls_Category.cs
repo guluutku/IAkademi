@@ -90,15 +90,7 @@ namespace NTierDesign_KatmanliMimari.BusinessLayer
         {
             try
             {
-                SqlConnection sqlCon = Connection.baglanti;
-                SqlCommand sqlCmd = new SqlCommand("sp_category_delete", sqlCon);
-                sqlCmd.CommandType = System.Data.CommandType.StoredProcedure;
-
-                sqlCmd.Parameters.AddWithValue("@CategoryID", CategoryID);
-
-                sqlCon.Open();
-                sqlCmd.ExecuteNonQuery();
-                sqlCon.Close();
+                entities.sp_category_delete(CategoryID);
                 return true;
             }
             catch (Exception ex)

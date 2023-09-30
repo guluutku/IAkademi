@@ -82,6 +82,9 @@
     <Compile Include="sp_helpdiagrams_Result.cs">
       <DependentUpon>NORTHWNDModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="sp_kategori_ara_Result.cs">
+      <DependentUpon>NORTHWNDModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="sp_search_by_product_name_Result.cs">
       <DependentUpon>NORTHWNDModel.tt</DependentUpon>
     </Compile>

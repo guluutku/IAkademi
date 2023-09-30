@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="NORTHWNDModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="NORTHWNDModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="Categories">
           <Key>
             <PropertyRef Name="CategoryID" />
@@ -148,6 +148,9 @@ warning 6002: The table/view 'NORTHWND.dbo.vw_urunleri_listele' does not have a 
           <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
           <Parameter Name="owner_id" Type="int" Mode="In" />
         </Function>
+        <Function Name="sp_kategori_ara" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="CategoryName" Type="nvarchar" Mode="In" />
+        </Function>
         <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
           <Parameter Name="owner_id" Type="int" Mode="In" />
@@ -222,8 +225,7 @@ warning 6002: The table/view 'NORTHWND.dbo.vw_urunleri_listele' does not have a 
             <End Role="Products" EntitySet="Products" />
           </AssociationSet>
         </EntityContainer>
-      </Schema>
-    </edmx:StorageModels>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="NORTHWNDModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -351,7 +353,7 @@ warning 6002: The table/view 'NORTHWND.dbo.vw_urunleri_listele' does not have a 
             <Parameter Name="definition" Mode="In" Type="Binary" />
           </FunctionImport>
           <FunctionImport Name="sp_category_delete">
-            <Parameter Name="CategoryID" Mode="In" Type="Int32" />
+          <Parameter Name="CategoryID" Mode="In" Type="Int32" />
           </FunctionImport>
           <FunctionImport Name="sp_category_insert">
             <Parameter Name="CategoryName" Mode="In" Type="String" />
@@ -369,7 +371,7 @@ warning 6002: The table/view 'NORTHWND.dbo.vw_urunleri_listele' does not have a 
             <Parameter Name="definition" Mode="In" Type="Binary" />
           </FunctionImport>
           <FunctionImport Name="sp_delete_supplier">
-            <Parameter Name="SupplierID" Mode="In" Type="Int32" />
+          <Parameter Name="SupplierID" Mode="In" Type="Int32" />
           </FunctionImport>
           <FunctionImport Name="sp_dropdiagram">
             <Parameter Name="diagramname" Mode="In" Type="String" />
@@ -389,10 +391,10 @@ warning 6002: The table/view 'NORTHWND.dbo.vw_urunleri_listele' does not have a 
             <Parameter Name="new_diagramname" Mode="In" Type="String" />
           </FunctionImport>
           <FunctionImport Name="sp_search_by_product_name" ReturnType="Collection(NORTHWNDModel.sp_search_by_product_name_Result)">
-            <Parameter Name="ProductName" Mode="In" Type="String" />
+          <Parameter Name="ProductName" Mode="In" Type="String" />
           </FunctionImport>
           <FunctionImport Name="sp_sort_product" ReturnType="Collection(NORTHWNDModel.sp_sort_product_Result)">
-            <Parameter Name="SortBy" Mode="In" Type="String" />
+          <Parameter Name="SortBy" Mode="In" Type="String" />
           </FunctionImport>
           <FunctionImport Name="sp_sort_product_name" ReturnType="Collection(NORTHWNDModel.sp_sort_product_name_Result)">
             <Parameter Name="SortBy" Mode="In" Type="String" />
@@ -418,6 +420,9 @@ warning 6002: The table/view 'NORTHWND.dbo.vw_urunleri_listele' does not have a 
             <Parameter Name="CategoryID" Mode="In" Type="Int32" />
             <Parameter Name="SupplierID" Mode="In" Type="Int32" />
             <Parameter Name="ProductID" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="sp_kategori_ara" ReturnType="Collection(NORTHWNDModel.sp_kategori_ara_Result)">
+            <Parameter Name="CategoryName" Mode="In" Type="String" />
           </FunctionImport>
         </EntityContainer>
         <ComplexType Name="sp_helpdiagramdefinition_Result">
@@ -454,6 +459,12 @@ warning 6002: The table/view 'NORTHWND.dbo.vw_urunleri_listele' does not have a 
           <Property Type="Int16" Name="UnitsInStock" Nullable="true" />
           <Property Type="String" Name="CategoryName" Nullable="false" MaxLength="15" />
           <Property Type="String" Name="CompanyName" Nullable="false" MaxLength="40" />
+        </ComplexType>
+        <ComplexType Name="sp_kategori_ara_Result">
+          <Property Type="Int32" Name="CategoryID" Nullable="false" />
+          <Property Type="String" Name="CategoryName" Nullable="false" MaxLength="15" />
+          <Property Type="String" Name="Description" Nullable="true" MaxLength="Max" />
+          <Property Type="Binary" Name="Picture" Nullable="true" MaxLength="Max" />
         </ComplexType>
       </Schema>
     </edmx:ConceptualModels>
@@ -603,6 +614,16 @@ warning 6002: The table/view 'NORTHWND.dbo.vw_urunleri_listele' does not have a 
           <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="NORTHWNDModel.Store.sp_upgraddiagrams" />
           <FunctionImportMapping FunctionImportName="sp_urun_insert" FunctionName="NORTHWNDModel.Store.sp_urun_insert" />
           <FunctionImportMapping FunctionImportName="sp_urun_update" FunctionName="NORTHWNDModel.Store.sp_urun_update" />
+          <FunctionImportMapping FunctionImportName="sp_kategori_ara" FunctionName="NORTHWNDModel.Store.sp_kategori_ara">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="NORTHWNDModel.sp_kategori_ara_Result">
+                <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+                <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Picture" ColumnName="Picture" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
         </EntityContainerMapping>
       </Mapping>
     </edmx:Mappings>

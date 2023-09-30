@@ -286,5 +286,14 @@ namespace NTierDesign_KatmanliMimari.DataLayer
     
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("sp_urun_update", productNameParameter, unitPriceParameter, unitsInStockParameter, categoryIDParameter, supplierIDParameter, productIDParameter);
         }
+    
+        public virtual ObjectResult<sp_kategori_ara_Result> sp_kategori_ara(string categoryName)
+        {
+            var categoryNameParameter = categoryName != null ?
+                new ObjectParameter("CategoryName", categoryName) :
+                new ObjectParameter("CategoryName", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_kategori_ara_Result>("sp_kategori_ara", categoryNameParameter);
+        }
     }
 }

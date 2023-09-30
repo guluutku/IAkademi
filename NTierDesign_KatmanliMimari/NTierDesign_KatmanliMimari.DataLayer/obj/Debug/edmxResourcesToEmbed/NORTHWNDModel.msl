@@ -143,5 +143,15 @@
     <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="NORTHWNDModel.Store.sp_upgraddiagrams" />
     <FunctionImportMapping FunctionImportName="sp_urun_insert" FunctionName="NORTHWNDModel.Store.sp_urun_insert" />
     <FunctionImportMapping FunctionImportName="sp_urun_update" FunctionName="NORTHWNDModel.Store.sp_urun_update" />
+    <FunctionImportMapping FunctionImportName="sp_kategori_ara" FunctionName="NORTHWNDModel.Store.sp_kategori_ara">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="NORTHWNDModel.sp_kategori_ara_Result">
+          <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Picture" ColumnName="Picture" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
   </EntityContainerMapping>
 </Mapping>
