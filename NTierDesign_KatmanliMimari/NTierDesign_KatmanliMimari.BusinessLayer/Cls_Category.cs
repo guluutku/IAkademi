@@ -17,21 +17,16 @@ namespace NTierDesign_KatmanliMimari.BusinessLayer
 
         NORTHWNDEntities entities = new NORTHWNDEntities(); 
 
-        public static bool Save(string CategoryName, string Description)
+        public static bool Save(Categories categories)
         {
             try
             {
-                SqlConnection sqlCon = Connection.baglanti;
-                SqlCommand command = new SqlCommand("sp_category_insert", sqlCon);
-                command.CommandType = System.Data.CommandType.StoredProcedure;
-
-                command.Parameters.AddWithValue("@CategoryName", CategoryName);
-                command.Parameters.AddWithValue("@Description", Description);
-
-                sqlCon.Open();
-                command.ExecuteNonQuery();
-                sqlCon.Close();
-                return true;
+                using(NORTHWNDEntities entities = new NORTHWNDEntities())
+                {
+                    entities.Categories.Add(categories);
+                    entities.SaveChanges();
+                    return true;
+                }
             }
             catch (Exception ex)
             {

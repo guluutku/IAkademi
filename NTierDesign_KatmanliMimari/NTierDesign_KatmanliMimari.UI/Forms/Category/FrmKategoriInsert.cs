@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using NTierDesign_KatmanliMimari.BusinessLayer;
+using NTierDesign_KatmanliMimari.DataLayer;
 using NTierDesign_KatmanliMimari.TypeLayer;
 
 namespace NTierDesign_KatmanliMimari.UI.Forms.Category
@@ -21,7 +22,11 @@ namespace NTierDesign_KatmanliMimari.UI.Forms.Category
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            bool result = Cls_Category.Save(txt_CategoryName.Text, txtDescription.Text);
+            Categories categories = new Categories();
+            categories.CategoryName = txt_CategoryName.Text;
+            categories.Description = txtDescription.Text;
+
+            bool result = Cls_Category.Save(categories);
             string message;
             message = Cls_CommonMessages.Common_Message_Method("Categories", result, "insert");
             MessageBox.Show(message);
