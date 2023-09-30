@@ -15,6 +15,8 @@ namespace NTierDesign_KatmanliMimari.BusinessLayer
         public string CategoryName { get; set; }
         public string CategoryDescription { get; set; }
 
+        NORTHWNDEntities entities = new NORTHWNDEntities(); 
+
         public static bool Save(string CategoryName, string Description)
         {
             try
@@ -37,19 +39,12 @@ namespace NTierDesign_KatmanliMimari.BusinessLayer
             }
         }
 
-        public SqlDataReader SelectByCategoryName()
+        public List<vw_kategori_kismi_listesi> SelectByCategoryName()
         {
             try
             {
-                SqlConnection sqlCon = Connection.baglanti;
-                SqlCommand command = new SqlCommand
-                    ("SELECT * FROM vw_kategori_kismi_listesi", sqlCon);
-               
-                sqlCon.Open();
-
-                SqlDataReader sdr = command.ExecuteReader();
-
-                return sdr;
+                List<vw_kategori_kismi_listesi> kategori_Kismi_Listesi = entities.vw_kategori_kismi_listesi.ToList();
+                return kategori_Kismi_Listesi;
             }
             catch (Exception ex)
             {

@@ -7,3 +7,9 @@ D:\Projeler\IAkademi\NTierDesign_KatmanliMimari\NTierDesign_KatmanliMimari.Busin
 D:\Projeler\IAkademi\NTierDesign_KatmanliMimari\NTierDesign_KatmanliMimari.BusinessLayer\obj\Debug\NTierDesign_KatmanliMimari.BusinessLayer.csproj.CopyComplete
 D:\Projeler\IAkademi\NTierDesign_KatmanliMimari\NTierDesign_KatmanliMimari.BusinessLayer\obj\Debug\NTierDesign_KatmanliMimari.BusinessLayer.dll
 D:\Projeler\IAkademi\NTierDesign_KatmanliMimari\NTierDesign_KatmanliMimari.BusinessLayer\obj\Debug\NTierDesign_KatmanliMimari.BusinessLayer.pdb
+D:\Projeler\IAkademi\NTierDesign_KatmanliMimari\NTierDesign_KatmanliMimari.BusinessLayer\bin\Debug\NTierDesign_KatmanliMimari.BusinessLayer.dll.config
+D:\Projeler\IAkademi\NTierDesign_KatmanliMimari\NTierDesign_KatmanliMimari.BusinessLayer\bin\Debug\EntityFramework.dll
+D:\Projeler\IAkademi\NTierDesign_KatmanliMimari\NTierDesign_KatmanliMimari.BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projeler\IAkademi\NTierDesign_KatmanliMimari\NTierDesign_KatmanliMimari.BusinessLayer\bin\Debug\NTierDesign_KatmanliMimari.DataLayer.dll.config
+D:\Projeler\IAkademi\NTierDesign_KatmanliMimari\NTierDesign_KatmanliMimari.BusinessLayer\bin\Debug\EntityFramework.xml
+D:\Projeler\IAkademi\NTierDesign_KatmanliMimari\NTierDesign_KatmanliMimari.BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml

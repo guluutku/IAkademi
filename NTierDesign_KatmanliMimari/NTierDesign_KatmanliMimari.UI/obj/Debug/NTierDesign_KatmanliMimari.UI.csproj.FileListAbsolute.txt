@@ -21,3 +21,9 @@ D:\Projeler\IAkademi\NTierDesign_KatmanliMimari\NTierDesign_KatmanliMimari.UI\ob
 D:\Projeler\IAkademi\NTierDesign_KatmanliMimari\NTierDesign_KatmanliMimari.UI\obj\Debug\NTierDesign_KatmanliMimari.UI.Forms.Category.FrmKategoriSelect.resources
 D:\Projeler\IAkademi\NTierDesign_KatmanliMimari\NTierDesign_KatmanliMimari.UI\obj\Debug\NTierDesign_KatmanliMimari.UI.Forms.Product.FrmUrunListele.resources
 D:\Projeler\IAkademi\NTierDesign_KatmanliMimari\NTierDesign_KatmanliMimari.UI\obj\Debug\NTierDesign_KatmanliMimari.UI.Forms.Supplier.FrmSupplierSelect.resources
+D:\Projeler\IAkademi\NTierDesign_KatmanliMimari\NTierDesign_KatmanliMimari.UI\bin\Debug\EntityFramework.dll
+D:\Projeler\IAkademi\NTierDesign_KatmanliMimari\NTierDesign_KatmanliMimari.UI\bin\Debug\NTierDesign_KatmanliMimari.BusinessLayer.dll.config
+D:\Projeler\IAkademi\NTierDesign_KatmanliMimari\NTierDesign_KatmanliMimari.UI\bin\Debug\NTierDesign_KatmanliMimari.DataLayer.dll.config
+D:\Projeler\IAkademi\NTierDesign_KatmanliMimari\NTierDesign_KatmanliMimari.UI\bin\Debug\EntityFramework.xml
+D:\Projeler\IAkademi\NTierDesign_KatmanliMimari\NTierDesign_KatmanliMimari.UI\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projeler\IAkademi\NTierDesign_KatmanliMimari\NTierDesign_KatmanliMimari.UI\bin\Debug\EntityFramework.SqlServer.xml

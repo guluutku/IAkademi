@@ -1,4 +1,5 @@
 ﻿using NTierDesign_KatmanliMimari.BusinessLayer;
+using NTierDesign_KatmanliMimari.DataLayer;
 using NTierDesign_KatmanliMimari.TypeLayer;
 using System;
 using System.Collections.Generic;
@@ -29,11 +30,11 @@ namespace NTierDesign_KatmanliMimari.UI.Forms.Product
         void FillCategoryCombobox()
         {
             Cls_Category cls_Category = new Cls_Category();
-            SqlDataReader sdr = cls_Category.SelectByCategoryName();
+            List<vw_kategori_kismi_listesi> kategori_Kismi_Listesi = cls_Category.SelectByCategoryName();
 
-            while (sdr.Read())
+            foreach (var item in kategori_Kismi_Listesi)
             {
-                cmb_CategoryID.Items.Add(sdr["CategoryName"]);
+                cmb_CategoryID.Items.Add(item.CategoryName);
             }
         }
 

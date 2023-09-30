@@ -1,4 +1,5 @@
 ﻿using NTierDesign_KatmanliMimari.BusinessLayer;
+using NTierDesign_KatmanliMimari.DataLayer;
 using NTierDesign_KatmanliMimari.TypeLayer;
 using System;
 using System.Collections.Generic;
@@ -31,20 +32,20 @@ namespace NTierDesign_KatmanliMimari.UI.Forms.Category
 
         void FillCategoryList()
         {
-            SqlDataReader sdr = cls_Category.SelectByCategoryName();
-            ReCreateList(sdr);
+            List<vw_kategori_kismi_listesi> kategori_Kismi_Listesi = cls_Category.SelectByCategoryName();
+            ReCreateList(kategori_Kismi_Listesi);
         }
 
-        void ReCreateList(SqlDataReader sdr)
+        void ReCreateList(List<vw_kategori_kismi_listesi> kategori_Kismi_Listesi)
         {
             lst_categoryList.Items.Clear();
 
-            while (sdr.Read())
+            foreach(var item in kategori_Kismi_Listesi)
             {
                 ListViewItem listViewItem = new ListViewItem();
-                listViewItem.Text = sdr[0].ToString();
-                listViewItem.SubItems.Add(sdr[1].ToString());
-                listViewItem.SubItems.Add(sdr[2].ToString());
+                listViewItem.Text = item.CategoryID.ToString();
+                listViewItem.SubItems.Add(item.CategoryName);
+                listViewItem.SubItems.Add(item.Description);
 
                 lst_categoryList.Items.Add(listViewItem);
             }
@@ -58,7 +59,7 @@ namespace NTierDesign_KatmanliMimari.UI.Forms.Category
         void SearchByCategoryName(String categoryName)
         {
             SqlDataReader sqlDataReader = cls_Category.SearchByCategoryName(categoryName);
-            ReCreateList(sqlDataReader);
+            //ReCreateList(sqlDataReader);
         }
 
         private void lst_categoryList_Click(object sender, EventArgs e)
