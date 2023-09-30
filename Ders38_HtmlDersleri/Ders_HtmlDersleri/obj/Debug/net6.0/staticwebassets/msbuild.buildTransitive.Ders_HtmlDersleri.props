@@ -1,3 +1,3 @@
 ﻿<Project>
-  <Import Project="..\buildMultiTargeting\Ders_HtmlDersleri.props" />
+  <Import Project="../buildMultiTargeting/Ders_HtmlDersleri.props" />
 </Project>
