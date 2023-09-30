@@ -71,17 +71,13 @@ namespace NTierDesign_KatmanliMimari.BusinessLayer
         {
             try
             {
-                SqlConnection sqlCon = Connection.baglanti;
-                SqlCommand sqlCmd = new SqlCommand("sp_category_update", sqlCon);
-                sqlCmd.CommandType = System.Data.CommandType.StoredProcedure;
+                // Veritabanındaki eski verşye ulaşıyorum
+                Categories categories = entities.Categories.FirstOrDefault(c => c.CategoryID == CategoryID);
 
-                sqlCmd.Parameters.AddWithValue("@CategoryName", CategoryName);
-                sqlCmd.Parameters.AddWithValue("@Description", CategoryDescription );
-                sqlCmd.Parameters.AddWithValue("@CategoryID", CategoryID);
-                
-                sqlCon.Open();
-                sqlCmd.ExecuteNonQuery();
-                sqlCon.Close();
+                // eski verileri yeni veriler ile değiştir
+                categories.CategoryName = CategoryName;
+                categories.Description = CategoryDescription;
+                entities.SaveChanges();
                 return true;
             }
             catch (Exception ex)
