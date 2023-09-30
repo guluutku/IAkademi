@@ -50,7 +50,7 @@ namespace NTierDesign_KatmanliMimari.TypeLayer
                     result = tabbleName + ". Yanlış " + CRUD + " işlemi verildi";
                 }
             }
-            return result;
+            return result.ToUpper();
         }
 
         public static string liste_secim_yapilmadi = "Listeden seçim yapılmadı";
