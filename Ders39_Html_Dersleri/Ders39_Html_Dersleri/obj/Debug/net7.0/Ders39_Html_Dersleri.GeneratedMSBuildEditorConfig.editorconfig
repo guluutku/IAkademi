@@ -16,12 +16,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/gnltk/Development/IAkademi/Ders39_Html_Dersleri/Ders39_Html_Dersleri
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/gnltk/Development/IAkademi/Ders39_Html_Dersleri/Ders39_Html_Dersleri/Views/Home/Hakkimizda.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9IYWtraW1pemRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/gnltk/Development/IAkademi/Ders39_Html_Dersleri/Ders39_Html_Dersleri/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/gnltk/Development/IAkademi/Ders39_Html_Dersleri/Ders39_Html_Dersleri/Views/Home/Index2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleDIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/gnltk/Development/IAkademi/Ders39_Html_Dersleri/Ders39_Html_Dersleri/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/Ders39_Html_Dersleri/Ders39_Html_Dersleri/Views/Home/UyeOl.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9VeWVPbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/gnltk/Development/IAkademi/Ders39_Html_Dersleri/Ders39_Html_Dersleri/Views/Shared/Error.cshtml]

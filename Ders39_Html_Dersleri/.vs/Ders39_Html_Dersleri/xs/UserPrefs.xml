@@ -1,4 +1,31 @@
 ﻿<Properties StartupConfiguration="{6CC0EAEE-7D06-4AB6-8D5A-E1379F3FCCBE}|https">
-  <MonoDevelop.Ide.ItemProperties.Ders39__Html__Dersleri FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Ders39_Html_Dersleri/Views/Home/Index2.cshtml">
+    <Files>
+      <File FileName="Ders39_Html_Dersleri/Controllers/HomeController.cs" Line="21" Column="34" />
+      <File FileName="Ders39_Html_Dersleri/Views/Home/Index2.cshtml" Line="22" Column="1" />
+      <File FileName="Ders39_Html_Dersleri/Program.cs" Line="25" Column="47" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Ders39_Html_Dersleri">
+            <Node name="Ders39_Html_Dersleri">
+              <Node name="Views">
+                <Node name="Home" expanded="True">
+                  <Node name="Index2.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Ders39__Html__Dersleri PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

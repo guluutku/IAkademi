@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Ders39_Html_Dersleri.props" />
+</Project>
