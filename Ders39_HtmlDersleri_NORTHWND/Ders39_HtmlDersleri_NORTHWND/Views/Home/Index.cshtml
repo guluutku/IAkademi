@@ -1,4 +1,6 @@
-﻿
+﻿@using Ders39_HtmlDersleri_NORTHWND.Models
+@model List<Categories>
+
 @{
     Layout = null;
 }
@@ -11,7 +13,21 @@
     <title>Index</title>
 </head>
 <body>
-    <div> 
+    <div>
+
+        <div style="background-color:red;color:yellow;font-size:25px">>
+            <span>KATEGORİLER</span>
+            <ul>
+                @foreach (var item in Model)
+                {
+                    <li>
+                        <a href="">
+                            @item.CategoryName
+                        </a>
+                    </li>
+                }
+            </ul>
+        </div>
     </div>
 </body>
 </html>

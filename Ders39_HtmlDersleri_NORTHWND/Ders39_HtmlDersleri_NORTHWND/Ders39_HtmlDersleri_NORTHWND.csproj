@@ -100,6 +100,12 @@
     <Content Include="Models\NORTHWNDModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>NORTHWNDModel.Context.cs</LastGenOutput>
+      <DependentUpon>NORTHWNDModel.edmx</DependentUpon>
+    </Content>
+    <Content Include="Models\NORTHWNDModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>NORTHWNDModel.edmx</DependentUpon>
+      <LastGenOutput>NORTHWNDModel.cs</LastGenOutput>
     </Content>
     <Content Include="Web.config" />
   </ItemGroup>
@@ -109,15 +115,57 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Categories.cs">
+      <DependentUpon>NORTHWNDModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Cls_Categroy.cs" />
     <Compile Include="Models\NORTHWNDModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>NORTHWNDModel.Context.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\NORTHWNDModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NORTHWNDModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\NORTHWNDModel.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>NORTHWNDModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Products.cs">
+      <DependentUpon>NORTHWNDModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sp_helpdiagramdefinition_Result.cs">
+      <DependentUpon>NORTHWNDModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sp_helpdiagrams_Result.cs">
+      <DependentUpon>NORTHWNDModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sp_kategori_ara_Result.cs">
+      <DependentUpon>NORTHWNDModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sp_search_by_product_name_Result.cs">
+      <DependentUpon>NORTHWNDModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sp_sort_product_name_Result.cs">
+      <DependentUpon>NORTHWNDModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sp_sort_product_Result.cs">
+      <DependentUpon>NORTHWNDModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Suppliers.cs">
+      <DependentUpon>NORTHWNDModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\vw_kategori_kismi_listesi.cs">
+      <DependentUpon>NORTHWNDModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\vw_supplier_kismi_listele.cs">
+      <DependentUpon>NORTHWNDModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\vw_urunleri_listele.cs">
+      <DependentUpon>NORTHWNDModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -127,9 +175,9 @@
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>NORTHWNDModel.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="Models\NORTHWNDModel.edmx.diagram">
+    <Content Include="Models\NORTHWNDModel.edmx.diagram">
       <DependentUpon>NORTHWNDModel.edmx</DependentUpon>
-    </None>
+    </Content>
     <None Include="packages.config" />
     <Content Include="Views\Home\Index.cshtml" />
     <None Include="Web.Debug.config">

@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NORTHWNDModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Categories">
+    <Key>
+      <PropertyRef Name="CategoryID" />
+    </Key>
+    <Property Name="CategoryID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CategoryName" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Picture" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <NavigationProperty Name="Products" Relationship="Self.FK_Products_Categories" FromRole="Categories" ToRole="Products" />
+  </EntityType>
+  <EntityType Name="Products">
+    <Key>
+      <PropertyRef Name="ProductID" />
+    </Key>
+    <Property Name="ProductID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductName" Type="String" MaxLength="40" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="SupplierID" Type="Int32" />
+    <Property Name="CategoryID" Type="Int32" />
+    <Property Name="QuantityPerUnit" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="UnitPrice" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="UnitsInStock" Type="Int16" />
+    <Property Name="UnitsOnOrder" Type="Int16" />
+    <Property Name="ReorderLevel" Type="Int16" />
+    <Property Name="Discontinued" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Categories" Relationship="Self.FK_Products_Categories" FromRole="Products" ToRole="Categories" />
+    <NavigationProperty Name="Suppliers" Relationship="Self.FK_Products_Suppliers" FromRole="Products" ToRole="Suppliers" />
+  </EntityType>
+  <EntityType Name="Suppliers">
+    <Key>
+      <PropertyRef Name="SupplierID" />
+    </Key>
+    <Property Name="SupplierID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CompanyName" Type="String" MaxLength="40" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ContactName" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="ContactTitle" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="Address" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+    <Property Name="City" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="Region" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="PostalCode" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="Country" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="Phone" Type="String" MaxLength="24" FixedLength="false" Unicode="true" />
+    <Property Name="Fax" Type="String" MaxLength="24" FixedLength="false" Unicode="true" />
+    <Property Name="HomePage" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Products" Relationship="Self.FK_Products_Suppliers" FromRole="Suppliers" ToRole="Products" />
+  </EntityType>
+  <EntityType Name="vw_kategori_kismi_listesi">
+    <Key>
+      <PropertyRef Name="CategoryID" />
+      <PropertyRef Name="CategoryName" />
+    </Key>
+    <Property Name="CategoryID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CategoryName" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="vw_supplier_kismi_listele">
+    <Key>
+      <PropertyRef Name="SupplierID" />
+      <PropertyRef Name="CompanyName" />
+    </Key>
+    <Property Name="SupplierID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CompanyName" Type="String" MaxLength="40" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ContactName" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="ContactTitle" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="vw_urunleri_listele">
+    <Key>
+      <PropertyRef Name="ProductID" />
+      <PropertyRef Name="ProductName" />
+      <PropertyRef Name="CategoryName" />
+      <PropertyRef Name="CompanyName" />
+    </Key>
+    <Property Name="ProductID" Type="Int32" Nullable="false" />
+    <Property Name="ProductName" Type="String" MaxLength="40" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="UnitPrice" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="UnitsInStock" Type="Int16" />
+    <Property Name="CategoryName" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CompanyName" Type="String" MaxLength="40" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Products_Categories">
+    <End Role="Categories" Type="Self.Categories" Multiplicity="0..1" />
+    <End Role="Products" Type="Self.Products" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categories">
+        <PropertyRef Name="CategoryID" />
+      </Principal>
+      <Dependent Role="Products">
+        <PropertyRef Name="CategoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Products_Suppliers">
+    <End Role="Suppliers" Type="Self.Suppliers" Multiplicity="0..1" />
+    <End Role="Products" Type="Self.Products" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Suppliers">
+        <PropertyRef Name="SupplierID" />
+      </Principal>
+      <Dependent Role="Products">
+        <PropertyRef Name="SupplierID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="NORTHWNDEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Categories" EntityType="Self.Categories" />
+    <EntitySet Name="Products" EntityType="Self.Products" />
+    <EntitySet Name="Suppliers" EntityType="Self.Suppliers" />
+    <EntitySet Name="vw_kategori_kismi_listesi" EntityType="Self.vw_kategori_kismi_listesi" />
+    <EntitySet Name="vw_supplier_kismi_listele" EntityType="Self.vw_supplier_kismi_listele" />
+    <EntitySet Name="vw_urunleri_listele" EntityType="Self.vw_urunleri_listele" />
+    <AssociationSet Name="FK_Products_Categories" Association="Self.FK_Products_Categories">
+      <End Role="Categories" EntitySet="Categories" />
+      <End Role="Products" EntitySet="Products" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Products_Suppliers" Association="Self.FK_Products_Suppliers">
+      <End Role="Suppliers" EntitySet="Suppliers" />
+      <End Role="Products" EntitySet="Products" />
+    </AssociationSet>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_category_delete">
+      <Parameter Name="CategoryID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_category_insert">
+      <Parameter Name="CategoryName" Mode="In" Type="String" />
+      <Parameter Name="Description" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_category_update">
+      <Parameter Name="CategoryName" Mode="In" Type="String" />
+      <Parameter Name="Description" Mode="In" Type="String" />
+      <Parameter Name="CategoryID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_delete_supplier">
+      <Parameter Name="SupplierID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(NORTHWNDModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(NORTHWNDModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_kategori_ara" ReturnType="Collection(NORTHWNDModel.sp_kategori_ara_Result)">
+      <Parameter Name="CategoryName" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_search_by_product_name" ReturnType="Collection(NORTHWNDModel.sp_search_by_product_name_Result)">
+      <Parameter Name="ProductName" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_sort_product" ReturnType="Collection(NORTHWNDModel.sp_sort_product_Result)">
+      <Parameter Name="SortBy" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_sort_product_name" ReturnType="Collection(NORTHWNDModel.sp_sort_product_name_Result)">
+      <Parameter Name="SortBy" Mode="In" Type="String" />
+      <Parameter Name="ProductName" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_update_supplier">
+      <Parameter Name="SupplierID" Mode="In" Type="Int32" />
+      <Parameter Name="CompanyName" Mode="In" Type="String" />
+      <Parameter Name="ContactName" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+    <FunctionImport Name="sp_urun_insert">
+      <Parameter Name="ProductName" Mode="In" Type="String" />
+      <Parameter Name="UnitsInStock" Mode="In" Type="Int32" />
+      <Parameter Name="UnitPrice" Mode="In" Type="Decimal" />
+      <Parameter Name="CategoryID" Mode="In" Type="Int32" />
+      <Parameter Name="SupplierID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_urun_update">
+      <Parameter Name="ProductName" Mode="In" Type="String" />
+      <Parameter Name="UnitPrice" Mode="In" Type="Decimal" />
+      <Parameter Name="UnitsInStock" Mode="In" Type="Int32" />
+      <Parameter Name="CategoryID" Mode="In" Type="Int32" />
+      <Parameter Name="SupplierID" Mode="In" Type="Int32" />
+      <Parameter Name="ProductID" Mode="In" Type="Int32" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="sp_kategori_ara_Result">
+    <Property Type="Int32" Name="CategoryID" Nullable="false" />
+    <Property Type="String" Name="CategoryName" Nullable="false" MaxLength="15" />
+    <Property Type="String" Name="Description" Nullable="true" MaxLength="Max" />
+    <Property Type="Binary" Name="Picture" Nullable="true" MaxLength="Max" />
+  </ComplexType>
+  <ComplexType Name="sp_search_by_product_name_Result">
+    <Property Type="Int32" Name="ProductID" Nullable="false" />
+    <Property Type="String" Name="ProductName" Nullable="false" MaxLength="40" />
+    <Property Type="Decimal" Name="UnitPrice" Nullable="true" Precision="19" />
+    <Property Type="Int16" Name="UnitsInStock" Nullable="true" />
+    <Property Type="String" Name="CategoryName" Nullable="false" MaxLength="15" />
+    <Property Type="String" Name="CompanyName" Nullable="false" MaxLength="40" />
+  </ComplexType>
+  <ComplexType Name="sp_sort_product_Result">
+    <Property Type="Int32" Name="ProductID" Nullable="false" />
+    <Property Type="String" Name="ProductName" Nullable="false" MaxLength="40" />
+    <Property Type="Decimal" Name="UnitPrice" Nullable="true" Precision="19" />
+    <Property Type="Int16" Name="UnitsInStock" Nullable="true" />
+    <Property Type="String" Name="CategoryName" Nullable="false" MaxLength="15" />
+    <Property Type="String" Name="CompanyName" Nullable="false" MaxLength="40" />
+  </ComplexType>
+  <ComplexType Name="sp_sort_product_name_Result">
+    <Property Type="Int32" Name="ProductID" Nullable="false" />
+    <Property Type="String" Name="ProductName" Nullable="false" MaxLength="40" />
+    <Property Type="Decimal" Name="UnitPrice" Nullable="true" Precision="19" />
+    <Property Type="Int16" Name="UnitsInStock" Nullable="true" />
+    <Property Type="String" Name="CategoryName" Nullable="false" MaxLength="15" />
+    <Property Type="String" Name="CompanyName" Nullable="false" MaxLength="40" />
+  </ComplexType>
+</Schema>
