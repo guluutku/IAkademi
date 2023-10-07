@@ -20,11 +20,16 @@ namespace Ders39_HtmlDersleri_NORTHWND.Controllers
             return View(categoryList);
         }
 
-        public ActionResult Kategorili_Urunler()
+        public ActionResult KategoriUrunler(int id)
         {
-            // select CategoryID From Categories
+            //ORM = VS ile, veritabanı arasındaki bağlantı
 
-            return View();
+            // SELECT * FROM Produccts WHERE CategoryID = id (ado.net)
+
+            // entityframework(.net framework), entityframeworkcore (.net core)
+            List<Products> products = nORTHWNDEntities.Products.Where(p => p.CategoryID == id).ToList();
+
+            return View(products);
         }
 
         public ActionResult Index2()
