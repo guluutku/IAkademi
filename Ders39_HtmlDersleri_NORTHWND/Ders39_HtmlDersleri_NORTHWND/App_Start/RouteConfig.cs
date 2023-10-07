@@ -16,7 +16,7 @@ namespace Ders39_HtmlDersleri_NORTHWND
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index2", id = UrlParameter.Optional }
+                defaults: new { controller = "Home", action = "UrunleriListele", id = UrlParameter.Optional }
             );
         }
     }

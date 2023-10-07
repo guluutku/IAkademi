@@ -1,0 +1,38 @@
+﻿@using Ders39_HtmlDersleri_NORTHWND.Models
+@model List<Products>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>UrunleriListele</title>
+</head>
+<body>
+    <div> 
+
+        <table border="1">
+            <tr>
+                <th>ID</th>
+                <th>ÜRÜN ADI</th>
+                <th>FİYAT</th>
+            </tr>
+
+            @foreach(var item in Model)
+            {
+                <tr>
+                    <td>@item.ProductID</td>
+                    <td>@item.ProductName</td>
+                    <td>@item.UnitPrice</td>
+                </tr>
+            }
+
+        </table>
+
+    </div>
+</body>
+</html>

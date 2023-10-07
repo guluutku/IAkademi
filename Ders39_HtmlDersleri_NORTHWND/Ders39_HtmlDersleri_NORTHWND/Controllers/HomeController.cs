@@ -32,6 +32,13 @@ namespace Ders39_HtmlDersleri_NORTHWND.Controllers
             return View(products);
         }
 
+        public ActionResult UrunleriListele()
+        {
+            List<Products> products = nORTHWNDEntities.Products.ToList();
+
+            return View(products);
+        }
+
         public ActionResult Index2()
         {
             return View();
