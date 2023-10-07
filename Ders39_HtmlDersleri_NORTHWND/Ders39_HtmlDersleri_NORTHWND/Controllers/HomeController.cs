@@ -10,6 +10,8 @@ namespace Ders39_HtmlDersleri_NORTHWND.Controllers
     public class HomeController : Controller
     {
         
+        NORTHWNDEntities nORTHWNDEntities = new NORTHWNDEntities();
+
         // GET: Home
         public ActionResult Index()
         {
