@@ -96,6 +96,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\download %281%29.jpeg" />
     <Content Include="Global.asax" />
     <Content Include="Models\NORTHWNDModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
