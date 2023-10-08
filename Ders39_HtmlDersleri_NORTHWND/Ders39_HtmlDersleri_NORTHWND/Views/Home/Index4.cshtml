@@ -9,6 +9,7 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Index4</title>
+    <link href="D:\Projeler\IAkademi\Ders39_HtmlDersleri_NORTHWND\Ders39_HtmlDersleri_NORTHWND\Content\bootstrap.min.css" rel="stylesheet" />
 </head>
 <body>
     <div>
@@ -16,14 +17,25 @@
         <form action="/Home/Index3" method="post">
             <fieldset>
 
+                <legend>Üye Bilgileri</legend>
+                <label>Ad Soyad</label>
+                @* required ise içinin doldurulması zorunludur *@
+                <input type="text" value="" maxlength="20" required placeholder="Buraya Yazınız" name="Name" />
+                <br />
+
                 <label>Email giriniz</label>
                 @* Kullanıcıdan girdi almak ve ipucu *@
-                <input type="text" placeholder="Buraya Yazınız" name="Email" />
+                <input type="text" placeholder="Buraya Yazınız" name="Email" required />
                 <br />
 
                 <label>Şifre Giriniz</label>
                 @* type ile yazılanlar gizleniyor *@
                 <input type="password" placeholder="Buraya yazınız" name="Password" />
+                <br />
+
+                <label>Yaş Giriniz</label>
+                @* type ile yazılanlar gizleniyor *@
+                <input type="password" placeholder="Buraya yazınız" name="Yas" />
                 <br />
 
                 <input type="submit" value="Giriş Yap" class="btn btn-success" />
