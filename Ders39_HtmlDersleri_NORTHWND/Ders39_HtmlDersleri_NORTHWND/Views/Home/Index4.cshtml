@@ -11,7 +11,22 @@
     <title>Index4</title>
 </head>
 <body>
-    <div> 
+    <div>
+
+        <form action="/Home/Index3" method="post">
+            <label>Email giriniz</label>
+            @* Kullanıcıdan girdi almak ve ipucu *@
+            <input type="text" placeholder="Buraya Yazınız" name="Email" />
+            <br />
+
+            <label>Şifre Giriniz</label>
+            @* type ile yazılanlar gizleniyor *@
+            <input type="password" placeholder="Buraya yazınız" name="Password" />
+            <br />
+
+            <input type="submit" value="Giriş Yap" class="btn btn-success" />
+        </form>
+
     </div>
 </body>
 </html>
