@@ -56,5 +56,10 @@ namespace Ders39_HtmlDersleri_NORTHWND.Controllers
             return View();
         }
 
+        public ActionResult Index4()
+        {
+            return View();
+        }
+
     }
 }
