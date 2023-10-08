@@ -1,4 +1,7 @@
 ﻿
+@using Ders39_HtmlDersleri_NORTHWND.Models
+@ViewBag
+
 @{
     Layout = null;
 }
@@ -39,10 +42,26 @@
                 <input type="password" placeholder="Buraya yazınız" name="Yas" />
                 <br />
 
-                <input type="submit" value="Giriş Yap" class="btn btn-success" />
+                <input type="submit" value="Giriş Yap" class="btn btn-danger" />
 
             </fieldset>
         </form>
+
+       @{ 
+           List<SelectListItem> kList = new List<SelectListItem>();
+           foreach(var item in ViewBag.Categories as List<Categories>)
+           {
+               SelectListItem sli = new SelectListItem();
+               sli.Text = item.CategoryName;
+               sli.Value = item.CategoryID.ToString();
+               kList.Add(sli);
+           }
+       }
+
+        <h3>
+            <span style="background-color:black; color:white;">Kategori Seçiniz</span>
+            @Html.DropDownList("CategoryID", new SelectList(kList, "Value", "Text"))
+        </h3>
 
     </div>
 </body>

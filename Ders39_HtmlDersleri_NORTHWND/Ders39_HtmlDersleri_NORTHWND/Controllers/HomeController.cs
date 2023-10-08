@@ -58,6 +58,7 @@ namespace Ders39_HtmlDersleri_NORTHWND.Controllers
 
         public ActionResult Index4()
         {
+            ViewBag.Categories = nORTHWNDEntities.Categories.ToList();
             return View();
         }
 
