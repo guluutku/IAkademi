@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Ders46_CSS_Dersleri.props" />
+</Project>
