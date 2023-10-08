@@ -44,11 +44,17 @@ namespace Ders39_HtmlDersleri_NORTHWND.Controllers
             return View();
         }
 
+        [HttpGet]
         public ActionResult Index3()
         {
             return View();
         }
 
+        [HttpPost]
+        public ActionResult Index3(Categories categories)
+        {
+            return View();
+        }
 
     }
 }
