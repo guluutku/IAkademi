@@ -23,8 +23,18 @@
 <body>
     <div> 
 
-        <form>
+        <form action="/Home/UyeOl" method="post">
+            <label>Email giriniz</label>
+            @* Kullanıcıdan girdi almak ve ipucu *@
+            <input type="text" placeholder="Buraya Yazınız"/>
+            <br />
 
+            <label>Şifre Giriniz</label>
+            @* type ile yazılanlar gizleniyor *@
+            <input type="password" placeholder="Buraya yazınız" />
+            <br />
+
+            <input type="submit" value="Giriş Yap" />
         </form>
 
     </div>
