@@ -9,8 +9,7 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Index2</title>
-  
-    <link href="d:\projeler\iakademi\ders46_css_dersleri\ders46_css_dersleri\wwwroot\css\iakademi.css" rel="stylesheet" />
+    <link href="~/wwwroot/css/iakademi.css" rel="stylesheet" />
     @*
     <style>
         .ozellik1{
@@ -35,7 +34,11 @@
     <p class="ozellik1">Paragraf1</p>
     <p style="background-color:red; color:yellow; font-size:30px">Paragraf2</p>
     <p id="ozellik2">Paragraf3</p>
-    <p>Paragraf4</p>
+
+    @* Özelliğin sadece belirli kısmını override yapar *@
+    <p class="ozellik1" style="background-color:purple;">Paragraf4</p>
+
+    @*  *@
     <p>Paragraf5</p>
 
 </body>

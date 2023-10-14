@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Xnhh+q1wGLYys+CWRFZvT43U/x0Ro5KtMLCXcw/H/h4=",
+  "Hash": "int2zQYcsD2jO5xPAERG9xd9bqLXkB+i+AUw8+ezbn4=",
   "Source": "Ders46_CSS_Dersleri",
   "BasePath": "_content/Ders46_CSS_Dersleri",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Projeler\\IAkademi\\Ders46_CSS_Dersleri\\Ders46_CSS_Dersleri\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Ders46_CSS_Dersleri.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\Projeler\\IAkademi\\Ders46_CSS_Dersleri\\Ders46_CSS_Dersleri\\wwwroot\\css\\iakademi.css",
+      "SourceId": "Ders46_CSS_Dersleri",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projeler\\IAkademi\\Ders46_CSS_Dersleri\\Ders46_CSS_Dersleri\\wwwroot\\",
+      "BasePath": "_content/Ders46_CSS_Dersleri",
+      "RelativePath": "css/iakademi.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\iakademi.css"
     },
     {
       "Identity": "D:\\Projeler\\IAkademi\\Ders46_CSS_Dersleri\\Ders46_CSS_Dersleri\\wwwroot\\css\\site.css",

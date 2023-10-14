@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Ders46_CSS_Dersleri.bundle.scp.css"
     },
     {
+      "Id": "D:\\Projeler\\IAkademi\\Ders46_CSS_Dersleri\\Ders46_CSS_Dersleri\\wwwroot\\css\\iakademi.css",
+      "PackagePath": "staticwebassets\\css\\iakademi.css"
+    },
+    {
       "Id": "D:\\Projeler\\IAkademi\\Ders46_CSS_Dersleri\\Ders46_CSS_Dersleri\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
