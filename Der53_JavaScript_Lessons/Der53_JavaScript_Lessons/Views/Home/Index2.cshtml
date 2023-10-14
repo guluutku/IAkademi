@@ -10,21 +10,38 @@
     <meta name="viewport" content="width=device-width" />
     <title>Index2</title>
 
-    <script>
-        function fonksiyon() {
+    @* <script>
+        function fonksiyon1() {
             document.getElementById("sonuc").innerHTML = "DEĞİŞTİ";
         }
-    </script>
+    </script> *@
+
 
 </head>
-<body>
+<body onload="hosgeldiniz()">
 
     <div id="sonuc">
         <p>
             Paragraf1 Değişecek
         </p>
-        <button type ="button" onclick="fonksiyon()">TIKLA</button>
+        <button type="button" onclick="fonksiyon2()">TIKLA</button>
     </div>
 
 </body>
 </html>
+
+<script>
+
+    window.onload = alert("Sitemize tekrar hoşgeldiniz");
+
+    function hosgeldiniz() {
+        aler("Sitemize Hoş Geldiniz");
+    }
+
+        function fonksiyon2() {
+        var sayi1 = 5;
+        var sayi2 = 10;
+            var toplam = sayi1 + sayi2;
+            document.getElementById("sonuc").innerHTML = toplam;
+        }
+    </script>
