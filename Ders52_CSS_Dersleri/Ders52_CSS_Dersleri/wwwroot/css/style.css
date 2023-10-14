@@ -1,0 +1,68 @@
+﻿/* Automatically use customized div layout with div{} */
+div {
+    width: 600px;
+    height: 300px;
+    background-color: red;
+    color: white;
+    padding: 50px;
+}
+
+/* Fare üstüne gelince rengi değişiyor */
+/* Change deneme1's bg when user hovers the mouse */
+.deneme1:hover {
+    background-color: purple;
+}
+
+.deneme1 {
+    width: 400px;
+    height: 300px;
+    background-color: green;
+    color: red;
+    font-size: 20px;
+    padding: 7px 15px 25px 45px;
+    margin: 250px;
+    /* solid color to give border color */
+    border: 20px solid red;
+    border-radius: 30px;
+    /* Tarayıcı sıfır noktası */
+    /* divleri birleştirir */
+    position: absolute;
+    /* Hangisi büyükse o bölge öne çıkar */
+    z-index: 2;
+}
+
+#deneme2 {
+    width: 500px;
+    height: 200px;
+    background-color: yellow;
+    color: grey;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 7px;
+    margin-top: 23px;
+    margin-bottom: 15px;
+    /* Sıfır noktası = bir üstteki div'in bitiş noktası */
+    position: relative;
+}
+
+.change_color:focus {
+    background: grey;
+    color: red;
+}
+
+#deneme10 {
+    width: 200px;
+    height: 300px;
+    background-color: deepskyblue;
+    /* Slow down animation by 0.5 seconds */
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+    text-shadow: 5px 5px black;
+    font-size: 50px;
+}
+
+    #deneme10:hover {
+        /* scale() = change size by given value */
+        transform: rotate(360deg) scale(0.5);
+        -webkit-transform: rotate(360);
+    }
