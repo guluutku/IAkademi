@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\Ders46_CSS_Dersleri.props" />
-</Project>
