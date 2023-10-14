@@ -20,6 +20,12 @@
             padding:50px;
         }
 
+        /* Fare üstüne gelince rengi değişiyor */
+        /* Change deneme1's bg when user hovers the mouse */
+        .deneme1:hover{
+            background-color:purple;
+        }
+
         .deneme1{
             width: 400px;
             height: 300px;
@@ -55,10 +61,43 @@
             /* Sıfır noktası = bir üstteki div'in bitiş noktası */
             position:relative;
         }
+
+        .change_color:focus{
+            background:grey;
+            color:red;
+        }
+
+        #deneme10{
+            width:200px;
+            height:300px;
+            background-color: deepskyblue;
+            /* Slow down animation by 0.5 seconds */
+            transition: all .5s ease-in-out;
+            cursor:pointer;
+            text-shadow:5px 5px black;
+            font-size:50px;
+        }
+
+        #deneme10:hover{
+            /* scale() = change size by given value */
+            transform:rotate(360deg) scale(0.5);
+            -webkit-transform:rotate(360);
+        }
     </style>
 
 </head>
 <body>
+
+    <div id="deneme10">
+        <p>Paragraf1</p>
+        <span>Span1</span>
+    </div>
+    <br />
+
+    <form>
+        <label>İsminizi giriniz</label>
+        <input type="text" value="giriniz" class="change_color" />
+    </form>
 
     <div>Div layout'u</div>
     <div class="deneme1">Overwrite div with class</div>
