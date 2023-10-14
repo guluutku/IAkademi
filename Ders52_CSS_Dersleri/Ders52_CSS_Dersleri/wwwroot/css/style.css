@@ -1,16 +1,10 @@
 ﻿/* Automatically use customized div layout with div{} */
-div {
+.div {
     width: 600px;
     height: 300px;
     background-color: red;
     color: white;
     padding: 50px;
-}
-
-/* Fare üstüne gelince rengi değişiyor */
-/* Change deneme1's bg when user hovers the mouse */
-.deneme1:hover {
-    background-color: purple;
 }
 
 .deneme1 {
@@ -30,6 +24,12 @@ div {
     /* Hangisi büyükse o bölge öne çıkar */
     z-index: 2;
 }
+
+    /* Fare üstüne gelince rengi değişiyor */
+    /* Change deneme1's bg when user hovers the mouse */
+    .deneme1:hover {
+        background-color: purple;
+    }
 
 #deneme2 {
     width: 500px;
