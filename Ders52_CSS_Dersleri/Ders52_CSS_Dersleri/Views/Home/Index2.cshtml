@@ -9,7 +9,48 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Index2</title>
+
+    @* Automatically use customized div layout with div{} *@
+    <style>
+        div{
+            width:600px;
+            height:300px;
+            background-color:red;
+            color:white;
+            padding:50px;
+        }
+
+        .deneme1{
+            width: 400px;
+            height: 300px;
+            background-color: green;
+            color: red;
+            font-size:20px;
+            padding: 7px 15px 25px 45px;
+            margin:250px;
+        }
+
+        #deneme2{
+            width: 500px;
+            height: 200px;
+            background-color: yellow;
+            color: grey;
+            font-size: 20px;
+            padding-left: 20px;
+            padding-top: 7px;
+            margin-top: 23px;
+            margin-bottom:15px;
+        }
+    </style>
+
 </head>
 <body>
+
+    <div>Div layout'u</div>
+    <div class="deneme1">Overwrite div with class</div>
+    <div id="deneme2">Overwrite div with id</div>
+    <span class="deneme1">Span class</span>
+
+
 </body>
 </html>
