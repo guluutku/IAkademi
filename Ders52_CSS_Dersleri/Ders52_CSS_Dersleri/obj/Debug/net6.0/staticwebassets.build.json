@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3A5l6ahv/3a9OyS7FXGKpKBRy0mQlTwDZhrkzWYiQro=",
+  "Hash": "7tk+WQ5F+Gdt2A/OgvdDC6/anLvdKi56VaExMjEji0Q=",
   "Source": "Ders52_CSS_Dersleri",
   "BasePath": "_content/Ders52_CSS_Dersleri",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "D:\\Projeler\\IAkademi\\Ders52_CSS_Dersleri\\Ders52_CSS_Dersleri\\wwwroot\\css\\style.css",
+      "SourceId": "Ders52_CSS_Dersleri",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projeler\\IAkademi\\Ders52_CSS_Dersleri\\Ders52_CSS_Dersleri\\wwwroot\\",
+      "BasePath": "_content/Ders52_CSS_Dersleri",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
       "Identity": "D:\\Projeler\\IAkademi\\Ders52_CSS_Dersleri\\Ders52_CSS_Dersleri\\wwwroot\\favicon.ico",
