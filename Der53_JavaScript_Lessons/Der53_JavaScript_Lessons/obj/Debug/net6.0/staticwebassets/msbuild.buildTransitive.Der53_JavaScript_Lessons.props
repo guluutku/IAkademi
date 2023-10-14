@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Der53_JavaScript_Lessons.props" />
+</Project>
