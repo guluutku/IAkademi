@@ -9,7 +9,72 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Index2</title>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
 </head>
 <body>
+
+    <p>paragraf1</p>
+    <p id="p2">paragraf2</p>
+
+    <div id="d1" style="background-color:red; color:white;">
+        <p>Div Paragraf</p>
+    </div>
+
+    <button id="btn1">GİZLE</button>
+    <button id="btn2">GÖSTER</button>
+    <button id="btn3">GİZLE/GÖSTER</button>
+    <button id="btn4">ANİMATE</button>
+
 </body>
 </html>
+<script>
+    $("#btn4").click(function () {
+        $("#d1").animate({
+            height:'150px',
+            opacity:'0.5'
+        })
+    })
+
+    /*
+    $("#btn1").click(function () {
+        $("#p2").slideUp(3000);
+    })
+
+    $("#btn2").click(function () {
+        $("#p2").slideDown(3000);
+    })
+
+    $("#btn3").click(function () {
+        $("p").slideToggle(3000);
+    })
+    */
+    /*
+    $("#btn1").click(function () {
+        $("#p2").fadeOut(3000);
+    })
+
+    $("#btn2").click(function () {
+        $("#p2").fadeIn(3000);
+    })
+    
+    $("#btn3").click(function () {
+        $("p").fadeToggle(3000);
+    })
+    */
+
+    // $("#btn1").click(function () {
+    //     $("p").hide(3000);
+    // })
+
+    // $("#btn2").click(function () {
+    //     $("p").show(3000);
+    // })
+    
+    // $("#btn3").click(function () {
+    //     $("p").toggle(3000);
+    // })
+
+    // $("button").click(function () {
+    //     $("p").hide();
+    // });
+</script>
