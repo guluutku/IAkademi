@@ -16,6 +16,12 @@
 </head>
 <body>
 
+    <h3 class="xx pembe">3333333333333333</h3>
+    <h3 class="xx pembe">33--------33</h3>
+    <h4 class="xx pembe">4444444444444444</h4>
+    <p class="xx pembe">p1111111111</p>
+    <p class="xx pembe">p2222222222</p>
+
     <ol>
         <li>İzmir</li>
         <li>Muğla</li>
@@ -40,18 +46,28 @@
 
     <button id="btn1">ÖNÜNE ŞEHİR EKLE</button>
     <button id="btn2">ARKASINA ŞEHİR EKLE</button>
+    <br />
 
     <button id="btn3">SİL</button>
     <button id="btn4">CLASS İLE SİL</button>
+    <br />
 
     <button id="btn5">CLASS EKLE</button>
     <button id="btn6">CLASS SİL</button>
     <button id="btn7">TOGGLE CLASS</button>
+    <br />
+
+    <button id="btn8">BİRDEN FAZLA REMOVE CLASS</button>
 
 </body>
 </html>
 
 <script>
+    // Remove more than 1 classes at the same time
+    $("#btn8").click(function () {
+        $("h3, h4 ,p").removeClass("pembe")
+    })
+
     // Toggle classes to div with id
     $("#btn7").click(function () {
         $("#dv1").toggleClass("xx pembe")
