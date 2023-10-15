@@ -22,7 +22,7 @@
     <input type="text" id="txt3" value="İakademi" />
     <input type="button" id="btn3" value="val" class="btn btn-success" />
 
-    <a href="http://www.google.com" id="link">Google amcaya git</a>
+    <a href="http://www.google.com" id="link"><span id="sp1">Google amcaya git</span></a>
     <button id="btn4">TIKLA URL</button>
 
 </body>
@@ -34,6 +34,7 @@
         $("#btn4").click(function () {
             // alert($("#link").attr("href"))
             $("#link").attr("href", "http://www.hepsiburada.com")
+            $("#sp1").text("Hepsiburada'ya git")
         })
 
         $("#btn3").click(function () {
