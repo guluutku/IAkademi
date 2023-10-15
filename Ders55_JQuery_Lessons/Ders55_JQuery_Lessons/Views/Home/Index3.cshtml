@@ -1,0 +1,30 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index3</title>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+</head>
+<body>
+
+    <div id="veri">Bu bir <b>JQuery</b> div'idir.</div>
+    <input type="button" id="btn1" value="text" />
+    <input type="button" id="btn2" value="html" />
+
+</body>
+</html>
+<script>
+    $("#btn1").click(function () {
+        alert("Yazı = " + $("#veri").text())
+    })
+
+    $("#btn2").click(function () {
+        alert("HTML = " + $("#veri").html())
+    })
+</script>
