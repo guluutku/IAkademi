@@ -9,6 +9,8 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Index3</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
 </head>
 <body>
@@ -17,14 +19,25 @@
     <input type="button" id="btn1" value="text" />
     <input type="button" id="btn2" value="html" />
 
+    <input type="text" id="txt3" value="İakademi" />
+    <input type="button" id="btn3" value="val" class="btn btn-success" />
+
 </body>
 </html>
-<script>
-    $("#btn1").click(function () {
-        alert("Yazı = " + $("#veri").text())
-    })
 
-    $("#btn2").click(function () {
-        alert("HTML = " + $("#veri").html())
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        $("#btn3").click(function () {
+            alert("VAL = " + $("#txt3").val())
+        })
+
+        $("#btn1").click(function () {
+            alert("Yazı = " + $("#veri").text())
+        })
+
+        $("#btn2").click(function () {
+            alert("HTML = " + $("#veri").html())
+        })
     })
 </script>
