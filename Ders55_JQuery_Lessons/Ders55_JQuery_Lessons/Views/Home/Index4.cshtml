@@ -1,0 +1,38 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index4</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+</head>
+<body>
+
+    <ol>
+        <li>İzmir</li>
+        <li>Muğla</li>
+        <li>Dnizli</li>
+    </ol>
+
+    <button id="btn1">ÖNÜNE ŞEHİR EKLE</button>
+    <button id="btn2">ARKASINA ŞEHİR EKLE</button>
+
+</body>
+</html>
+
+<script>
+    $("#btn1").click(function () {
+        $("ol").prepend("<li>Aydın</liZ")
+    })
+
+    $("#btn2").click(function () {
+        $("ol").append("<li>Mansisa</liZ")
+    })
+</script>

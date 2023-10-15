@@ -28,6 +28,11 @@ namespace Ders55_JQuery_Lessons.Controllers
             return View();
         }
 
+        public IActionResult Index4()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
