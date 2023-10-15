@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Ders55_JQuery_Lessons.props" />
+</Project>
