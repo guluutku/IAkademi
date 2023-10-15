@@ -22,11 +22,18 @@
     <input type="text" id="txt3" value="İakademi" />
     <input type="button" id="btn3" value="val" class="btn btn-success" />
 
+    <a href="http://www.google.com" id="link">Google amcaya git</a>
+    <button id="btn4">TIKLA</button>
+
 </body>
 </html>
 
 <script type="text/javascript">
     $(document).ready(function () {
+
+        $("#btn4").click(function () {
+            alert($("#link").attr("href"))
+        })
 
         $("#btn3").click(function () {
             alert("VAL = " + $("#txt3").val())
