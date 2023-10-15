@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "D:\\Projeler\\IAkademi\\Ders55_JQuery_Lessons\\Ders55_JQuery_Lessons\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
       "Id": "D:\\Projeler\\IAkademi\\Ders55_JQuery_Lessons\\Ders55_JQuery_Lessons\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },

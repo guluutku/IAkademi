@@ -12,6 +12,7 @@
 
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <link href="~/css/style.css" rel="stylesheet" />
 </head>
 <body>
 
@@ -21,17 +22,66 @@
         <li>Dnizli</li>
     </ol>
 
+    <div id="dv1">
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        <br />
+        BBBBBBBBBBBBBBBBBBBBBB
+    </div>
+
+    <span id="sp1">SİLİNECEK</span>
+
+    <br />
+    <span class="cls1">CLASS1 SİLİNECEK</span>
+    <br />
+    <span class="cls1">CLASS1 SİLİNECEK</span>
+    <br />
+    <span class="cls2">CLASS2 SİLİNECEK</span>
+    <br />
+
     <button id="btn1">ÖNÜNE ŞEHİR EKLE</button>
     <button id="btn2">ARKASINA ŞEHİR EKLE</button>
+
+    <button id="btn3">SİL</button>
+    <button id="btn4">CLASS İLE SİL</button>
+
+    <button id="btn5">CLASS EKLE</button>
+    <button id="btn6">CLASS SİL</button>
+    <button id="btn7">TOGGLE CLASS</button>
 
 </body>
 </html>
 
 <script>
+    // Toggle classes to div with id
+    $("#btn7").click(function () {
+        $("#dv1").toggleClass("xx pembe")
+    })
+
+    // REmove classes to div with id
+    $("#btn6").click(function () {
+        $("#dv1").removeClass("pembe")
+    })
+
+    // Add classes to div with id
+    $("#btn5").click(function () {
+        $("#dv1").addClass("xx pembe")
+    })
+
+    // span içideki classları cls1 olanları sil
+    $("#btn4").click(function () {
+        $("span").remove(".cls1")
+    })
+
+    $("#btn3").click(function () {
+        $("#sp1").remove()
+    })
+
+    // Add to top of the list
     $("#btn1").click(function () {
         $("ol").prepend("<li>Aydın</liZ")
     })
 
+    // Add to bottom of the list
     $("#btn2").click(function () {
         $("ol").append("<li>Mansisa</liZ")
     })

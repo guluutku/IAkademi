@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "q+AqTUk+ygscWJzhwDb06mDnHYTtroBMR6rcSK8p5QE=",
+  "Hash": "2XmLSrduL38XtDx/9tzkRLeYvATlyWUk3o4RtNAGMTs=",
   "Source": "Ders55_JQuery_Lessons",
   "BasePath": "_content/Ders55_JQuery_Lessons",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "D:\\Projeler\\IAkademi\\Ders55_JQuery_Lessons\\Ders55_JQuery_Lessons\\wwwroot\\css\\style.css",
+      "SourceId": "Ders55_JQuery_Lessons",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projeler\\IAkademi\\Ders55_JQuery_Lessons\\Ders55_JQuery_Lessons\\wwwroot\\",
+      "BasePath": "_content/Ders55_JQuery_Lessons",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
       "Identity": "D:\\Projeler\\IAkademi\\Ders55_JQuery_Lessons\\Ders55_JQuery_Lessons\\wwwroot\\favicon.ico",
