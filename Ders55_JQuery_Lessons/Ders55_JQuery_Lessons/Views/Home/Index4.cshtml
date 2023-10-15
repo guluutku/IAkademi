@@ -10,17 +10,12 @@
     <meta name="viewport" content="width=device-width" />
     <title>Index4</title>
 
+    @* Önce Css Sonra JavaScript olacak sırada eklenecek *@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <link href="~/css/style.css" rel="stylesheet" />
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
 </head>
 <body>
-
-    <h3 class="xx pembe">3333333333333333</h3>
-    <h3 class="xx pembe">33--------33</h3>
-    <h4 class="xx pembe">4444444444444444</h4>
-    <p class="xx pembe">p1111111111</p>
-    <p class="xx pembe">p2222222222</p>
 
     <ol>
         <li>İzmir</li>
@@ -57,13 +52,20 @@
     <button id="btn7">TOGGLE CLASS</button>
     <br />
 
-    <button id="btn8">BİRDEN FAZLA REMOVE CLASS</button>
+    <h3 class="xx pembe">3333333333333333</h3>
+    <h3 class="xx pembe">33--------33</h3>
+    <h4 class="xx pembe">4444444444444444</h4>
+    <p class="xx pembe">p1111111111</p>
+    <p class="xx pembe">p2222222222</p>
+    <br />
+
+    <button id="btn8">BİRDEN FAZLA REMOVECLASS</button>
 
 </body>
 </html>
 
 <script>
-    // Remove more than 1 classes at the same time
+    // Remove more than classes from more than 1 UIs at the same time
     $("#btn8").click(function () {
         $("h3, h4 ,p").removeClass("pembe")
     })
