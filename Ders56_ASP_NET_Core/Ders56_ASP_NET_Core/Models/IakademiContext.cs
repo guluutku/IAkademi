@@ -13,6 +13,8 @@ namespace Ders56_ASP_NET_Core.Models
 
             optionsBuilder.UseSqlServer(configuration["ConnectionString:iakademiConnection"]);
         }
+
+        public DbSet<Products> Products { get; set;}
     }
 }
 
