@@ -18,7 +18,7 @@ public class HomeController : Controller
     public IActionResult Index()
     {
         List<Products> products = iakademiContext.Products.ToList();
-        return View();
+        return View(products);
     }
 
     public IActionResult Privacy()
