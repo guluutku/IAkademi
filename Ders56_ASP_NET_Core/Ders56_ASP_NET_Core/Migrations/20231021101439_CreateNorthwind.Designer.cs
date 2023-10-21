@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Ders56_ASP_NET_Core.Migrations
 {
     [DbContext(typeof(IakademiContext))]
-    [Migration("20231021095416_CreateNorthwind")]
+    [Migration("20231021101439_CreateNorthwind")]
     partial class CreateNorthwind
     {
         /// <inheritdoc />

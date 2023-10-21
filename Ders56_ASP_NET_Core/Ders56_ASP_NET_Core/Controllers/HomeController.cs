@@ -8,6 +8,8 @@ public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
 
+    IakademiContext iakademiContext = new IakademiContext();
+
     public HomeController(ILogger<HomeController> logger)
     {
         _logger = logger;
@@ -15,6 +17,7 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+        List<Products> products = iakademiContext.Products.ToList();
         return View();
     }
 

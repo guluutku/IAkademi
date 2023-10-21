@@ -11,7 +11,7 @@ namespace Ders56_ASP_NET_Core.Models
 
             var configuration = builder.Build();
 
-            optionsBuilder.UseSqlServer(configuration["ConnectionString:iakademiConnection"]);
+            optionsBuilder.UseSqlServer(configuration["ConnectionStrings:iakademiConnection"]);
         }
 
         public DbSet<Products> Products { get; set;}
