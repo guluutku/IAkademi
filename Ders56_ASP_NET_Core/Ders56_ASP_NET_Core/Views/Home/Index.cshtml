@@ -8,10 +8,45 @@
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+<br />
+@*
+    <ul>
+        @foreach(var item in Model)
+        {
+            <li>@item.ProductName</li>
+        }
+    </ul>
+*@
 
-<ul>
-    @foreach(var item in Model)
-    {
-        <li>@item.ProductName</li>
-    }
-</ul>
+<a asp-action="Create" asp-controller="Home" class="btn btn-success">YENİ ÜRÜN</a>
+<br />
+
+@*
+    Helpers
+<a href=""></a>
+@Html.ActionLink
+
+@Url.Action
+*@
+
+<table class="table table-dark table-striped table-hover">
+    <thead>
+        <tr>
+            @* Auto matically show given name *@
+            @* No hard code table naming *@
+            <th scope="col">@Html.DisplayNameFor(model => model.ProductID)</th>
+            <th scope="col">@Html.DisplayNameFor(model => model.ProductName)</th>
+            <th scope="col">@Html.DisplayNameFor(model => model.UnitPrice)</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.ProductID)</td>
+                <td>@Html.DisplayFor(modelItem => item.ProductName)</td>
+                <td>@Html.DisplayFor(modelItem => item.UnitPrice)</td>
+            </tr>
+        }
+    </tbody>
+</table>
