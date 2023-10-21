@@ -1,0 +1,9 @@
+- Süslü parantezin eksik veya fazla yazılma hatasını rahat bir şekilde düzeltme 
+    için yeni bir class aç ve hatalı sınıftaki methodları teker teker ekle
+
+- Sql'de procedure yaratıp, projenin içinde procerdure kullanılır.
+
+- .SelectedIndex'ten numara alırken + 1 kullanılır. .SelectedIndex, 0'dan başladığı için.
+
+- Herkese ortak projede yeni bir özellik eklerken,
+    özelliği istemeyen müşterilere özellik gösterilmesin diye veri tabanı kullanılır(ozelliğiGöster = true / false gibi).
