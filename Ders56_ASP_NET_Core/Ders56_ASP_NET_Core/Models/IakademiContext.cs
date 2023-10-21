@@ -5,12 +5,14 @@ namespace Ders56_ASP_NET_Core.Models
 {
 	public class IakademiContext : DbContext
 	{
-		public IakademiContext()
-		{
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            var builder = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile("appsettings.json");
 
+            var configuration = builder.Build();
 
-
-		}
-	}
+            optionsBuilder.UseSqlServer(configuration["ConnectionString:iakademiConnection"]);
+        }
+    }
 }
 

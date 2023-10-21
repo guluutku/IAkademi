@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/Ders56_ASP_NET_Core.props" />
+</Project>
