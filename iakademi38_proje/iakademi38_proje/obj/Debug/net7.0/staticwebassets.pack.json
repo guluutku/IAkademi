@@ -1,244 +1,1064 @@
 {
   "Files": [
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/css/site.css",
-      "PackagePath": "staticwebassets/css/site.css"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/css/.DS_Store",
+      "PackagePath": "staticwebassets/css/.DS_Store"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/css/animate.css",
+      "PackagePath": "staticwebassets/css/animate.css"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/css/cloud-zoom.css",
+      "PackagePath": "staticwebassets/css/cloud-zoom.css"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/css/color-css/home-2-color.css",
+      "PackagePath": "staticwebassets/css/color-css/home-2-color.css"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/css/color-css/home-6-color.css",
+      "PackagePath": "staticwebassets/css/color-css/home-6-color.css"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/css/fancybox/Thumbs.db",
+      "PackagePath": "staticwebassets/css/fancybox/Thumbs.db"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/css/fancybox/blank.gif",
+      "PackagePath": "staticwebassets/css/fancybox/blank.gif"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/css/fancybox/fancybox_loading.gif",
+      "PackagePath": "staticwebassets/css/fancybox/fancybox_loading.gif"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/css/fancybox/fancybox_loading@2x.gif",
+      "PackagePath": "staticwebassets/css/fancybox/fancybox_loading@2x.gif"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/css/fancybox/fancybox_overlay.png",
+      "PackagePath": "staticwebassets/css/fancybox/fancybox_overlay.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/css/fancybox/fancybox_sprite.png",
+      "PackagePath": "staticwebassets/css/fancybox/fancybox_sprite.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/css/fancybox/fancybox_sprite@2x.png",
+      "PackagePath": "staticwebassets/css/fancybox/fancybox_sprite@2x.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/css/fancybox/jquery.fancybox.css",
+      "PackagePath": "staticwebassets/css/fancybox/jquery.fancybox.css"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/css/font-awesome.min.css",
+      "PackagePath": "staticwebassets/css/font-awesome.min.css"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/css/images/Thumbs.db",
+      "PackagePath": "staticwebassets/css/images/Thumbs.db"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/css/images/bx_loader.gif",
+      "PackagePath": "staticwebassets/css/images/bx_loader.gif"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/css/images/controls.png",
+      "PackagePath": "staticwebassets/css/images/controls.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/css/jquery-ui.css",
+      "PackagePath": "staticwebassets/css/jquery-ui.css"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/css/jquery.bxslider.min.css",
+      "PackagePath": "staticwebassets/css/jquery.bxslider.min.css"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/css/main.css",
+      "PackagePath": "staticwebassets/css/main.css"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/css/mobile_menu.min.css",
+      "PackagePath": "staticwebassets/css/mobile_menu.min.css"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/css/normalize.css",
+      "PackagePath": "staticwebassets/css/normalize.css"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/css/owl.carousel.css",
+      "PackagePath": "staticwebassets/css/owl.carousel.css"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/css/owl.theme.css",
+      "PackagePath": "staticwebassets/css/owl.theme.css"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/css/owl.transitions.css",
+      "PackagePath": "staticwebassets/css/owl.transitions.css"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/css/responsive.css",
+      "PackagePath": "staticwebassets/css/responsive.css"
     },
     {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/js/site.js",
-      "PackagePath": "staticwebassets/js/site.js"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/fonts/FontAwesome.otf",
+      "PackagePath": "staticwebassets/fonts/FontAwesome.otf"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/bootstrap/LICENSE",
-      "PackagePath": "staticwebassets/lib/bootstrap"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/fonts/fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets/fonts/fontawesome-webfont.eot"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/fonts/fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets/fonts/fontawesome-webfont.svg"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/fonts/fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets/fonts/fontawesome-webfont.ttf"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/fonts/fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets/fonts/fontawesome-webfont.woff"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/fonts/fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets/fonts/fontawesome-webfont.woff2"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/fonts/glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets/fonts/glyphicons-halflings-regular.eot"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/fonts/glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets/fonts/glyphicons-halflings-regular.svg"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/fonts/glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets/fonts/glyphicons-halflings-regular.ttf"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/fonts/glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets/fonts/glyphicons-halflings-regular.woff"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/fonts/glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets/fonts/glyphicons-halflings-regular.woff2"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/.DS_Store",
+      "PackagePath": "staticwebassets/img/.DS_Store"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/Thumbs.db",
+      "PackagePath": "staticwebassets/img/Thumbs.db"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-adds/1.jpg",
+      "PackagePath": "staticwebassets/img/all-adds/1.jpg"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-adds/2.jpg",
+      "PackagePath": "staticwebassets/img/all-adds/2.jpg"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-adds/3.jpg",
+      "PackagePath": "staticwebassets/img/all-adds/3.jpg"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-adds/4.jpg",
+      "PackagePath": "staticwebassets/img/all-adds/4.jpg"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-adds/5.jpg",
+      "PackagePath": "staticwebassets/img/all-adds/5.jpg"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-adds/6.jpg",
+      "PackagePath": "staticwebassets/img/all-adds/6.jpg"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-adds/bg-furniture_1.png",
+      "PackagePath": "staticwebassets/img/all-adds/bg-furniture_1.png"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-bannars/1.jpg",
+      "PackagePath": "staticwebassets/img/all-bannars/1.jpg"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-bannars/2.jpg",
+      "PackagePath": "staticwebassets/img/all-bannars/2.jpg"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-bannars/3.jpg",
+      "PackagePath": "staticwebassets/img/all-bannars/3.jpg"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-bannars/4.jpg",
+      "PackagePath": "staticwebassets/img/all-bannars/4.jpg"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-bannars/5.jpg",
+      "PackagePath": "staticwebassets/img/all-bannars/5.jpg"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-bannars/6.jpg",
+      "PackagePath": "staticwebassets/img/all-bannars/6.jpg"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-bannars/7.jpg",
+      "PackagePath": "staticwebassets/img/all-bannars/7.jpg"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-bannars/8.jpg",
+      "PackagePath": "staticwebassets/img/all-bannars/8.jpg"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-bannars/about-us.jpg",
+      "PackagePath": "staticwebassets/img/all-bannars/about-us.jpg"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-icons/bg-fashion.png",
+      "PackagePath": "staticwebassets/img/all-icons/bg-fashion.png"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-icons/bg-header.png",
+      "PackagePath": "staticwebassets/img/all-icons/bg-header.png"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-icons/bg-health.png",
+      "PackagePath": "staticwebassets/img/all-icons/bg-health.png"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-icons/bg-mobile1.png",
+      "PackagePath": "staticwebassets/img/all-icons/bg-mobile1.png"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-icons/bkg_category.png",
+      "PackagePath": "staticwebassets/img/all-icons/bkg_category.png"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-icons/down-arrow.png",
+      "PackagePath": "staticwebassets/img/all-icons/down-arrow.png"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-icons/down-arrowblk.png",
+      "PackagePath": "staticwebassets/img/all-icons/down-arrowblk.png"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-icons/furniture.png",
+      "PackagePath": "staticwebassets/img/all-icons/furniture.png"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-icons/i_page1.gif",
+      "PackagePath": "staticwebassets/img/all-icons/i_page1.gif"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-icons/i_page2.gif",
+      "PackagePath": "staticwebassets/img/all-icons/i_page2.gif"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-icons/icon-baby.png",
+      "PackagePath": "staticwebassets/img/all-icons/icon-baby.png"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-icons/icon-camera (1).png",
+      "PackagePath": "staticwebassets/img/all-icons/icon-camera (1).png"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-icons/icon-camera.png",
+      "PackagePath": "staticwebassets/img/all-icons/icon-camera.png"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-icons/icon-destop.png",
+      "PackagePath": "staticwebassets/img/all-icons/icon-destop.png"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-icons/icon-fashion.png",
+      "PackagePath": "staticwebassets/img/all-icons/icon-fashion.png"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-icons/icon-furniture.png",
+      "PackagePath": "staticwebassets/img/all-icons/icon-furniture.png"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-icons/icon-health.png",
+      "PackagePath": "staticwebassets/img/all-icons/icon-health.png"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-icons/icon-houseware_1.png",
+      "PackagePath": "staticwebassets/img/all-icons/icon-houseware_1.png"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-icons/icon-mobile.png",
+      "PackagePath": "staticwebassets/img/all-icons/icon-mobile.png"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-icons/icon-toy.png",
+      "PackagePath": "staticwebassets/img/all-icons/icon-toy.png"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/jquery-validation/LICENSE.md",
-      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-icons/icon-watches.png",
+      "PackagePath": "staticwebassets/img/all-icons/icon-watches.png"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/jquery-validation/dist/additional-methods.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-icons/star-active.png",
+      "PackagePath": "staticwebassets/img/all-icons/star-active.png"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-icons/star.png",
+      "PackagePath": "staticwebassets/img/all-icons/star.png"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-sp/1.jpg",
+      "PackagePath": "staticwebassets/img/all-sp/1.jpg"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-sp/2.jpg",
+      "PackagePath": "staticwebassets/img/all-sp/2.jpg"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/jquery/LICENSE.txt",
-      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-sp/3.jpg",
+      "PackagePath": "staticwebassets/img/all-sp/3.jpg"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/jquery/dist/jquery.js",
-      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-sp/4.jpg",
+      "PackagePath": "staticwebassets/img/all-sp/4.jpg"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/jquery/dist/jquery.min.js",
-      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-sp/5.jpg",
+      "PackagePath": "staticwebassets/img/all-sp/5.jpg"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/jquery/dist/jquery.min.map",
-      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-sp/6.jpg",
+      "PackagePath": "staticwebassets/img/all-sp/6.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-sp/7.jpg",
+      "PackagePath": "staticwebassets/img/all-sp/7.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-sp/new-p/1.jpg",
+      "PackagePath": "staticwebassets/img/all-sp/new-p/1.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-sp/new-p/10.jpg",
+      "PackagePath": "staticwebassets/img/all-sp/new-p/10.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-sp/new-p/11.jpg",
+      "PackagePath": "staticwebassets/img/all-sp/new-p/11.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-sp/new-p/12.jpg",
+      "PackagePath": "staticwebassets/img/all-sp/new-p/12.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-sp/new-p/13.jpg",
+      "PackagePath": "staticwebassets/img/all-sp/new-p/13.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-sp/new-p/14.jpg",
+      "PackagePath": "staticwebassets/img/all-sp/new-p/14.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-sp/new-p/15.jpg",
+      "PackagePath": "staticwebassets/img/all-sp/new-p/15.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-sp/new-p/16.jpg",
+      "PackagePath": "staticwebassets/img/all-sp/new-p/16.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-sp/new-p/17.jpg",
+      "PackagePath": "staticwebassets/img/all-sp/new-p/17.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-sp/new-p/18.jpg",
+      "PackagePath": "staticwebassets/img/all-sp/new-p/18.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-sp/new-p/19.jpg",
+      "PackagePath": "staticwebassets/img/all-sp/new-p/19.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-sp/new-p/2.jpg",
+      "PackagePath": "staticwebassets/img/all-sp/new-p/2.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-sp/new-p/20.jpg",
+      "PackagePath": "staticwebassets/img/all-sp/new-p/20.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-sp/new-p/21.jpg",
+      "PackagePath": "staticwebassets/img/all-sp/new-p/21.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-sp/new-p/22.jpg",
+      "PackagePath": "staticwebassets/img/all-sp/new-p/22.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-sp/new-p/23.jpg",
+      "PackagePath": "staticwebassets/img/all-sp/new-p/23.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-sp/new-p/24.jpg",
+      "PackagePath": "staticwebassets/img/all-sp/new-p/24.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-sp/new-p/25.jpg",
+      "PackagePath": "staticwebassets/img/all-sp/new-p/25.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-sp/new-p/26.jpg",
+      "PackagePath": "staticwebassets/img/all-sp/new-p/26.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-sp/new-p/3.jpg",
+      "PackagePath": "staticwebassets/img/all-sp/new-p/3.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-sp/new-p/4.jpg",
+      "PackagePath": "staticwebassets/img/all-sp/new-p/4.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-sp/new-p/5.jpg",
+      "PackagePath": "staticwebassets/img/all-sp/new-p/5.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-sp/new-p/6.jpg",
+      "PackagePath": "staticwebassets/img/all-sp/new-p/6.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-sp/new-p/7.jpg",
+      "PackagePath": "staticwebassets/img/all-sp/new-p/7.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-sp/new-p/8.jpg",
+      "PackagePath": "staticwebassets/img/all-sp/new-p/8.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/all-sp/new-p/9.jpg",
+      "PackagePath": "staticwebassets/img/all-sp/new-p/9.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/bg-bd.png",
+      "PackagePath": "staticwebassets/img/bg-bd.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/blog/1.jpg",
+      "PackagePath": "staticwebassets/img/blog/1.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/blog/2.jpg",
+      "PackagePath": "staticwebassets/img/blog/2.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/blog/3.jpg",
+      "PackagePath": "staticwebassets/img/blog/3.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/blog/capcha.jpg",
+      "PackagePath": "staticwebassets/img/blog/capcha.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/brand/1.png",
+      "PackagePath": "staticwebassets/img/brand/1.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/brand/2.png",
+      "PackagePath": "staticwebassets/img/brand/2.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/brand/3.png",
+      "PackagePath": "staticwebassets/img/brand/3.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/brand/4.png",
+      "PackagePath": "staticwebassets/img/brand/4.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/brand/5.png",
+      "PackagePath": "staticwebassets/img/brand/5.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/c-slide1.png",
+      "PackagePath": "staticwebassets/img/c-slide1.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/client-bg.png",
+      "PackagePath": "staticwebassets/img/client-bg.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/clients/1.png",
+      "PackagePath": "staticwebassets/img/clients/1.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/clients/2.png",
+      "PackagePath": "staticwebassets/img/clients/2.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/clients/3.png",
+      "PackagePath": "staticwebassets/img/clients/3.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/clients/4.png",
+      "PackagePath": "staticwebassets/img/clients/4.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/corporatebg.jpg",
+      "PackagePath": "staticwebassets/img/corporatebg.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/corporet.jpg",
+      "PackagePath": "staticwebassets/img/corporet.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/error.jpg",
+      "PackagePath": "staticwebassets/img/error.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/fav_icon.ico",
+      "PackagePath": "staticwebassets/img/fav_icon.ico"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/featured-bg2.jpg",
+      "PackagePath": "staticwebassets/img/featured-bg2.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/fixed-bg.jpg",
+      "PackagePath": "staticwebassets/img/fixed-bg.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/fv-products/1.jpg",
+      "PackagePath": "staticwebassets/img/fv-products/1.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/fv-products/2.jpg",
+      "PackagePath": "staticwebassets/img/fv-products/2.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/fv-products/3.jpg",
+      "PackagePath": "staticwebassets/img/fv-products/3.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/logo.png",
+      "PackagePath": "staticwebassets/img/logo.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/map-marker.png",
+      "PackagePath": "staticwebassets/img/map-marker.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/payment.png",
+      "PackagePath": "staticwebassets/img/payment.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/protfolio/1.jpg",
+      "PackagePath": "staticwebassets/img/protfolio/1.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/protfolio/10.jpg",
+      "PackagePath": "staticwebassets/img/protfolio/10.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/protfolio/11.jpg",
+      "PackagePath": "staticwebassets/img/protfolio/11.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/protfolio/2.jpg",
+      "PackagePath": "staticwebassets/img/protfolio/2.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/protfolio/3.jpg",
+      "PackagePath": "staticwebassets/img/protfolio/3.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/protfolio/4.jpg",
+      "PackagePath": "staticwebassets/img/protfolio/4.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/protfolio/5.jpg",
+      "PackagePath": "staticwebassets/img/protfolio/5.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/protfolio/6.jpg",
+      "PackagePath": "staticwebassets/img/protfolio/6.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/protfolio/7.jpg",
+      "PackagePath": "staticwebassets/img/protfolio/7.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/protfolio/8.jpg",
+      "PackagePath": "staticwebassets/img/protfolio/8.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/protfolio/9.jpg",
+      "PackagePath": "staticwebassets/img/protfolio/9.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/shareicon.png",
+      "PackagePath": "staticwebassets/img/shareicon.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/shopbannar.jpg",
+      "PackagePath": "staticwebassets/img/shopbannar.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/single-products/1.jpg",
+      "PackagePath": "staticwebassets/img/single-products/1.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/single-products/2.jpg",
+      "PackagePath": "staticwebassets/img/single-products/2.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/single-products/3.jpg",
+      "PackagePath": "staticwebassets/img/single-products/3.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/single-products/4.jpg",
+      "PackagePath": "staticwebassets/img/single-products/4.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/single-products/small/1.jpg",
+      "PackagePath": "staticwebassets/img/single-products/small/1.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/single-products/small/2.jpg",
+      "PackagePath": "staticwebassets/img/single-products/small/2.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/single-products/small/3.jpg",
+      "PackagePath": "staticwebassets/img/single-products/small/3.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/single-products/small/4.jpg",
+      "PackagePath": "staticwebassets/img/single-products/small/4.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/single-share.png",
+      "PackagePath": "staticwebassets/img/single-share.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/slider/.DS_Store",
+      "PackagePath": "staticwebassets/img/slider/.DS_Store"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/slider/h1/hsliderbg1.jpg",
+      "PackagePath": "staticwebassets/img/slider/h1/hsliderbg1.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/slider/h1/hsliderbg2.jpg",
+      "PackagePath": "staticwebassets/img/slider/h1/hsliderbg2.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/slider/h2/1.jpg",
+      "PackagePath": "staticwebassets/img/slider/h2/1.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/slider/h2/2.jpg",
+      "PackagePath": "staticwebassets/img/slider/h2/2.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/slider/h2/2.png",
+      "PackagePath": "staticwebassets/img/slider/h2/2.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/slider/h2/3.jpg",
+      "PackagePath": "staticwebassets/img/slider/h2/3.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/slider/h2/4.jpg",
+      "PackagePath": "staticwebassets/img/slider/h2/4.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/slider/h4/1.jpg",
+      "PackagePath": "staticwebassets/img/slider/h4/1.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/slider/h4/2.jpg",
+      "PackagePath": "staticwebassets/img/slider/h4/2.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/slider/h4/Thumbs.db",
+      "PackagePath": "staticwebassets/img/slider/h4/Thumbs.db"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/slider/h6/1.jpg",
+      "PackagePath": "staticwebassets/img/slider/h6/1.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/slider/h6/2.jpg",
+      "PackagePath": "staticwebassets/img/slider/h6/2.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/soon-bg.jpg",
+      "PackagePath": "staticwebassets/img/soon-bg.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/team/1.jpg",
+      "PackagePath": "staticwebassets/img/team/1.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/team/2.jpg",
+      "PackagePath": "staticwebassets/img/team/2.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/team/3.jpg",
+      "PackagePath": "staticwebassets/img/team/3.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/team/4.jpg",
+      "PackagePath": "staticwebassets/img/team/4.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/testimonial/1.png",
+      "PackagePath": "staticwebassets/img/testimonial/1.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/testimonial/2.png",
+      "PackagePath": "staticwebassets/img/testimonial/2.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/js/bx-slider.min.js",
+      "PackagePath": "staticwebassets/js/bx-slider.min.js"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/js/countdown.js",
+      "PackagePath": "staticwebassets/js/countdown.js"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/js/jquery.appear.js",
+      "PackagePath": "staticwebassets/js/jquery.appear.js"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/js/jquery.easing.1.3.min.js",
+      "PackagePath": "staticwebassets/js/jquery.easing.1.3.min.js"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/js/jquery.elevatezoom.js",
+      "PackagePath": "staticwebassets/js/jquery.elevatezoom.js"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/js/jquery.fancybox.pack.js",
+      "PackagePath": "staticwebassets/js/jquery.fancybox.pack.js"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/js/jquery.mixitup.min.js",
+      "PackagePath": "staticwebassets/js/jquery.mixitup.min.js"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/js/jquery.mobilemenu.js",
+      "PackagePath": "staticwebassets/js/jquery.mobilemenu.js"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/js/jquery.scrollUp.min.js",
+      "PackagePath": "staticwebassets/js/jquery.scrollUp.min.js"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/js/jquery.treeview.js",
+      "PackagePath": "staticwebassets/js/jquery.treeview.js"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/js/main.js",
+      "PackagePath": "staticwebassets/js/main.js"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/js/owl.carousel.min.js",
+      "PackagePath": "staticwebassets/js/owl.carousel.min.js"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/js/parallax.js",
+      "PackagePath": "staticwebassets/js/parallax.js"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/js/plugins.js",
+      "PackagePath": "staticwebassets/js/plugins.js"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/js/price_slider.js",
+      "PackagePath": "staticwebassets/js/price_slider.js"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/js/rs-slider.js",
+      "PackagePath": "staticwebassets/js/rs-slider.js"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/js/vendor/jquery-1.11.3.min.js",
+      "PackagePath": "staticwebassets/js/vendor/jquery-1.11.3.min.js"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/js/vendor/modernizr-2.8.3.min.js",
+      "PackagePath": "staticwebassets/js/vendor/modernizr-2.8.3.min.js"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/js/wow.js",
+      "PackagePath": "staticwebassets/js/wow.js"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/.DS_Store",
+      "PackagePath": "staticwebassets/lib/.DS_Store"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/.DS_Store",
+      "PackagePath": "staticwebassets/lib/rs-plugin/.DS_Store"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/assets/Thumbs.db",
+      "PackagePath": "staticwebassets/lib/rs-plugin/assets/Thumbs.db"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/assets/arrow_large_left.png",
+      "PackagePath": "staticwebassets/lib/rs-plugin/assets/arrow_large_left.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/assets/arrow_large_right.png",
+      "PackagePath": "staticwebassets/lib/rs-plugin/assets/arrow_large_right.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/assets/arrow_left.png",
+      "PackagePath": "staticwebassets/lib/rs-plugin/assets/arrow_left.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/assets/arrow_left2.png",
+      "PackagePath": "staticwebassets/lib/rs-plugin/assets/arrow_left2.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/assets/arrow_right.png",
+      "PackagePath": "staticwebassets/lib/rs-plugin/assets/arrow_right.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/assets/arrow_right2.png",
+      "PackagePath": "staticwebassets/lib/rs-plugin/assets/arrow_right2.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/assets/arrowleft.png",
+      "PackagePath": "staticwebassets/lib/rs-plugin/assets/arrowleft.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/assets/arrowright.png",
+      "PackagePath": "staticwebassets/lib/rs-plugin/assets/arrowright.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/assets/arrows.psd",
+      "PackagePath": "staticwebassets/lib/rs-plugin/assets/arrows.psd"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/assets/black50.png",
+      "PackagePath": "staticwebassets/lib/rs-plugin/assets/black50.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/assets/boxed_bgtile.png",
+      "PackagePath": "staticwebassets/lib/rs-plugin/assets/boxed_bgtile.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/assets/bullet.png",
+      "PackagePath": "staticwebassets/lib/rs-plugin/assets/bullet.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/assets/bullet_boxed.png",
+      "PackagePath": "staticwebassets/lib/rs-plugin/assets/bullet_boxed.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/assets/bullets.png",
+      "PackagePath": "staticwebassets/lib/rs-plugin/assets/bullets.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/assets/bullets.psd",
+      "PackagePath": "staticwebassets/lib/rs-plugin/assets/bullets.psd"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/assets/bullets2.png",
+      "PackagePath": "staticwebassets/lib/rs-plugin/assets/bullets2.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/assets/coloredbg.png",
+      "PackagePath": "staticwebassets/lib/rs-plugin/assets/coloredbg.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/assets/grain.png",
+      "PackagePath": "staticwebassets/lib/rs-plugin/assets/grain.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/assets/gridtile.png",
+      "PackagePath": "staticwebassets/lib/rs-plugin/assets/gridtile.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/assets/gridtile_3x3.png",
+      "PackagePath": "staticwebassets/lib/rs-plugin/assets/gridtile_3x3.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/assets/gridtile_3x3_white.png",
+      "PackagePath": "staticwebassets/lib/rs-plugin/assets/gridtile_3x3_white.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/assets/gridtile_white.png",
+      "PackagePath": "staticwebassets/lib/rs-plugin/assets/gridtile_white.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/assets/large_left.png",
+      "PackagePath": "staticwebassets/lib/rs-plugin/assets/large_left.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/assets/large_right.png",
+      "PackagePath": "staticwebassets/lib/rs-plugin/assets/large_right.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/assets/loader (1).gif",
+      "PackagePath": "staticwebassets/lib/rs-plugin/assets/loader (1).gif"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/assets/loader.gif",
+      "PackagePath": "staticwebassets/lib/rs-plugin/assets/loader.gif"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/assets/navigdots.png",
+      "PackagePath": "staticwebassets/lib/rs-plugin/assets/navigdots.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/assets/navigdots_bgtile.png",
+      "PackagePath": "staticwebassets/lib/rs-plugin/assets/navigdots_bgtile.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/assets/shadow1.png",
+      "PackagePath": "staticwebassets/lib/rs-plugin/assets/shadow1.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/assets/shadow2.png",
+      "PackagePath": "staticwebassets/lib/rs-plugin/assets/shadow2.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/assets/shadow3.png",
+      "PackagePath": "staticwebassets/lib/rs-plugin/assets/shadow3.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/assets/small_arrows.psd",
+      "PackagePath": "staticwebassets/lib/rs-plugin/assets/small_arrows.psd"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/assets/small_left.png",
+      "PackagePath": "staticwebassets/lib/rs-plugin/assets/small_left.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/assets/small_left_boxed.png",
+      "PackagePath": "staticwebassets/lib/rs-plugin/assets/small_left_boxed.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/assets/small_right.png",
+      "PackagePath": "staticwebassets/lib/rs-plugin/assets/small_right.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/assets/small_right_boxed.png",
+      "PackagePath": "staticwebassets/lib/rs-plugin/assets/small_right_boxed.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/assets/timer.png",
+      "PackagePath": "staticwebassets/lib/rs-plugin/assets/timer.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/assets/timerdot.png",
+      "PackagePath": "staticwebassets/lib/rs-plugin/assets/timerdot.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/assets/transparent.jpg",
+      "PackagePath": "staticwebassets/lib/rs-plugin/assets/transparent.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/assets/white50.png",
+      "PackagePath": "staticwebassets/lib/rs-plugin/assets/white50.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/css/settings-ie8.css",
+      "PackagePath": "staticwebassets/lib/rs-plugin/css/settings-ie8.css"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/css/settings.css",
+      "PackagePath": "staticwebassets/lib/rs-plugin/css/settings.css"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/font/revicons.eot",
+      "PackagePath": "staticwebassets/lib/rs-plugin/font/revicons.eot"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/font/revicons.svg",
+      "PackagePath": "staticwebassets/lib/rs-plugin/font/revicons.svg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/font/revicons.ttf",
+      "PackagePath": "staticwebassets/lib/rs-plugin/font/revicons.ttf"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/font/revicons.woff",
+      "PackagePath": "staticwebassets/lib/rs-plugin/font/revicons.woff"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/images/Thumbs.db",
+      "PackagePath": "staticwebassets/lib/rs-plugin/images/Thumbs.db"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/images/decor_inside.png",
+      "PackagePath": "staticwebassets/lib/rs-plugin/images/decor_inside.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/images/decor_inside_white.png",
+      "PackagePath": "staticwebassets/lib/rs-plugin/images/decor_inside_white.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/images/decor_testimonial.png",
+      "PackagePath": "staticwebassets/lib/rs-plugin/images/decor_testimonial.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/images/gradient/Thumbs.db",
+      "PackagePath": "staticwebassets/lib/rs-plugin/images/gradient/Thumbs.db"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/images/gradient/g30.png",
+      "PackagePath": "staticwebassets/lib/rs-plugin/images/gradient/g30.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/images/gradient/g40.png",
+      "PackagePath": "staticwebassets/lib/rs-plugin/images/gradient/g40.png"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/js/jquery.themepunch.enablelog.js",
+      "PackagePath": "staticwebassets/lib/rs-plugin/js/jquery.themepunch.enablelog.js"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/js/jquery.themepunch.revolution.js",
+      "PackagePath": "staticwebassets/lib/rs-plugin/js/jquery.themepunch.revolution.js"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/js/jquery.themepunch.revolution.min.js",
+      "PackagePath": "staticwebassets/lib/rs-plugin/js/jquery.themepunch.revolution.min.js"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/js/jquery.themepunch.tools.min.js",
+      "PackagePath": "staticwebassets/lib/rs-plugin/js/jquery.themepunch.tools.min.js"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/style.css",
+      "PackagePath": "staticwebassets/style.css"
     },
     {
       "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.iakademi38_proje.props",
