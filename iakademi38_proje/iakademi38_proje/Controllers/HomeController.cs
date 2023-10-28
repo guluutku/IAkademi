@@ -22,5 +22,35 @@ namespace iakademi38_proje.Controllers
         {
             return View();
         }
+
+        public IActionResult NewProducts()
+        {
+            return View();
+        }
+
+        public IActionResult SpecialProducts()
+        {
+            return View();
+        }
+        
+        public IActionResult DiscountedProducts()
+        {
+            return View();
+        }
+
+        public IActionResult HighlightedProducts()
+        {
+            return View();
+        }
+
+        public IActionResult TopSelledProducts()
+        {
+            return View();
+        }
+
+        public IActionResult MyOrders()
+        {
+            return View();
+        }
     }
 }
