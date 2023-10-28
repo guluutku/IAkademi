@@ -219,3 +219,12 @@
 /Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/obj/Debug/net7.0/iakademi38_proje.pdb
 /Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/obj/Debug/net7.0/iakademi38_proje.genruntimeconfig.cache
 /Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/obj/Debug/net7.0/ref/iakademi38_proje.dll
+/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/bin/Debug/net7.0/System.Web.Mvc.dll
+/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/bin/Debug/net7.0/System.Web.Razor.dll
+/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/bin/Debug/net7.0/System.Web.Helpers.dll
+/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/bin/Debug/net7.0/System.Web.WebPages.Deployment.dll
+/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/bin/Debug/net7.0/System.Web.WebPages.Razor.dll
+/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/bin/Debug/net7.0/System.Web.WebPages.dll
+/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/bin/Debug/net7.0/Microsoft.DotNet.PlatformAbstractions.dll
+/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/bin/Debug/net7.0/Microsoft.Web.Infrastructure.dll
