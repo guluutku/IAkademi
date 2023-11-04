@@ -43,6 +43,7 @@ namespace iakademi38_proje.Models
         public int Related { get; set; } // Buna Bakanlar
         public string? Notes { get; set; }
         public string? PhotoPath { get; set; }
+        public bool Active { get; set; }
 
     }
 }
