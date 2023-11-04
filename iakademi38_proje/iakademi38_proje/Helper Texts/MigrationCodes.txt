@@ -1,0 +1,5 @@
+﻿Tools-> NuGet Package Manager -> Package Manager Console
+
+Add Migration: Add-Migration "İakademi38CoreCreate"
+Undo Migration: Remove-Migration
+Update Migration to Database: Update-Database

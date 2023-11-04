@@ -13,7 +13,7 @@ namespace iakademi38_proje.Models
         [StringLength(100)]
         [Required(ErrorMessage = "Ürün adı girilmeli")]
         public string? ProductName { get; set; }
-        public decimal? UnitPrice { get; set; }
+        public decimal UnitPrice { get; set; }
 
         [DisplayName("Kategori")]
         public int CategoryID { get; set; }
