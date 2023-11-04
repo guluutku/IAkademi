@@ -26,5 +26,12 @@ namespace iakademi38_proje.Models
 
         public int Discount { get; set; }
 
+        [DisplayName("Statüs")]
+        public int StatusID { get; set; }
+
+        public DateTime AddDate { get; set; }
+
+        public string? Keywords { get; set; }
+
     }
 }
