@@ -79,6 +79,10 @@
             "NUnit.Console": {
               "target": "Package",
               "version": "[3.16.3, )"
+            },
+            "XAct.Core": {
+              "target": "Package",
+              "version": "[1.1.17040.3290, )"
             }
           },
           "imports": [
