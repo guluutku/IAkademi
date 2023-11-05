@@ -36,5 +36,10 @@ namespace iakademi38_proje.Controllers
 
             return View();
         }
+
+        public IActionResult Index()
+        {
+            return View();
+        }
     }
 }
