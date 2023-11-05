@@ -1,24 +1,25 @@
 ﻿<Properties StartupConfiguration="{8C7ADC9D-28DE-4B23-8E8B-A6E2BF936DCA}|https">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="iakademi38_proje/Views/Admin/Login.cshtml">
+  <MonoDevelop.Ide.ItemProperties.iakademi38__proje PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="iakademi38_proje/Views/Home/MainMenuViews/Login.cshtml">
     <Files>
-      <File FileName="iakademi38_proje/Views/Shared/DefaultLayout.cshtml" Line="386" Column="49" />
-      <File FileName="iakademi38_proje/Controllers/HomeController.cs" Line="56" Column="2" />
-      <File FileName="iakademi38_proje/Views/Home/Cart.cshtml" Line="3" Column="3" />
-      <File FileName="iakademi38_proje/Views/Admin/Login.cshtml" Line="22" Column="1" />
+      <File FileName="iakademi38_proje/Program.cs" Line="27" Column="11" />
+      <File FileName="iakademi38_proje/Controllers/AdminController.cs" Line="23" Column="6" />
+      <File FileName="iakademi38_proje/Views/Home/MainMenuViews/Login.cshtml" Line="21" Column="30" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="iakademi38_proje">
-            <Node name="iakademi38_proje" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Admin" expanded="True">
-                  <Node name="Login.cshtml" selected="True" />
+            <Node name="iakademi38_proje">
+              <Node name="Helper Texts" expanded="True" />
+              <Node name="Views">
+                <Node name="Admin" expanded="True" />
+                <Node name="Home">
+                  <Node name="MainMenuViews">
+                    <Node name="Login.cshtml" selected="True" />
+                  </Node>
                 </Node>
-                <Node name="Home" expanded="True" />
                 <Node name="Shared" expanded="True" />
               </Node>
             </Node>
@@ -27,9 +28,9 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.iakademi38__proje PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
 </Properties>
