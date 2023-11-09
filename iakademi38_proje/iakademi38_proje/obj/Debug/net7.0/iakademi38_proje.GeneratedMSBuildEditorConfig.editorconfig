@@ -28,6 +28,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9DYXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Home/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Home/DiscountedProducts.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9EaXNjb3VudGVkUHJvZHVjdHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -50,10 +54,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Home/MainMenuViews/DetailedSearch.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9NYWluTWVudVZpZXdzL0RldGFpbGVkU2VhcmNoLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Home/MainMenuViews/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9NYWluTWVudVZpZXdzL0RldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Home/MainMenuViews/Login.cshtml]
