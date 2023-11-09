@@ -20,7 +20,7 @@ namespace iakademi38_proje.Controllers
 
         public IActionResult Details()
         {
-            return View();
+            return View("~/Views/Home/MainMenuViews/Details.cshtml");
         }
 
         public IActionResult NewProducts()
