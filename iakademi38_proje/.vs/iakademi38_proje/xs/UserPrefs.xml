@@ -1,26 +1,14 @@
 ﻿<Properties StartupConfiguration="{8C7ADC9D-28DE-4B23-8E8B-A6E2BF936DCA}|https">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.iakademi38__proje PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="iakademi38_proje/Views/Home/MainMenuViews/Login.cshtml">
-    <Files>
-      <File FileName="iakademi38_proje/Program.cs" Line="27" Column="11" />
-      <File FileName="iakademi38_proje/Controllers/AdminController.cs" Line="23" Column="6" />
-      <File FileName="iakademi38_proje/Views/Home/MainMenuViews/Login.cshtml" Line="21" Column="30" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="iakademi38_proje">
-            <Node name="iakademi38_proje">
-              <Node name="Helper Texts" expanded="True" />
-              <Node name="Views">
-                <Node name="Admin" expanded="True" />
-                <Node name="Home">
-                  <Node name="MainMenuViews">
-                    <Node name="Login.cshtml" selected="True" />
-                  </Node>
+          <Node name="iakademi38_proje" expanded="True">
+            <Node name="iakademi38_proje" expanded="True">
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True">
+                  <Node name="Details.cshtml" selected="True" />
                 </Node>
-                <Node name="Shared" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -28,9 +16,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.iakademi38__proje PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
 </Properties>
