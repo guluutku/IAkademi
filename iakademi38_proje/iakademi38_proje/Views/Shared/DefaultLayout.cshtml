@@ -377,12 +377,16 @@
                                     </ul>
                                 </div>
                             </li>
-                            <li><a href="/Home/MainMenuViews/Login">GİRİŞ</a></li>
-                            <li><a href="/Home/MainMenuViews/LogOut">CIKIŞ</a></li>
-                            <li><a href="/Home/MainMenuViews/Register">ÜYE OL</a></li>
-                            <li><a href="/Home/MainMenuViews/AboutUs">HAKKIMIZDA</a></li>
-                            <li><a href="/Home/MainMenuViews/ContactUs">İLETİŞİM</a></li>
-                            <li><a href="/Home/MainMenuViews/DetailedSearch">DETAYLI ARAMA</a></li>
+                            @* href yerine controller ile sayfaya gitme *@
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="MainMenu" asp-action="Login">ASP GİRİŞ</a>
+                            </li>
+                            @* <li><a href="/MainMenu/Login">GİRİŞ</a></li> *@
+                            <li><a href="/MainMenu/LogOut">CIKIŞ</a></li>
+                            <li><a href="/MainMenu/Register">ÜYE OL</a></li>
+                            <li><a href="/MainMenu/AboutUs">HAKKIMIZDA</a></li>
+                            <li><a href="/MainMenu/ContactUs">İLETİŞİM</a></li>
+                            <li><a href="/MainMenu/DetailedSearch">DETAYLI ARAMA</a></li>
                             <li><a href="/Admin/Login">ADMİN PANEL</a></li>
                         </ul>
                     </nav>
