@@ -46,7 +46,7 @@ namespace iakademi38_proje.Controllers
         public async Task<ActionResult> CategoryIndex()
         {
             List<Category> categories = await cls_Category.CategorySelect();
-            return View();
+            return View(categories);
         }
     }
 }

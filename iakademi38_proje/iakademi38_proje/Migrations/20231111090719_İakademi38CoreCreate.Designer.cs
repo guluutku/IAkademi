@@ -12,7 +12,7 @@ using iakademi38_proje.Models;
 namespace iakademi38_proje.Migrations
 {
     [DbContext(typeof(iakademi38Context))]
-    [Migration("20231104103246_İakademi38CoreCreate")]
+    [Migration("20231111090719_İakademi38CoreCreate")]
     partial class İakademi38CoreCreate
     {
         /// <inheritdoc />
@@ -40,6 +40,9 @@ namespace iakademi38_proje.Migrations
 
                     b.Property<int>("ParentID")
                         .HasColumnType("int");
+
+                    b.Property<bool>("isActive")
+                        .HasColumnType("bit");
 
                     b.HasKey("CategoryID");
 

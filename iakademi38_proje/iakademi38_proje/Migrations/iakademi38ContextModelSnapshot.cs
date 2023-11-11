@@ -38,6 +38,9 @@ namespace iakademi38_proje.Migrations
                     b.Property<int>("ParentID")
                         .HasColumnType("int");
 
+                    b.Property<bool>("isActive")
+                        .HasColumnType("bit");
+
                     b.HasKey("CategoryID");
 
                     b.ToTable("Categories");
