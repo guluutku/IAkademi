@@ -10,6 +10,7 @@ namespace iakademi38_proje.Controllers
     public class AdminController : Controller
     {
         Cls_User cls_User = new Cls_User();
+        Cls_Category cls_Category = new Cls_Category();
 
         [HttpGet]
         public IActionResult Login()
@@ -39,6 +40,12 @@ namespace iakademi38_proje.Controllers
 
         public IActionResult Index()
         {
+            return View();
+        }
+
+        public async Task<ActionResult> CategoryIndex()
+        {
+            List<Category> categories = await cls_Category.CategorySelect();
             return View();
         }
     }

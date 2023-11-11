@@ -1,0 +1,13 @@
+﻿@model IEnumerable<Category>
+@{
+    ViewData["Title"] = "Kategori";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+
+<ul>
+    @foreach(var item in Model)
+{
+            <li>@item.CategoryName</li>
+}
+</ul>

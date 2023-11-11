@@ -17,5 +17,7 @@ namespace iakademi38_proje.Models
         [DisplayName("Kategori Adi")]
         public string? CategoryName { get; set; }
 
+        public bool isActive { get; set;}
+
     }
 }

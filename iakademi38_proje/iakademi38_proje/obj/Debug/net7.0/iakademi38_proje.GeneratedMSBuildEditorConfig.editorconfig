@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Admin/CategoryIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQ2F0ZWdvcnlJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
