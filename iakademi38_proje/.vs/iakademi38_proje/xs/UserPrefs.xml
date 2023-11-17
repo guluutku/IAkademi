@@ -1,27 +1,19 @@
 ﻿<Properties StartupConfiguration="{8C7ADC9D-28DE-4B23-8E8B-A6E2BF936DCA}|https">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.iakademi38__proje PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="iakademi38_proje/Models/Order.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iakademi38_proje/Views/Admin/CategoryIndex.cshtml">
     <Files>
-      <File FileName="iakademi38_proje/Models/Order.cs" Line="19" Column="42" />
+      <File FileName="iakademi38_proje/Views/Admin/CategoryIndex.cshtml" Line="6" Column="1" />
+      <File FileName="iakademi38_proje/Controllers/AdminController.cs" Line="52" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="iakademi38_proje">
             <Node name="iakademi38_proje">
-              <Node name="Helper Texts" expanded="True" />
-              <Node name="Migrations" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="Order.cs" selected="True" />
-              </Node>
-              <Node name="Views" expanded="True">
-                <Node name="Admin" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Views">
+                <Node name="Admin">
+                  <Node name="CategoryIndex.cshtml" selected="True" />
+                </Node>
                 <Node name="Home" expanded="True" />
                 <Node name="Shared" expanded="True" />
               </Node>
@@ -31,4 +23,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.iakademi38__proje PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
