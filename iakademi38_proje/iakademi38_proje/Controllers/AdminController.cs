@@ -51,5 +51,21 @@ namespace iakademi38_proje.Controllers
 
             return View(categories);
         }
+
+        [HttpGet]
+        public IActionResult CategoryCreate()
+        {
+            CategoryFill();
+            return View();
+        }
+
+        void CategoryFill()
+        {
+            List<Category> categories = cls_Category.CategorySelectMain();
+            ViewData["categoryList"] = categories.Select(c => new SelectListItem
+            {
+                TextReader = c.CategoryName, ValueTask = c.CategoryID.ToString()
+            });
+        }
     }
 }
