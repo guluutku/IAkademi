@@ -19,7 +19,7 @@ namespace iakademi38_proje.Controllers
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
+        [ValidateAntiForgeryToken] // Botlara karşı koruma
         public async Task<IActionResult> Login([Bind("Email,Password,NameSurname")] User user)
         {
             if (ModelState.IsValid)
@@ -46,6 +46,9 @@ namespace iakademi38_proje.Controllers
         public async Task<ActionResult> CategoryIndex()
         {
             List<Category> categories = await cls_Category.CategorySelect();
+
+            ViewBag.kategoriListesi = categories;
+
             return View(categories);
         }
     }
