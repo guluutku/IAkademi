@@ -33,20 +33,24 @@
 				<div class="table-scrollable">
 					<table class="table table-dark table-hover">
 					<thead style="background-color:grey;color:white">
-					<tr>
-						<th>
-							@Html.DisplayNameFor(model => model.CategoryID)
-						</th>
-						<th>
-							 @Html.DisplayNameFor(model => model.CategoryName)
-						</th>
-						<th>
-							@Html.DisplayNameFor(model => model.isActive)
-						</th>
-					</tr>
+                        <tr>
+                            <th>
+                                @Html.DisplayNameFor(model => model.CategoryID)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.CategoryName)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.isActive)
+                            </th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
 					</thead>
 					<tbody>
-					
+
+						@* Ana kategoriler *@
 						@foreach(var item in Model.Where(c => c.ParentID == 0))
 						{
                             <tr>
@@ -56,19 +60,19 @@
                                 <td>
                                     @Html.DisplayFor(model => item.CategoryName)
                                 </td>
-                                
+
                                 @if (item.isActive)
-								{
-									<td style="background-color:green;color:white;">
-										<label>AKTİF</label>
-									</td>
-								}
-								else
-								{
-									<td style="background-color:red;color:white;">
-									    <label>PASİF</label>
-									</td>
-								}
+                                {
+                                    <td style="background-color:green;color:white;">
+                                        <label>AKTİF</label>
+                                    </td>
+                                }
+                                else
+                                {
+                                    <td style="background-color:red;color:white;">
+                                        <label>PASİF</label>
+                                    </td>
+                                }
 
                                 <td>
                                     <a asp-action="CategoryEdit" asp-route-id="@item.CategoryID" class="btn btn-primary">DÜZELT</a>
@@ -87,16 +91,20 @@
 								Şeklinde alt kategorileri gösterir
 							*/
 
+							// alt kategoriler
 							@foreach(var subItem in Model)
 								{
 									if (item.CategoryID == subItem.ParentID)
 									{
                                         <tr>
-                                            <td>
+                                            <td style="background-color:greenyellow;">
                                                 @Html.DisplayFor(model => subItem.CategoryID)
                                             </td>
-                                            <td>
-                                                @Html.DisplayFor(model => subItem.CategoryName)
+                                            <td >
+                                                <span style="background-color:greenyellow;">
+													@* Sadece yazının arka planının rengini değiştir *@
+													@Html.DisplayFor(model => subItem.CategoryName)
+												</span> 
                                             </td>
 
                                             @if (subItem.isActive)
