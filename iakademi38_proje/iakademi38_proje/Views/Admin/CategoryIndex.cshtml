@@ -47,7 +47,7 @@
 					</thead>
 					<tbody>
 					
-						@foreach(var item in Model)
+						@foreach(var item in Model.Where(c => c.ParentID == 0))
 						{
                             <tr>
                                 <td>
@@ -76,6 +76,51 @@
                                     <a asp-action="CategoryDelete" asp-route-id="@item.CategoryID" class="btn btn-danger">SİL</a>
                                 </td>
                             </tr>
+
+							/*
+								Alttaki foreach'in mantığı
+
+								Tablo
+									// Beyaz Eşya
+										// Mutfak Eşyası
+										// Banyo Eşyası
+								Şeklinde alt kategorileri gösterir
+							*/
+
+							@foreach(var subItem in Model)
+								{
+									if (item.CategoryID == subItem.ParentID)
+									{
+                                        <tr>
+                                            <td>
+                                                @Html.DisplayFor(model => subItem.CategoryID)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(model => subItem.CategoryName)
+                                            </td>
+
+                                            @if (subItem.isActive)
+                                            {
+                                                <td style="background-color:green;color:white;">
+                                                    <label>AKTİF</label>
+                                                </td>
+                                            }
+                                            else
+                                            {
+                                                <td style="background-color:red;color:white;">
+                                                    <label>PASİF</label>
+                                                </td>
+                                            }
+
+                                            <td>
+                                                <a asp-action="CategoryEdit" asp-route-id="@subItem.CategoryID" class="btn btn-primary">DÜZELT</a>
+                                                <a asp-action="CategoryDetails" asp-route-id="@subItem.CategoryID" class="btn btn-info">DETAY</a>
+                                                <a asp-action="CategoryDelete" asp-route-id="@subItem.CategoryID" class="btn btn-danger">SİL</a>
+                                            </td>
+                                        </tr>
+									}
+								}
+
 						}
 					
 					</tbody>
