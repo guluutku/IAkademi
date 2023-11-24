@@ -11,100 +11,100 @@
 <!-- BEGIN PAGE CONTENT-->
 <div class="row">
 	<div class="col-md-2"></div>
-	<div class="col-md-8">
-		<!-- BEGIN SAMPLE TABLE PORTLET-->
-		<div class="portlet box red">
-			<div class="portlet-title">
-				<div class="caption">
-					<i class="fa fa-cogs"></i>KATEGORİLER
-				</div>
-				<div class="tools">
-					<a href="javascript:;" class="collapse">
-					</a>
-					<a href="#portlet-config" data-toggle="modal" class="config">
-					</a>
-					<a href="javascript:;" class="reload">
-					</a>
-					<a href="javascript:;" class="remove">
-					</a>
-				</div>
-			</div>
-			<div class="portlet-body">
-				<div class="table-scrollable">
-					<table class="table table-dark table-hover">
-					<thead style="background-color:grey;color:white">
-                        <tr>
-                            <th>
-                                @Html.DisplayNameFor(model => model.CategoryID)
-                            </th>
-                            <th>
-                                @Html.DisplayNameFor(model => model.CategoryName)
-                            </th>
-                            <th>
-                                @Html.DisplayNameFor(model => model.isActive)
-                            </th>
-                            <th></th>
-                            <th></th>
-                            <th></th>
-                        </tr>
-					</thead>
-					<tbody>
-
-						@* Ana kategoriler *@
-						@foreach(var item in Model.Where(c => c.ParentID == 0))
-						{
+    <div class="col-md-8">
+        <!-- BEGIN SAMPLE TABLE PORTLET-->
+        <div class="portlet box red">
+            <div class="portlet-title">
+                <div class="caption">
+                    <i class="fa fa-cogs"></i>KATEGORİLER
+                </div>
+                <div class="tools">
+                    <a href="javascript:;" class="collapse">
+                    </a>
+                    <a href="#portlet-config" data-toggle="modal" class="config">
+                    </a>
+                    <a href="javascript:;" class="reload">
+                    </a>
+                    <a href="javascript:;" class="remove">
+                    </a>
+                </div>
+            </div>
+            <div class="portlet-body">
+                <div class="table-scrollable">
+                    <table class="table table-dark table-hover">
+                        <thead style="background-color:grey;color:white">
                             <tr>
-                                <td>
-                                    @Html.DisplayFor(model => item.CategoryID)
-                                </td>
-                                <td>
-                                    @Html.DisplayFor(model => item.CategoryName)
-                                </td>
-
-                                @if (item.isActive)
-                                {
-                                    <td style="background-color:green;color:white;">
-                                        <label>AKTİF</label>
-                                    </td>
-                                }
-                                else
-                                {
-                                    <td style="background-color:red;color:white;">
-                                        <label>PASİF</label>
-                                    </td>
-                                }
-
-                                <td>
-                                    <a asp-action="CategoryEdit" asp-route-id="@item.CategoryID" class="btn btn-primary">DÜZELT</a>
-                                    <a asp-action="CategoryDetails" asp-route-id="@item.CategoryID" class="btn btn-info">DETAY</a>
-                                    <a asp-action="CategoryDelete" asp-route-id="@item.CategoryID" class="btn btn-danger">SİL</a>
-                                </td>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.CategoryID)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.CategoryName)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.isActive)
+                                </th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
                             </tr>
+                        </thead>
+                        <tbody>
 
-							/*
-								Alttaki foreach'in mantığı
+                            @* Ana kategoriler *@
+                            @foreach (var item in Model.Where(c => c.ParentID == 0))
+                            {
+                                <tr>
+                                    <td>
+                                        @Html.DisplayFor(model => item.CategoryID)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(model => item.CategoryName)
+                                    </td>
 
-								Tablo
-									// Beyaz Eşya
-										// Mutfak Eşyası
-										// Banyo Eşyası
-								Şeklinde alt kategorileri gösterir
-							*/
+                                    @if (item.isActive)
+                                    {
+                                        <td style="background-color:green;color:white;">
+                                            <label>AKTİF</label>
+                                        </td>
+                                    }
+                                    else
+                                    {
+                                        <td style="background-color:red;color:white;">
+                                            <label>PASİF</label>
+                                        </td>
+                                    }
 
-							// alt kategoriler
-							@foreach(var subItem in Model)
-								{
-									if (item.CategoryID == subItem.ParentID)
-									{
+                                    <td>
+                                        <a asp-action="CategoryEdit" asp-route-id="@item.CategoryID" class="btn btn-primary">DÜZELT</a>
+                                        <a asp-action="CategoryDetails" asp-route-id="@item.CategoryID" class="btn btn-info">DETAY</a>
+                                        <a asp-action="CategoryDelete" asp-route-id="@item.CategoryID" class="btn btn-danger">SİL</a>
+                                    </td>
+                                </tr>
+
+                                /*
+                                    Alttaki foreach'in mantığı
+
+                                    Tablo
+                                        // Beyaz Eşya
+                                            // Mutfak Eşyası
+                                            // Banyo Eşyası
+                                    Şeklinde alt kategorileri gösterir
+                                */
+
+                                // alt kategoriler
+                                @foreach (var subItem in Model)
+                                {
+                                    if (item.CategoryID == subItem.ParentID)
+                                    {
                                         <tr>
                                             <td style="background-color:greenyellow;">
                                                 @Html.DisplayFor(model => subItem.CategoryID)
                                             </td>
-                                            <td >
+                                            <td>
                                                 <span style="background-color:greenyellow;">
-													@* Sadece yazının arka planının rengini değiştir *@
-													@Html.DisplayFor(model => subItem.CategoryName)
-												</span> 
+                                                    @* Sadece yazının arka planının rengini değiştir *@
+                                                    @Html.DisplayFor(model => subItem.CategoryName)
+                                                </span>
                                             </td>
 
                                             @if (subItem.isActive)
@@ -126,16 +126,16 @@
                                                 <a asp-action="CategoryDelete" asp-route-id="@subItem.CategoryID" class="btn btn-danger">SİL</a>
                                             </td>
                                         </tr>
-									}
-								}
+                                    }
+                                }
 
-						}
-					
-					</tbody>
-					</table>
-				</div>
-			</div>
-		</div>
-		<!-- END SAMPLE TABLE PORTLET-->
-	</div>
+                            }
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- END SAMPLE TABLE PORTLET-->
+    </div>
 </div>
