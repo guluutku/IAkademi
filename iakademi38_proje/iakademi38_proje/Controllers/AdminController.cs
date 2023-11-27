@@ -18,10 +18,7 @@ namespace iakademi38_proje.Controllers
             ALTER DATABASE SCOPED CONFIGURATION SET IDENTITY_CACHE = OFF
          */
 
-        iakademi38Context context = new iakademi38Context();
         Cls_User cls_User = new Cls_User();
-        Cls_Category cls_Category = new Cls_Category();
-        Cls_Supplier cls_Supplier = new Cls_Supplier();
 
         [HttpGet]
         public IActionResult Login()
@@ -56,14 +53,6 @@ namespace iakademi38_proje.Controllers
             return View();
         }
 
-        // list suppliers
-        public async Task<ActionResult> SupplierIndex()
-        {
-            List<Supplier> suppliers = await cls_Supplier.SupplierSelect();
-
-            ViewBag.markaListesi = suppliers;
-
-            return View(suppliers);
-        }
+        
     }
 }

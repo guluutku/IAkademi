@@ -16,6 +16,10 @@
     <None Remove="Views\Header\" />
     <None Remove="Migrations\" />
     <None Remove="Views\Admin\Category\" />
+    <None Remove="Views\Admin\Supplier\" />
+    <None Remove="Views\Admin\Status\" />
+    <None Remove="Views\Admin\Products\" />
+    <None Remove="Views\Admin\Settings\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
@@ -25,6 +29,10 @@
     <Folder Include="Views\Header\" />
     <Folder Include="Migrations\" />
     <Folder Include="Views\Admin\Category\" />
+    <Folder Include="Views\Admin\Supplier\" />
+    <Folder Include="Views\Admin\Status\" />
+    <Folder Include="Views\Admin\Products\" />
+    <Folder Include="Views\Admin\Settings\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="7.0.13" />
