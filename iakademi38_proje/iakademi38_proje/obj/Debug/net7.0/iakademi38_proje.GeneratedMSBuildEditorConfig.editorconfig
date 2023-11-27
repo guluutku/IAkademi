@@ -16,24 +16,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Admin/CategoryCreate.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQ2F0ZWdvcnlDcmVhdGUuY3NodG1s
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Admin/Category/CategoryCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQ2F0ZWdvcnkvQ2F0ZWdvcnlDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Admin/CategoryDelete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQ2F0ZWdvcnlEZWxldGUuY3NodG1s
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Admin/Category/CategoryDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQ2F0ZWdvcnkvQ2F0ZWdvcnlEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Admin/CategoryDetails.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQ2F0ZWdvcnlEZXRhaWxzLmNzaHRtbA==
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Admin/Category/CategoryDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQ2F0ZWdvcnkvQ2F0ZWdvcnlEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Admin/CategoryEdit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQ2F0ZWdvcnlFZGl0LmNzaHRtbA==
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Admin/Category/CategoryEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQ2F0ZWdvcnkvQ2F0ZWdvcnlFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Admin/CategoryIndex.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQ2F0ZWdvcnlJbmRleC5jc2h0bWw=
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Admin/Category/CategoryIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQ2F0ZWdvcnkvQ2F0ZWdvcnlJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Admin/Index.cshtml]

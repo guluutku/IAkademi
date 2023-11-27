@@ -15,6 +15,7 @@
     <None Remove="Views\MainMenu\" />
     <None Remove="Views\Header\" />
     <None Remove="Migrations\" />
+    <None Remove="Views\Admin\Category\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
@@ -23,6 +24,7 @@
     <Folder Include="Views\MainMenu\" />
     <Folder Include="Views\Header\" />
     <Folder Include="Migrations\" />
+    <Folder Include="Views\Admin\Category\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="7.0.13" />
