@@ -48,9 +48,47 @@ namespace iakademi38_proje.Models
 			return category;
         }
 
-        internal static bool CategoryUpdate(Category category)
+        public static bool CategoryUpdate(Category category)
         {
-            throw new NotImplementedException();
+			try
+			{
+				using (iakademi38Context context = new iakademi38Context())
+				{
+					context.Update(category);
+					context.SaveChanges();
+					return true;
+				}
+			}
+			catch (Exception)
+			{
+				return false;
+			}
+        }
+
+        public static bool CategoryDelete(int id)
+        {
+			try
+			{
+				using(iakademi38Context context = new iakademi38Context())
+				{
+					Category category = (Category)context.Categories.Where(c => c.CategoryID == id);
+					category.isActive = false;
+
+					List<Category> categorylist = context.Categories.Where(c => c.ParentID == id).ToList();
+
+					foreach(var item in categorylist)
+					{
+						item.isActive = false;
+					}
+
+					context.SaveChanges();
+					return true;
+                }
+            }
+			catch (Exception)
+			{
+				return false;
+			}
         }
     }
 }

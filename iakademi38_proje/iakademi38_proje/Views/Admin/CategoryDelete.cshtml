@@ -1,6 +1,6 @@
 ﻿@model Category
 @{
-    ViewData["Title"] = "Kategori Detayları";
+    ViewData["Title"] = "Kategori Silmek";
     Layout = "~/Views/Shared/AdminLayout.cshtml";
 }
 @* /theme/templates/admin/form_controls.html'den alındı *@
@@ -24,7 +24,7 @@
                     </a>
                 </div>
             </div>
-            <div class="portlet-body flip-scroll">
+            <div class="portlet-body flip-scroll" action="/Admin/CategoryDelete" method="post">
                 <table class="table table-bordered table-striped table-condensed flip-content">
                     <tbody>
                         <tr>
@@ -50,7 +50,7 @@
                             </th>
                             <td>
                                 @{
-                                    if(Model.ParentID != 0)
+                                    if (Model.ParentID != 0)
                                     {
                                         using (iakademi38Context context = new iakademi38Context())
                                         {
@@ -60,7 +60,7 @@
                                     }
                                     else
                                     {
-                                          string kategoriUstAdi = "-";
+                                        string kategoriUstAdi = "-";
                                         @kategoriUstAdi;
                                     }
                                 }
@@ -78,7 +78,7 @@
                         </tr>
                     </tbody>
                 </table>
-
+                <input asp-for="CategoryID" type="hidden" />
                 <div class="form-actions right1">
                     <a asp-action="CategoryIndex" class="btn btn-primary">KATEGORİ LİSTESİ</a>
                     <input type="submit" name="name" value="SİL" class="btn btn-warning" />

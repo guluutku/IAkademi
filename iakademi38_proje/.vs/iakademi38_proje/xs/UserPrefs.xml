@@ -1,22 +1,28 @@
 ﻿<Properties StartupConfiguration="{8C7ADC9D-28DE-4B23-8E8B-A6E2BF936DCA}|https">
-  <MonoDevelop.Ide.Workbench ActiveDocument="iakademi38_proje/Models/Cls_Category.cs">
+  <MonoDevelop.Ide.ItemProperties.iakademi38__proje PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="iakademi38_proje/Views/Shared/AdminLayout.cshtml">
     <Files>
-      <File FileName="iakademi38_proje/Program.cs" Line="12" Column="4" />
-      <File FileName="iakademi38_proje/Controllers/AdminController.cs" Line="90" Column="14" />
-      <File FileName="iakademi38_proje/Models/Cls_Category.cs" Line="49" Column="10" />
-      <File FileName="iakademi38_proje/Views/Admin/CategoryDetails.cshtml" Line="30" Column="86" />
-      <File FileName="iakademi38_proje/Views/Admin/CategoryCreate.cshtml" Line="73" Column="1" />
+      <File FileName="iakademi38_proje/Program.cs" />
+      <File FileName="iakademi38_proje/Controllers/AdminController.cs" Line="182" Column="59" />
+      <File FileName="iakademi38_proje/Models/Cls_Supplier.cs" Line="17" Column="30" />
+      <File FileName="iakademi38_proje/Views/Admin/SupplierIndex.cshtml" Line="68" Column="104" />
+      <File FileName="iakademi38_proje/Models/Supplier.cs" Line="16" Column="32" />
+      <File FileName="iakademi38_proje/Views/Admin/Index.cshtml" Line="9" Column="13" />
+      <File FileName="iakademi38_proje/Views/Shared/AdminLayout.cshtml" Line="529" Column="57" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="iakademi38_proje" expanded="True">
-            <Node name="iakademi38_proje" expanded="True">
+            <Node name="iakademi38_proje">
               <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Admin" expanded="True" />
-                <Node name="Shared" expanded="True" />
+              <Node name="Views">
+                <Node name="Shared">
+                  <Node name="AdminLayout.cshtml" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -25,10 +31,6 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.iakademi38__proje PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
 </Properties>
