@@ -1,26 +1,18 @@
 ﻿<Properties StartupConfiguration="{8C7ADC9D-28DE-4B23-8E8B-A6E2BF936DCA}|https">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.iakademi38__proje PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workbench ActiveDocument="iakademi38_proje/Program.cs">
     <Files>
-      <File FileName="iakademi38_proje/Controllers/StatusController.cs" Line="13" Column="23" />
-      <File FileName="iakademi38_proje/Controllers/SupplierController.cs" Line="21" Column="38" />
-      <File FileName="iakademi38_proje/Program.cs" Line="35" Column="1" />
+      <File FileName="iakademi38_proje/Program.cs" Line="5" Column="34" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="iakademi38_proje">
-            <Node name="iakademi38_proje">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Views">
-                <Node name="Admin">
-                  <Node name="Products" expanded="True" />
-                  <Node name="Settings" expanded="True" />
-                  <Node name="Status" expanded="True" />
-                  <Node name="Supplier" expanded="True" />
-                </Node>
-              </Node>
+          <Node name="iakademi38_proje" expanded="True">
+            <Node name="iakademi38_proje" expanded="True">
+              <Node name="wwwroot" expanded="True" />
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
@@ -28,9 +20,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.iakademi38__proje PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
 </Properties>
