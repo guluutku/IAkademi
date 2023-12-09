@@ -1,9 +1,12 @@
-﻿@model Category
+﻿@* form_controls.tml template'den alındı *@
+
+@model Supplier
+
 @{
-    ViewData["Title"] = "Kategori Yarat";
+    ViewData["Title"] = "Marka Ekle";
     Layout = "~/Views/Shared/AdminLayout.cshtml";
 }
-@* /theme/templates/admin/form_controls.html'den alındı *@
+
 <div class="row">
     <div class="col-md-2"></div>
     <div class="col-md-8">
@@ -11,7 +14,7 @@
         <div class="portlet box purple ">
             <div class="portlet-title">
                 <div class="caption">
-                    <i class="fa fa-gift"></i> KATEGORİ EKLE
+                    <i class="fa fa-gift"></i> MARKA GİRİŞ FORMU
                 </div>
                 <div class="tools">
                     <a href="" class="collapse">
@@ -26,41 +29,36 @@
             </div>
             <div class="portlet-body form">
                 @* method="post" HttpPost'a gönderir *@
-                <form class="form-horizontal" role="form" action="/Category/CategoryCreate" method="post">
+                <form class="form-horizontal" role="form" action="/Supplier/SupplierCreate" method="post">
                     <div class="form-body">
                         <div class="form-group">
                             @* DisplayName'den dolayı label'in içini doldurmaya gerek yok. 'asp-for' *@
-                            <label class="col-md-3 control-label" asp-for="CategoryName"></label>
+                            <label class="col-md-3 control-label" asp-for="BrandName"></label>
                             <div class="col-md-9">
                                 @* required maxlength="50" 'lar server tarafında bakıldığı için yazmaya gerek yok *@
-                                <input type="text" class="form-control input-lg" placeholder="Kategori Adı Giriniz" asp-for="CategoryName">
+                                <input type="text" class="form-control input-lg" placeholder="Marka Adı Giriniz" asp-for="BrandName" required maxlength="100">
                             </div>
-                            <span asp-validation-for="CategoryName" class="text-danger"></span>
+                            <span asp-validation-for="BrandName" class="text-danger"></span>
                         </div>
-                        
-                        <div class="form-group">
-                            <label class="col-md-3 control-label">Kategori Seçiniz</label>
-                            <div class="col-md-9">
-                                @Html.DropDownList(
-                                  "ParentID",
-                                  (IEnumerable<SelectListItem>) ViewData["categoryList"],
-                                  "Seçiniz",
-                                  new {@class = "form-control input-lg"}
-                               )
-                            </div>
+
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-md-3 control-label" asp-for="PhotoPath"></label>
+                        <div class="col-md-9">
+                            <input type="file" asp-for="PhotoPath" class="form-control input-lg" />
                         </div>
-                        
                     </div>
 
                     <div class="form-group">
                         <label class="col-md-3 control-label">AKTİF Mİ?</label>
                         <div class="col-md-9">
-                            <input asp-for="isActive" class="form-control input-lg" />
+                            <input asp-for="Active" class="form-control input-lg" />
                         </div>
                     </div>
 
                     <div class="form-actions right1">
-                        <a asp-action="CategoryIndex" class="btn btn-primary">KATEGORİ LİSTESİ</a>
+                        <a asp-action="SupplierIndex" class="btn btn-primary">KATEGORİ LİSTESİ</a>
                         <input type="submit" name="name" value="KAYDET" class="btn btn-success" />
                     </div>
 

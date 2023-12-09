@@ -1,19 +1,28 @@
 ﻿<Properties StartupConfiguration="{8C7ADC9D-28DE-4B23-8E8B-A6E2BF936DCA}|https">
-  <MonoDevelop.Ide.ItemProperties.iakademi38__proje PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="iakademi38_proje/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iakademi38_proje/Models/Cls_Supplier.cs">
     <Files>
-      <File FileName="iakademi38_proje/Program.cs" Line="5" Column="34" />
+      <File FileName="iakademi38_proje/Program.cs" />
+      <File FileName="iakademi38_proje/Controllers/SupplierController.cs" />
+      <File FileName="iakademi38_proje/Models/Cls_Supplier.cs" Line="20" Column="44" />
+      <File FileName="iakademi38_proje/Models/Cls_Category.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="iakademi38_proje" expanded="True">
             <Node name="iakademi38_proje" expanded="True">
-              <Node name="wwwroot" expanded="True" />
-              <Node name="Program.cs" selected="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Cls_Supplier.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Admin" expanded="True">
+                  <Node name="Category" expanded="True" />
+                  <Node name="Supplier" expanded="True" />
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>
@@ -21,6 +30,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.iakademi38__proje PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

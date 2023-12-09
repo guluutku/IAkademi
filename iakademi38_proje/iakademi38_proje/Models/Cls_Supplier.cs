@@ -16,6 +16,29 @@ namespace iakademi38_proje.Models
             List<Supplier> suppliers = await context.Suppliers.ToListAsync();
             return suppliers;
         }
+
+        public bool SupplierInsert(Supplier supplier)
+        {
+            try
+            {
+                using (iakademi38Context context = new iakademi38Context())
+                {
+                    context.Add(supplier);
+                    context.SaveChanges();
+                    return true;
+                }
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+        }
+
+        public async Task<Supplier> SupplierDetails(int? id)
+        {
+            Supplier? supplier = await context.Suppliers.FirstOrDefaultAsync(s => s.SupplierID == id);
+            return supplier;
+        }
     }
 }
 
