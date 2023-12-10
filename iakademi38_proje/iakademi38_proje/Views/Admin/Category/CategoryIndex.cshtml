@@ -57,11 +57,8 @@
                                     <td>
                                         @Html.DisplayFor(model => item.CategoryID)
                                     </td>
-                                    <td>
-                                        <span style="background-color:greenyellow;">
-                                            @* Sadece yazının arka planının rengini değiştir *@
-                                            @Html.DisplayFor(model => item.CategoryName)
-                                        </span>
+                                    <td style="background-color:black;color:white;font-size:large;">
+                                        @Html.DisplayFor(model => item.CategoryName)
                                     </td>
 
                                     @if (item.isActive)
