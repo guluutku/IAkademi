@@ -80,7 +80,7 @@ namespace iakademi38_proje.Controllers
             if (answer == true)
             {
                 TempData["Message"] = "Güncellendi";
-                return RedirectToAction("~/Views/Admin/Category/CategoryEdit.cshtml");
+                return RedirectToAction("CategoryIndex.cshtml");
             }
             else
             {
