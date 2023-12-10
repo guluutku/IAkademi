@@ -1,29 +1,30 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
+using XAct;
 
 namespace iakademi38_proje.Models
 {
-	public class Cls_Supplier
+	public class Cls_Status
 	{
-
         iakademi38Context context = new iakademi38Context();
-		public Cls_Supplier()
+
+		public Cls_Status()
 		{
 		}
 
-        public async Task<List<Supplier>> SupplierSelect()
+        public async Task<List<Status>> StatusSelect()
         {
-            List<Supplier> suppliers = await context.Suppliers.ToListAsync();
-            return suppliers;
+            List<Status> statuses = await context.Statues.ToListAsync();
+            return statuses;
         }
 
-        public bool SupplierInsert(Supplier supplier)
+        public bool StatusInsert(Status status)
         {
             try
             {
                 using (iakademi38Context context = new iakademi38Context())
                 {
-                    context.Add(supplier);
+                    context.Add(status);
                     context.SaveChanges();
                     return true;
                 }
@@ -34,19 +35,19 @@ namespace iakademi38_proje.Models
             }
         }
 
-        public async Task<Supplier> SupplierDetails(int? id)
+        public async Task<Status> StatusDetails(int? id)
         {
-            Supplier? supplier = await context.Suppliers.FirstOrDefaultAsync(s => s.SupplierID == id);
-            return supplier;
+            Status? status = await context.Statues.FirstOrDefaultAsync(s => s.StatusID == id);
+            return status;
         }
 
-        public static bool SupplierUpdate(Supplier supplier)
+        public static bool StatusUpdate(Status status)
         {
             try
             {
-                using(iakademi38Context context = new iakademi38Context())
+                using (iakademi38Context context = new iakademi38Context())
                 {
-                    context.Update(supplier);
+                    context.Update(status);
                     context.SaveChanges();
                     return true;
                 }
@@ -57,14 +58,14 @@ namespace iakademi38_proje.Models
             }
         }
 
-        public static bool SupplierDelete(int id)
+        public static bool StatusDelete(int id)
         {
             try
             {
                 using (iakademi38Context context = new iakademi38Context())
                 {
-                    Supplier supplier = (Supplier)context.Suppliers.Where(c => c.SupplierID == id);
-                    supplier.Active = false;
+                    Status status = (Status)context.Statues.Where(c => c.StatusID == id);
+                    status.Active = false;
 
                     context.SaveChanges();
                     return true;

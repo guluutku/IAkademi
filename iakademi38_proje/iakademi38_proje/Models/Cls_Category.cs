@@ -90,6 +90,7 @@ namespace iakademi38_proje.Models
 				return false;
 			}
         }
+
     }
 }
 
