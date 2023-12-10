@@ -1,1 +1,3 @@
 ﻿
+Tabloları temizle ve sıfırdan başlat:
+    TRUNCATE TABLE Statues
