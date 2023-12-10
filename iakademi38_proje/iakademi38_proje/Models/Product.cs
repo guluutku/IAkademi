@@ -53,7 +53,7 @@ namespace iakademi38_proje.Models
         public int HighLighted { get; set; } // öne çıkanlar
         public int TopSeller { get; set; } // çok satanlar
 
-        [DisplayName("Buna Bakanlar")]
+        [DisplayName("BB")]
         public int Related { get; set; } // Buna Bakanlar
 
         [DisplayName("Notelar")]
