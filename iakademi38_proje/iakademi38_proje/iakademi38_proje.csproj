@@ -18,8 +18,8 @@
     <None Remove="Views\Admin\Category\" />
     <None Remove="Views\Admin\Supplier\" />
     <None Remove="Views\Admin\Status\" />
-    <None Remove="Views\Admin\Products\" />
     <None Remove="Views\Admin\Settings\" />
+    <None Remove="Views\Admin\Product\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
@@ -31,8 +31,8 @@
     <Folder Include="Views\Admin\Category\" />
     <Folder Include="Views\Admin\Supplier\" />
     <Folder Include="Views\Admin\Status\" />
-    <Folder Include="Views\Admin\Products\" />
     <Folder Include="Views\Admin\Settings\" />
+    <Folder Include="Views\Admin\Product\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="7.0.13" />
