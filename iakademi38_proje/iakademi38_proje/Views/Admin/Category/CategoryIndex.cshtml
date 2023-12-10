@@ -58,7 +58,10 @@
                                         @Html.DisplayFor(model => item.CategoryID)
                                     </td>
                                     <td>
-                                        @Html.DisplayFor(model => item.CategoryName)
+                                        <span style="background-color:greenyellow;">
+                                            @* Sadece yazının arka planının rengini değiştir *@
+                                            @Html.DisplayFor(model => item.CategoryName)
+                                        </span>
                                     </td>
 
                                     @if (item.isActive)
@@ -97,14 +100,11 @@
                                     if (item.CategoryID == subItem.ParentID)
                                     {
                                         <tr>
-                                            <td style="background-color:greenyellow;">
+                                            <td>
                                                 @Html.DisplayFor(model => subItem.CategoryID)
                                             </td>
                                             <td>
-                                                <span style="background-color:greenyellow;">
-                                                    @* Sadece yazının arka planının rengini değiştir *@
-                                                    @Html.DisplayFor(model => subItem.CategoryName)
-                                                </span>
+                                                @Html.DisplayFor(model => subItem.CategoryName)
                                             </td>
 
                                             @if (subItem.isActive)
