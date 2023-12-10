@@ -52,12 +52,32 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vU2V0dGluZ3MvU2V0dGluZ3NJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Admin/Status/StatusCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vU3RhdHVzL1N0YXR1c0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Admin/Status/StatusDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vU3RhdHVzL1N0YXR1c0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Admin/Status/StatusEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vU3RhdHVzL1N0YXR1c0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Admin/Status/StatusIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vU3RhdHVzL1N0YXR1c0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Admin/Supplier/SupplierCreate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vU3VwcGxpZXIvU3VwcGxpZXJDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Admin/Supplier/SupplierDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vU3VwcGxpZXIvU3VwcGxpZXJEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Admin/Supplier/SupplierDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vU3VwcGxpZXIvU3VwcGxpZXJEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Admin/Supplier/SupplierEdit.cshtml]

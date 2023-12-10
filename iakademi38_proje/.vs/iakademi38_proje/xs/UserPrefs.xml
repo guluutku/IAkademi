@@ -2,24 +2,29 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="iakademi38_proje/Models/Cls_Supplier.cs">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.iakademi38__proje PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="iakademi38_proje/Views/Admin/Status/StatusIndex.cshtml">
     <Files>
-      <File FileName="iakademi38_proje/Program.cs" />
-      <File FileName="iakademi38_proje/Controllers/SupplierController.cs" />
-      <File FileName="iakademi38_proje/Models/Cls_Supplier.cs" Line="20" Column="44" />
-      <File FileName="iakademi38_proje/Models/Cls_Category.cs" />
+      <File FileName="iakademi38_proje/Views/Admin/Status/StatusIndex.cshtml" Line="76" Column="47" />
+      <File FileName="iakademi38_proje/Controllers/StatusController.cs" Line="71" Column="10" />
+      <File FileName="iakademi38_proje/Models/Cls_Status.cs" Line="17" Column="58" />
+      <File FileName="iakademi38_proje/Views/Admin/Status/StatusCreate.cshtml" Line="46" Column="80" />
+      <File FileName="iakademi38_proje/Models/Status.cs" Line="19" Column="32" />
+      <File FileName="iakademi38_proje/Models/Supplier.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="iakademi38_proje" expanded="True">
-            <Node name="iakademi38_proje" expanded="True">
-              <Node name="Models" expanded="True">
-                <Node name="Cls_Supplier.cs" selected="True" />
-              </Node>
-              <Node name="Views" expanded="True">
-                <Node name="Admin" expanded="True">
-                  <Node name="Category" expanded="True" />
+          <Node name="iakademi38_proje">
+            <Node name="iakademi38_proje">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Views">
+                <Node name="Admin">
+                  <Node name="Status">
+                    <Node name="StatusIndex.cshtml" selected="True" />
+                  </Node>
                   <Node name="Supplier" expanded="True" />
                 </Node>
               </Node>
@@ -29,8 +34,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.iakademi38__proje PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>
