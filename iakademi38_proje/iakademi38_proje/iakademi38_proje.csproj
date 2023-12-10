@@ -33,6 +33,7 @@
     <Folder Include="Views\Admin\Status\" />
     <Folder Include="Views\Admin\Settings\" />
     <Folder Include="Views\Admin\Product\" />
+    <Folder Include="wwwroot\assets\resimler\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="7.0.13" />
@@ -51,5 +52,8 @@
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
     <PackageReference Include="NUnit.Console" Version="3.16.3" />
     <PackageReference Include="XAct.Core" Version="1.1.17040.3290" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\assets\resimler\" />
   </ItemGroup>
 </Project>

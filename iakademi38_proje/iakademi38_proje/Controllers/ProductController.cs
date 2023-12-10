@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using iakademi38_proje.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace iakademi38_proje.Controllers
 {
@@ -11,6 +12,9 @@ namespace iakademi38_proje.Controllers
     {
 
         Cls_Product cls_Product = new Cls_Product();
+        Cls_Category cls_Category = new Cls_Category();
+        Cls_Supplier cls_Supplier = new Cls_Supplier();
+        Cls_Status cls_Status = new Cls_Status();
 
         public async Task<IActionResult> ProductIndex()
         {
@@ -20,8 +24,27 @@ namespace iakademi38_proje.Controllers
         
         // Create Product
         [HttpGet]
-        public IActionResult ProductCreate()
+        public async Task<IActionResult> ProductCreate()
         {
+            List<Category> categories = await cls_Category.CategorySelect();
+            ViewData["categoryList"] = categories.Select(c => new SelectListItem
+            {
+                Text = c.CategoryName, Value = c.CategoryID.ToString()
+            });
+            List<Supplier> suppliers = await cls_Supplier.SupplierSelect();
+            ViewData["supplierList"] = suppliers.Select(s => new SelectListItem
+            {
+                Text = s.BrandName,
+                Value = s.SupplierID.ToString()
+            });
+
+            List<Status> statuses = await cls_Status.StatusSelect();
+            ViewData["statusList"] = statuses.Select(st => new SelectListItem
+            {
+                Text = st.StatusName,
+                Value = st.StatusID.ToString()
+            });
+
             return View("~/Views/Admin/Product/ProductCreate.cshtml");
         }
         
