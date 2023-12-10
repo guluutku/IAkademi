@@ -12,9 +12,21 @@ namespace iakademi38_proje.Models
 		{
 		}
 
-        internal static bool ProductInsert(Product product)
+        public static bool ProductInsert(Product product)
         {
-            throw new NotImplementedException();
+            try
+            {
+                using (iakademi38Context context = new iakademi38Context())
+                {
+                    context.Add(product);
+                    context.SaveChanges();
+                    return true;
+                }
+            }
+            catch (Exception)
+            {
+                return false;
+            }
         }
 
         public async Task<List<Product>> ProductSelect()
