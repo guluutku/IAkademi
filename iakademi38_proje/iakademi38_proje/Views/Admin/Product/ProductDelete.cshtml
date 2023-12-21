@@ -1,4 +1,67 @@
-﻿@{
-    ViewData["Title"] = "ÜRÜN SİL";
+﻿@model Product
+@{
+    ViewData["Title"] = "Ürün Silmek";
     Layout = "~/Views/Shared/AdminLayout.cshtml";
 }
+@* /theme/templates/admin/form_controls.html'den alındı *@
+
+<div class="row">
+    <div class="col-md-12">
+        <!-- BEGIN SAMPLE TABLE PORTLET-->
+        <div class="portlet box green">
+            <div class="portlet-title">
+                <div class="caption">
+                    <i class="fa fa-cogs"></i>Ürün Detayı
+                </div>
+                <div class="tools">
+                    <a href="javascript:;" class="collapse">
+                    </a>
+                    <a href="#portlet-config" data-toggle="modal" class="config">
+                    </a>
+                    <a href="javascript:;" class="reload">
+                    </a>
+                    <a href="javascript:;" class="remove">
+                    </a>
+                </div>
+            </div>
+            <div class="portlet-body flip-scroll" action="/Product/ProductDelete" method="post">
+                <table class="table table-bordered table-striped table-condensed flip-content">
+                    <tbody>
+                        <tr>
+                            <th width="20%">
+                                @Html.DisplayNameFor(model => model.ProductID)
+                            </th>
+                            <td>
+                                @Html.DisplayFor(model => model.ProductID)
+                            </td>
+                        </tr>
+                        <tr>
+                            <th width="20%">
+                                @Html.DisplayNameFor(model => model.ProductName)
+                            </th>
+                            <td>
+                                @Html.DisplayFor(model => model.ProductName)
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th width="20%">
+                                @Html.DisplayNameFor(model => model.Active)
+                            </th>
+                            <td>
+                                @Html.DisplayFor(model => model.Active)
+                            </td>
+
+                        </tr>
+                    </tbody>
+                </table>
+                <input asp-for="ProductID" type="hidden" />
+                <div class="form-actions right1">
+                    <a asp-action="ProductIndex" class="btn btn-primary">ÜRÜN LİSTESİ</a>
+                    <input type="submit" name="name" value="SİL" class="btn btn-warning" />
+                </div>
+            </div>
+        </div>
+        <!-- END SAMPLE TABLE PORTLET-->
+    </div>
+</div>

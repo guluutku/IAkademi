@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using iakademi38_proje.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 using XAct;
 
 namespace iakademi38_proje.Controllers
@@ -131,14 +132,39 @@ namespace iakademi38_proje.Controllers
             }
         }
         //
-        public IActionResult ProductDetails()
+       
+        [HttpGet]
+        public async Task<IActionResult> ProductDelete(int? id)
         {
-            return View("~/Views/Admin/Product/ProductDetails.cshtml");
+            if (id == null || context.Products == null)
+            {
+                return NotFound();
+            }
+            var product = await context.Products.FirstOrDefaultAsync(p => p.StatusID == id);
+
+            if (product == null)
+            {
+                return NotFound();
+            }
+            return View("~/Views/Admin/Product/ProductDelete.cshtml", product);
         }
 
-        public IActionResult ProductDelete()
+        // Url'de ActionName yazıyor
+        [HttpPost, ActionName("ProductDelete")]
+        public IActionResult ProductDeleteConfirmed(int id)
         {
-            return View("~/Views/Admin/Product/ProductDelete.cshtml");
+            bool answer = Cls_Product.ProductDelete(id);
+            if (answer == true)
+            {
+                TempData["Message"] = "SİLİNDİ";
+                return RedirectToAction("ProductIndex");
+            }
+            else
+            {
+                TempData["Message"] = "HATA";
+                return RedirectToAction(nameof(ProductDelete));
+            }
+
         }
     }
 }

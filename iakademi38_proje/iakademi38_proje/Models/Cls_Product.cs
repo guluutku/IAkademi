@@ -59,6 +59,25 @@ namespace iakademi38_proje.Models
             Product? product = await context.Products.FindAsync(id);
             return product;
         }
+
+
+        public static bool ProductDelete(int id)
+        {
+            try
+            {
+                using (iakademi38Context context = new iakademi38Context())
+                {
+                    Product product = (Product)context.Products.Where(p => p.StatusID == id);
+                    product.Active = false;
+
+                    context.SaveChanges();
+                    return true;
+                }
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+        }
     }
 }
-
