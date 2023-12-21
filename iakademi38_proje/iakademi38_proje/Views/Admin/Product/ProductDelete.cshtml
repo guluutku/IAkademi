@@ -2,6 +2,8 @@
 @{
     ViewData["Title"] = "Ürün Silmek";
     Layout = "~/Views/Shared/AdminLayout.cshtml";
+    iakademi38Context context = new iakademi38Context();
+    string CategoryName, BrandName, StatusName = "";
 }
 @* /theme/templates/admin/form_controls.html'den alındı *@
 
@@ -46,12 +48,74 @@
 
                         <tr>
                             <th width="20%">
+                                @Html.DisplayNameFor(model => model.CategoryID)
+                            </th>
+                            <td>
+                                
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th width="20%">
+                                @Html.DisplayNameFor(model => model.SupplierID)
+                            </th>
+                            <td>
+                                
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th width="20%">
                                 @Html.DisplayNameFor(model => model.Active)
                             </th>
                             <td>
                                 @Html.DisplayFor(model => model.Active)
                             </td>
+                        </tr>
 
+                        <tr>
+                            <th width="20%">
+                                @Html.DisplayNameFor(model => model.Active)
+                            </th>
+                            <td>
+                                @Html.DisplayFor(model => model.Active)
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th width="20%">
+                                @Html.DisplayNameFor(model => model.Active)
+                            </th>
+                            <td>
+                                @Html.DisplayFor(model => model.Active)
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th width="20%">
+                                @Html.DisplayNameFor(model => model.Active)
+                            </th>
+                            <td>
+                                @Html.DisplayFor(model => model.Active)
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th width="20%">
+                                @Html.DisplayNameFor(model => model.Active)
+                            </th>
+                            <td>
+                                @Html.DisplayFor(model => model.Active)
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th width="20%">
+                                @Html.DisplayNameFor(model => model.Active)
+                            </th>
+                            <td>
+                                @Html.DisplayFor(model => model.Active)
+                            </td>
                         </tr>
                     </tbody>
                 </table>
