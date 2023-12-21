@@ -43,6 +43,9 @@
                                         @Html.DisplayNameFor(model => model.ProductName)
                                     </th>
                                     <th>
+                                        @Html.DisplayNameFor(model => model.UnitPrice)
+                                    </th>
+                                    <th>
                                         @Html.DisplayNameFor(model => model.CategoryID)
                                     </th>
                                     <th>
@@ -87,7 +90,9 @@
                                         <td>
                                             @Html.DisplayFor(model => item.ProductName)
                                         </td>
-
+                                        <td>
+                                            @Html.DisplayFor(model => item.UnitPrice)
+                                        </td>
                                         <td>
                                             @{
                                                 CategoryName = context.Categories.FirstOrDefault(c => c.CategoryID == item.CategoryID).CategoryName;
