@@ -1,11 +1,11 @@
 ﻿<Properties StartupConfiguration="{8C7ADC9D-28DE-4B23-8E8B-A6E2BF936DCA}|https">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workbench ActiveDocument="iakademi38_proje/Views/Admin/Supplier/SupplierIndex.cshtml">
     <Files>
-      <File FileName="iakademi38_proje/Controllers/ProductController.cs" Line="1" Column="1" />
-      <File FileName="iakademi38_proje/Models/Cls_Product.cs" Line="1" Column="1" />
-      <File FileName="iakademi38_proje/Views/Admin/Supplier/SupplierEdit.cshtml" Line="72" Column="64" />
-      <File FileName="iakademi38_proje/Views/Admin/Product/ProductCreate.cshtml" Line="32" Column="75" />
-      <File FileName="iakademi38_proje/Views/Admin/Supplier/SupplierIndex.cshtml" Line="68" Column="52" />
+      <File FileName="iakademi38_proje/Views/Admin/Product/ProductIndex.cshtml" Line="160" Column="88" />
+      <File FileName="iakademi38_proje/Views/Admin/Supplier/SupplierIndex.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,16 +15,15 @@
               <Node name="Controllers" expanded="True" />
               <Node name="Views">
                 <Node name="Admin">
-                  <Node name="Category" expanded="True" />
-                  <Node name="Product" expanded="True" />
-                  <Node name="Supplier">
+                  <Node name="Supplier" expanded="True">
                     <Node name="SupplierIndex.cshtml" selected="True" />
                   </Node>
                 </Node>
-                <Node name="Shared" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
-                <Node name="assets" expanded="True" />
+                <Node name="assets" expanded="True">
+                  <Node name="resimler" expanded="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -32,11 +31,8 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.iakademi38__proje PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.iakademi38__proje PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>
