@@ -123,7 +123,7 @@ namespace iakademi38_proje.Controllers
             if (answer == true)
             {
                 TempData["Message"] = "Güncellendi";
-                return RedirectToAction("ProductIndex.cshtml");
+                return RedirectToAction("ProductIndex");
             }
             else
             {

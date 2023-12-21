@@ -1,30 +1,24 @@
 ﻿<Properties StartupConfiguration="{8C7ADC9D-28DE-4B23-8E8B-A6E2BF936DCA}|https">
-  <MonoDevelop.Ide.ItemProperties.iakademi38__proje PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="iakademi38_proje/Views/Admin/Product/ProductEdit.cshtml">
     <Files>
-      <File FileName="iakademi38_proje/Models/Supplier.cs" Line="23" Column="38" />
-      <File FileName="iakademi38_proje/Views/Admin/Product/ProductEdit.cshtml" Line="140" Column="47" />
-      <File FileName="iakademi38_proje/Models/Cls_Product.cs" Line="47" Column="35" />
+      <File FileName="iakademi38_proje/Models/Product.cs" Line="1" Column="1" />
+      <File FileName="iakademi38_proje/Models/Cls_Product.cs" Line="43" Column="14" />
+      <File FileName="iakademi38_proje/Views/Admin/Product/ProductEdit.cshtml" Line="33" Column="67" />
+      <File FileName="iakademi38_proje/Controllers/ProductController.cs" Line="115" Column="1" />
+      <File FileName="iakademi38_proje/Program.cs" Line="33" Column="47" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="iakademi38_proje">
             <Node name="iakademi38_proje">
+              <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Views">
                 <Node name="Admin">
-                  <Node name="Product" expanded="True">
+                  <Node name="Product">
                     <Node name="ProductEdit.cshtml" selected="True" />
                   </Node>
-                </Node>
-              </Node>
-              <Node name="wwwroot" expanded="True">
-                <Node name="assets" expanded="True">
-                  <Node name="resimler" expanded="True" />
                 </Node>
               </Node>
             </Node>
@@ -33,7 +27,31 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.iakademi38__proje PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Models/Cls_Product.cs" relfile="iakademi38_proje/Models/Cls_Product.cs" line="45" column="1" />
+      <Breakpoint file="/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Models/Cls_Product.cs" relfile="iakademi38_proje/Models/Cls_Product.cs" line="41" column="1" />
+      <Breakpoint file="/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Models/Cls_Product.cs" relfile="iakademi38_proje/Models/Cls_Product.cs" line="46" column="1" />
+      <Breakpoint file="/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Controllers/ProductController.cs" relfile="iakademi38_proje/Controllers/ProductController.cs" line="108" column="1" />
+      <Breakpoint file="/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Controllers/ProductController.cs" relfile="iakademi38_proje/Controllers/ProductController.cs" line="112" column="1" />
+      <Breakpoint file="/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Controllers/ProductController.cs" relfile="iakademi38_proje/Controllers/ProductController.cs" line="117" column="1" />
+      <Breakpoint file="/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Controllers/ProductController.cs" relfile="iakademi38_proje/Controllers/ProductController.cs" line="118" column="1" />
+      <Breakpoint file="/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Controllers/ProductController.cs" relfile="iakademi38_proje/Controllers/ProductController.cs" line="125" column="1" />
+      <Breakpoint file="/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Controllers/ProductController.cs" relfile="iakademi38_proje/Controllers/ProductController.cs" line="122" column="1" />
+      <Breakpoint file="/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Controllers/ProductController.cs" relfile="iakademi38_proje/Controllers/ProductController.cs" line="73" column="1" />
+      <Breakpoint file="/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Controllers/ProductController.cs" relfile="iakademi38_proje/Controllers/ProductController.cs" line="76" column="1" />
+      <Breakpoint file="/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Controllers/ProductController.cs" relfile="iakademi38_proje/Controllers/ProductController.cs" line="81" column="1" />
+      <Breakpoint file="/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Controllers/ProductController.cs" relfile="iakademi38_proje/Controllers/ProductController.cs" line="72" column="1" />
+      <Breakpoint file="/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Controllers/ProductController.cs" relfile="iakademi38_proje/Controllers/ProductController.cs" line="74" column="1" />
+      <Breakpoint file="/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Controllers/ProductController.cs" relfile="iakademi38_proje/Controllers/ProductController.cs" line="82" column="1" />
+      <Breakpoint file="/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Models/Cls_Product.cs" relfile="iakademi38_proje/Models/Cls_Product.cs" line="47" column="1" />
+      <Breakpoint file="/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Models/Cls_Product.cs" relfile="iakademi38_proje/Models/Cls_Product.cs" line="48" column="1" />
+      <Breakpoint file="/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Models/Cls_Product.cs" relfile="iakademi38_proje/Models/Cls_Product.cs" line="53" column="1" />
+      <Breakpoint file="/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Controllers/ProductController.cs" relfile="iakademi38_proje/Controllers/ProductController.cs" line="126" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
