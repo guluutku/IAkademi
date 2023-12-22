@@ -2,15 +2,22 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using iakademi38_proje.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace iakademi38_proje.Controllers
 {
     public class HomeController : Controller
     {
+
+        MainPageModel mpm = new MainPageModel();
+        Cls_Product cls_Product = new Cls_Product();
+
         public IActionResult Index()
         {
-            return View();
+            mpm.SliderProducts = cls_Product.ProductSelect("Slider");
+            // mainPageModel.ProductOfDay = cls_Product.ProductDetails("ProductOfDay");
+            return View(mpm);
         }
 
         public IActionResult Cart()

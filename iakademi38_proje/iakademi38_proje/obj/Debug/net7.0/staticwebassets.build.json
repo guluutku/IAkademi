@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lpiAjD3lh2Jt5PSnLcd5UCyENYy7gdyBAsugHvM0f6g=",
+  "Hash": "rLNiTfTip7R6UuBM3iUV+Zy1AYqXS/wOB5f2cpGTrDo=",
   "Source": "iakademi38_proje",
   "BasePath": "_content/iakademi38_proje",
   "Mode": "Default",
@@ -80376,12 +80376,12 @@
       "OriginalItemSpec": "wwwroot/assets/resimler/2014-04-05T00-54-26.png"
     },
     {
-      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/antika telefon.jpg",
+      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/antika_telefon.jpg",
       "SourceId": "iakademi38_proje",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/",
       "BasePath": "_content/iakademi38_proje",
-      "RelativePath": "assets/resimler/antika telefon.jpg",
+      "RelativePath": "assets/resimler/antika_telefon.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -80390,15 +80390,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/resimler/antika telefon.jpg"
+      "OriginalItemSpec": "wwwroot/assets/resimler/antika_telefon.jpg"
     },
     {
-      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/Araba ses sistemi.jpg",
+      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/araba_ses_sistemi.jpg",
       "SourceId": "iakademi38_proje",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/",
       "BasePath": "_content/iakademi38_proje",
-      "RelativePath": "assets/resimler/Araba ses sistemi.jpg",
+      "RelativePath": "assets/resimler/araba_ses_sistemi.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -80407,7 +80407,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/resimler/Araba ses sistemi.jpg"
+      "OriginalItemSpec": "wwwroot/assets/resimler/araba_ses_sistemi.jpg"
     },
     {
       "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/Araba.jpg",
@@ -80461,12 +80461,12 @@
       "OriginalItemSpec": "wwwroot/assets/resimler/beko.jfif"
     },
     {
-      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/Bulaşık Deterjanı.jpg",
+      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/bulasik_detejani.jpg",
       "SourceId": "iakademi38_proje",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/",
       "BasePath": "_content/iakademi38_proje",
-      "RelativePath": "assets/resimler/Bulaşık Deterjanı.jpg",
+      "RelativePath": "assets/resimler/bulasik_detejani.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -80475,15 +80475,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/resimler/Bulaşık Deterjanı.jpg"
+      "OriginalItemSpec": "wwwroot/assets/resimler/bulasik_detejani.jpg"
     },
     {
-      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/Bulaşık makinesi.jpg",
+      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/bulasik_makinesi.jpg",
       "SourceId": "iakademi38_proje",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/",
       "BasePath": "_content/iakademi38_proje",
-      "RelativePath": "assets/resimler/Bulaşık makinesi.jpg",
+      "RelativePath": "assets/resimler/bulasik_makinesi.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -80492,15 +80492,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/resimler/Bulaşık makinesi.jpg"
+      "OriginalItemSpec": "wwwroot/assets/resimler/bulasik_makinesi.jpg"
     },
     {
-      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/buzdolapı.jpg",
+      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/buzdolabi.jpg",
       "SourceId": "iakademi38_proje",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/",
       "BasePath": "_content/iakademi38_proje",
-      "RelativePath": "assets/resimler/buzdolapı.jpg",
+      "RelativePath": "assets/resimler/buzdolabi.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -80509,15 +80509,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/resimler/buzdolapı.jpg"
+      "OriginalItemSpec": "wwwroot/assets/resimler/buzdolabi.jpg"
     },
     {
-      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/çamaşır makinesi.jpg",
+      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/camasir_makinesi.jpg",
       "SourceId": "iakademi38_proje",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/",
       "BasePath": "_content/iakademi38_proje",
-      "RelativePath": "assets/resimler/çamaşır makinesi.jpg",
+      "RelativePath": "assets/resimler/camasir_makinesi.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -80526,15 +80526,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/resimler/çamaşır makinesi.jpg"
+      "OriginalItemSpec": "wwwroot/assets/resimler/camasir_makinesi.jpg"
     },
     {
-      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/çatal bıçak kaşık.jpg",
+      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/catal_bicak_seti.jpg",
       "SourceId": "iakademi38_proje",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/",
       "BasePath": "_content/iakademi38_proje",
-      "RelativePath": "assets/resimler/çatal bıçak kaşık.jpg",
+      "RelativePath": "assets/resimler/catal_bicak_seti.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -80543,7 +80543,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/resimler/çatal bıçak kaşık.jpg"
+      "OriginalItemSpec": "wwwroot/assets/resimler/catal_bicak_seti.jpg"
+    },
+    {
+      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/cocuk_havuz.jpg",
+      "SourceId": "iakademi38_proje",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/",
+      "BasePath": "_content/iakademi38_proje",
+      "RelativePath": "assets/resimler/cocuk_havuz.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/resimler/cocuk_havuz.jpg"
     },
     {
       "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/davlumbaz.jpg",
@@ -80563,12 +80580,12 @@
       "OriginalItemSpec": "wwwroot/assets/resimler/davlumbaz.jpg"
     },
     {
-      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/Duş jeli.jpg",
+      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/deniz_yatagi.jpg",
       "SourceId": "iakademi38_proje",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/",
       "BasePath": "_content/iakademi38_proje",
-      "RelativePath": "assets/resimler/Duş jeli.jpg",
+      "RelativePath": "assets/resimler/deniz_yatagi.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -80577,15 +80594,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/resimler/Duş jeli.jpg"
+      "OriginalItemSpec": "wwwroot/assets/resimler/deniz_yatagi.jpg"
     },
     {
-      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/dvd player.jpg",
+      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/dus_jeli.jpg",
       "SourceId": "iakademi38_proje",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/",
       "BasePath": "_content/iakademi38_proje",
-      "RelativePath": "assets/resimler/dvd player.jpg",
+      "RelativePath": "assets/resimler/dus_jeli.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -80594,15 +80611,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/resimler/dvd player.jpg"
+      "OriginalItemSpec": "wwwroot/assets/resimler/dus_jeli.jpg"
     },
     {
-      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/Elektrikli ısıtıcı.jpg",
+      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/dvd_player.jpg",
       "SourceId": "iakademi38_proje",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/",
       "BasePath": "_content/iakademi38_proje",
-      "RelativePath": "assets/resimler/Elektrikli ısıtıcı.jpg",
+      "RelativePath": "assets/resimler/dvd_player.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -80611,15 +80628,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/resimler/Elektrikli ısıtıcı.jpg"
+      "OriginalItemSpec": "wwwroot/assets/resimler/dvd_player.jpg"
     },
     {
-      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/elektrikli süpürge.jpg",
+      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/elektrikli_isitici.jpg",
       "SourceId": "iakademi38_proje",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/",
       "BasePath": "_content/iakademi38_proje",
-      "RelativePath": "assets/resimler/elektrikli süpürge.jpg",
+      "RelativePath": "assets/resimler/elektrikli_isitici.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -80628,15 +80645,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/resimler/elektrikli süpürge.jpg"
+      "OriginalItemSpec": "wwwroot/assets/resimler/elektrikli_isitici.jpg"
     },
     {
-      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/fırın ocak.jpg",
+      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/elektrikli_supurge.jpg",
       "SourceId": "iakademi38_proje",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/",
       "BasePath": "_content/iakademi38_proje",
-      "RelativePath": "assets/resimler/fırın ocak.jpg",
+      "RelativePath": "assets/resimler/elektrikli_supurge.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -80645,7 +80662,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/resimler/fırın ocak.jpg"
+      "OriginalItemSpec": "wwwroot/assets/resimler/elektrikli_supurge.jpg"
+    },
+    {
+      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/firin_ocak.jpg",
+      "SourceId": "iakademi38_proje",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/",
+      "BasePath": "_content/iakademi38_proje",
+      "RelativePath": "assets/resimler/firin_ocak.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/resimler/firin_ocak.jpg"
     },
     {
       "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/grundig.png",
@@ -80665,6 +80699,23 @@
       "OriginalItemSpec": "wwwroot/assets/resimler/grundig.png"
     },
     {
+      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/hoparlor.jpg",
+      "SourceId": "iakademi38_proje",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/",
+      "BasePath": "_content/iakademi38_proje",
+      "RelativePath": "assets/resimler/hoparlor.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/resimler/hoparlor.jpg"
+    },
+    {
       "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/iakademi-logo.png",
       "SourceId": "iakademi38_proje",
       "SourceType": "Discovered",
@@ -80682,12 +80733,12 @@
       "OriginalItemSpec": "wwwroot/assets/resimler/iakademi-logo.png"
     },
     {
-      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/jöle.jpg",
+      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/isitici.jpg",
       "SourceId": "iakademi38_proje",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/",
       "BasePath": "_content/iakademi38_proje",
-      "RelativePath": "assets/resimler/jöle.jpg",
+      "RelativePath": "assets/resimler/isitici.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -80696,15 +80747,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/resimler/jöle.jpg"
+      "OriginalItemSpec": "wwwroot/assets/resimler/isitici.jpg"
     },
     {
-      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/kahve masası.jpg",
+      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/jole.jpg",
       "SourceId": "iakademi38_proje",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/",
       "BasePath": "_content/iakademi38_proje",
-      "RelativePath": "assets/resimler/kahve masası.jpg",
+      "RelativePath": "assets/resimler/jole.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -80713,15 +80764,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/resimler/kahve masası.jpg"
+      "OriginalItemSpec": "wwwroot/assets/resimler/jole.jpg"
     },
     {
-      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/kek kabı.jpg",
+      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/kek_kalibi.jpg",
       "SourceId": "iakademi38_proje",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/",
       "BasePath": "_content/iakademi38_proje",
-      "RelativePath": "assets/resimler/kek kabı.jpg",
+      "RelativePath": "assets/resimler/kek_kalibi.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -80730,7 +80781,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/resimler/kek kabı.jpg"
+      "OriginalItemSpec": "wwwroot/assets/resimler/kek_kalibi.jpg"
     },
     {
       "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/klima.jpg",
@@ -80750,12 +80801,12 @@
       "OriginalItemSpec": "wwwroot/assets/resimler/klima.jpg"
     },
     {
-      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/Koşu Bandı.jpg",
+      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/koltuk_takimi.jpg",
       "SourceId": "iakademi38_proje",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/",
       "BasePath": "_content/iakademi38_proje",
-      "RelativePath": "assets/resimler/Koşu Bandı.jpg",
+      "RelativePath": "assets/resimler/koltuk_takimi.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -80764,15 +80815,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/resimler/Koşu Bandı.jpg"
+      "OriginalItemSpec": "wwwroot/assets/resimler/koltuk_takimi.jpg"
     },
     {
-      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/L koltuk.jpg",
+      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/kosu_bandi.jpg",
       "SourceId": "iakademi38_proje",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/",
       "BasePath": "_content/iakademi38_proje",
-      "RelativePath": "assets/resimler/L koltuk.jpg",
+      "RelativePath": "assets/resimler/kosu_bandi.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -80781,7 +80832,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/resimler/L koltuk.jpg"
+      "OriginalItemSpec": "wwwroot/assets/resimler/kosu_bandi.jpg"
     },
     {
       "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/Laptop.jpg",
@@ -80818,23 +80869,6 @@
       "OriginalItemSpec": "wwwroot/assets/resimler/lenovo.png"
     },
     {
-      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/lg televizyon.jpg",
-      "SourceId": "iakademi38_proje",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/",
-      "BasePath": "_content/iakademi38_proje",
-      "RelativePath": "assets/resimler/lg televizyon.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/resimler/lg televizyon.jpg"
-    },
-    {
       "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/lg.png",
       "SourceId": "iakademi38_proje",
       "SourceType": "Discovered",
@@ -80852,12 +80886,12 @@
       "OriginalItemSpec": "wwwroot/assets/resimler/lg.png"
     },
     {
-      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/Nokia telefon.jpg",
+      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/paspas.jpg",
       "SourceId": "iakademi38_proje",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/",
       "BasePath": "_content/iakademi38_proje",
-      "RelativePath": "assets/resimler/Nokia telefon.jpg",
+      "RelativePath": "assets/resimler/paspas.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -80866,7 +80900,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/resimler/Nokia telefon.jpg"
+      "OriginalItemSpec": "wwwroot/assets/resimler/paspas.jpg"
     },
     {
       "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/pervane.jpg",
@@ -80886,12 +80920,12 @@
       "OriginalItemSpec": "wwwroot/assets/resimler/pervane.jpg"
     },
     {
-      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/Şampuan.jpg",
+      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/sampuan.jpg",
       "SourceId": "iakademi38_proje",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/",
       "BasePath": "_content/iakademi38_proje",
-      "RelativePath": "assets/resimler/Şampuan.jpg",
+      "RelativePath": "assets/resimler/sampuan.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -80900,15 +80934,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/resimler/Şampuan.jpg"
+      "OriginalItemSpec": "wwwroot/assets/resimler/sampuan.jpg"
     },
     {
-      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/ses sistemi.jpg",
+      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/sehpa.jpg",
       "SourceId": "iakademi38_proje",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/",
       "BasePath": "_content/iakademi38_proje",
-      "RelativePath": "assets/resimler/ses sistemi.jpg",
+      "RelativePath": "assets/resimler/sehpa.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -80917,15 +80951,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/resimler/ses sistemi.jpg"
+      "OriginalItemSpec": "wwwroot/assets/resimler/sehpa.jpg"
     },
     {
-      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/Şişme Havuz.jpg",
+      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/tablet.jpg",
       "SourceId": "iakademi38_proje",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/",
       "BasePath": "_content/iakademi38_proje",
-      "RelativePath": "assets/resimler/Şişme Havuz.jpg",
+      "RelativePath": "assets/resimler/tablet.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -80934,24 +80968,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/resimler/Şişme Havuz.jpg"
-    },
-    {
-      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/su ısıtıcı.jpg",
-      "SourceId": "iakademi38_proje",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/",
-      "BasePath": "_content/iakademi38_proje",
-      "RelativePath": "assets/resimler/su ısıtıcı.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/resimler/su ısıtıcı.jpg"
+      "OriginalItemSpec": "wwwroot/assets/resimler/tablet.jpg"
     },
     {
       "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/telefon.jpg",
@@ -80969,6 +80986,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/resimler/telefon.jpg"
+    },
+    {
+      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/televizyon.jpg",
+      "SourceId": "iakademi38_proje",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/",
+      "BasePath": "_content/iakademi38_proje",
+      "RelativePath": "assets/resimler/televizyon.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/resimler/televizyon.jpg"
     },
     {
       "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/tencere.jpg",
@@ -81039,12 +81073,12 @@
       "OriginalItemSpec": "wwwroot/assets/resimler/ttarena2.jpg"
     },
     {
-      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/Ütü.jpg",
+      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/utu.jpg",
       "SourceId": "iakademi38_proje",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/",
       "BasePath": "_content/iakademi38_proje",
-      "RelativePath": "assets/resimler/Ütü.jpg",
+      "RelativePath": "assets/resimler/utu.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -81053,7 +81087,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/resimler/Ütü.jpg"
+      "OriginalItemSpec": "wwwroot/assets/resimler/utu.jpg"
     },
     {
       "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/vestel.jfif",
@@ -81073,12 +81107,12 @@
       "OriginalItemSpec": "wwwroot/assets/resimler/vestel.jfif"
     },
     {
-      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/Yemek masası seti.jpg",
+      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/yemek_takimi.jpg",
       "SourceId": "iakademi38_proje",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/",
       "BasePath": "_content/iakademi38_proje",
-      "RelativePath": "assets/resimler/Yemek masası seti.jpg",
+      "RelativePath": "assets/resimler/yemek_takimi.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -81087,41 +81121,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/resimler/Yemek masası seti.jpg"
-    },
-    {
-      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/yer paspası.jpg",
-      "SourceId": "iakademi38_proje",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/",
-      "BasePath": "_content/iakademi38_proje",
-      "RelativePath": "assets/resimler/yer paspası.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/resimler/yer paspası.jpg"
-    },
-    {
-      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/Yüzen kanepe.jpg",
-      "SourceId": "iakademi38_proje",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/",
-      "BasePath": "_content/iakademi38_proje",
-      "RelativePath": "assets/resimler/Yüzen kanepe.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/resimler/Yüzen kanepe.jpg"
+      "OriginalItemSpec": "wwwroot/assets/resimler/yemek_takimi.jpg"
     },
     {
       "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/css/.DS_Store",

@@ -3,11 +3,9 @@ namespace iakademi38_proje.Models
 {
 	public class MainPageModel
 	{
-		public MainPageModel()
-		{
-		}
 
-
+		public List<Product>? SliderProducts { get; set; }
+		public Product? ProductOfDay { get; set; }
 
 	}
 }

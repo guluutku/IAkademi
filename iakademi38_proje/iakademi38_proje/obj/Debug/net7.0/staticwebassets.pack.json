@@ -18909,52 +18909,12 @@
       "PackagePath": "staticwebassets/assets/resimler/2014-04-05T00-54-26.png"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/Araba ses sistemi.jpg",
-      "PackagePath": "staticwebassets/assets/resimler/Araba ses sistemi.jpg"
-    },
-    {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/Araba.jpg",
       "PackagePath": "staticwebassets/assets/resimler/Araba.jpg"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/Bulaşık Deterjanı.jpg",
-      "PackagePath": "staticwebassets/assets/resimler/Bulaşık Deterjanı.jpg"
-    },
-    {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/Bulaşık makinesi.jpg",
-      "PackagePath": "staticwebassets/assets/resimler/Bulaşık makinesi.jpg"
-    },
-    {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/Duş jeli.jpg",
-      "PackagePath": "staticwebassets/assets/resimler/Duş jeli.jpg"
-    },
-    {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/Elektrikli ısıtıcı.jpg",
-      "PackagePath": "staticwebassets/assets/resimler/Elektrikli ısıtıcı.jpg"
-    },
-    {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/Koşu Bandı.jpg",
-      "PackagePath": "staticwebassets/assets/resimler/Koşu Bandı.jpg"
-    },
-    {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/L koltuk.jpg",
-      "PackagePath": "staticwebassets/assets/resimler/L koltuk.jpg"
-    },
-    {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/Laptop.jpg",
       "PackagePath": "staticwebassets/assets/resimler/Laptop.jpg"
-    },
-    {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/Nokia telefon.jpg",
-      "PackagePath": "staticwebassets/assets/resimler/Nokia telefon.jpg"
-    },
-    {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/Şampuan.jpg",
-      "PackagePath": "staticwebassets/assets/resimler/Şampuan.jpg"
-    },
-    {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/Şişme Havuz.jpg",
-      "PackagePath": "staticwebassets/assets/resimler/Şişme Havuz.jpg"
     },
     {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/Thumbs.db",
@@ -18965,20 +18925,12 @@
       "PackagePath": "staticwebassets/assets/resimler/Trambolin.jpg"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/Ütü.jpg",
-      "PackagePath": "staticwebassets/assets/resimler/Ütü.jpg"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/antika_telefon.jpg",
+      "PackagePath": "staticwebassets/assets/resimler/antika_telefon.jpg"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/Yemek masası seti.jpg",
-      "PackagePath": "staticwebassets/assets/resimler/Yemek masası seti.jpg"
-    },
-    {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/Yüzen kanepe.jpg",
-      "PackagePath": "staticwebassets/assets/resimler/Yüzen kanepe.jpg"
-    },
-    {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/antika telefon.jpg",
-      "PackagePath": "staticwebassets/assets/resimler/antika telefon.jpg"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/araba_ses_sistemi.jpg",
+      "PackagePath": "staticwebassets/assets/resimler/araba_ses_sistemi.jpg"
     },
     {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/arcelik.jfif",
@@ -18989,84 +18941,128 @@
       "PackagePath": "staticwebassets/assets/resimler/beko.jfif"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/buzdolapı.jpg",
-      "PackagePath": "staticwebassets/assets/resimler/buzdolapı.jpg"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/bulasik_detejani.jpg",
+      "PackagePath": "staticwebassets/assets/resimler/bulasik_detejani.jpg"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/çamaşır makinesi.jpg",
-      "PackagePath": "staticwebassets/assets/resimler/çamaşır makinesi.jpg"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/bulasik_makinesi.jpg",
+      "PackagePath": "staticwebassets/assets/resimler/bulasik_makinesi.jpg"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/çatal bıçak kaşık.jpg",
-      "PackagePath": "staticwebassets/assets/resimler/çatal bıçak kaşık.jpg"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/buzdolabi.jpg",
+      "PackagePath": "staticwebassets/assets/resimler/buzdolabi.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/camasir_makinesi.jpg",
+      "PackagePath": "staticwebassets/assets/resimler/camasir_makinesi.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/catal_bicak_seti.jpg",
+      "PackagePath": "staticwebassets/assets/resimler/catal_bicak_seti.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/cocuk_havuz.jpg",
+      "PackagePath": "staticwebassets/assets/resimler/cocuk_havuz.jpg"
     },
     {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/davlumbaz.jpg",
       "PackagePath": "staticwebassets/assets/resimler/davlumbaz.jpg"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/dvd player.jpg",
-      "PackagePath": "staticwebassets/assets/resimler/dvd player.jpg"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/deniz_yatagi.jpg",
+      "PackagePath": "staticwebassets/assets/resimler/deniz_yatagi.jpg"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/elektrikli süpürge.jpg",
-      "PackagePath": "staticwebassets/assets/resimler/elektrikli süpürge.jpg"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/dus_jeli.jpg",
+      "PackagePath": "staticwebassets/assets/resimler/dus_jeli.jpg"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/fırın ocak.jpg",
-      "PackagePath": "staticwebassets/assets/resimler/fırın ocak.jpg"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/dvd_player.jpg",
+      "PackagePath": "staticwebassets/assets/resimler/dvd_player.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/elektrikli_isitici.jpg",
+      "PackagePath": "staticwebassets/assets/resimler/elektrikli_isitici.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/elektrikli_supurge.jpg",
+      "PackagePath": "staticwebassets/assets/resimler/elektrikli_supurge.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/firin_ocak.jpg",
+      "PackagePath": "staticwebassets/assets/resimler/firin_ocak.jpg"
     },
     {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/grundig.png",
       "PackagePath": "staticwebassets/assets/resimler/grundig.png"
     },
     {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/hoparlor.jpg",
+      "PackagePath": "staticwebassets/assets/resimler/hoparlor.jpg"
+    },
+    {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/iakademi-logo.png",
       "PackagePath": "staticwebassets/assets/resimler/iakademi-logo.png"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/jöle.jpg",
-      "PackagePath": "staticwebassets/assets/resimler/jöle.jpg"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/isitici.jpg",
+      "PackagePath": "staticwebassets/assets/resimler/isitici.jpg"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/kahve masası.jpg",
-      "PackagePath": "staticwebassets/assets/resimler/kahve masası.jpg"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/jole.jpg",
+      "PackagePath": "staticwebassets/assets/resimler/jole.jpg"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/kek kabı.jpg",
-      "PackagePath": "staticwebassets/assets/resimler/kek kabı.jpg"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/kek_kalibi.jpg",
+      "PackagePath": "staticwebassets/assets/resimler/kek_kalibi.jpg"
     },
     {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/klima.jpg",
       "PackagePath": "staticwebassets/assets/resimler/klima.jpg"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/lenovo.png",
-      "PackagePath": "staticwebassets/assets/resimler/lenovo.png"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/koltuk_takimi.jpg",
+      "PackagePath": "staticwebassets/assets/resimler/koltuk_takimi.jpg"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/lg televizyon.jpg",
-      "PackagePath": "staticwebassets/assets/resimler/lg televizyon.jpg"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/kosu_bandi.jpg",
+      "PackagePath": "staticwebassets/assets/resimler/kosu_bandi.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/lenovo.png",
+      "PackagePath": "staticwebassets/assets/resimler/lenovo.png"
     },
     {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/lg.png",
       "PackagePath": "staticwebassets/assets/resimler/lg.png"
     },
     {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/paspas.jpg",
+      "PackagePath": "staticwebassets/assets/resimler/paspas.jpg"
+    },
+    {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/pervane.jpg",
       "PackagePath": "staticwebassets/assets/resimler/pervane.jpg"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/ses sistemi.jpg",
-      "PackagePath": "staticwebassets/assets/resimler/ses sistemi.jpg"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/sampuan.jpg",
+      "PackagePath": "staticwebassets/assets/resimler/sampuan.jpg"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/su ısıtıcı.jpg",
-      "PackagePath": "staticwebassets/assets/resimler/su ısıtıcı.jpg"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/sehpa.jpg",
+      "PackagePath": "staticwebassets/assets/resimler/sehpa.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/tablet.jpg",
+      "PackagePath": "staticwebassets/assets/resimler/tablet.jpg"
     },
     {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/telefon.jpg",
       "PackagePath": "staticwebassets/assets/resimler/telefon.jpg"
+    },
+    {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/televizyon.jpg",
+      "PackagePath": "staticwebassets/assets/resimler/televizyon.jpg"
     },
     {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/tencere.jpg",
@@ -19077,12 +19073,16 @@
       "PackagePath": "staticwebassets/assets/resimler/ttarena2.jpg"
     },
     {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/utu.jpg",
+      "PackagePath": "staticwebassets/assets/resimler/utu.jpg"
+    },
+    {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/vestel.jfif",
       "PackagePath": "staticwebassets/assets/resimler/vestel.jfif"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/yer paspası.jpg",
-      "PackagePath": "staticwebassets/assets/resimler/yer paspası.jpg"
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/yemek_takimi.jpg",
+      "PackagePath": "staticwebassets/assets/resimler/yemek_takimi.jpg"
     },
     {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/css/.DS_Store",

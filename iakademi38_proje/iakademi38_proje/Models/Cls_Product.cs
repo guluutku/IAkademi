@@ -36,6 +36,31 @@ namespace iakademi38_proje.Models
             List<Product> products = await context.Products.ToListAsync();
             return products;
         }
+
+        public List<Product> ProductSelect(string mainPageName)
+        {
+            switch (mainPageName)
+            {
+                // returns null list
+                default:
+                    List<Product> products = context.Products.Where(p => p.StatusID == 0).ToList();
+                    return products;
+
+                case "Slider":
+                    List<Product> sliderProducts = context.Products.Where(p => p.StatusID == 1).ToList();
+                    return sliderProducts;
+
+                case "Special":
+                    List<Product> specialProducts = context.Products.Where(p => p.StatusID == 2).ToList();
+                    return specialProducts;
+
+                case "Starred":
+                    List<Product> starredProducts = context.Products.Where(p => p.StatusID == 2).ToList();
+                    return starredProducts;
+
+            }
+            
+        }
        
         public static bool ProductUpdate(Product product)
         {
@@ -59,8 +84,13 @@ namespace iakademi38_proje.Models
             Product? product = await context.Products.FindAsync(id);
             return product;
         }
-
-
+        /*
+        public Product ProductDetails(string mainPgeName)
+        {
+            Product? product = context.Products.Find(mainPageName);
+            return product;
+        }
+        */
         public static bool ProductDelete(int id)
         {
             try

@@ -1,6 +1,4 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model MainPageModel
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/DefaultLayout.cshtml";
@@ -27,39 +25,27 @@
                             <div class="fullwidthbanner-container">
                                 <div class="home-1">
                                     <ul>
-                                        <li data-transition="random" data-slotamount="7" data-masterspeed="1000">
-                                            <img src="~/img/slider/h1/hsliderbg1.jpg" alt="slide">
-                                            <div class="tp-caption large_black sfr carousel-caption-inner" data-x="150" data-y="50" data-speed="1100" data-start="1100" data-easing="easeInOutBack"
-                                                 style="color:#fff; font-size:18px; letter-spacing: 1px; text-transform: uppercase;">
-                                                Something
-                                            </div>
-                                            <div class="tp-caption large_black sfr carousel-caption-inner" data-x="65" data-y="71" data-speed="1100" data-start="1400" data-easing="easeInOutBack"
-                                                 style="  font-size: 60px; font-style:italic; font-weight: normal; text-transform: uppercase;color: #fff;font-weight: bold;">
-                                                for him
-                                            </div>
-                                            <div class="tp-caption lfb carousel-caption-inner" data-x="130" data-y="160" data-speed="1300" data-start="1700" data-easing="easeInOutBack"
-                                                 style="">
-                                                <a href="index.html#" class="s-btn" style="background: transparent; color: #fff; border: 1px solid #fff; font-weight:700; font-size: 12px; display: inline-block; padding:10px 18px; text-transform: uppercase;">Shopping Now</a>
-                                            </div>
-                                        </li>
-                                        <li data-transition="random" data-slotamount="7" data-masterspeed="1000">
-                                            <img src="~/img/slider/h1/hsliderbg2.jpg" alt="slide">
-                                            <div class="tp-caption large_black sfr carousel-caption-inner" data-x="30" data-y="20" data-speed="1100" data-start="1100" data-easing="easeInOutBack"
-                                                 style="font-size:22px; color: #fff; ">
-                                                Samsung Galaxy S5
-                                            </div>
-                                            <div class="tp-caption large_black sfr carousel-caption-inner" data-x="30" data-y="50" data-speed="1100" data-start="1400" data-easing="easeInOutBack"
-                                                 style="font-size:42px; font-weight:700;text-transform: uppercase; color: #ffffff; letter-spacing: 5px;">
-                                                Mega Sale
-                                            </div>
-                                            <div class="tp-caption large_black sfr carousel-caption-inner" data-x="30" data-y="90" data-speed="1100" data-start="1400" data-easing="easeInOutBack"
-                                                 style="font-size:42px; font-weight:700;text-transform: uppercase; color: #ffffff; letter-spacing: 5px;">
-                                                25%off
-                                            </div>
-                                            <div class="tp-caption lfb carousel-caption-inner" data-x="30" data-y="160" data-speed="1300" data-start="1700" data-easing="easeInOutBack" style="">
-                                                <a href="index.html#" class="s-btn" style="background: transparent; color: #fff; border: 1px solid #fff; font-weight:700; font-size: 12px; display: inline-block; padding:10px 18px; text-transform: uppercase;">Shopping Now</a>
-                                            </div>
-                                        </li>
+
+                                        @foreach (var item in Model.SliderProducts) {
+                                            <li data-transition="random" data-slotamount="7" data-masterspeed="1000">
+                                                <img src="~/assets/resimler/@item.PhotoPath" alt="slide">
+                                                <div class="tp-caption large_black sfr carousel-caption-inner" data-x="150" data-y="50" data-speed="1100" data-start="1100" data-easing="easeInOutBack"
+                                                     style="color:#fff; font-size:18px; letter-spacing: 4px; text-transform: uppercase; background-color:red">
+                                                    @item.UnitPrice TL
+                                                </div>
+                                                <div class="tp-caption large_black sfr carousel-caption-inner" data-x="35" data-y="71" data-speed="1100" data-start="1400" data-easing="easeInOutBack"
+                                                     style="font-size: 40px; font-style:italic; font-weight: normal; color: #fff; font-weight: bold; background-color:red;">
+                                                    @item.ProductName?.ToUpper()
+                                                </div>
+                                                <div class="tp-caption lfb carousel-caption-inner" data-x="130" data-y="160" data-speed="1300" data-start="1700" data-easing="easeInOutBack"
+                                                     style="">
+                                                    <a href="index.html#" class="s-btn" style="background: transparent; color: #fff; border: 1px solid #fff; font-weight:700; font-size: 12px; display: inline-block; padding:10px 18px; text-transform: uppercase;">Shopping Now</a>
+                                                </div>
+                                            </li>
+                                         }
+
+
+
                                     </ul>
                                 </div>
                             </div>
