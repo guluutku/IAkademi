@@ -109,6 +109,7 @@
                                                 @BrandName;
                                             }
                                         </td>
+
                                         <td>
                                             @Html.DisplayFor(model => item.Stock)
                                         </td>
@@ -118,8 +119,7 @@
 
                                         <td>
                                             @{
-                                                StatusName = context.Statues.FirstOrDefault(st => st.StatusID == item.StatusID).StatusName;
-
+                                                StatusName = context.Statuses.FirstOrDefault(st => st.StatusID == item.StatusID).StatusName;
                                                 switch (item.StatusID)
                                                 {
                                                     default:

@@ -19,9 +19,11 @@ namespace iakademi38_proje.Models
         [DisplayName("Birim Fiyatı")]
         public decimal UnitPrice { get; set; }
 
+        [Required(ErrorMessage = "kategori Seçilmedi")]
         [DisplayName("Kategori")]
         public int CategoryID { get; set; }
 
+        [Required(ErrorMessage = "Marka Seçilmedi")]
         [DisplayName("Marka")]
         public int SupplierID { get; set; }
 
@@ -31,6 +33,7 @@ namespace iakademi38_proje.Models
         [DisplayName("İndirim")]
         public int Discount { get; set; }
 
+        [Required(ErrorMessage = "Durum Seçilmedi")]
         [DisplayName("Statüs")]
         public int StatusID { get; set; }
 

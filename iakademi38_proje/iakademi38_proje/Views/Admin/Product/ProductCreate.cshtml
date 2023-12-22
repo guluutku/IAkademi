@@ -57,14 +57,14 @@
                         <div class="form-group">
                             <label class="col-md-3 control-label">KATEGORİ SEÇİNİZ</label>
                             <div class="col-md-9">
-                                @Html.DropDownList("CategoryID", (IEnumerable<SelectListItem>)ViewData["categoryList"], "Seçiniz", new { @class = "form-control input-lg" })
+                                @Html.DropDownList("CategoryID", (IEnumerable<SelectListItem>)ViewData["categoryList"], "Seçiniz", new { @class = "form-control input-lg", @required = "required" })
                             </div>
                         </div>
 
                         <div class="form-group">
                             <label class="col-md-3 control-label">MARKA SEÇİNİZ</label>
                             <div class="col-md-9">
-                                @Html.DropDownList("SupplierID", (IEnumerable<SelectListItem>)ViewData["supplierList"], "Seçiniz", new { @class = "form-control input-lg" })
+                                @Html.DropDownList("SupplierID", (IEnumerable<SelectListItem>)ViewData["supplierList"], "Seçiniz", new { @class = "form-control input-lg", @required = "required" })
                             </div>
                         </div>
 
@@ -90,7 +90,7 @@
                         <div class="form-group">
                             <label class="col-md-3 control-label">STATÜ SEÇİNİZ</label>
                             <div class="col-md-9">
-                                @Html.DropDownList("StatusID", (IEnumerable<SelectListItem>)ViewData["StatusList"], "Seçiniz", new { @class = "form-control input-lg" })
+                                @Html.DropDownList("StatusID", (IEnumerable<SelectListItem>)ViewData["StatusList"], "Seçiniz", new { @class = "form-control input-lg", @required="required" })
                             </div>
                         </div>
 

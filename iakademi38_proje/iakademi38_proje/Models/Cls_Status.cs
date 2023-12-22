@@ -14,7 +14,7 @@ namespace iakademi38_proje.Models
 
         public async Task<List<Status>> StatusSelect()
         {
-            List<Status> statuses = await context.Statues.ToListAsync();
+            List<Status> statuses = await context.Statuses.ToListAsync();
             return statuses;
         }
 
@@ -37,7 +37,7 @@ namespace iakademi38_proje.Models
 
         public async Task<Status> StatusDetails(int? id)
         {
-            Status? status = await context.Statues.FirstOrDefaultAsync(s => s.StatusID == id);
+            Status? status = await context.Statuses.FirstOrDefaultAsync(s => s.StatusID == id);
             return status;
         }
 
@@ -64,7 +64,7 @@ namespace iakademi38_proje.Models
             {
                 using (iakademi38Context context = new iakademi38Context())
                 {
-                    Status status = (Status)context.Statues.Where(c => c.StatusID == id);
+                    Status status = (Status)context.Statuses.Where(c => c.StatusID == id);
                     status.Active = false;
 
                     context.SaveChanges();

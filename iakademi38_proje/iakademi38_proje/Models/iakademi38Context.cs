@@ -19,7 +19,7 @@ namespace iakademi38_proje.Models
         public DbSet<Order> Orders { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<Setting> Settings { get; set; }
-        public DbSet<Status> Statues { get; set; }
+        public DbSet<Status> Statuses { get; set; }
         public DbSet<Supplier> Suppliers { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<Message> Messages { get; set; }

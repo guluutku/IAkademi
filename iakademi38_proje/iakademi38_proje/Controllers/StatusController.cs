@@ -43,7 +43,7 @@ namespace iakademi38_proje.Controllers
         [HttpGet]
         public async Task<IActionResult> StatusEdit(int? id)
         {
-            if (id == null || context.Statues == null)
+            if (id == null || context.Statuses == null)
             {
                 return NotFound();
             }
@@ -72,11 +72,11 @@ namespace iakademi38_proje.Controllers
         [HttpGet]
         public async Task<IActionResult> StatusDelete(int? id)
         {
-            if (id == null || context.Statues == null)
+            if (id == null || context.Statuses == null)
             {
                 return NotFound();
             }
-            var Status = await context.Statues.FirstOrDefaultAsync(s => s.StatusID == id);
+            var Status = await context.Statuses.FirstOrDefaultAsync(s => s.StatusID == id);
 
             if (Status == null)
             {
