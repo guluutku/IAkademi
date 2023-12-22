@@ -71,7 +71,8 @@
                         <div class="form-group">
                             <label asp-for="Stock" class="col-md-3 control-label">STOK</label>
                             <div class="col-md-9">
-                                <input asp-for="Stock" class="form-control input-lg" placeholder="Stok" required onkeypress="return numberonly(this, event);" />
+                                <input asp-for="Stock" class="form-control input-lg" placeholder="Stok" required
+                                       onkeypress="return numberonly(this, event);" />
                             </div>
                             <span asp-validation-for="Stock" class="text-danger"></span>
                         </div>
