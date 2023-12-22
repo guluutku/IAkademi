@@ -133,9 +133,11 @@ namespace iakademi38_proje.Controllers
         }
         //
 
-        public IActionResult ProductDetails()
+        public async Task<IActionResult> ProductDetails(int? id)
         {
-            return View("~/Views/Admin/Product/ProductDetails.cshtml");
+            var product = await cls_Product.ProductDetails(id);
+            ViewBag.productname = product?.ProductName;
+            return View("~/Views/Admin/Product/ProductDetails.cshtml", product);
         }
        
         [HttpGet]
