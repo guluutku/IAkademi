@@ -43,7 +43,7 @@ namespace iakademi38_proje.Models
             {
                 // returns null list
                 default:
-                    List<Product> products = context.Products.Where(p => p.StatusID == 0).ToList();
+                    List<Product> products = context.Products.Where(p => p.StatusID == 0 && p.Active == true).ToList();
                     return products;
 
                 case "Slider":
@@ -84,13 +84,13 @@ namespace iakademi38_proje.Models
             Product? product = await context.Products.FindAsync(id);
             return product;
         }
-        /*
+
         public Product ProductDetails(string mainPgeName)
         {
-            Product? product = context.Products.Find(mainPageName);
+            Product? product = context.Products.FirstOrDefault(p => p.StatusID == 6);
             return product;
         }
-        */
+        
         public static bool ProductDelete(int id)
         {
             try

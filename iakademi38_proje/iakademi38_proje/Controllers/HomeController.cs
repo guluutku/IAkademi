@@ -16,7 +16,7 @@ namespace iakademi38_proje.Controllers
         public IActionResult Index()
         {
             mpm.SliderProducts = cls_Product.ProductSelect("Slider");
-            // mainPageModel.ProductOfDay = cls_Product.ProductDetails("ProductOfDay");
+            mpm.ProductOfDay = cls_Product.ProductDetails("ProductOfDay");
             return View(mpm);
         }
 
