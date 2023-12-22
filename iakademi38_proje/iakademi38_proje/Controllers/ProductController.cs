@@ -132,6 +132,11 @@ namespace iakademi38_proje.Controllers
             }
         }
         //
+
+        public IActionResult ProductDetails()
+        {
+            return View("~/Views/Admin/Product/ProductDetails.cshtml");
+        }
        
         [HttpGet]
         public async Task<IActionResult> ProductDelete(int? id)
