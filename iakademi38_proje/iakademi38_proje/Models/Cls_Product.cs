@@ -47,15 +47,15 @@ namespace iakademi38_proje.Models
                     return products;
 
                 case "Slider":
-                    List<Product> sliderProducts = context.Products.Where(p => p.StatusID == 1).ToList();
+                    List<Product> sliderProducts = context.Products.Where(p => p.StatusID == 1 && p.Active == true).ToList();
                     return sliderProducts;
 
                 case "Special":
-                    List<Product> specialProducts = context.Products.Where(p => p.StatusID == 2).ToList();
+                    List<Product> specialProducts = context.Products.Where(p => p.StatusID == 2 && p.Active == true).ToList();
                     return specialProducts;
 
                 case "Starred":
-                    List<Product> starredProducts = context.Products.Where(p => p.StatusID == 2).ToList();
+                    List<Product> starredProducts = context.Products.Where(p => p.StatusID == 3 && p.Active == true).ToList();
                     return starredProducts;
 
             }
