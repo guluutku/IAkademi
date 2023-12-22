@@ -46,7 +46,9 @@
                         <div class="form-group">
                             <label asp-for="UnitPrice" class="col-md-3 control-label">FİYAT</label>
                             <div class="col-md-9">
-                                <input asp-for="UnitPrice" class="form-control input-lg" placeholder="Fiyat" required />
+                                <input asp-for="UnitPrice" class="form-control input-lg" placeholder="Fiyat" required
+                                       onkeypress="return numberonly(this, event);"/>
+                                
                             </div>
                             <span asp-validation-for="UnitPrice" class="text-danger"></span>
                         </div>
