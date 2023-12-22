@@ -19885,6 +19885,10 @@
       "PackagePath": "staticwebassets/js/rs-slider.js"
     },
     {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/js/sadece_numara.js",
+      "PackagePath": "staticwebassets/js/sadece_numara.js"
+    },
+    {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/js/vendor/jquery-1.11.3.min.js",
       "PackagePath": "staticwebassets/js/vendor/jquery-1.11.3.min.js"
     },

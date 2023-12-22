@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0Y/cpn1jsEEi2n88OyZg7A12J0q9NGUHWolejegEIQI=",
+  "Hash": "lpiAjD3lh2Jt5PSnLcd5UCyENYy7gdyBAsugHvM0f6g=",
   "Source": "iakademi38_proje",
   "BasePath": "_content/iakademi38_proje",
   "Mode": "Default",
@@ -84522,6 +84522,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/rs-slider.js"
+    },
+    {
+      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/js/sadece_numara.js",
+      "SourceId": "iakademi38_proje",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/",
+      "BasePath": "_content/iakademi38_proje",
+      "RelativePath": "js/sadece_numara.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/sadece_numara.js"
     },
     {
       "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/js/vendor/jquery-1.11.3.min.js",
