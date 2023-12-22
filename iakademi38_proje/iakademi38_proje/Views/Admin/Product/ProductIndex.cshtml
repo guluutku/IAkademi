@@ -61,6 +61,9 @@
                                         @Html.DisplayNameFor(model => model.StatusID)
                                     </th>
                                     <th>
+                                        @Html.DisplayNameFor(model => model.Keywords)
+                                    </th>
+                                    <th>
                                         @Html.DisplayNameFor(model => model.Kdv)
                                     </th>
                                     <th>
@@ -151,6 +154,9 @@
                                         </td>
 
                                         <td>
+                                            @Html.DisplayFor(model => item.Keywords)
+                                        </td>
+                                        <td>
                                             @Html.DisplayFor(model => item.Kdv)
                                         </td>
                                         <td>
@@ -167,21 +173,22 @@
 
                                         @if (item.Active)
                                         {
-                                            <td style="background-color:green;color:white;">
-                                                <label>AKTİF</label>
+                                            <td>
+                                                <span style="background-color:green; color: white;">AKTİF</span>
                                             </td>
                                         }
                                         else
                                         {
-                                            <td style="background-color:red;color:white;">
-                                                <label>PASİF</label>
+                                            <td>
+                                                <span style="background-color:red; color: white;">PASİF</span>
                                             </td>
                                         }
 
-                                        <td>
-                                            <a asp-action="ProductEdit" asp-route-id="@item.ProductID" class="btn btn-primary">DÜZELT</a>
-                                            <a asp-action="ProductDelete" asp-route-id="@item.ProductID" class="btn btn-danger">SİL</a>
-                                        </td>
+                                    <td>
+                                        <a asp-action="ProductEdit" asp-route-id="@item.ProductID" class="btn btn-primary">DÜZELT</a>
+                                        <a asp-action="ProductDetails" asp-route-id="@item.ProductID" class="btn btn-info">DETAY</a>
+                                        <a asp-action="ProductDelete" asp-route-id="@item.ProductID" class="btn btn-danger">SİL</a>
+                                    </td>
                                     </tr>
                                 }
                             </tbody>
