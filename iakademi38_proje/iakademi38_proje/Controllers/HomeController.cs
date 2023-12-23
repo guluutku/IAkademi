@@ -22,6 +22,7 @@ namespace iakademi38_proje.Controllers
 
             mpm.DiscountedProducts = cls_Product.ProductSelect("Discounted");
             mpm.HighlightedProducts= cls_Product.ProductSelect("Highlighted");
+            mpm.TopsellerProducts = cls_Product.ProductSelect("Topseller");
 
             mpm.ProductOfDay = cls_Product.ProductDetails("ProductOfDay");
 
