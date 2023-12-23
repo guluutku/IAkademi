@@ -18961,6 +18961,10 @@
       "PackagePath": "staticwebassets/assets/resimler/catal_bicak_seti.jpg"
     },
     {
+      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/cep_telefonu.jpg",
+      "PackagePath": "staticwebassets/assets/resimler/cep_telefonu.jpg"
+    },
+    {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/cocuk_havuz.jpg",
       "PackagePath": "staticwebassets/assets/resimler/cocuk_havuz.jpg"
     },
@@ -19055,10 +19059,6 @@
     {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/tablet.jpg",
       "PackagePath": "staticwebassets/assets/resimler/tablet.jpg"
-    },
-    {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/telefon.jpg",
-      "PackagePath": "staticwebassets/assets/resimler/telefon.jpg"
     },
     {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/televizyon.jpg",

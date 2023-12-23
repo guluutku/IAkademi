@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rLNiTfTip7R6UuBM3iUV+Zy1AYqXS/wOB5f2cpGTrDo=",
+  "Hash": "TPp26PghQQSulek2YFjL6jxNxcfPfMUyLPal3h8AuLk=",
   "Source": "iakademi38_proje",
   "BasePath": "_content/iakademi38_proje",
   "Mode": "Default",
@@ -80546,6 +80546,23 @@
       "OriginalItemSpec": "wwwroot/assets/resimler/catal_bicak_seti.jpg"
     },
     {
+      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/cep_telefonu.jpg",
+      "SourceId": "iakademi38_proje",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/",
+      "BasePath": "_content/iakademi38_proje",
+      "RelativePath": "assets/resimler/cep_telefonu.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/resimler/cep_telefonu.jpg"
+    },
+    {
       "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/cocuk_havuz.jpg",
       "SourceId": "iakademi38_proje",
       "SourceType": "Discovered",
@@ -80969,23 +80986,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/resimler/tablet.jpg"
-    },
-    {
-      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/telefon.jpg",
-      "SourceId": "iakademi38_proje",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/",
-      "BasePath": "_content/iakademi38_proje",
-      "RelativePath": "assets/resimler/telefon.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/resimler/telefon.jpg"
     },
     {
       "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/televizyon.jpg",

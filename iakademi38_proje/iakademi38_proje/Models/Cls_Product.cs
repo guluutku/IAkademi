@@ -53,7 +53,7 @@ namespace iakademi38_proje.Models
                     break;
 
                 case "New":
-                    products = context.Products.Where(p => p.Active == true).OrderByDescending(p => p.AddDate).ToList();
+                    products = context.Products.Where(p => p.Active == true).OrderByDescending(p => p.AddDate).Take(8).ToList();
                     break;
 
                 case "Special":
