@@ -60,6 +60,10 @@ namespace iakademi38_proje.Models
                     products = context.Products.Where(p => p.StatusID == 2 && p.Active == true).Take(8).ToList();
                     break;
 
+                case "Discounted":
+                    products = context.Products.Where(p => p.Active == true).OrderByDescending(p => p.Discount).Take(8).ToList();
+                    break;
+
                 case "Starred":
                     products = context.Products.Where(p => p.StatusID == 3 && p.Active == true).ToList();
                     break;
