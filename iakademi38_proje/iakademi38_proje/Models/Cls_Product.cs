@@ -64,6 +64,10 @@ namespace iakademi38_proje.Models
                     products = context.Products.Where(p => p.Active == true).OrderByDescending(p => p.Discount).Take(8).ToList();
                     break;
 
+                 case "Highlighted":
+                    products = context.Products.Where(p => p.Active == true).OrderByDescending(p => p.HighLighted).Take(8).ToList();
+                    break; 
+
                 case "Starred":
                     products = context.Products.Where(p => p.StatusID == 3 && p.Active == true).ToList();
                     break;
@@ -117,6 +121,17 @@ namespace iakademi38_proje.Models
             catch (Exception)
             {
                 return false;
+            }
+        }
+
+        public static void Highligted_Increase(int id)
+        {
+            using(iakademi38Context context = new iakademi38Context())
+            {
+                Product? product = context.Products.FirstOrDefault(p => p.ProductID == id);
+                product!.HighLighted += 1;
+                context.Update(product);
+                context.SaveChanges();
             }
         }
     }

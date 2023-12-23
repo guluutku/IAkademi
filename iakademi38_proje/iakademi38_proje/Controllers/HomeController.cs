@@ -21,6 +21,7 @@ namespace iakademi38_proje.Controllers
             mpm.StarredProducts = cls_Product.ProductSelect("Starred");
 
             mpm.DiscountedProducts = cls_Product.ProductSelect("Discounted");
+            mpm.HighlightedProducts= cls_Product.ProductSelect("Highlighted");
 
             mpm.ProductOfDay = cls_Product.ProductDetails("ProductOfDay");
 
@@ -34,6 +35,7 @@ namespace iakademi38_proje.Controllers
 
         public IActionResult Details(int id)
         {
+            Cls_Product.Highligted_Increase(id);
             return View();
         }
 
@@ -69,6 +71,7 @@ namespace iakademi38_proje.Controllers
 
         public IActionResult CartProcess(int id)
         {
+            Cls_Product.Highligted_Increase(id);
             string url = Request.Headers["Referer"].ToString();
             return Redirect(url);
         }

@@ -201,7 +201,6 @@
         </div>
     </div>
     <!-- special product area end -->
-
     <!-- discounted product area start -->
     <div class="new-products-area">
         <div class="container">
@@ -258,20 +257,21 @@
         </div>
     </div>
     <!-- discounted product area end -->
-    <!--  product area start -->
+
+    <!-- highlighted product area start -->
     <div class="new-products-area">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12 ">
                     <div class="n-full-products">
                         <div class="all-p-title">
-                            <h3 style="background-color: #f32f6b; color: #fff; ">YENİ ÜRÜNLER</h3>
+                            <h3 style="background-color: #EA8FEA; color: #fff; ">ÖNE ÇIKAN ÜRÜNLER</h3>
                         </div>
                         <div class="row">
                             <div class="all-new-p">
                                 <div class="all-new-single singal-p hom-1">
                                     <!-- SP-SINGLE Product -->
-                                    @foreach (var item in Model.NewProducts)
+                                    @foreach (var item in Model.HighlightedProducts)
                                     {
                                         <div class="col-sm-12 col-md-12 col-lg-12">
                                             <div class="sp-single">
@@ -281,7 +281,7 @@
                                                     <div class="quick-view-detail">
                                                         <a href="/Home/Details/@item.ProductID">DETAYLAR</a>
                                                     </div>
-                                                    <div class="sp-label-pro sp-label-pro-hot">YENİ</div>
+                                                    <div class="sp-label-pro sp-label-pro-hot" style="background-color:#EA8FEA;color:#fff;">TALEP</div>
                                                 </div>
                                                 <div class="sp-info-area">
                                                     <h2 class="product-name"><a title="@item.Notes" href="index.html#">@item.ProductName </a></h2>
@@ -313,7 +313,7 @@
             </div>
         </div>
     </div>
-    <!--  product area end -->
+    <!-- highlighted product area end -->
 </body>
 </html>
 
