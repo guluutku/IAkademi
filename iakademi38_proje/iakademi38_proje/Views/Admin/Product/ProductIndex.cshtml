@@ -5,6 +5,7 @@
     Layout = "~/Views/Shared/AdminLayout.cshtml";
     iakademi38Context context = new iakademi38Context();
     string CategoryName, BrandName, StatusName = "";
+    int productCount = 0;
 }
 
     <p>
@@ -18,7 +19,27 @@
             <div class="portlet box red">
                 <div class="portlet-title">
                     <div class="caption">
-                        <i class="fa fa-cogs"></i>KATEGORİLER
+                        <i class="fa fa-cogs"></i>
+                        ÜRÜNLER
+                        |
+                        SLIDER
+                        @{
+                            productCount = context.Products.Count(p => p.StatusID == 1);
+                            @productCount
+                        }
+                        |
+                        SPECIAL
+                        @{
+                            productCount = context.Products.Count(p => p.StatusID == 2);
+                            @productCount
+                        }
+                        |
+                        SLIDER
+                        @{
+                            productCount = context.Products.Count(p => p.StatusID == 1);
+                            @productCount
+                        }
+                        |
                     </div>
                     <div class="tools">
                         <a href="javascript:;" class="collapse">
