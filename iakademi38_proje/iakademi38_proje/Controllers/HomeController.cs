@@ -16,6 +16,9 @@ namespace iakademi38_proje.Controllers
         public IActionResult Index()
         {
             mpm.SliderProducts = cls_Product.ProductSelect("Slider");
+            mpm.SpecialProducts = cls_Product.ProductSelect("Special");
+            mpm.StarredProducts = cls_Product.ProductSelect("Starred");
+
             mpm.ProductOfDay = cls_Product.ProductDetails("ProductOfDay");
             return View(mpm);
         }
@@ -26,6 +29,11 @@ namespace iakademi38_proje.Controllers
         }
 
         public IActionResult Details()
+        {
+            return View();
+        }
+
+        public IActionResult Details(int id)
         {
             return View();
         }
@@ -58,6 +66,12 @@ namespace iakademi38_proje.Controllers
         public IActionResult MyOrders()
         {
             return View();
+        }
+
+        public IActionResult CartProcess(int id)
+        {
+            string url = Request.Headers["Referer"].ToString();
+            return Redirect(url);
         }
     }
 }

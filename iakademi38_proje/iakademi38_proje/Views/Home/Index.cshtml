@@ -7,11 +7,9 @@
 
 <html>
 <head>
-
 </head>
 
 <body>
-
     <!-- slider area start -->
     <div class="home-1-slider-area">
         <div class="container">
@@ -25,7 +23,6 @@
                             <div class="fullwidthbanner-container">
                                 <div class="home-1">
                                     <ul>
-
                                         @foreach (var item in Model.SliderProducts) {
                                             <li data-transition="random" data-slotamount="7" data-masterspeed="1000">
                                                 <img src="~/assets/resimler/@item.PhotoPath" alt="slide">
@@ -39,13 +36,10 @@
                                                 </div>
                                                 <div class="tp-caption lfb carousel-caption-inner" data-x="130" data-y="160" data-speed="1300" data-start="1700" data-easing="easeInOutBack"
                                                      style="">
-                                                    <a href="index.html#" class="s-btn" style="background: transparent; color: #fff; border: 1px solid #fff; font-weight:700; font-size: 12px; display: inline-block; padding:10px 18px; text-transform: uppercase; background-color:black">Shopping Now</a>
+                                                    <a href="/Home/CartProcess/@item.ProductID" class="s-btn" style="background: transparent; color: #fff; border: 1px solid #fff; font-weight:700; font-size: 12px; display: inline-block; padding:10px 18px; text-transform: uppercase; background-color:black">SEPETE EKLE</a>
                                                 </div>
                                             </li>
                                          }
-
-
-
                                     </ul>
                                 </div>
                             </div>
@@ -77,9 +71,9 @@
                                     <img class="first-img" src="~/assets/resimler/@Model.ProductOfDay?.PhotoPath" alt="" />
                                     <img class="hover-img" src="~/assets/resimler/@Model.ProductOfDay?.PhotoPath" alt="" />
                                     <div class="quick-view-detail">
-                                        <a href="/Home/Details#">View Detail</a>
+                                        <a href="/Home/Details/@Model.ProductOfDay?.ProductID">DETAYLAR</a>
                                     </div>
-                                    <div class="sp-label-pro sp-label-pro-hot">Hot!</div>
+                                    <div class="sp-label-pro sp-label-pro-hot">BUGÜN!</div>
                                 </div>
                                 <div class="sp-info-area">
                                     <h2 class="product-name"><a title="Dolor Dignissim Semper" href="index.html#">@Model.ProductOfDay?.ProductName</a></h2>
@@ -93,17 +87,18 @@
                                     </p>
                                     <div class="sp-button">
                                         <div class="s-button">
-                                            <a href="index.html#" data-toggle="tooltip" data-placement="top" title="add to cart" class="black-tooltip add-to-cart all_src_icon"> <i class="fa fa-shopping-cart"></i> </a>
+                                            <a href="/Home/CartProcess/@Model.ProductOfDay?.ProductID" data-toggle="tooltip" data-placement="top" title="add to cart" class="black-tooltip add-to-cart all_src_icon"> <i class="fa fa-shopping-cart"></i> </a>
                                         </div>
                                         <div class="s-button">
-                                            <a href="index.html#" data-toggle="tooltip" data-placement="top" title="add favorite" class="black-tooltip add-to-cart all_src_icon"> <i class="fa fa-heart-o"></i> </a>
+                                            <a href="" data-toggle="tooltip" data-placement="top" title="" class="black-tooltip add-to-cart all_src_icon"> <i class=""></i> </a>
                                         </div>
                                         <div class="s-button last-b ">
-                                            <a href="/Home/Details#" data-toggle="tooltip" data-placement="top" title="view detail" class="black-tooltip add-to-cart all_src_icon"> <i class="fa fa-eye"></i> </a>
+                                            <a href="/Home/Details/@Model.ProductOfDay?.ProductID" data-toggle="tooltip" data-placement="top" title="view detail" class="black-tooltip add-to-cart all_src_icon"> <i class="fa fa-eye"></i> </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                            @* SİLİNECEK
                             <!-- SP-SINGLE Product -->
                             <div class="sp-single">
                                 <div class="sp-img-area">
@@ -246,6 +241,7 @@
                                     </div>
                                 </div>
                             </div>
+                            *@
                         </div>
                     </div>
                 </div>
