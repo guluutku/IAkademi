@@ -16,6 +16,7 @@ namespace iakademi38_proje.Controllers
         public IActionResult Index()
         {
             mpm.SliderProducts = cls_Product.ProductSelect("Slider");
+            mpm.NewProducts = cls_Product.ProductSelect("New");
             mpm.SpecialProducts = cls_Product.ProductSelect("Special");
             mpm.StarredProducts = cls_Product.ProductSelect("Starred");
 
@@ -24,11 +25,6 @@ namespace iakademi38_proje.Controllers
         }
 
         public IActionResult Cart()
-        {
-            return View();
-        }
-
-        public IActionResult Details()
         {
             return View();
         }

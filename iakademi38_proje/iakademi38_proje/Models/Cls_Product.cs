@@ -50,6 +50,10 @@ namespace iakademi38_proje.Models
                     List<Product> sliderProducts = context.Products.Where(p => p.StatusID == 1 && p.Active == true).ToList();
                     return sliderProducts;
 
+                case "New":
+                    List<Product> newProducts = context.Products.Where(p => p.AddDate == DateTime.Now && p.Active == true).ToList();
+                    return newProducts;
+
                 case "Special":
                     List<Product> specialProducts = context.Products.Where(p => p.StatusID == 2 && p.Active == true).ToList();
                     return specialProducts;
