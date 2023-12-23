@@ -28,15 +28,33 @@
                             @productCount
                         }
                         |
-                        SPECIAL
+                        ÖZEL
                         @{
                             productCount = context.Products.Count(p => p.StatusID == 2);
                             @productCount
                         }
                         |
-                        SLIDER
+                        YILDIZLI
                         @{
-                            productCount = context.Products.Count(p => p.StatusID == 1);
+                            productCount = context.Products.Count(p => p.StatusID == 3);
+                            @productCount
+                        }
+                        |
+                        FIRSAT
+                        @{
+                            productCount = context.Products.Count(p => p.StatusID == 4);
+                            @productCount
+                        }
+                        |
+                        DİKKAT
+                        @{
+                            productCount = context.Products.Count(p => p.StatusID == 5);
+                            @productCount
+                        }
+                        |
+                        GÜNÜN
+                        @{
+                            productCount = context.Products.Count(p => p.StatusID == 6);
                             @productCount
                         }
                         |
