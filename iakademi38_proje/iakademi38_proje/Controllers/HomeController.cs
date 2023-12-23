@@ -21,6 +21,7 @@ namespace iakademi38_proje.Controllers
             mpm.StarredProducts = cls_Product.ProductSelect("Starred");
 
             mpm.ProductOfDay = cls_Product.ProductDetails("ProductOfDay");
+
             return View(mpm);
         }
 

@@ -39,31 +39,33 @@ namespace iakademi38_proje.Models
 
         public List<Product> ProductSelect(string mainPageName)
         {
+            List<Product> products;
+
             switch (mainPageName)
             {
                 // returns null list
                 default:
-                    List<Product> products = context.Products.Where(p => p.StatusID == 0 && p.Active == true).ToList();
-                    return products;
+                    products = context.Products.ToList();
+                    break;
 
                 case "Slider":
-                    List<Product> sliderProducts = context.Products.Where(p => p.StatusID == 1 && p.Active == true).ToList();
-                    return sliderProducts;
+                    products = context.Products.Where(p => p.StatusID == 1 && p.Active == true).Take(8).ToList();
+                    break;
 
                 case "New":
-                    List<Product> newProducts = context.Products.Where(p => p.AddDate == DateTime.Now && p.Active == true).ToList();
-                    return newProducts;
+                    products = context.Products.Where(p => p.Active == true).OrderByDescending(p => p.AddDate).ToList();
+                    break;
 
                 case "Special":
-                    List<Product> specialProducts = context.Products.Where(p => p.StatusID == 2 && p.Active == true).ToList();
-                    return specialProducts;
+                    products = context.Products.Where(p => p.StatusID == 2 && p.Active == true).ToList();
+                    break;
 
                 case "Starred":
-                    List<Product> starredProducts = context.Products.Where(p => p.StatusID == 3 && p.Active == true).ToList();
-                    return starredProducts;
-
+                    products = context.Products.Where(p => p.StatusID == 3 && p.Active == true).ToList();
+                    break;
             }
-            
+
+            return products;
         }
        
         public static bool ProductUpdate(Product product)
