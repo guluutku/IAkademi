@@ -57,7 +57,7 @@ namespace iakademi38_proje.Models
                     break;
 
                 case "Special":
-                    products = context.Products.Where(p => p.StatusID == 2 && p.Active == true).ToList();
+                    products = context.Products.Where(p => p.StatusID == 2 && p.Active == true).Take(8).ToList();
                     break;
 
                 case "Starred":
