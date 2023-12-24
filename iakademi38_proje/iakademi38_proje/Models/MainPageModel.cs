@@ -17,6 +17,13 @@ namespace iakademi38_proje.Models
 
         public Product? ProductOfDay { get; set; } // statusID = 6
 
+		// Ürün detayları sayfası
+		// Product details page
+		public Product? ProductDetails { get; set; }
+		public string? CategoryName { get; set; }
+		public string? BrandName { get; set; }
+		public List<Product>? RelatedProducts { get; set; }
+
 	}
 }
 
