@@ -40,41 +40,9 @@ namespace iakademi38_proje.Controllers
             return View(mpm);
         }
 
-        public IActionResult Cart()
-        {
-            return View();
-        }
-
         public IActionResult Details(int id)
         {
             Cls_Product.Highligted_Increase(id);
-            return View();
-        }
-
-        
-
-        public IActionResult SpecialProducts()
-        {
-            return View();
-        }
-        
-        public IActionResult DiscountedProducts()
-        {
-            return View();
-        }
-
-        public IActionResult HighlightedProducts()
-        {
-            return View();
-        }
-
-        public IActionResult TopSelledProducts()
-        {
-            return View();
-        }
-
-        public IActionResult MyOrders()
-        {
             return View();
         }
 
