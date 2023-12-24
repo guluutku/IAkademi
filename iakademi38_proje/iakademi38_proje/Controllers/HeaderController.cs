@@ -22,11 +22,6 @@ namespace iakademi38_proje.Controllers
             return View();
         }
 
-        public IActionResult Cart()
-        {
-            return View();
-        }
-
         public IActionResult NewProducts()
         {
             mpm.NewProducts = cls_Product.ProductSelect("New", mainPageCount, "New", 0);
