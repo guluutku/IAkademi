@@ -2,12 +2,21 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using iakademi38_proje.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace iakademi38_proje.Controllers
 {
     public class HeaderController : Controller
     {
+
+        MainPageModel mpm = new MainPageModel();
+        Cls_Product cls_Product = new Cls_Product();
+
+        iakademi38Context context = new iakademi38Context();
+
+        int mainPageCount = 0;
+
         public IActionResult Index()
         {
             return View();
@@ -35,7 +44,8 @@ namespace iakademi38_proje.Controllers
 
         public IActionResult NewProducts()
         {
-            return View();
+            mpm.NewProducts = cls_Product.ProductSelect("New", mainPageCount, "New", 0);
+            return View(mpm);
         }
 
         public IActionResult SpecialProducts()

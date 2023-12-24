@@ -13,18 +13,27 @@ namespace iakademi38_proje.Controllers
         MainPageModel mpm = new MainPageModel();
         Cls_Product cls_Product = new Cls_Product();
 
+        iakademi38Context context = new iakademi38Context();
+
+        int mainPageCount = 0;
+
+        public HomeController()
+        {
+            mainPageCount = context.Settings.FirstOrDefault(s => s.SettingID == 1).MainPageCount;
+        }
+
         public IActionResult Index()
         {
-            mpm.SliderProducts = cls_Product.ProductSelect("Slider");
-            mpm.NewProducts = cls_Product.ProductSelect("New");
-            mpm.SpecialProducts = cls_Product.ProductSelect("Special");
-            mpm.StarredProducts = cls_Product.ProductSelect("Starred");
-            mpm.FeaturedProducts = cls_Product.ProductSelect("Featured"); 
-            mpm.NotableProducts = cls_Product.ProductSelect("Notable"); 
+            mpm.SliderProducts = cls_Product.ProductSelect("Slider", mainPageCount, "", 0);
+            mpm.NewProducts = cls_Product.ProductSelect("New", mainPageCount, "", 0);
+            mpm.SpecialProducts = cls_Product.ProductSelect("Special", mainPageCount, "", 0);
+            mpm.StarredProducts = cls_Product.ProductSelect("Starred", mainPageCount, "", 0);
+            mpm.FeaturedProducts = cls_Product.ProductSelect("Featured", mainPageCount, "", 0); 
+            mpm.NotableProducts = cls_Product.ProductSelect("Notable", mainPageCount, "", 0); 
 
-            mpm.DiscountedProducts = cls_Product.ProductSelect("Discounted");
-            mpm.HighlightedProducts= cls_Product.ProductSelect("Highlighted");
-            mpm.TopsellerProducts = cls_Product.ProductSelect("Topseller");
+            mpm.DiscountedProducts = cls_Product.ProductSelect("Discounted", mainPageCount, "", 0);
+            mpm.HighlightedProducts= cls_Product.ProductSelect("Highlighted", mainPageCount, "", 0);
+            mpm.TopsellerProducts = cls_Product.ProductSelect("Topseller", mainPageCount, "", 0);
 
             mpm.ProductOfDay = cls_Product.ProductDetails("ProductOfDay");
 
@@ -42,10 +51,7 @@ namespace iakademi38_proje.Controllers
             return View();
         }
 
-        public IActionResult NewProducts()
-        {
-            return View();
-        }
+        
 
         public IActionResult SpecialProducts()
         {

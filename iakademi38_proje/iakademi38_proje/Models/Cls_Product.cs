@@ -10,6 +10,8 @@ namespace iakademi38_proje.Models
 	{
         iakademi38Context context = new iakademi38Context();
 
+        int subpageCount = 0;
+
 		public Cls_Product()
 		{
 		}
@@ -37,9 +39,11 @@ namespace iakademi38_proje.Models
             return products;
         }
 
-        public List<Product> ProductSelect(string mainPageName)
+        public List<Product> ProductSelect(string mainPageName, int mainPageCount, string subPageName, int pageNumber)
         {
             List<Product> products;
+
+            subpageCount = context.Settings.FirstOrDefault(s => s.SettingID == 1).SubpageCount;
 
             switch (mainPageName)
             {
@@ -49,45 +53,63 @@ namespace iakademi38_proje.Models
                     break;
 
                 case "Slider":
-                    products = context.Products.Where(p => p.StatusID == 1 && p.Active == true).Take(8).ToList();
+                    products = context.Products.Where(p => p.StatusID == 1 && p.Active == true).Take(mainPageCount).ToList();
                     break;
 
                 case "New":
-                    products = context.Products.Where(p => p.Active == true).OrderByDescending(p => p.AddDate).Take(8).ToList();
+                    if(subPageName == "")
+                    {
+                        // Home/index = ana sayfa
+                        products = context.Products.Where(p => p.Active == true).OrderByDescending(p => p.AddDate).Take(mainPageCount).ToList();
+                    }
+                    else
+                    {
+                        // alt sayfa
+                        if(pageNumber == 0)
+                        {
+                            // alt sayfa ilk tıklanış
+                            products = context.Products.Where(p => p.Active == true).OrderByDescending(p => p.AddDate).Take(subpageCount).ToList();
+                        }
+                        else
+                        {
+                            // ajax = daha fazla ürün getir
+                            products = context.Products.Where(p => p.Active == true).OrderByDescending(p => p.AddDate).Skip(pageNumber * subpageCount).Take(subpageCount).ToList();
+                        }
+                    }
                     break;
 
                 case "Special":
-                    products = context.Products.Where(p => p.StatusID == 2 && p.Active == true).Take(8).ToList();
+                    products = context.Products.Where(p => p.StatusID == 2 && p.Active == true).Take(mainPageCount).ToList();
                     break;
 
                 case "Discounted":
-                    products = context.Products.Where(p => p.Active == true).OrderByDescending(p => p.Discount).Take(8).ToList();
+                    products = context.Products.Where(p => p.Active == true).OrderByDescending(p => p.Discount).Take(mainPageCount).ToList();
                     break;
 
                  case "Highlighted":
-                    products = context.Products.Where(p => p.Active == true).OrderByDescending(p => p.HighLighted).Take(8).ToList();
+                    products = context.Products.Where(p => p.Active == true).OrderByDescending(p => p.HighLighted).Take(mainPageCount).ToList();
                     break;
 
                 case "Topseller":
-                    products = context.Products.Where(p => p.Active == true).OrderByDescending(p => p.TopSeller).Take(8).ToList();
+                    products = context.Products.Where(p => p.Active == true).OrderByDescending(p => p.TopSeller).Take(mainPageCount).ToList();
                     break;
 
                 case "Starred":
-                    products = context.Products.Where(p => p.StatusID == 3 && p.Active == true).Take(8).ToList();
+                    products = context.Products.Where(p => p.StatusID == 3 && p.Active == true).Take(mainPageCount).ToList();
                     break;
                     
                 case "Featured":
-                    products = context.Products.Where(p => p.StatusID == 4 && p.Active == true).Take(8).ToList();
+                    products = context.Products.Where(p => p.StatusID == 4 && p.Active == true).Take(mainPageCount).ToList();
                     break;
 
                 case "Notable":
-                    products = context.Products.Where(p => p.StatusID == 5 && p.Active == true).Take(8).OrderByDescending(p => p.UnitPrice).ToList();
+                    products = context.Products.Where(p => p.StatusID == 5 && p.Active == true).Take(mainPageCount).OrderByDescending(p => p.UnitPrice).ToList();
                     break;
             }
 
             return products;
         }
-       
+
         public static bool ProductUpdate(Product product)
         {
             try
