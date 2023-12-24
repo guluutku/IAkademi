@@ -1,34 +1,41 @@
 ﻿<Properties StartupConfiguration="{8C7ADC9D-28DE-4B23-8E8B-A6E2BF936DCA}|https">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.iakademi38__proje PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="iakademi38_proje/Views/Home/Index.cshtml">
     <Files>
-      <File FileName="iakademi38_proje/Models/MainPageModel.cs" Line="8" Column="10" />
-      <File FileName="iakademi38_proje/Controllers/HomeController.cs" Line="33" Column="44" />
-      <File FileName="iakademi38_proje/Models/Cls_Product.cs" Line="90" Column="84" />
-      <File FileName="iakademi38_proje/Views/Home/Index.cshtml" Line="99" Column="166" />
+      <File FileName="iakademi38_proje/Models/MainPageModel.cs" Line="16" Column="93" />
+      <File FileName="iakademi38_proje/Controllers/HomeController.cs" Line="25" Column="73" />
+      <File FileName="iakademi38_proje/Models/Cls_Product.cs" Line="70" Column="1" />
+      <File FileName="iakademi38_proje/Views/Home/Index.cshtml" Line="339" Column="153" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="iakademi38_proje">
-            <Node name="iakademi38_proje">
+          <Node name="iakademi38_proje" expanded="True">
+            <Node name="iakademi38_proje" expanded="True">
+              <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
-              <Node name="Views">
-                <Node name="Home">
-                  <Node name="Index.cshtml" selected="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Admin" expanded="True">
+                  <Node name="Product" expanded="True" />
+                </Node>
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="assets" expanded="True">
+                  <Node name="resimler" expanded="True" />
                 </Node>
               </Node>
-              <Node name="wwwroot" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.iakademi38__proje PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>
