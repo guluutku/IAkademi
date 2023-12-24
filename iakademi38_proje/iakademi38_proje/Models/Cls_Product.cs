@@ -75,6 +75,14 @@ namespace iakademi38_proje.Models
                 case "Starred":
                     products = context.Products.Where(p => p.StatusID == 3 && p.Active == true).Take(8).ToList();
                     break;
+                    
+                case "Featured":
+                    products = context.Products.Where(p => p.StatusID == 4 && p.Active == true).Take(8).ToList();
+                    break;
+
+                case "Notable":
+                    products = context.Products.Where(p => p.StatusID == 5 && p.Active == true).Take(8).OrderByDescending(p => p.UnitPrice).ToList();
+                    break;
             }
 
             return products;

@@ -8,8 +8,8 @@ namespace iakademi38_proje.Models
 		public List<Product>? NewProducts { get; set; } // orderByDesending AddDate
 		public List<Product>? SpecialProducts { get; set; } // statusID = 2
 		public List<Product>? StarredProducts { get; set; } // statusID = 3
-        public List<Product>? OpportunityProducts { get; set; }
-		public List<Product>? NoticeProducts { get; set; }
+        public List<Product>? FeaturedProducts { get; set; } // statusID = 4
+        public List<Product>? NotableProducts { get; set; } // statusID = 5
 
         public List<Product>? DiscountedProducts { get; set; } // indirimli ürünler- orderByDescending Discount
         public List<Product>? HighlightedProducts { get; set; } // OrderByDescending Highlighted

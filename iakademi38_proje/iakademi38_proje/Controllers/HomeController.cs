@@ -19,6 +19,8 @@ namespace iakademi38_proje.Controllers
             mpm.NewProducts = cls_Product.ProductSelect("New");
             mpm.SpecialProducts = cls_Product.ProductSelect("Special");
             mpm.StarredProducts = cls_Product.ProductSelect("Starred");
+            mpm.FeaturedProducts = cls_Product.ProductSelect("Featured"); 
+            mpm.NotableProducts = cls_Product.ProductSelect("Notable"); 
 
             mpm.DiscountedProducts = cls_Product.ProductSelect("Discounted");
             mpm.HighlightedProducts= cls_Product.ProductSelect("Highlighted");
