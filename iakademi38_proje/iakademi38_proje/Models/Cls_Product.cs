@@ -6,15 +6,15 @@ using XAct;
 
 namespace iakademi38_proje.Models
 {
-	public class Cls_Product
-	{
+    public class Cls_Product
+    {
         iakademi38Context context = new iakademi38Context();
 
         int subpageCount = 0;
 
-		public Cls_Product()
-		{
-		}
+        public Cls_Product()
+        {
+        }
 
         public static bool ProductInsert(Product product)
         {
@@ -57,7 +57,7 @@ namespace iakademi38_proje.Models
                     break;
 
                 case "New":
-                    if(subPageName == "")
+                    if (subPageName == "")
                     {
                         // Home/index = ana sayfa
                         products = context.Products.Where(p => p.Active == true).OrderByDescending(p => p.AddDate).Take(mainPageCount).ToList();
@@ -65,7 +65,7 @@ namespace iakademi38_proje.Models
                     else
                     {
                         // alt sayfa
-                        if(pageNumber == 0)
+                        if (pageNumber == 0)
                         {
                             // alt sayfa ilk tıklanış
                             products = context.Products.Where(p => p.Active == true).OrderByDescending(p => p.AddDate).Take(subpageCount).ToList();
@@ -86,7 +86,7 @@ namespace iakademi38_proje.Models
                     products = context.Products.Where(p => p.Active == true).OrderByDescending(p => p.Discount).Take(mainPageCount).ToList();
                     break;
 
-                 case "Highlighted":
+                case "Highlighted":
                     products = context.Products.Where(p => p.Active == true).OrderByDescending(p => p.HighLighted).Take(mainPageCount).ToList();
                     break;
 
@@ -97,7 +97,7 @@ namespace iakademi38_proje.Models
                 case "Starred":
                     products = context.Products.Where(p => p.StatusID == 3 && p.Active == true).Take(mainPageCount).ToList();
                     break;
-                    
+
                 case "Featured":
                     products = context.Products.Where(p => p.StatusID == 4 && p.Active == true).Take(mainPageCount).ToList();
                     break;
@@ -138,7 +138,7 @@ namespace iakademi38_proje.Models
             Product? product = context.Products.FirstOrDefault(p => p.StatusID == 6);
             return product;
         }
-        
+
         public static bool ProductDelete(int id)
         {
             try
@@ -160,7 +160,7 @@ namespace iakademi38_proje.Models
 
         public static void Highligted_Increase(int id)
         {
-            using(iakademi38Context context = new iakademi38Context())
+            using (iakademi38Context context = new iakademi38Context())
             {
                 Product? product = context.Products.FirstOrDefault(p => p.ProductID == id);
                 product!.HighLighted += 1;
