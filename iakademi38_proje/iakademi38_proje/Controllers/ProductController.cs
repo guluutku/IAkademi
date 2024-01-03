@@ -18,6 +18,14 @@ namespace iakademi38_proje.Controllers
         Cls_Supplier cls_Supplier = new Cls_Supplier();
         Cls_Status cls_Status = new Cls_Status();
         iakademi38Context context = new iakademi38Context();
+        MainPageModel mpm = new MainPageModel();
+
+        int mainPageCount = 0;
+
+        public ProductController()
+        {
+            mainPageCount = context.Settings.FirstOrDefault(s => s.SettingID == 1).MainPageCount;
+        }
 
         public async Task<IActionResult> ProductIndex()
         {
@@ -173,5 +181,13 @@ namespace iakademi38_proje.Controllers
             }
 
         }
+
+        public PartialViewResult _PartialNewProducts(string pageno)
+        {
+            int pageNumber = Convert.ToInt32(pageno);
+            mpm.NewProducts() = cls_Product.ProductSelect("New", mainPageCount, "New", pageNumber);
+            return PartialView(_PartialNewProducts);
+        }
+
     }
 }
