@@ -20,12 +20,14 @@ namespace iakademi38_proje.Controllers
         iakademi38Context context = new iakademi38Context();
         MainPageModel mpm = new MainPageModel();
 
-        int mainPageCount = 0;
+        int mainpageCount = 0;
 
         public ProductController()
         {
-            mainPageCount = context.Settings.FirstOrDefault(s => s.SettingID == 1).MainPageCount;
+            mainpageCount = context.Settings.FirstOrDefault(s => s.SettingID == 1).MainPageCount;
         }
+
+        // FOR ADMIN PAGES
 
         public async Task<IActionResult> ProductIndex()
         {
@@ -182,12 +184,14 @@ namespace iakademi38_proje.Controllers
 
         }
 
+        //////////////////////////
+        // FOR USER PAGES
+
         public PartialViewResult _PartialNewProducts(string pageno)
         {
-            int pageNumber = Convert.ToInt32(pageno);
-            mpm.NewProducts() = cls_Product.ProductSelect("New", mainPageCount, "New", pageNumber);
-            return PartialView(_PartialNewProducts);
+            int pagenumber = Convert.ToInt32(pageno);
+            mpm.NewProducts = cls_Product.ProductSelect("New", mainpageCount, "New", pagenumber); //yeni
+            return PartialView(mpm);
         }
-
     }
 }

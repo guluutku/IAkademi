@@ -60,8 +60,8 @@
                             </div>
                         </div>
 
-
                         <input type="hidden" id="pagenumber" value="0" />
+
 
                     </div>
                 </div>
@@ -70,13 +70,15 @@
     </div>
 </div>
 <!--Single product area End  -->
-<script>$(document).on("click", "#loadmoreProducts", function () {
+
+<script>
+    $(document).on("click", "#loadmoreProducts", function () {
         var pagenumber = parseInt($("#pagenumber").val())
         var nextpage = pagenumber + 1;
 
         $.ajax({
             type: "GET",
-            url: "/Home/_PartialNewProducts",
+            url: "/Product/_PartialNewProducts",
             data: { pageno: nextpage },
             async: true,
             processData: true,
@@ -86,5 +88,5 @@
                 $("#pagenumber").val(+nextpage)
             }
         })
-
-    })</script>
+    })
+</script>

@@ -95,7 +95,7 @@ namespace iakademi38_proje.Models
                     break;
 
                 case "Starred":
-                    products = context.Products.Where(p => p.StatusID == 3 && p.Active == true).Take(mainPageCount).ToList();
+                    products = context.Products.Where(p => p.StatusID == 3 && p.Active == true).Take(mainPageCount).OrderBy(p => p.ProductName).ToList();
                     break;
 
                 case "Featured":
@@ -103,7 +103,7 @@ namespace iakademi38_proje.Models
                     break;
 
                 case "Notable":
-                    products = context.Products.Where(p => p.StatusID == 5 && p.Active == true).Take(mainPageCount).OrderByDescending(p => p.UnitPrice).ToList();
+                    products = context.Products.Where(p => p.StatusID == 5 && p.Active == true).Take(mainPageCount).OrderBy(p => p.ProductName).ToList();
                     break;
             }
 

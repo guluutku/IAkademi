@@ -20,6 +20,7 @@
     <None Remove="Views\Admin\Status\" />
     <None Remove="Views\Admin\Settings\" />
     <None Remove="Views\Admin\Product\" />
+    <None Remove="Views\Product\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
@@ -34,6 +35,7 @@
     <Folder Include="Views\Admin\Settings\" />
     <Folder Include="Views\Admin\Product\" />
     <Folder Include="wwwroot\assets\resimler\" />
+    <Folder Include="Views\Product\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="7.0.13" />

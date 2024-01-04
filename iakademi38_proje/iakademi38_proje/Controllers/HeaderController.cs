@@ -25,15 +25,9 @@ namespace iakademi38_proje.Controllers
         public IActionResult NewProducts()
         {
             mpm.NewProducts = cls_Product.ProductSelect("New", mainpageCount, "New", 0);
-            return View(mpm);
+            return View("~/Views/Product/NewProducts.cshtml", mpm);
         }
 
-        public PartialViewResult _PartialNewProducts(string pageno)
-        {
-            int pagenumber = Convert.ToInt32(pageno);
-            mpm.NewProducts = cls_Product.ProductSelect("New", mainpageCount, "New", pagenumber); //yeni
-            return PartialView(mpm);
-        }
 
         public IActionResult SpecialProducts()
         {
