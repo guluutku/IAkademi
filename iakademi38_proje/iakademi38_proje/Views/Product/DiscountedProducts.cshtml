@@ -55,7 +55,7 @@
                         </div>
 
                         <input type="hidden" id="pagenumber" value="0" />
-                        <input type="text" id="scrollheight" value="0" />
+                        <input type="hidden" id="scrollheight" value="0" />
 
                     </div>
                 </div>
@@ -67,7 +67,7 @@
 
 <script>
     $(window).scroll(function () {
-        if ($(window).scrollTop() - $("#scrollheight").val() == 200) {
+        if ($(window).scrollTop() - $("#scrollheight").val() >= 200) {
             var pagenumber = parseInt($("#pagenumber").val())
             var nextpage = pagenumber + 1;
 
