@@ -57,7 +57,7 @@ namespace iakademi38_proje.Models
                     break;
 
                 case "New":
-                    if (subPageName == "")
+                    if (subPageName == "Ana")
                     {
                         // Home/index = ana sayfa
                         products = context.Products.Where(p => p.Active == true).OrderByDescending(p => p.AddDate).Take(mainPageCount).ToList();

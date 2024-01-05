@@ -24,16 +24,16 @@ namespace iakademi38_proje.Controllers
 
         public IActionResult Index()
         {
-            mpm.SliderProducts = cls_Product.ProductSelect("Slider", mainPageCount, "", 0);
-            mpm.NewProducts = cls_Product.ProductSelect("New", mainPageCount, "", 0);
-            mpm.SpecialProducts = cls_Product.ProductSelect("Special", mainPageCount, "", 0);
-            mpm.StarredProducts = cls_Product.ProductSelect("Starred", mainPageCount, "", 0);
-            mpm.FeaturedProducts = cls_Product.ProductSelect("Featured", mainPageCount, "", 0); 
-            mpm.NotableProducts = cls_Product.ProductSelect("Notable", mainPageCount, "", 0); 
+            mpm.SliderProducts = cls_Product.ProductSelect("Slider", mainPageCount, "Ana", 0);
+            mpm.NewProducts = cls_Product.ProductSelect("New", mainPageCount, "Ana", 0);
+            mpm.SpecialProducts = cls_Product.ProductSelect("Special", mainPageCount, "Ana", 0);
+            mpm.StarredProducts = cls_Product.ProductSelect("Starred", mainPageCount, "Ana", 0);
+            mpm.FeaturedProducts = cls_Product.ProductSelect("Featured", mainPageCount, "Ana", 0); 
+            mpm.NotableProducts = cls_Product.ProductSelect("Notable", mainPageCount, "Ana", 0); 
 
-            mpm.DiscountedProducts = cls_Product.ProductSelect("Discounted", mainPageCount, "", 0);
-            mpm.HighlightedProducts= cls_Product.ProductSelect("Highlighted", mainPageCount, "", 0);
-            mpm.TopsellerProducts = cls_Product.ProductSelect("Topseller", mainPageCount, "", 0);
+            mpm.DiscountedProducts = cls_Product.ProductSelect("Discounted", mainPageCount, "Ana", 0);
+            mpm.HighlightedProducts= cls_Product.ProductSelect("Highlighted", mainPageCount, "Ana", 0);
+            mpm.TopsellerProducts = cls_Product.ProductSelect("Topseller", mainPageCount, "Ana", 0);
 
             mpm.ProductOfDay = cls_Product.ProductDetails("ProductOfDay");
 
