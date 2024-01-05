@@ -141,7 +141,7 @@ namespace iakademi38_proje.Models
                     }
                     break;
 
-                case "TopSelled":
+                case "Topseller":
                     if (subPageName == "Ana")
                     {
                         products = context.Products.Where(p => p.Active == true).OrderByDescending(p => p.TopSeller).Take(mainPageCount).ToList();

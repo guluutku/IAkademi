@@ -215,10 +215,10 @@ namespace iakademi38_proje.Controllers
             return PartialView(mpm);
         }
 
-        public PartialViewResult _PartialTopSelledProducts(string pageno)
+        public PartialViewResult _PartialTopsellerProducts(string pageno)
         {
             int pagenumber = Convert.ToInt32(pageno);
-            mpm.TopSelledProducts = cls_Product.ProductSelect("TopSelled", mainpageCount, "New", pagenumber); //yeni
+            mpm.TopsellerProducts = cls_Product.ProductSelect("Topseller", mainpageCount, "New", pagenumber); //yeni
             return PartialView(mpm);
         }
 

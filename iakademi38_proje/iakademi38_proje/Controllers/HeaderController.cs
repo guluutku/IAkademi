@@ -48,12 +48,12 @@ namespace iakademi38_proje.Controllers
             return View("~/Views/Product/HighlightedProducts.cshtml", mpm);
         }
 
-        public IActionResult TopSelledProducts(int page = 1, int pageSize = 4)
+        public IActionResult TopsellerProducts(int page = 1, int pageSize = 4)
         {
             // NuGet => install PagedList.Core
             PagedList<Product> model = new PagedList<Product>(context.Products.OrderByDescending(p => p.TopSeller), page, pageSize);
 
-            return View("~/Views/Product/TopSelledProducts.cshtml", model);
+            return View("~/Views/Product/TopsellerProducts.cshtml", model);
         }
 
         public IActionResult MyOrders()
