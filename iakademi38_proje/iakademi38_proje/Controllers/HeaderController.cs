@@ -37,7 +37,8 @@ namespace iakademi38_proje.Controllers
 
         public IActionResult DiscountedProducts()
         {
-            return View();
+            mpm.DiscountedProducts = cls_Product.ProductSelect("Discounted", mainpageCount, "", 0);
+            return View("~/Views/Product/DiscountedProducts.cshtml", mpm);
         }
 
         public IActionResult HighlightedProducts()

@@ -100,7 +100,25 @@ namespace iakademi38_proje.Models
                     break;
 
                 case "Discounted":
-                    products = context.Products.Where(p => p.Active == true).OrderByDescending(p => p.Discount).Take(mainPageCount).ToList();
+
+                    if (subPageName == "Ana")
+                    {
+                        products = context.Products.Where(p => p.Active == true).OrderByDescending(p => p.Discount).Take(mainPageCount).ToList();
+                    }
+                    else
+                    {
+                        // alt sayfa
+                        if (pageNumber == 0)
+                        {
+                            products = context.Products.Where(p => p.Active == true).OrderByDescending(p => p.Discount).Take(subpageCount).ToList();
+
+                        }
+                        else
+                        {
+                            // ajax = daha fazla ürün getir
+                            products = context.Products.Where(p => p.Active == true).OrderByDescending(p => p.Discount).Skip(pageNumber * subpageCount).Take(subpageCount).ToList();
+                        }
+                    }
                     break;
 
                 case "Highlighted":
