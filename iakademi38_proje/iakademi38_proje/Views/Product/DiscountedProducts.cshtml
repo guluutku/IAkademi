@@ -54,14 +54,8 @@
                             </div>
                         </div>
 
-                        <div id="loadmoreProducts">
-                            <div class="s-poraduct-botton">
-                                <input type="submit" name="name" value="DAHA FAZLA ÜRÜN GETİR" />
-                            </div>
-                        </div>
-
                         <input type="hidden" id="pagenumber" value="0" />
-
+                        <input type="text" id="scrollheight" value="0" />
 
                     </div>
                 </div>
@@ -72,21 +66,25 @@
 <!--Single product area End  -->
 
 <script>
-    $(document).on("click", "#loadmoreProducts", function () {
-        var pagenumber = parseInt($("#pagenumber").val())
-        var nextpage = pagenumber + 1;
+    $(window).scroll(function () {
+        if ($(window).scrollTop() - $("#scrollheight").val() == 200) {
+            alert("ALERT")
+            var pagenumber = parseInt($("#pagenumber").val())
+            var nextpage = pagenumber + 1;
 
-        $.ajax({
-            type: "GET",
-            url: "/Product/_PartialDiscountedProducts",
-            data: { pageno: nextpage },
-            async: true,
-            processData: true,
-            cache: true,
-            success: function (result) {
-                $("#products").append(result)
-                $("#pagenumber").val(+nextpage)
-            }
-        })
+            $.ajax({
+                type: "GET",
+                url: "/Product/_PartialDiscountedProducts",
+                data: { pageno: nextpage },
+                async: true,
+                processData: true,
+                cache: true,
+                success: function (result) {
+                    $("#products").append(result)
+                    $("#pagenumber").val(+nextpage)
+                    $("#scrollheight").val($(window).scrollTop())
+                }
+            })
+        }
     })
 </script>
