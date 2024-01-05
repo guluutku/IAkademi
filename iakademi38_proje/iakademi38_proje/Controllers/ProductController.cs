@@ -193,5 +193,12 @@ namespace iakademi38_proje.Controllers
             mpm.NewProducts = cls_Product.ProductSelect("New", mainpageCount, "New", pagenumber); //yeni
             return PartialView(mpm);
         }
+
+        public PartialViewResult _PartialSpecialProducts(string pageno)
+        {
+            int pagenumber = Convert.ToInt32(pageno);
+            mpm.SpecialProducts = cls_Product.ProductSelect("Special", mainpageCount, "New", pagenumber); //yeni
+            return PartialView(mpm);
+        }
     }
 }

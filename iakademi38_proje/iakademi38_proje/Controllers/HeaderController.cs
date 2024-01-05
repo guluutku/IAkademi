@@ -31,7 +31,8 @@ namespace iakademi38_proje.Controllers
 
         public IActionResult SpecialProducts()
         {
-            return View();
+            mpm.SpecialProducts = cls_Product.ProductSelect("Special", mainpageCount, "", 0);
+            return View("~/Views/Product/SpecialProducts.cshtml", mpm);
         }
 
         public IActionResult DiscountedProducts()
