@@ -43,12 +43,14 @@ namespace iakademi38_proje.Controllers
 
         public IActionResult HighlightedProducts()
         {
-            return View();
+            mpm.HighlightedProducts = cls_Product.ProductSelect("Highlighted", mainpageCount, "", 0);
+            return View("~/Views/Product/HighlightedProducts.cshtml", mpm);
         }
 
         public IActionResult TopSelledProducts()
         {
-            return View();
+            mpm.TopSelledProducts = cls_Product.ProductSelect("TopSelled", mainpageCount, "", 0);
+            return View("~/Views/Product/TopSelledProducts.cshtml", mpm);
         }
 
         public IActionResult MyOrders()

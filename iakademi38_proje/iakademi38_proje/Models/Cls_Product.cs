@@ -100,7 +100,6 @@ namespace iakademi38_proje.Models
                     break;
 
                 case "Discounted":
-
                     if (subPageName == "Ana")
                     {
                         products = context.Products.Where(p => p.Active == true).OrderByDescending(p => p.Discount).Take(mainPageCount).ToList();
@@ -122,11 +121,45 @@ namespace iakademi38_proje.Models
                     break;
 
                 case "Highlighted":
-                    products = context.Products.Where(p => p.Active == true).OrderByDescending(p => p.HighLighted).Take(mainPageCount).ToList();
+                    if (subPageName == "Ana")
+                    {
+                        products = context.Products.Where(p => p.Active == true).OrderByDescending(p => p.HighLighted).Take(mainPageCount).ToList();
+                    }
+                    else
+                    {
+                        // alt sayfa
+                        if (pageNumber == 0)
+                        {
+                            products = context.Products.Where(p => p.Active == true).OrderByDescending(p => p.HighLighted).Take(subpageCount).ToList();
+
+                        }
+                        else
+                        {
+                            // ajax = daha fazla ürün getir
+                            products = context.Products.Where(p => p.Active == true).OrderByDescending(p => p.HighLighted).Skip(pageNumber * subpageCount).Take(subpageCount).ToList();
+                        }
+                    }
                     break;
 
-                case "Topseller":
-                    products = context.Products.Where(p => p.Active == true).OrderByDescending(p => p.TopSeller).Take(mainPageCount).ToList();
+                case "TopSelled":
+                    if (subPageName == "Ana")
+                    {
+                        products = context.Products.Where(p => p.Active == true).OrderByDescending(p => p.TopSeller).Take(mainPageCount).ToList();
+                    }
+                    else
+                    {
+                        // alt sayfa
+                        if (pageNumber == 0)
+                        {
+                            products = context.Products.Where(p => p.Active == true).OrderByDescending(p => p.TopSeller).Take(subpageCount).ToList();
+
+                        }
+                        else
+                        {
+                            // ajax = daha fazla ürün getir
+                            products = context.Products.Where(p => p.Active == true).OrderByDescending(p => p.TopSeller).Skip(pageNumber * subpageCount).Take(subpageCount).ToList();
+                        }
+                    }
                     break;
 
                 case "Starred":

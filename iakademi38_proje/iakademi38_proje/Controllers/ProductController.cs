@@ -200,12 +200,27 @@ namespace iakademi38_proje.Controllers
             mpm.SpecialProducts = cls_Product.ProductSelect("Special", mainpageCount, "New", pagenumber); //yeni
             return PartialView(mpm);
         }
-
+        
         public PartialViewResult _PartialDiscountedProducts(string pageno)
         {
             int pagenumber = Convert.ToInt32(pageno);
             mpm.DiscountedProducts = cls_Product.ProductSelect("Discounted", mainpageCount, "New", pagenumber); //yeni
             return PartialView(mpm);
         }
+
+        public PartialViewResult _PartialHighlightedProducts(string pageno)
+        {
+            int pagenumber = Convert.ToInt32(pageno);
+            mpm.HighlightedProducts = cls_Product.ProductSelect("Highlighted", mainpageCount, "New", pagenumber); //yeni
+            return PartialView(mpm);
+        }
+
+        public PartialViewResult _PartialTopSelledProducts(string pageno)
+        {
+            int pagenumber = Convert.ToInt32(pageno);
+            mpm.TopSelledProducts = cls_Product.ProductSelect("TopSelled", mainpageCount, "New", pagenumber); //yeni
+            return PartialView(mpm);
+        }
+
     }
 }

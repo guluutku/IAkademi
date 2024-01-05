@@ -13,7 +13,7 @@ namespace iakademi38_proje.Models
 
         public List<Product>? DiscountedProducts { get; set; } // indirimli ürünler- orderByDescending Discount
         public List<Product>? HighlightedProducts { get; set; } // OrderByDescending Highlighted
-        public List<Product>? TopsellerProducts { get; set; } // OrderByDescending Topseller
+        public List<Product>? TopSelledProducts { get; set; } // OrderByDescending Topseller
 
         public Product? ProductOfDay { get; set; } // statusID = 6
 
