@@ -1,34 +1,32 @@
 ﻿<Properties StartupConfiguration="{8C7ADC9D-28DE-4B23-8E8B-A6E2BF936DCA}|https">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.iakademi38__proje PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="iakademi38_proje/Views/Product/NewProducts.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iakademi38_proje/Views/Product/TopsellerProducts.cshtml">
     <Files>
-      <File FileName="iakademi38_proje/Models/Cls_Product.cs" Line="110" Column="1" />
-      <File FileName="iakademi38_proje/Controllers/HeaderController.cs" Line="30" Column="1" />
-      <File FileName="iakademi38_proje/Views/Header/NewProducts.cshtml" Line="73" Column="1" />
-      <File FileName="iakademi38_proje/Controllers/ProductController.cs" Line="194" Column="35" />
-      <File FileName="iakademi38_proje/Views/Products/_PartialNewProducts.cshtml" Line="2" Column="1" />
+      <File FileName="iakademi38_proje/Views/Product/TopsellerProducts.cshtml" Line="13" Column="54" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="iakademi38_proje" expanded="True">
-            <Node name="iakademi38_proje" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True" />
+          <Node name="iakademi38_proje">
+            <Node name="NuGet.Config files" expanded="True" />
+            <Node name="iakademi38_proje">
+              <Node name="Dependencies" expanded="True" selected="True" />
               <Node name="Views" expanded="True">
-                <Node name="Header" expanded="True" />
                 <Node name="Product" expanded="True" />
               </Node>
             </Node>
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.iakademi38__proje PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

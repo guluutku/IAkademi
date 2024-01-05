@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "IQQk6OQy2pb7LMaehQdYMr3Q5p+linancXk5EaLQU5VisxMtDQruSrlpFn9cGjSFXyvJS89Qgs04mbQN+trxTA==",
+  "dgSpecHash": "pkwFvL44BLFXHKNMCkv6zKUfRM2PUSiS1k30hY9Jr+hs5DgwLydso28kpO9dxQpvhC0aC7v025YxnR5Drf8sSg==",
   "success": true,
   "projectFilePath": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/iakademi38_proje.csproj",
   "expectedPackageFiles": [
@@ -160,6 +160,7 @@
     "/Users/gnltk/.nuget/packages/nunit.extension.teamcityeventlistener/1.0.7/nunit.extension.teamcityeventlistener.1.0.7.nupkg.sha512",
     "/Users/gnltk/.nuget/packages/nunit.extension.vsprojectloader/3.8.0/nunit.extension.vsprojectloader.3.8.0.nupkg.sha512",
     "/Users/gnltk/.nuget/packages/pagedlist.core/1.17.4/pagedlist.core.1.17.4.nupkg.sha512",
+    "/Users/gnltk/.nuget/packages/pagedlist.core.mvc/3.0.0/pagedlist.core.mvc.3.0.0.nupkg.sha512",
     "/Users/gnltk/.nuget/packages/runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "/Users/gnltk/.nuget/packages/runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "/Users/gnltk/.nuget/packages/runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
