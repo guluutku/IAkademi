@@ -54,6 +54,7 @@
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
     <PackageReference Include="NUnit.Console" Version="3.16.3" />
     <PackageReference Include="XAct.Core" Version="1.1.17040.3290" />
+    <PackageReference Include="PagedList.Core" Version="1.17.4" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\assets\resimler\" />

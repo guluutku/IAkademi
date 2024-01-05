@@ -519,3 +519,6 @@ D:/Projeler/IAkademi/iakademi38_proje/iakademi38_proje/obj/Debug/net7.0/ref/iaka
 /Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/bin/Debug/net7.0/Microsoft.Practices.ServiceLocation.dll
 /Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/bin/Debug/net7.0/XAct.Core.dll
 /Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/bin/Debug/net7.0/XAct.Core.PCL.dll
+/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/bin/Debug/net7.0/PagedList.dll
+/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/bin/Debug/net7.0/PagedList.Core.dll
+/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/bin/Debug/net7.0/PagedList.Mvc.dll

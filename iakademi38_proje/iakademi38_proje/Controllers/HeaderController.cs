@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using iakademi38_proje.Models;
 using Microsoft.AspNetCore.Mvc;
+using PagedList.Core;
 
 namespace iakademi38_proje.Controllers
 {
@@ -47,10 +48,12 @@ namespace iakademi38_proje.Controllers
             return View("~/Views/Product/HighlightedProducts.cshtml", mpm);
         }
 
-        public IActionResult TopSelledProducts()
+        public IActionResult TopSelledProducts(int page = 1, int pageSize = 4)
         {
-            mpm.TopSelledProducts = cls_Product.ProductSelect("TopSelled", mainpageCount, "", 0);
-            return View("~/Views/Product/TopSelledProducts.cshtml", mpm);
+            // NuGet => install PagedList.Core
+            PagedList<Product> model = new PagedList<Product>(context.Products.OrderByDescending(p => p.TopSeller), page, pageSize);
+
+            return View("~/Views/Product/TopSelledProducts.cshtml", model);
         }
 
         public IActionResult MyOrders()
