@@ -5,11 +5,20 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+//biz ekledik..//Süre 1 dk olarak belirlendi..sepete ekle 
+builder.Services.AddSession(option =>
+{
+    option.IdleTimeout = TimeSpan.FromMinutes(1);
+});
+
 // alert türkçe karakter sorunu için eklendi
 builder.Services.AddWebEncoders(o =>
 {
     o.TextEncoderSettings = new System.Text.Encodings.Web.TextEncoderSettings(UnicodeRanges.All);
 });
+
+// biz ekledik. layout da session login görünümü / logo altında email gürünür
+builder.Services.AddHttpContextAccessor();
 
 var app = builder.Build();
 
