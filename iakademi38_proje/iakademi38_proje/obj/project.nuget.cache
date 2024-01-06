@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "pkwFvL44BLFXHKNMCkv6zKUfRM2PUSiS1k30hY9Jr+hs5DgwLydso28kpO9dxQpvhC0aC7v025YxnR5Drf8sSg==",
+  "dgSpecHash": "Gj7GEVX6x73oPbe2PtQYsg015ATbveAfERG7Q9iUkguwl7qgDHNvDwyfjTxTuGpQy0cX9y8daNL6s+oROYF8vA==",
   "success": true,
   "projectFilePath": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/iakademi38_proje.csproj",
   "expectedPackageFiles": [
@@ -67,10 +67,10 @@
     "/Users/gnltk/.nuget/packages/microsoft.aspnetcore.diagnostics.entityframeworkcore/7.0.13/microsoft.aspnetcore.diagnostics.entityframeworkcore.7.0.13.nupkg.sha512",
     "/Users/gnltk/.nuget/packages/microsoft.aspnetcore.hosting.abstractions/2.2.0/microsoft.aspnetcore.hosting.abstractions.2.2.0.nupkg.sha512",
     "/Users/gnltk/.nuget/packages/microsoft.aspnetcore.hosting.server.abstractions/2.2.0/microsoft.aspnetcore.hosting.server.abstractions.2.2.0.nupkg.sha512",
-    "/Users/gnltk/.nuget/packages/microsoft.aspnetcore.http/2.2.0/microsoft.aspnetcore.http.2.2.0.nupkg.sha512",
+    "/Users/gnltk/.nuget/packages/microsoft.aspnetcore.http/2.2.2/microsoft.aspnetcore.http.2.2.2.nupkg.sha512",
     "/Users/gnltk/.nuget/packages/microsoft.aspnetcore.http.abstractions/2.2.0/microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "/Users/gnltk/.nuget/packages/microsoft.aspnetcore.http.extensions/2.2.0/microsoft.aspnetcore.http.extensions.2.2.0.nupkg.sha512",
-    "/Users/gnltk/.nuget/packages/microsoft.aspnetcore.http.features/2.2.0/microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "/Users/gnltk/.nuget/packages/microsoft.aspnetcore.http.features/5.0.17/microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
     "/Users/gnltk/.nuget/packages/microsoft.aspnetcore.mvc.abstractions/2.2.0/microsoft.aspnetcore.mvc.abstractions.2.2.0.nupkg.sha512",
     "/Users/gnltk/.nuget/packages/microsoft.aspnetcore.mvc.core/2.2.5/microsoft.aspnetcore.mvc.core.2.2.5.nupkg.sha512",
     "/Users/gnltk/.nuget/packages/microsoft.aspnetcore.razor.language/6.0.11/microsoft.aspnetcore.razor.language.6.0.11.nupkg.sha512",
