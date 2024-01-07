@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using iakademi38_proje.Models;
 using Microsoft.AspNetCore.Mvc;
 using PagedList.Core;
+using static System.Net.WebRequestMethods;
 
 namespace iakademi38_proje.Controllers
 {
@@ -13,6 +14,7 @@ namespace iakademi38_proje.Controllers
 
         MainPageModel mpm = new MainPageModel();
         Cls_Product cls_Product = new Cls_Product();
+        Cls_Order cls_Order = new Cls_Order();
 
         iakademi38Context context = new iakademi38Context();
 
@@ -61,8 +63,49 @@ namespace iakademi38_proje.Controllers
             return View();
         }
 
+        // Sağ üst sayfadan sepet sayfama git ikonu tıklanınca ve aynı sayfada ürünü sil buton'u tıklanınca
         public IActionResult Cart()
         {
+            List<Cls_Order> sepet; // property ile veri getirme
+            string? scid = HttpContext.Request.Query["scid"]; // ürün silerken sil buton'u ile ProductID gönder
+
+            if (HttpContext.Request.Query["scid"].ToString()! == "")
+            {
+                // sil butonu ile geldim
+                cls_Order.MyCart = Request.Cookies["sepetim"]!;
+                cls_Order.DeleteFromMyCart(scid);
+                var cookieOptions = new CookieOptions();
+                // Taratıcı silinmiş halini gönder
+                Response.Cookies.Append("sepetim", cls_Order.MyCart, cookieOptions);
+                cookieOptions.Expires = DateTime.Now.AddDays(1);
+                TempData["Message"] = "Ürün Sepetten Silindi";
+                // sepet bilgilerini son haliyle cart.cshtml'ye gönder
+                sepet = cls_Order.SelectMyCart();
+                ViewBag.Sepetim = sepet;
+                ViewBag.sepet_tablo_detay = sepet;
+            }
+            else
+            {
+                // Header'dan sepet buton'u ile geldim
+                var cookie = Request.Cookies["sepetim"];
+                if(cookie == null)
+                {
+                    cls_Order.MyCart = "";
+                    sepet = cls_Order.SelectMyCart();
+                    ViewBag.Sepetim = sepet;
+                    ViewBag.sepet_tablo_detay = sepet;
+                }
+                else
+                {
+                    var cookieOptions = new CookieOptions();
+                    cls_Order.MyCart = Request.Cookies["sepetim"];
+                    sepet = cls_Order.SelectMyCart();
+                    ViewBag.Sepetim = sepet;
+                    ViewBag.sepet_tablo_detay = sepet;
+                }
+            }
+
+
             return View();
         }
 

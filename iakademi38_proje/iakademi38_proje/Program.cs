@@ -33,6 +33,8 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
+app.UseSession(); // biz ekledik
+
 app.UseRouting();
 
 app.UseAuthorization();

@@ -24,7 +24,7 @@ namespace iakademi38_proje.Controllers
 
         public ProductController()
         {
-            mainpageCount = context.Settings.FirstOrDefault(s => s.SettingID == 1).MainPageCount;
+            mainpageCount = context.Settings.FirstOrDefault(s => s.SettingID == 1)!.MainPageCount;
         }
 
         // FOR ADMIN PAGES
@@ -117,7 +117,7 @@ namespace iakademi38_proje.Controllers
         public IActionResult ProductEdit(Product product)
         {
             //veritabanından kaydını getirdim
-            Product prd = context.Products.FirstOrDefault(s => s.ProductID == product.ProductID);
+            Product prd = context.Products.FirstOrDefault(s => s.ProductID == product.ProductID)!;
             //formdan gelmeyen , bazı kolonları null yerine , eski bilgilerini bastım
             product.AddDate = prd.AddDate;
             product.HighLighted = prd.HighLighted;
@@ -125,7 +125,7 @@ namespace iakademi38_proje.Controllers
 
             if (product.PhotoPath == null)
             {
-                string? PhotoPath = context.Products.FirstOrDefault(s => s.ProductID == product.ProductID).PhotoPath;
+                string? PhotoPath = context.Products.FirstOrDefault(s => s.ProductID == product.ProductID)!.PhotoPath;
                 product.PhotoPath = PhotoPath;
             }
 

@@ -20,7 +20,7 @@ namespace iakademi38_proje.Controllers
 
         public HomeController()
         {
-            mainPageCount = context.Settings.FirstOrDefault(s => s.SettingID == 1).MainPageCount;
+            mainPageCount = context.Settings.FirstOrDefault(s => s.SettingID == 1)!.MainPageCount;
         }
 
         public IActionResult Index()
@@ -95,5 +95,8 @@ namespace iakademi38_proje.Controllers
             string url = Request.Headers["Referer"].ToString();
             return Redirect(url);
         }
+
+        
+
     }
 }
