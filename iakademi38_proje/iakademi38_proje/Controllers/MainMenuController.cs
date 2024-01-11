@@ -26,7 +26,7 @@ namespace iakademi38_proje.Controllers
             {
                 HttpContext.Session.SetString("Mesaj", "Email/Şifre yanlış girildi");
                 TempData["Message"] = "Email/Şifre yanlış girildi";
-
+                Console.WriteLine("Errorrr");
                 return View();
             }
             else if (answer == "admin")
@@ -34,13 +34,15 @@ namespace iakademi38_proje.Controllers
                 HttpContext.Session.SetString("Email", answer);
                 HttpContext.Session.SetString("Admin", answer);
 
+                Console.WriteLine("Admin");
                 return RedirectToAction("Login", "Admin");
             }
             else
             {
                 HttpContext.Session.SetString("Email", answer);
 
-                return RedirectToAction("Index");
+                Console.WriteLine("Customer");
+                return RedirectToAction("Index", "Home");
             }
         }
 
