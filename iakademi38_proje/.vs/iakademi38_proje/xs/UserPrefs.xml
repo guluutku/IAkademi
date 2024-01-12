@@ -1,20 +1,23 @@
 ﻿<Properties StartupConfiguration="{8C7ADC9D-28DE-4B23-8E8B-A6E2BF936DCA}|https">
-  <MonoDevelop.Ide.Workbench ActiveDocument="iakademi38_proje/Models/Cls_User.cs">
+  <MonoDevelop.Ide.ItemProperties.iakademi38__proje PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="iakademi38_proje/Views/MainMenu/Register.cshtml">
     <Files>
-      <File FileName="iakademi38_proje/Models/Cls_User.cs" Line="66" Column="65" />
-      <File FileName="iakademi38_proje/Views/MainMenu/Login.cshtml" Line="20" Column="82" />
-      <File FileName="iakademi38_proje/Controllers/MainMenuController.cs" Line="28" Column="44" />
-      <File FileName="iakademi38_proje/Models/User.cs" Line="24" Column="27" />
+      <File FileName="iakademi38_proje/Views/MainMenu/Register.cshtml" Line="16" Column="67" />
+      <File FileName="iakademi38_proje/Controllers/MainMenuController.cs" Line="70" Column="1" />
+      <File FileName="iakademi38_proje/Models/Cls_User.cs" Line="102" Column="28" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="iakademi38_proje" expanded="True">
-            <Node name="iakademi38_proje">
+            <Node name="iakademi38_proje" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="Models">
-                <Node name="Cls_User.cs" selected="True" />
-              </Node>
+              <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="MainMenu" expanded="True" />
               </Node>
@@ -24,22 +27,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.iakademi38__proje PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Controllers/MainMenuController.cs" relfile="iakademi38_proje/Controllers/MainMenuController.cs" line="30" column="1" />
-      <Breakpoint file="/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Controllers/MainMenuController.cs" relfile="iakademi38_proje/Controllers/MainMenuController.cs" line="37" column="1" />
-      <Breakpoint file="/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Controllers/MainMenuController.cs" relfile="iakademi38_proje/Controllers/MainMenuController.cs" line="45" column="1" />
-      <Breakpoint file="/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Controllers/MainMenuController.cs" relfile="iakademi38_proje/Controllers/MainMenuController.cs" line="42" column="1" />
-      <Breakpoint file="/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Controllers/MainMenuController.cs" relfile="iakademi38_proje/Controllers/MainMenuController.cs" line="34" column="1" />
-      <Breakpoint file="/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Controllers/MainMenuController.cs" relfile="iakademi38_proje/Controllers/MainMenuController.cs" line="28" column="1" />
-      <Breakpoint file="/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Models/Cls_User.cs" relfile="iakademi38_proje/Models/Cls_User.cs" line="60" column="1" />
-      <Breakpoint file="/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Models/Cls_User.cs" relfile="iakademi38_proje/Models/Cls_User.cs" line="62" column="1" />
-      <Breakpoint file="/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Models/Cls_User.cs" relfile="iakademi38_proje/Models/Cls_User.cs" line="64" column="1" />
-      <Breakpoint file="/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Models/Cls_User.cs" relfile="iakademi38_proje/Models/Cls_User.cs" line="67" column="1" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
