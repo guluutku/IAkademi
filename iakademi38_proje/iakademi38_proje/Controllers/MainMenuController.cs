@@ -10,7 +10,19 @@ namespace iakademi38_proje.Controllers
 {
     public class MainMenuController : Controller
     {
-        
+        public IActionResult Order()
+        {
+            if (HttpContext.Session.GetString("Email") != null)
+            {
+                User? usr = Cls_User.SelectMemberInfo(HttpContext.Session.GetString("Email"));
+                return View(usr);
+            }
+            else
+            {
+                return RedirectToAction("Login");
+            }
+        }
+
         [HttpGet]
         public IActionResult Login()
         {
@@ -35,7 +47,7 @@ namespace iakademi38_proje.Controllers
                 HttpContext.Session.SetString("Admin", answer);
 
                 Console.WriteLine("Admin");
-                return RedirectToAction("Login", "Admin");
+                return RedirectToAction("Index", "Admin");
             }
             else
             {
@@ -43,19 +55,6 @@ namespace iakademi38_proje.Controllers
 
                 Console.WriteLine("Customer");
                 return RedirectToAction("Index", "Home");
-            }
-        }
-
-        public IActionResult Order()
-        {
-            if (HttpContext.Session.GetString("Email") != null)
-            {
-                User? usr = Cls_User.SelectMemberInfo(HttpContext.Session.GetString("Email"));
-                return View(usr);
-            }
-            else
-            {
-                return RedirectToAction("Login");
             }
         }
 
