@@ -15,7 +15,7 @@ namespace iakademi38_proje.Controllers
             if (HttpContext.Session.GetString("Email") != null)
             {
                 User? usr = Cls_User.SelectMemberInfo(HttpContext.Session.GetString("Email"));
-                return View(usr);
+                return View("~/Views/Header/Order.cshtml", usr);
             }
             else
             {
