@@ -15,7 +15,7 @@ namespace iakademi38_proje.Models
 		public string? ProductName { get; set; }
 		public int Kdv { get; set; }
 		public string? PhotoPath { get; set; }
-		public string? teckinlik_vergi_no { get; set; }
+		public string? tckimlik_vergi_no { get; set; }
 
 
         #region sepete ekle
@@ -116,6 +116,12 @@ namespace iakademi38_proje.Models
 
             return orders;
         }
+
+        public void EfaturaCreate()
+        {
+            //digital planet xml dosyası
+        }
+
     }
 
 }

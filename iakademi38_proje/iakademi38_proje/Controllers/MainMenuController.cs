@@ -11,6 +11,9 @@ namespace iakademi38_proje.Controllers
     public class MainMenuController : Controller
     {
 
+        Cls_Order cls_Order = new Cls_Order();
+
+        [HttpGet]
         public IActionResult Order()
         {
             if (HttpContext.Session.GetString("Email") != null)
@@ -24,6 +27,71 @@ namespace iakademi38_proje.Controllers
             }
         }
 
+        [HttpPost]
+        public IActionResult Order(IFormCollection frm)
+        {
+            string txt_individual = Request.Form["txt_individual"];
+            string txt_corporate = Request.Form["txt_corporate"];
+
+            if (txt_individual != null)
+            {
+                //bireysel fatura
+                //digital planet
+                cls_Order.tckimlik_vergi_no = txt_individual;
+                cls_Order.EfaturaCreate();
+            }
+            else
+            {
+                //kurumsal fatura
+                cls_Order.tckimlik_vergi_no = txt_corporate;
+                cls_Order.EfaturaCreate();
+            }
+
+            string kredikartno = Request.Form["kredikartno"];
+            string kredikartay = frm["kredikartay"];
+            string kredikartyil = frm["kredikartyil"];
+            string kredikartcvs = frm["kredikartcvs"];
+
+            return RedirectToAction("backref");
+
+            //buradan sonraki kodlar , payu , iyzico
+            //payu dan gelen örnek kodlar
+            /*  AŞAGIDAKİ KODLAR GERÇEK HAYATTA AÇILALAK
+             *  
+                NameValueCollection data = new NameValueCollection();
+                string url = "https://www.sedattefci.com/backref";
+                data.Add("BACK_REF", url);
+                data.Add("CC_CVV", kredikartcvs);
+                data.Add("CC_NUMBER", kredikartno);
+                data.Add("EXP_MONTH", kredikartay);
+                data.Add("EXP_YEAR", "20" + kredikartyil);
+ 
+                var deger = "";
+ 
+                foreach (var item in data)
+                {
+                    var value = item as string;
+                    var byteCount = Encoding.UTF8.GetByteCount(data.Get(value));
+                    deger += byteCount + data.Get(value);
+                }
+ 
+                var signatureKey = "size verilen SECRET_KEY buraya yazılacak";
+                var hash = HashWithSignature(deger, signatureKey);
+                data.Add("ORDER_HASH", hash);
+                var x = POSTFormPAYU("https://secure.payu.com.tr/order/....", data);
+
+            //sanal kart
+                if (x.Contains("<STATUS>SUCCESS</STATUS>") && x.Contains("<RETURN_CODE>3DS_ENROLLED</RETURN_CODE>"))
+                {
+                    //sanal kart (debit kart) ile alış veriş yaptı , bankadan onay aldı
+                }
+                else
+                {
+                    //gerçek kart ile alış veriş yaptı , bankadan onay aldı
+                }
+            */
+        }
+        
         [HttpGet]
         public IActionResult Login()
         {
