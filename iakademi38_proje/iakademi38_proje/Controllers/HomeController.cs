@@ -96,7 +96,5 @@ namespace iakademi38_proje.Controllers
             return Redirect(url);
         }
 
-        
-
     }
 }

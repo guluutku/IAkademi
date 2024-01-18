@@ -10,6 +10,7 @@ namespace iakademi38_proje.Controllers
 {
     public class MainMenuController : Controller
     {
+
         public IActionResult Order()
         {
             if (HttpContext.Session.GetString("Email") != null)
@@ -103,5 +104,6 @@ namespace iakademi38_proje.Controllers
         {
             return View();
         }
+
     }
 }
