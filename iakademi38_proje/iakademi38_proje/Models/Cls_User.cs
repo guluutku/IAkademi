@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Net;
+using System.Net.Mail;
 using System.Runtime.InteropServices;
 using System.Text;
 using iakademi38_proje.Models;
@@ -118,6 +120,113 @@ namespace iakademi38_proje.Models
                 }
             }
         }
+
+        public static void Send_Sms(string OrderGroupGUID)
+        {
+            using (iakademi38Context context = new iakademi38Context())
+            {
+                string ss = "";
+                ss += "<?xml version='1.0' encoding='UTF-8' >";
+                ss += "<mainbody>";
+                ss += "<header>";
+                ss += "<company dil='TR'>iakademi(üye oldugunuzda size verilen şirket ismi)</company>";
+                ss += "<usercode>0850 size verilen user kod burada yazılacak</usercode>";
+                ss += "<password>NetGsm123. size verilen şifre burada yazılacak</password>";
+                ss += "<startdate></startdate>";
+                ss += "<stopdate></stopdate>";
+                ss += "<type>n:n</type>";
+                ss += "<msgheader>başlık buraya</msgeader>";
+                ss += "</header>";
+                ss += "<body>";
+
+                Order order = context.Orders.FirstOrDefault(o => o.OrderGroupGUID == OrderGroupGUID);
+                User user = context.Users.FirstOrDefault(u => u.UserID == order.UserID);
+                //Sayın Sedat tefçi, 05 04 2023 tarihinde 5042023194420 nolu siparişiniz alınmıştır.
+                string content = "Sayın " + user.NameSurname + "," + DateTime.Now + " tarihinde " + OrderGroupGUID + " nolu siparişiniz alınmıştır.";
+
+                ss += "<mp><msg><![CDATA[" + content + "]]></msg><no>90" + user.Telephone + "</no></mp>";
+                ss += "</body>";
+                ss += "</mainbody>";
+
+                string answer = XMLPOST("https://api.netgsm.com/tr/xmlbulkhttppost.asp", ss);
+                if (answer != "-1")
+                {
+                    //sms gitti
+                }
+                else
+                {
+                    //sms gitmedi
+                }
+            }
+        }
+
+        public static string XMLPOST(string url, string xmlData)
+        {
+            try
+            {
+                WebClient wUpload = new WebClient();
+                HttpWebRequest request = WebRequest.Create(url) as HttpWebRequest; //Convert = CASTING
+                request.Method = "POST";
+                request.ContentType = "application/x-www-form-urlencoded";
+
+                Byte[] bPostArray = Encoding.UTF8.GetBytes(xmlData);
+                Byte[] bResonse = wUpload.UploadData(url, "POST", bPostArray);
+
+                Char[] sReturnsChars = Encoding.UTF8.GetChars(bResonse);
+
+                string sWebPage = new string(sReturnsChars);
+                return sWebPage;
+            }
+            catch (Exception)
+            {
+                return "-1";
+            }
+        }
+
+        public static void Send_Email(string OrderGroupGUID)
+        {
+            using (iakademi38Context context = new iakademi38Context())
+            {
+                Order order = context.Orders.FirstOrDefault(o => o.OrderGroupGUID == OrderGroupGUID);
+                User user = context.Users.FirstOrDefault(u => u.UserID == order.UserID);
+
+                string mail = "gonderen email buraya info@iakademi.com";
+                string _mail = user.Email;
+                string subject = "";
+                string content = "";
+
+                content = "Sayın " + user.NameSurname + "," + DateTime.Now + " tarihinde " + OrderGroupGUID + " nolu siparişiniz alınmıştır.";
+
+                subject = "Sayın " + user.NameSurname + " siparişiniz alınmıştır.";
+
+                string host = "smtp.iakademi.com";
+                int port = 587;
+                string login = "mailserver a baglanılan login buraya";
+                string password = "mailserver a baglanılan şifre buraya";
+
+                MailMessage e_posta = new MailMessage();
+                e_posta.From = new MailAddress(mail, "iakademi bilgi"); //gönderen
+                e_posta.To.Add(_mail); //alıcı
+                e_posta.Subject = subject;
+                e_posta.IsBodyHtml = true;
+                e_posta.Body = content;
+
+                SmtpClient smtp = new SmtpClient();
+                smtp.Credentials = new NetworkCredential(login, password);
+                smtp.Port = port;
+                smtp.Host = host;
+
+                try
+                {
+                    smtp.Send(e_posta);
+                }
+                catch (Exception)
+                {
+                    throw;
+                }
+            }
+        }
+
     }
 }
 

@@ -1,33 +1,34 @@
 ﻿<Properties StartupConfiguration="{8C7ADC9D-28DE-4B23-8E8B-A6E2BF936DCA}|https">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.iakademi38__proje PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="iakademi38_proje/Controllers/MainMenuController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iakademi38_proje/Models/Cls_Order.cs">
     <Files>
-      <File FileName="iakademi38_proje/Views/Header/Order.cshtml" Line="2" Column="30" />
-      <File FileName="iakademi38_proje/Views/Header/Cart.cshtml" Line="110" Column="114" />
-      <File FileName="iakademi38_proje/Controllers/MainMenuController.cs" Line="11" Column="49" />
-      <File FileName="iakademi38_proje/Controllers/ProductController.cs" Line="35" Column="67" />
+      <File FileName="iakademi38_proje/Views/Header/Order.cshtml" Line="8" Column="21" />
+      <File FileName="iakademi38_proje/Controllers/MainMenuController.cs" Line="127" Column="10" />
+      <File FileName="iakademi38_proje/Models/Cls_Order.cs" Line="128" Column="122" />
+      <File FileName="iakademi38_proje/Views/MainMenu/ConfirmPage.cshtml" Line="17" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="iakademi38_proje">
             <Node name="iakademi38_proje">
-              <Node name="Models" expanded="True">
-                <Node name="MainPageModel.cs" selected="True" />
+              <Node name="Models">
+                <Node name="Cls_Order.cs" selected="True" />
+              </Node>
+              <Node name="Views">
+                <Node name="Header" expanded="True" />
+                <Node name="MainMenu" expanded="True" />
               </Node>
             </Node>
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
 </Properties>

@@ -13,6 +13,8 @@ namespace iakademi38_proje.Controllers
 
         Cls_Order cls_Order = new Cls_Order();
 
+        public static string OrderGroupGUID = "";
+
         [HttpGet]
         public IActionResult Order()
         {
@@ -91,7 +93,39 @@ namespace iakademi38_proje.Controllers
                 }
             */
         }
-        
+
+        public IActionResult backref()
+        {
+            ConfirmOrder();
+            return RedirectToAction("ConfirmPage");
+        }
+
+        public IActionResult ConfirmOrder()
+        {
+            //sipariş tablosuna kaydet
+            //sepetim cookie sinden sepeti temizleyecegiz
+            //e-fatura olustur metodunu cagır
+            var cookieOptions = new CookieOptions();
+            var cookie = Request.Cookies["sepetim"];
+            if (cookie != null)
+            {
+                cls_Order.MyCart = cookie;
+                OrderGroupGUID = cls_Order.OrderCreate(HttpContext.Session.GetString("Email").ToString());
+
+                cookieOptions.Expires = DateTime.Now.AddDays(1);
+                Response.Cookies.Delete("sepetim"); //tarayıcıdan sepeti sil
+                                                    //    cls_User.Send_Sms(OrderGroupGUID);
+                                                    //   cls_User.Send_Email(OrderGroupGUID);
+            }
+            return RedirectToAction("ConfirmPage");
+        }
+
+        public IActionResult ConfirmPage()
+        {
+            ViewBag.OrderGroupGUID = OrderGroupGUID;
+            return View();
+        }
+
         [HttpGet]
         public IActionResult Login()
         {

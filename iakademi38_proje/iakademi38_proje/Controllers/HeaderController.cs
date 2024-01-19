@@ -60,7 +60,15 @@ namespace iakademi38_proje.Controllers
 
         public IActionResult MyOrders()
         {
-            return View();
+            if (HttpContext.Session.GetString("Email") != null)
+            {
+                List<vw_MyOrders> orders = cls_Order.SelectMyOrders(HttpContext.Session.GetString("Email").ToString());
+                return View(orders);
+            }
+            else
+            {
+                return RedirectToAction("~/views/MainMenu/Login.cshtml");
+            }
         }
 
         // Sağ üst sayfadan sepet sayfama git ikonu tıklanınca ve aynı sayfada ürünü sil buton'u tıklanınca
