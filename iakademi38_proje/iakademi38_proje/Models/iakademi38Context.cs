@@ -22,7 +22,9 @@ namespace iakademi38_proje.Models
         public DbSet<Status> Statuses { get; set; }
         public DbSet<Supplier> Suppliers { get; set; }
         public DbSet<User> Users { get; set; }
+
         public DbSet<Message> Messages { get; set; }
+        public DbSet<vw_MyOrders> vw_MyOrders { get; set; }
 
     }
 }

@@ -67,7 +67,7 @@ namespace iakademi38_proje.Controllers
             }
             else
             {
-                return RedirectToAction("~/views/MainMenu/Login.cshtml");
+                return View("~/Views/MainMenu/Login.cshtml");
             }
         }
 
