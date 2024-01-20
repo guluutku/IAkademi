@@ -21,6 +21,13 @@
     <None Remove="Views\Admin\Settings\" />
     <None Remove="Views\Admin\Product\" />
     <None Remove="Views\Product\" />
+    <None Remove="ViewComponents\" />
+    <None Remove="Views\Shared\Components\" />
+    <None Remove="Views\Shared\Components\Menus\" />
+    <None Remove="Views\Shared\Components\Footers\" />
+    <None Remove="Views\Shared\Components\Address\" />
+    <None Remove="Views\Shared\Components\Email\" />
+    <None Remove="Views\Shared\Components\Telephone\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
@@ -36,6 +43,13 @@
     <Folder Include="Views\Admin\Product\" />
     <Folder Include="wwwroot\assets\resimler\" />
     <Folder Include="Views\Product\" />
+    <Folder Include="ViewComponents\" />
+    <Folder Include="Views\Shared\Components\" />
+    <Folder Include="Views\Shared\Components\Menus\" />
+    <Folder Include="Views\Shared\Components\Footers\" />
+    <Folder Include="Views\Shared\Components\Address\" />
+    <Folder Include="Views\Shared\Components\Email\" />
+    <Folder Include="Views\Shared\Components\Telephone\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="7.0.13" />

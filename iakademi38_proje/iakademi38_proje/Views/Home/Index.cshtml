@@ -3,11 +3,7 @@
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/DefaultLayout.cshtml";
 }
-<!DOCTYPE html>
 
-<html>
-<head>
-</head>
 <body>
     <!-- slider area start -->
     <div class="home-1-slider-area">
@@ -20,7 +16,7 @@
                             <div class="fullwidthbanner-container">
                                 <div class="home-1">
                                     <ul>
-                                        @foreach (var item in Model.SliderProducts)
+                                        @foreach (var item in Model.SliderProducts!)
                                         {
                                             <li data-transition="random" data-slotamount="7" data-masterspeed="1000">
                                                 <img src="~/assets/resimler/@item.PhotoPath" alt="slide">
@@ -538,7 +534,3 @@
     </div>
     <!-- notable product area end -->
 </body>
-</html>
-
-
-

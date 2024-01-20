@@ -236,5 +236,23 @@ namespace iakademi38_proje.Models
                 context.SaveChanges();
             }
         }
+
+        public List<Product> ProductSelectWithCategoryID(int id)
+        {
+            List<Product> products = new List<Product>();
+
+            products = context.Products.Where(p => p.CategoryID == id).ToList();
+
+            return products;
+        }
+
+        public List<Product> ProductSelectWithSupplierID(int id)
+        {
+            List<Product> products = new List<Product>();
+
+            products = context.Products.Where(p => p.SupplierID == id).ToList();
+
+            return products;
+        }
     }
 }

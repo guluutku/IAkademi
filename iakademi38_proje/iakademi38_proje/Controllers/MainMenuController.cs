@@ -12,6 +12,7 @@ namespace iakademi38_proje.Controllers
     {
 
         Cls_Order cls_Order = new Cls_Order();
+        Cls_Product cls_Product = new Cls_Product();
 
         public static string OrderGroupGUID = "";
 
@@ -163,7 +164,9 @@ namespace iakademi38_proje.Controllers
 
         public IActionResult LogOut()
         {
-            return View();
+            HttpContext.Session.Remove("Email");
+            HttpContext.Session.Remove("Admin");
+            return RedirectToAction("Index", "Home");
         }
 
         public IActionResult Register()
@@ -205,6 +208,18 @@ namespace iakademi38_proje.Controllers
         public IActionResult DetailedSearch()
         {
             return View();
+        }
+
+        public IActionResult CategoryPage(int id)
+        {
+            List<Product> products = cls_Product.ProductSelectWithCategoryID(id);
+            return View(products);
+        }
+
+        public IActionResult SupplierPage(int id)
+        {
+            List<Product> products = cls_Product.ProductSelectWithSupplierID(id);
+            return View(products);
         }
 
     }
