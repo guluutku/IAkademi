@@ -1,24 +1,30 @@
 ﻿<Properties StartupConfiguration="{8C7ADC9D-28DE-4B23-8E8B-A6E2BF936DCA}|https">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.iakademi38__proje PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="iakademi38_proje/Models/Cls_Order.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iakademi38_proje/Views/MainMenu/Login.cshtml">
     <Files>
-      <File FileName="iakademi38_proje/Views/Header/Order.cshtml" Line="8" Column="21" />
-      <File FileName="iakademi38_proje/Controllers/MainMenuController.cs" Line="127" Column="10" />
-      <File FileName="iakademi38_proje/Models/Cls_Order.cs" Line="128" Column="122" />
-      <File FileName="iakademi38_proje/Views/MainMenu/ConfirmPage.cshtml" Line="17" Column="1" />
+      <File FileName="iakademi38_proje/Views/MainMenu/Register.cshtml" Line="16" Column="104" />
+      <File FileName="iakademi38_proje/Controllers/MainMenuController.cs" Line="162" Column="10" />
+      <File FileName="iakademi38_proje/Models/Cls_User.cs" Line="61" Column="20" />
+      <File FileName="iakademi38_proje/Views/MainMenu/Login.cshtml" Line="53" Column="19" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="iakademi38_proje">
-            <Node name="iakademi38_proje">
-              <Node name="Models">
-                <Node name="Cls_Order.cs" selected="True" />
-              </Node>
-              <Node name="Views">
+          <Node name="iakademi38_proje" expanded="True">
+            <Node name="iakademi38_proje" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
                 <Node name="Header" expanded="True" />
-                <Node name="MainMenu" expanded="True" />
+                <Node name="MainMenu" expanded="True">
+                  <Node name="Login.cshtml" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -26,9 +32,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
