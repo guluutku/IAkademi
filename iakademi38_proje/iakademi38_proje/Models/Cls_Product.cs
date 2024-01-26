@@ -3,6 +3,7 @@ using Microsoft.CodeAnalysis.Differencing;
 using System.Runtime.InteropServices;
 using Microsoft.EntityFrameworkCore;
 using XAct;
+using Microsoft.Data.SqlClient;
 
 namespace iakademi38_proje.Models
 {
@@ -11,6 +12,18 @@ namespace iakademi38_proje.Models
         iakademi38Context context = new iakademi38Context();
 
         int subpageCount = 0;
+
+        // kapsülleme
+        private string _isim { get; set; }
+        public string isim {
+            get { return _isim; }
+            set { _isim = value; }
+        }
+
+        public string? ProductName { get; set; }
+        public string? PhotoPath { get; set; }
+        public int ProductID { get; set; }
+        public decimal UnitPrice { get; set; }
 
         public Cls_Product()
         {
@@ -43,7 +56,7 @@ namespace iakademi38_proje.Models
         {
             List<Product> products;
 
-            subpageCount = context.Settings.FirstOrDefault(s => s.SettingID == 1).SubpageCount;
+            subpageCount = context.Settings.FirstOrDefault(s => s.SettingID == 1)!.SubpageCount;
 
             switch (mainPageName)
             {
@@ -89,7 +102,6 @@ namespace iakademi38_proje.Models
                         if (pageNumber == 0)
                         {
                             products = context.Products.Where(p => p.StatusID == 2 && p.Active == true).Take(subpageCount).ToList();
-
                         }
                         else
                         {
@@ -110,7 +122,6 @@ namespace iakademi38_proje.Models
                         if (pageNumber == 0)
                         {
                             products = context.Products.Where(p => p.Active == true).OrderByDescending(p => p.Discount).Take(subpageCount).ToList();
-
                         }
                         else
                         {
@@ -131,7 +142,6 @@ namespace iakademi38_proje.Models
                         if (pageNumber == 0)
                         {
                             products = context.Products.Where(p => p.Active == true).OrderByDescending(p => p.HighLighted).Take(subpageCount).ToList();
-
                         }
                         else
                         {
@@ -152,7 +162,6 @@ namespace iakademi38_proje.Models
                         if (pageNumber == 0)
                         {
                             products = context.Products.Where(p => p.Active == true).OrderByDescending(p => p.TopSeller).Take(subpageCount).ToList();
-
                         }
                         else
                         {
@@ -198,13 +207,13 @@ namespace iakademi38_proje.Models
         public async Task<Product> ProductDetails(int? id)
         {
             Product? product = await context.Products.FindAsync(id);
-            return product;
+            return product!;
         }
 
         public Product ProductDetails(string mainPgeName)
         {
             Product? product = context.Products.FirstOrDefault(p => p.StatusID == 6);
-            return product;
+            return product!;
         }
 
         public static bool ProductDelete(int id)
@@ -254,5 +263,27 @@ namespace iakademi38_proje.Models
 
             return products;
         }
+
+        public List<Cls_Product> SelectProductsByDetails(string query)
+        {
+            List<Cls_Product> products = new List<Cls_Product>();
+            SqlConnection sqlConnection = Connection.ServerConnect;
+            SqlCommand sqlCommand = new SqlCommand(query, sqlConnection);
+            sqlConnection.Open();
+            SqlDataReader sqlDataReader = sqlCommand.ExecuteReader();
+            while (sqlDataReader.Read())
+            {
+                Cls_Product product = new Cls_Product();
+                product.ProductID = Convert.ToInt32(sqlDataReader["ProductID"]);
+                product.ProductName = sqlDataReader["ProductName"].ToString();
+                product.UnitPrice = Convert.ToDecimal(sqlDataReader["UnitPrice"]);
+                product.PhotoPath = sqlDataReader["PhotoPath"].ToString();
+                products.Add(product);
+
+            }
+
+            return products;
+        }
+
     }
 }

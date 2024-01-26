@@ -96,5 +96,40 @@ namespace iakademi38_proje.Controllers
             return Redirect(url);
         }
 
+        public IActionResult DProducts(int categoryID, string[] supplierID, string price, string isInStock)
+        {
+            int count = 0;
+            string supplierValue = "";
+            for (int i = 0; i < supplierID.Length; i++)
+            {
+                if (count == 0)
+                {
+                    supplierValue = " SupplierID = " + supplierID[i];
+                    count++;
+                }
+                else
+                {
+                    supplierValue += " or SupplierID = " + supplierID[i];
+                }
+            }
+
+            price = price.Replace(" ", "");
+            string[] priceArray = price.Split('-');
+            string startPrice = priceArray[0];
+            string endPrice = priceArray[1];
+
+            string sign = ">";
+            if(isInStock == "0")
+            {
+                sign = ">=";
+            }
+
+            string query = "SELECT * FROM Products WHERE CategoryID = " + categoryID + " AND (" + supplierValue + ") AND (UnitPrice > " + startPrice + " and UnitPrice < " + endPrice + ") AND Stock " + sign + " 0 ORDER BY ProductName";
+
+            ViewBag.Products = cls_Product.SelectProductsByDetails(query);
+
+            return View();
+        }
+
     }
 }

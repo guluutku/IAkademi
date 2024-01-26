@@ -14,6 +14,8 @@ namespace iakademi38_proje.Controllers
         Cls_Order cls_Order = new Cls_Order();
         Cls_Product cls_Product = new Cls_Product();
 
+        iakademi38Context context = new iakademi38Context();
+
         public static string OrderGroupGUID = "";
 
         [HttpGet]
@@ -207,6 +209,8 @@ namespace iakademi38_proje.Controllers
 
         public IActionResult DetailedSearch()
         {
+            ViewBag.Categories = context.Categories.ToList();
+            ViewBag.Suppliers = context.Suppliers.ToList();
             return View();
         }
 
