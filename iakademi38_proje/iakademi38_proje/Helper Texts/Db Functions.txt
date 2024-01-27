@@ -1,0 +1,36 @@
+﻿
+// sp_arama, Show searched products, categories and brands with search bar
+create procedure [dbo].[sp_arama]
+(
+@id nvarchar(50)
+)
+as
+select ID,KATEGORI,URUN,MARKA,ARAMAISMI from
+(select CategoryID as ID, CategoryID as KATEGORI,0 as URUN , 0 as MARKA,
+CategoryName as ARAMAISMI
+from Categories (NOLOCK) where ISNULL(CategoryID,0) <> 0
+ 
+UNION ALL
+select SupplierID as ID,0 as KATEGORI,0 as URUN , SupplierID as MARKA,
+BrandName as ARAMAISMI
+from Suppliers (NOLOCK) where ISNULL(SupplierID,0) <> 0
+ 
+UNION ALL
+select ProductID as ID,0 as KATEGORI,ProductID as URUN , 0 as MARKA,
+ProductName as ARAMAISMI
+from Products (NOLOCK) where ISNULL(ProductID,0) <> 0
+ 
+) xyz where ARAMAISMI like '%'+@id+'%'
+GO
+
+----------------------------------------------------------------
+
+// vw_MyOrders, show user's orders
+create view [dbo].[vw_MyOrders]
+as
+select o.OrderID,p.ProductID,o.OrderDate,o.OrderGroupGUID,
+o.Quantity,o.UserID,p.ProductName,p.UnitPrice,p.PhotoPath
+from Orders as o
+inner join Products as p
+on o.ProductID = p.ProductID
+GO

@@ -285,5 +285,14 @@ namespace iakademi38_proje.Models
             return products;
         }
 
+        public static List<sp_arama> gettingSearchProducts(string id)
+        {
+            using(iakademi38Context context = new iakademi38Context())
+            {
+                var products = context.sp_arama.FromSql($"sp_arama {id}").ToList();
+                return products;
+            }
+        }
+
     }
 }

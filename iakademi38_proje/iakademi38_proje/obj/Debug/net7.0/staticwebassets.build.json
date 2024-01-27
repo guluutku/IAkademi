@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TPp26PghQQSulek2YFjL6jxNxcfPfMUyLPal3h8AuLk=",
+  "Hash": "rdOpZrbxfb1X4PZSAQhZOXjliFmDcrf6oViMI+T/q9w=",
   "Source": "iakademi38_proje",
   "BasePath": "_content/iakademi38_proje",
   "Mode": "Default",
@@ -80359,12 +80359,12 @@
       "OriginalItemSpec": "wwwroot/assets/global/scripts/metronic.js"
     },
     {
-      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/2014-04-05T00-54-26.png",
+      "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/.DS_Store",
       "SourceId": "iakademi38_proje",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/",
       "BasePath": "_content/iakademi38_proje",
-      "RelativePath": "assets/resimler/2014-04-05T00-54-26.png",
+      "RelativePath": "assets/resimler/.DS_Store",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -80373,7 +80373,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/resimler/2014-04-05T00-54-26.png"
+      "OriginalItemSpec": "wwwroot/assets/resimler/.DS_Store"
     },
     {
       "Identity": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/antika_telefon.jpg",

@@ -25,6 +25,7 @@ namespace iakademi38_proje.Models
 
         public DbSet<Message> Messages { get; set; }
         public DbSet<vw_MyOrders> vw_MyOrders { get; set; }
+        public DbSet<sp_arama> sp_arama { get; set; }
 
     }
 }

@@ -5,6 +5,7 @@ using System.Runtime.InteropServices;
 using System.Threading.Tasks;
 using iakademi38_proje.Models;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace iakademi38_proje.Controllers
 {
@@ -224,6 +225,16 @@ namespace iakademi38_proje.Controllers
         {
             List<Product> products = cls_Product.ProductSelectWithSupplierID(id);
             return View(products);
+        }
+
+        public PartialViewResult gettingProducts(string id)
+        {
+            id = id.ToUpper(new System.Globalization.CultureInfo("tr-TR"));
+            List<sp_arama> uList = Cls_Product.gettingSearchProducts(id);
+            string json = JsonConvert.SerializeObject(uList);
+            var response = JsonConvert.DeserializeObject<List<Search>>(json);
+
+            return PartialView(response);
         }
 
     }

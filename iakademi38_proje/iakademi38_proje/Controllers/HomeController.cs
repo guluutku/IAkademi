@@ -41,10 +41,24 @@ namespace iakademi38_proje.Controllers
             return View(mpm);
         }
 
-        public IActionResult Details(int id)
+        public async Task<IActionResult> Details(int id)
         {
             Cls_Product.Highligted_Increase(id);
-            return View();
+            mpm.ProductDetails = await cls_Product.ProductDetails(id);
+
+            // linq
+            mpm.ProductDetails = (from p in context.Products where p.ProductID == id select p).FirstOrDefault();
+
+            // linq
+            mpm.CategoryName = (from p in context.Products join c in context.Categories on p.CategoryID equals c.CategoryID where p.ProductID == id select c.CategoryName).FirstOrDefault();
+
+            // linq
+            mpm.BrandName = (from p in context.Products join s in context.Suppliers on p.SupplierID equals s.SupplierID where p.ProductID == id select s.BrandName).FirstOrDefault();
+
+            // select * from Products where Related = 2 and ProductID != 4
+            mpm.RelatedProducts = context.Products.Where(p => p.Related == mpm.ProductDetails!.Related && p.ProductID != id).ToList();
+
+            return View(mpm);
         }
 
         public IActionResult CartProcess(int id)
