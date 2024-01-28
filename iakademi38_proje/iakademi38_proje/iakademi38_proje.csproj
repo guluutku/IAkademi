@@ -28,6 +28,7 @@
     <None Remove="Views\Shared\Components\Address\" />
     <None Remove="Views\Shared\Components\Email\" />
     <None Remove="Views\Shared\Components\Telephone\" />
+    <None Remove="Views\WebApi\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
@@ -50,6 +51,7 @@
     <Folder Include="Views\Shared\Components\Address\" />
     <Folder Include="Views\Shared\Components\Email\" />
     <Folder Include="Views\Shared\Components\Telephone\" />
+    <Folder Include="Views\WebApi\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="7.0.13" />
@@ -72,6 +74,7 @@
     <PackageReference Include="PagedList.Core.Mvc" Version="3.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
     <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.17" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\assets\resimler\" />

@@ -1,10 +1,12 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Runtime.InteropServices;
 using System.Threading.Tasks;
 using iakademi38_proje.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.CodeAnalysis.Differencing;
 using Newtonsoft.Json;
 
 namespace iakademi38_proje.Controllers
@@ -220,7 +222,7 @@ namespace iakademi38_proje.Controllers
             List<Product> products = cls_Product.ProductSelectWithCategoryID(id);
             return View(products);
         }
-
+        
         public IActionResult SupplierPage(int id)
         {
             List<Product> products = cls_Product.ProductSelectWithSupplierID(id);

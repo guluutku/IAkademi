@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jGP8s49plLfX0HQYz10bM1lu4grj31r7OJUX8V7vefSGFUX3wXwASsf0CRuc36DM8vnwEs3F6co8a9RdGAWjtQ==",
+  "dgSpecHash": "KISAmZ3uOvVtIXdhVuNoX7rgHD0WMDYAm/PpdQlRgFS2DceZLJcnSwHvUeYvKy6ITBoxPWtQd5NSg0uGIf0OZQ==",
   "success": true,
   "projectFilePath": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/iakademi38_proje.csproj",
   "expectedPackageFiles": [
@@ -142,7 +142,7 @@
     "/Users/gnltk/.nuget/packages/microsoft.win32.systemevents/6.0.0/microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "/Users/gnltk/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
     "/Users/gnltk/.nuget/packages/netstandard.library/1.6.1/netstandard.library.1.6.1.nupkg.sha512",
-    "/Users/gnltk/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/gnltk/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
     "/Users/gnltk/.nuget/packages/nuget.common/6.6.1/nuget.common.6.6.1.nupkg.sha512",
     "/Users/gnltk/.nuget/packages/nuget.configuration/6.6.1/nuget.configuration.6.6.1.nupkg.sha512",
     "/Users/gnltk/.nuget/packages/nuget.dependencyresolver.core/6.6.1/nuget.dependencyresolver.core.6.6.1.nupkg.sha512",

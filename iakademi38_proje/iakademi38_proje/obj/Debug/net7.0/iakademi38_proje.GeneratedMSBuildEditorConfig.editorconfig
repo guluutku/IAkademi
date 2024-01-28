@@ -248,6 +248,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/WebApi/CultureAndArt.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvV2ViQXBpL0N1bHR1cmVBbmRBcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/WebApi/ExchangeRate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvV2ViQXBpL0V4Y2hhbmdlUmF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/WebApi/PharmacyOnDuty.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvV2ViQXBpL1BoYXJtYWN5T25EdXR5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/WebApi/WeatherForecast.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvV2ViQXBpL1dlYXRoZXJGb3JlY2FzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
