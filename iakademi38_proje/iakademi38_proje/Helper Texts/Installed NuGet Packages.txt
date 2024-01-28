@@ -5,3 +5,4 @@
 - Microsoft.AspNetCore.Http.Features
 - Microsoft.AspNetCore.Mvc.Core
 - Microsoft.AspNet
+- Newtonsoft.Json
