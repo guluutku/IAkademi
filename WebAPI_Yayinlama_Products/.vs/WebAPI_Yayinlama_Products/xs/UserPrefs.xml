@@ -1,16 +1,10 @@
 ﻿<Properties StartupConfiguration="{D84141B7-36E6-4FA5-9777-17E4DD76D439}|http">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.WebAPI__Yayinlama__Products PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="WebAPI_Yayinlama_Products/Product.cs">
     <Files>
-      <File FileName="WebAPI_Yayinlama_Products/NorthwindContext.cs" Line="16" Column="69" />
-      <File FileName="WebAPI_Yayinlama_Products/Controllers/ProdcutController.cs" Line="20" Column="70" />
-      <File FileName="WebAPI_Yayinlama_Products/Product.cs" Line="9" Column="3" />
+      <File FileName="WebAPI_Yayinlama_Products/NorthwindContext.cs" Line="19" Column="28" />
+      <File FileName="WebAPI_Yayinlama_Products/Controllers/ProdcutController.cs" Line="20" Column="1" />
+      <File FileName="WebAPI_Yayinlama_Products/Product.cs" Line="14" Column="8" />
+      <File FileName="WebAPI_Yayinlama_Products/appsettings.json" Line="10" Column="102" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,8 +12,6 @@
           <Node name="WebAPI_Yayinlama_Products">
             <Node name="NuGet.Config files" expanded="True" />
             <Node name="WebAPI_Yayinlama_Products">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Properties" expanded="True" />
               <Node name="Product.cs" selected="True" />
             </Node>
           </Node>
@@ -27,4 +19,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.WebAPI__Yayinlama__Products PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

@@ -6,9 +6,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace WebAPI_Yayinlama_Products.Controllers
 {
-    [Route("aip/[controller]")]
+    [Route("api/[controller]")]
     [ApiController]
-    public class ProdcutController : ControllerBase
+    public class ProductController : ControllerBase
     {
 
         NorthwindContext northwindContext = new NorthwindContext();
