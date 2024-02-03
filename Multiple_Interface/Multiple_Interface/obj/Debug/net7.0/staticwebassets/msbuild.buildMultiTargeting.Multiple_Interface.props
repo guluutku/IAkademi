@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Multiple_Interface.props" />
+</Project>

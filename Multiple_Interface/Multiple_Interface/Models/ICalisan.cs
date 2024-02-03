@@ -4,7 +4,11 @@ namespace Multiple_Interface.Models
 	public interface ICalisan
 	{
 
-		int id { get; set; }
+		// Ortak
+		int ID { get; set; }
+		string Departman { get; set; }
+		ulong ToplamCalismaSaati { get; set; }
+		void insert();
 
 	}
 }
