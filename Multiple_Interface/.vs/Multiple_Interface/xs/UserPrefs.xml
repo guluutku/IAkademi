@@ -1,5 +1,30 @@
 ﻿<Properties StartupConfiguration="{DC8158A0-0BCE-4C92-A11A-630D5AFB3DD7}|https">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Repository_Pattern/Models/ICategoryRepository.cs">
+    <Files>
+      <File FileName="Repository_Pattern/Models/Category.cs" Line="10" Column="5" />
+      <File FileName="Repository_Pattern/Models/ICategoryRepository.cs" Line="9" Column="33" />
+      <File FileName="Repository_Pattern/Models/CategoryRepository.cs" Line="13" Column="21" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Multiple_Interface">
+            <Node name="Repository_Pattern">
+              <Node name="Models">
+                <Node name="CategoryRepository.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Multiple__Interface PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.ItemProperties.Repository__Pattern FirstBuild="True" />
 </Properties>
