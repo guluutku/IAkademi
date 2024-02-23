@@ -1,0 +1,273 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = iakademi38_proje
+build_property.RootNamespace = iakademi38_proje
+build_property.ProjectDir = /Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Admin/Category/CategoryCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQ2F0ZWdvcnkvQ2F0ZWdvcnlDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Admin/Category/CategoryDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQ2F0ZWdvcnkvQ2F0ZWdvcnlEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Admin/Category/CategoryDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQ2F0ZWdvcnkvQ2F0ZWdvcnlEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Admin/Category/CategoryEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQ2F0ZWdvcnkvQ2F0ZWdvcnlFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Admin/Category/CategoryIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQ2F0ZWdvcnkvQ2F0ZWdvcnlJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Admin/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Admin/Product/ProductCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vUHJvZHVjdC9Qcm9kdWN0Q3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Admin/Product/ProductDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vUHJvZHVjdC9Qcm9kdWN0RGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Admin/Product/ProductDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vUHJvZHVjdC9Qcm9kdWN0RGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Admin/Product/ProductEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vUHJvZHVjdC9Qcm9kdWN0RWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Admin/Product/ProductIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vUHJvZHVjdC9Qcm9kdWN0SW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Admin/Settings/SettingsIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vU2V0dGluZ3MvU2V0dGluZ3NJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Admin/Status/StatusCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vU3RhdHVzL1N0YXR1c0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Admin/Status/StatusDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vU3RhdHVzL1N0YXR1c0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Admin/Status/StatusEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vU3RhdHVzL1N0YXR1c0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Admin/Status/StatusIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vU3RhdHVzL1N0YXR1c0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Admin/Supplier/SupplierCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vU3VwcGxpZXIvU3VwcGxpZXJDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Admin/Supplier/SupplierDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vU3VwcGxpZXIvU3VwcGxpZXJEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Admin/Supplier/SupplierDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vU3VwcGxpZXIvU3VwcGxpZXJEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Admin/Supplier/SupplierEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vU3VwcGxpZXIvU3VwcGxpZXJFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Admin/Supplier/SupplierIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vU3VwcGxpZXIvU3VwcGxpZXJJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Header/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSGVhZGVyL0NhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Header/MyOrders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSGVhZGVyL015T3JkZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Header/Order.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSGVhZGVyL09yZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Home/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Home/DProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9EUHJvZHVjdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Home/PharmacyOnDuty.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9QaGFybWFjeU9uRHV0eS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/MainMenu/AboutUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFpbk1lbnUvQWJvdXRVcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/MainMenu/CategoryPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFpbk1lbnUvQ2F0ZWdvcnlQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/MainMenu/ConfirmPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFpbk1lbnUvQ29uZmlybVBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/MainMenu/ContactUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFpbk1lbnUvQ29udGFjdFVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/MainMenu/DetailedSearch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFpbk1lbnUvRGV0YWlsZWRTZWFyY2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/MainMenu/gettingProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFpbk1lbnUvZ2V0dGluZ1Byb2R1Y3RzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/MainMenu/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFpbk1lbnUvTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/MainMenu/LogOut.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFpbk1lbnUvTG9nT3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/MainMenu/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFpbk1lbnUvUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/MainMenu/SupplierPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFpbk1lbnUvU3VwcGxpZXJQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Product/DiscountedProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9EaXNjb3VudGVkUHJvZHVjdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Product/HighlightedProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9IaWdobGlnaHRlZFByb2R1Y3RzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Product/NewProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9OZXdQcm9kdWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Product/SpecialProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9TcGVjaWFsUHJvZHVjdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Product/TopsellerProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9Ub3BzZWxsZXJQcm9kdWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Product/_PartialDiscountedProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9fUGFydGlhbERpc2NvdW50ZWRQcm9kdWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Product/_PartialHighlightedProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9fUGFydGlhbEhpZ2hsaWdodGVkUHJvZHVjdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Product/_PartialNewProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9fUGFydGlhbE5ld1Byb2R1Y3RzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Product/_PartialSpecialProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9fUGFydGlhbFNwZWNpYWxQcm9kdWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Product/_PartialTopsellerProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9fUGFydGlhbFRvcHNlbGxlclByb2R1Y3RzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Shared/AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0FkbWluTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Shared/Components/Address/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvQWRkcmVzcy9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Shared/Components/Email/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvRW1haWwvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Shared/Components/Footers/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvRm9vdGVycy9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Shared/Components/Menus/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvTWVudXMvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Shared/Components/Telephone/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvVGVsZXBob25lL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Shared/DefaultLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0RlZmF1bHRMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/WebApi/CultureAndArt.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvV2ViQXBpL0N1bHR1cmVBbmRBcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/WebApi/ExchangeRate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvV2ViQXBpL0V4Y2hhbmdlUmF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/WebApi/PharmacyOnDuty.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvV2ViQXBpL1BoYXJtYWN5T25EdXR5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/WebApi/WeatherForecast.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvV2ViQXBpL1dlYXRoZXJGb3JlY2FzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,127 @@
+﻿@model IEnumerable<Supplier>
+@inject IHttpContextAccessor Accessor
+    <!-- Brand area start -->
+<div class="brand-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="all-p-title">
+                    <h3>MARKALAR</h3>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="all-brand singal-p">
+
+                @foreach (var item in Model)
+                {
+                    <div class="singal_brand">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <a href="/MainMenu/SupplierPage/@item.SupplierID"> <img src="~/assets/resimler/@item.PhotoPath" alt="" /> aaa </a>
+                        </div>
+                    </div>
+                }
+
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- footer top area start -->
+
+<section id="sp-bottom-2">
+    <div class="container">
+        <div class="row">
+            <h3 class="sp-module-title"><span>İLETİŞİM BİLGİLERİMİZ</span></h3>
+            <div class="col-sm-6 col-md-4 sp-bottomcontact">
+                <div class="sp-column ">
+                    <div class="sp-module ">
+
+                        <div class="sp-module-content">
+                            <div class="custom">
+                                <div class="t-bottom-content">
+                                    <p class="adress">
+                                        <em class="fa fa-map-marker"></em>
+                                        @await Component.InvokeAsync("Address")
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="sp-module-content">
+                            <div class="custom">
+                                <div class="t-bottom-content">
+
+                                    <p class="phone">
+                                        <em class="fa fa-phone"></em>
+                                        @await Component.InvokeAsync("Telephone")
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="sp-module-content">
+                            <div class="custom">
+                                <div class="t-bottom-content">
+
+                                    <p class="email">
+                                        <em class="fa fa-envelope"></em>
+                                        @await Component.InvokeAsync("Email")
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section id="sp-bottom-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-4 sp-bottomcontact">
+                <div class="sp-column ">
+                    <div class="sp-module ">
+
+                        <div class="sp-module-content">
+                            <div class="custom">
+                                <div class="t-bottom-content">
+
+                                    <p class="phone">
+                                        <em class="fa fa-phone"></em>
+                                        @await Component.InvokeAsync("Telephone")
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<footer id="sp-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-6">
+                <p>Copyright &copy; 2015 <a href="../../../bootexperts_default.html" target="_blank">Bootexperts</a> All Rights Reserved</p>
+            </div>
+            <div class="col-sm-6 col-md-6">
+                <div class="payment-logo">
+                    <img src="~/img/payment.png" alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- footer top area end -->

@@ -1,0 +1,8 @@
+﻿- Microsoft.AspNetCore.Http
+- PagedList.Core
+- Microsoft.AspNet.Mvc
+- Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore
+- Microsoft.AspNetCore.Http.Features
+- Microsoft.AspNetCore.Mvc.Core
+- Microsoft.AspNet
+- Newtonsoft.Json
