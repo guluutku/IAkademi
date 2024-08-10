@@ -1,14 +1,6 @@
 {
   "Files": [
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/.DS_Store",
-      "PackagePath": "staticwebassets/.DS_Store"
-    },
-    {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/.DS_Store",
-      "PackagePath": "staticwebassets/assets/.DS_Store"
-    },
-    {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/admin/layout/css/custom.css",
       "PackagePath": "staticwebassets/assets/admin/layout/css/custom.css"
     },
@@ -1769,10 +1761,6 @@
       "PackagePath": "staticwebassets/assets/frontend/layout/css/themes/turquoise.css"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/frontend/layout/img/.DS_Store",
-      "PackagePath": "staticwebassets/assets/frontend/layout/img/.DS_Store"
-    },
-    {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/frontend/layout/img/blockquote-corner-another-color.png",
       "PackagePath": "staticwebassets/assets/frontend/layout/img/blockquote-corner-another-color.png"
     },
@@ -1799,10 +1787,6 @@
     {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/frontend/layout/img/icon-color.png",
       "PackagePath": "staticwebassets/assets/frontend/layout/img/icon-color.png"
-    },
-    {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/frontend/layout/img/icons/.DS_Store",
-      "PackagePath": "staticwebassets/assets/frontend/layout/img/icons/.DS_Store"
     },
     {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/frontend/layout/img/icons/add-goods.png",
@@ -2413,10 +2397,6 @@
       "PackagePath": "staticwebassets/assets/frontend/pages/css/style-shop.css"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/frontend/pages/img/.DS_Store",
-      "PackagePath": "staticwebassets/assets/frontend/pages/img/.DS_Store"
-    },
-    {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/frontend/pages/img/16-9.jpg",
       "PackagePath": "staticwebassets/assets/frontend/pages/img/16-9.jpg"
     },
@@ -2535,10 +2515,6 @@
     {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/frontend/pages/img/index-sliders/slide3.jpg",
       "PackagePath": "staticwebassets/assets/frontend/pages/img/index-sliders/slide3.jpg"
-    },
-    {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/frontend/pages/img/layerslider/.DS_Store",
-      "PackagePath": "staticwebassets/assets/frontend/pages/img/layerslider/.DS_Store"
     },
     {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/frontend/pages/img/layerslider/slide1.jpg",
@@ -2823,10 +2799,6 @@
     {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/frontend/pages/img/products/p7.jpg",
       "PackagePath": "staticwebassets/assets/frontend/pages/img/products/p7.jpg"
-    },
-    {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/frontend/pages/img/revolutionslider/.DS_Store",
-      "PackagePath": "staticwebassets/assets/frontend/pages/img/revolutionslider/.DS_Store"
     },
     {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/frontend/pages/img/revolutionslider/bg1.jpg",
@@ -10853,10 +10825,6 @@
       "PackagePath": "staticwebassets/assets/global/plugins/carousel-owl-carousel/changelog.html"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/global/plugins/carousel-owl-carousel/demos/.DS_Store",
-      "PackagePath": "staticwebassets/assets/global/plugins/carousel-owl-carousel/demos/.DS_Store"
-    },
-    {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/global/plugins/carousel-owl-carousel/demos/.htaccess",
       "PackagePath": "staticwebassets/assets/global/plugins/carousel-owl-carousel/demos/.htaccess"
     },
@@ -10953,10 +10921,6 @@
       "PackagePath": "staticwebassets/assets/global/plugins/carousel-owl-carousel/demos/json.html"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/global/plugins/carousel-owl-carousel/demos/json/.DS_Store",
-      "PackagePath": "staticwebassets/assets/global/plugins/carousel-owl-carousel/demos/json/.DS_Store"
-    },
-    {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/global/plugins/carousel-owl-carousel/demos/json/customData.json",
       "PackagePath": "staticwebassets/assets/global/plugins/carousel-owl-carousel/demos/json/customData.json"
     },
@@ -11011,10 +10975,6 @@
     {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/global/plugins/carousel-owl-carousel/index.html",
       "PackagePath": "staticwebassets/assets/global/plugins/carousel-owl-carousel/index.html"
-    },
-    {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/global/plugins/carousel-owl-carousel/owl-carousel/.DS_Store",
-      "PackagePath": "staticwebassets/assets/global/plugins/carousel-owl-carousel/owl-carousel/.DS_Store"
     },
     {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/global/plugins/carousel-owl-carousel/owl-carousel/AjaxLoader.gif",
@@ -15609,10 +15569,6 @@
       "PackagePath": "staticwebassets/assets/global/plugins/ion.rangeslider/img/sprite-skin-simple.png"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/global/plugins/ion.rangeslider/js/.DS_Store",
-      "PackagePath": "staticwebassets/assets/global/plugins/ion.rangeslider/js/.DS_Store"
-    },
-    {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/global/plugins/ion.rangeslider/js/ion-rangeSlider/ion.rangeSlider.js",
       "PackagePath": "staticwebassets/assets/global/plugins/ion.rangeslider/js/ion-rangeSlider/ion.rangeSlider.js"
     },
@@ -17449,10 +17405,6 @@
       "PackagePath": "staticwebassets/assets/global/plugins/plupload/readme.md"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/global/plugins/rateit/.DS_Store",
-      "PackagePath": "staticwebassets/assets/global/plugins/rateit/.DS_Store"
-    },
-    {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/global/plugins/rateit/example/content/antenna-black.png",
       "PackagePath": "staticwebassets/assets/global/plugins/rateit/example/content/antenna-black.png"
     },
@@ -17849,10 +17801,6 @@
       "PackagePath": "staticwebassets/assets/global/plugins/slider-layer-slider/css/layerslider.css"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/global/plugins/slider-layer-slider/js/.DS_Store",
-      "PackagePath": "staticwebassets/assets/global/plugins/slider-layer-slider/js/.DS_Store"
-    },
-    {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/global/plugins/slider-layer-slider/js/greensock.js",
       "PackagePath": "staticwebassets/assets/global/plugins/slider-layer-slider/js/greensock.js"
     },
@@ -18113,10 +18061,6 @@
       "PackagePath": "staticwebassets/assets/global/plugins/slider-layer-slider/skins/v5/skin.png"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/global/plugins/slider-revolution-slider/css/.DS_Store",
-      "PackagePath": "staticwebassets/assets/global/plugins/slider-revolution-slider/css/.DS_Store"
-    },
-    {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/global/plugins/slider-revolution-slider/css/extralayers.css",
       "PackagePath": "staticwebassets/assets/global/plugins/slider-revolution-slider/css/extralayers.css"
     },
@@ -18131,10 +18075,6 @@
     {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/global/plugins/slider-revolution-slider/css/style.css",
       "PackagePath": "staticwebassets/assets/global/plugins/slider-revolution-slider/css/style.css"
-    },
-    {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/global/plugins/slider-revolution-slider/images/.DS_Store",
-      "PackagePath": "staticwebassets/assets/global/plugins/slider-revolution-slider/images/.DS_Store"
     },
     {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/global/plugins/slider-revolution-slider/images/3dbg.jpg",
@@ -18765,10 +18705,6 @@
       "PackagePath": "staticwebassets/assets/global/plugins/slider-revolution-slider/rs-plugin/font/revicons.woff"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/global/plugins/slider-revolution-slider/rs-plugin/images/.DS_Store",
-      "PackagePath": "staticwebassets/assets/global/plugins/slider-revolution-slider/rs-plugin/images/.DS_Store"
-    },
-    {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/global/plugins/slider-revolution-slider/rs-plugin/images/decor_inside.png",
       "PackagePath": "staticwebassets/assets/global/plugins/slider-revolution-slider/rs-plugin/images/decor_inside.png"
     },
@@ -18787,10 +18723,6 @@
     {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/global/plugins/slider-revolution-slider/rs-plugin/images/gradient/g40.png",
       "PackagePath": "staticwebassets/assets/global/plugins/slider-revolution-slider/rs-plugin/images/gradient/g40.png"
-    },
-    {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/global/plugins/slider-revolution-slider/rs-plugin/js/.DS_Store",
-      "PackagePath": "staticwebassets/assets/global/plugins/slider-revolution-slider/rs-plugin/js/.DS_Store"
     },
     {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/global/plugins/slider-revolution-slider/rs-plugin/js/jquery.themepunch.enablelog.js",
@@ -18903,10 +18835,6 @@
     {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/global/scripts/metronic.js",
       "PackagePath": "staticwebassets/assets/global/scripts/metronic.js"
-    },
-    {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/.DS_Store",
-      "PackagePath": "staticwebassets/assets/resimler/.DS_Store"
     },
     {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/assets/resimler/Araba.jpg",
@@ -19085,10 +19013,6 @@
       "PackagePath": "staticwebassets/assets/resimler/yemek_takimi.jpg"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/css/.DS_Store",
-      "PackagePath": "staticwebassets/css/.DS_Store"
-    },
-    {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/css/animate.css",
       "PackagePath": "staticwebassets/css/animate.css"
     },
@@ -19239,10 +19163,6 @@
     {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/fonts/glyphicons-halflings-regular.woff2",
       "PackagePath": "staticwebassets/fonts/glyphicons-halflings-regular.woff2"
-    },
-    {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/.DS_Store",
-      "PackagePath": "staticwebassets/img/.DS_Store"
     },
     {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/Thumbs.db",
@@ -19737,10 +19657,6 @@
       "PackagePath": "staticwebassets/img/single-share.png"
     },
     {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/slider/.DS_Store",
-      "PackagePath": "staticwebassets/img/slider/.DS_Store"
-    },
-    {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/img/slider/h1/hsliderbg1.jpg",
       "PackagePath": "staticwebassets/img/slider/h1/hsliderbg1.jpg"
     },
@@ -19899,14 +19815,6 @@
     {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/js/wow.js",
       "PackagePath": "staticwebassets/js/wow.js"
-    },
-    {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/.DS_Store",
-      "PackagePath": "staticwebassets/lib/.DS_Store"
-    },
-    {
-      "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/.DS_Store",
-      "PackagePath": "staticwebassets/lib/rs-plugin/.DS_Store"
     },
     {
       "Id": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/wwwroot/lib/rs-plugin/assets/Thumbs.db",
