@@ -12389,25 +12389,24 @@
     ]
   },
   "packageFolders": {
-    "/Users/gnltk/.nuget/packages/": {}
+    "/Users/gunuluutku/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/iakademi38_proje.csproj",
+      "projectUniqueName": "/Users/gunuluutku/Development/Projects/IAkademi/iakademi38_proje/iakademi38_proje/iakademi38_proje.csproj",
       "projectName": "iakademi38_proje",
-      "projectPath": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/iakademi38_proje.csproj",
-      "packagesPath": "/Users/gnltk/.nuget/packages/",
-      "outputPath": "/Users/gnltk/Development/IAkademi/iakademi38_proje/iakademi38_proje/obj/",
+      "projectPath": "/Users/gunuluutku/Development/Projects/IAkademi/iakademi38_proje/iakademi38_proje/iakademi38_proje.csproj",
+      "packagesPath": "/Users/gunuluutku/.nuget/packages/",
+      "outputPath": "/Users/gunuluutku/Development/Projects/IAkademi/iakademi38_proje/iakademi38_proje/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/gnltk/.nuget/NuGet/NuGet.Config"
+        "/Users/gunuluutku/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -12420,7 +12419,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net7.0": {
@@ -12502,6 +12507,20 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.osx-arm64",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -12510,7 +12529,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.102/RuntimeIdentifierGraph.json"
       }
     }
   },
